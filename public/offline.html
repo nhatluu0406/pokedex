@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f8fc" />
+    <title>Pokedex — Offline</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, sans-serif;
+        background: #f6f8fc;
+        color: #011030;
+        padding: 24px;
+        text-align: center;
+      }
+      img {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 16px;
+      }
+      p {
+        max-width: 320px;
+        line-height: 1.5;
+        color: #8f9396;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/assets/pokeball-icon.png" alt="" />
+    <h1>You're offline</h1>
+    <p>
+      The Pokedex shell is cached, but Pokémon data requires an internet
+      connection to PokeAPI.
+    </p>
+  </body>
+</html>
