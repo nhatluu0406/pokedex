@@ -7,6 +7,7 @@ import { EvolutionChain } from "./EvolutionChain";
 import { PokemonStats } from "./StatBar";
 import { TypeBadge } from "@/components/shared/TypeBadge";
 import { usePokemonDetail } from "@/hooks/usePokemonDetail";
+import { useIsMobile } from "@/hooks/useIsMobile";
 import { TYPE_COLORS } from "@/lib/constants";
 import {
   capitalizeName,
@@ -15,7 +16,6 @@ import {
   formatWeight,
 } from "@/utils/format";
 
-const MOBILE_BREAKPOINT = 1100;
 const SLIDE_DURATION_MS = 350;
 
 interface PokemonDetailProps {
@@ -36,7 +36,7 @@ export function PokemonDetail({
   const [displayId, setDisplayId] = useState<number | null>(null);
   const displayIdRef = useRef<number | null>(null);
   const { data, loading, error, retry } = usePokemonDetail(displayId);
-  const [isMobile, setIsMobile] = useState(false);
+  const isMobile = useIsMobile();
   const [panelClass, setPanelClass] = useState("");
   const [backdropVisible, setBackdropVisible] = useState(false);
   const slideTimerRef = useRef<number | null>(null);
@@ -46,16 +46,6 @@ export function PokemonDetail({
       window.clearTimeout(slideTimerRef.current);
       slideTimerRef.current = null;
     }
-  }, []);
-
-  useEffect(() => {
-    const updateViewport = () => {
-      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
-    };
-
-    updateViewport();
-    window.addEventListener("resize", updateViewport);
-    return () => window.removeEventListener("resize", updateViewport);
   }, []);
 
   useEffect(() => {

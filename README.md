@@ -1,6 +1,8 @@
 # Pokedex
 
-A Next.js Pokédex for browsing all 1025 Pokémon with animated Gen V sprites, stats, evolution chains, favorites, type filters, dark mode, and PWA install support.
+A Next.js Pokédex for browsing all 1025 Pokémon with animated Gen V sprites, stats, evolution chains, favorites, type filters, dark mode, and PWA install support. Data and sprites are bundled locally — no runtime calls to PokeAPI or external CDNs.
+
+**Live app:** [https://pokedex-delta-seven-41.vercel.app](https://pokedex-delta-seven-41.vercel.app)
 
 ## Getting started
 
@@ -21,31 +23,50 @@ Open [http://localhost:3100](http://localhost:3100).
 | `npm run lint` | ESLint |
 | `npm test` | Vitest unit tests |
 | `npm run test:e2e` | Playwright e2e (requires server on 3100) |
+| `npm run fetch-data` | Download / refresh Pokémon JSON into `public/data/` |
+| `npm run fetch-data:force` | Full resync of local JSON |
+| `npm run fetch-sprites` | Download PNG + GIF sprites into `public/sprites/` |
+| `npm run fetch-sprites:force` | Full resync of local sprites |
 
-## Features (Phase 5)
+## Features
 
-- **PWA** — `manifest.json`, theme color, installable icons, service worker for app shell
-- **Favorites** — star Pokémon; filter list to ★ Favorites (persisted in `localStorage`)
-- **Type filter** — multi-select type chips combined with search
-- **Deep links** — `#pokemon/25` opens Pokémon detail; Web Share API on detail panel
-- **Dark mode** — system preference + manual toggle
+- **Browse & search** — infinite scroll grid, name search, multi-select type filters
+- **Detail panel** — animated sprites, stats, abilities, Pokédex entry, evolution chain
+- **Favorites** — star Pokémon; filter to ★ Favorites (`localStorage`)
+- **Deep links** — `#pokemon/25` opens detail; Web Share API on detail panel
+- **Dark mode** — cookie-backed SSR theme + manual toggle
+- **PWA** — installable, service worker caches app shell, data, and sprites
+- **Responsive** — fixed detail sidebar on desktop; full-screen modal on mobile
+
+## Static assets
+
+UI chrome lives in `public/assets/` (Pokémon sprites are in `public/sprites/`):
+
+| File | Used by |
+|------|---------|
+| `pokeball-watermark.svg` | Page background watermark |
+| `pokeball-icon.png` | Loading screen, detail loader, offline page |
+| `search-icon.png` | Search bar |
+| `share-icon.png` | Detail share button |
+| `arrow-up-icon.png` | Back-to-top button |
+| `no-pokemon-selected.png` | Empty detail state |
+
+Close button uses an inline SVG in the detail panel (no image asset).
 
 ## Deploy to Vercel
 
 1. Push to GitHub and import at [vercel.com/new](https://vercel.com/new).
 2. Build: `npm run build` · Install: `npm install`
 3. **Environment variables:** none required
-4. Deploy and update the production URL below.
+4. Ensure `public/data/` and `public/sprites/` are committed (or run fetch scripts in `prebuild`).
 
 See [docs/DEPLOY.md](docs/DEPLOY.md) for the full checklist.
 
-**Production URL:** `https://your-pokedex.vercel.app` _(update after deploy)_
+## Offline
 
-## Offline note
-
-The service worker caches the app shell and static assets. Pokémon names, types, and detail data still require network access to PokeAPI.
+After the first visit, the service worker caches the app shell, `/data/**` JSON, and `/data/index.json`. Sprites under `/sprites/` are cached on fetch. Browse names, types, detail, and sprites without network once cached.
 
 ## Learn more
 
 - [Next.js Documentation](https://nextjs.org/docs)
-- [PokeAPI](https://pokeapi.co/)
+- [PokeAPI](https://pokeapi.co/) — source for bundled data (download time only)

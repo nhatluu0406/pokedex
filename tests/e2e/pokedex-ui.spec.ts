@@ -642,6 +642,37 @@ test.describe("Phase 5 — PWA features", () => {
     await expect(page).toHaveURL(/#pokemon\/25/);
   });
 
+  test("hash deep link survives reload without hydration errors", async ({
+    page,
+  }) => {
+    const hydrationErrors: string[] = [];
+    page.on("console", (msg) => {
+      if (msg.type() === "error" && /Hydration/i.test(msg.text())) {
+        hydrationErrors.push(msg.text());
+      }
+    });
+    page.on("pageerror", (err) => {
+      if (/Hydration/i.test(err.message)) {
+        hydrationErrors.push(err.message);
+      }
+    });
+
+    await page.goto("/#pokemon/3");
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await expect(page.locator(".detail-name")).toHaveText("Venusaur", {
+      timeout: 15_000,
+    });
+
+    await page.reload();
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await expect(page.locator(".detail-name")).toHaveText("Venusaur", {
+      timeout: 15_000,
+    });
+    await expect(page).toHaveURL(/#pokemon\/3/);
+
+    expect(hydrationErrors).toEqual([]);
+  });
+
   test("dark mode toggle switches theme", async ({ page }) => {
     await waitForAppReady(page);
     const toggle = page.locator(".theme-toggle");

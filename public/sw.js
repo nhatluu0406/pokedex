@@ -9,7 +9,6 @@ const SHELL_URLS = [
   "/icons/icon-512.png",
   "/assets/pokeball-icon.png",
   "/assets/search-icon.png",
-  "/assets/close-icon.png",
   "/assets/no-pokemon-selected.png",
 ];
 
