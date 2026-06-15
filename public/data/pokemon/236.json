@@ -1,0 +1,56 @@
+{
+  "id": 236,
+  "name": "tyrogue",
+  "types": [
+    "fighting"
+  ],
+  "height": 7,
+  "weight": 210,
+  "abilities": [
+    "guts",
+    "steadfast",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "It is always bursting with en­ ergy. To make it­ self stronger, it keeps on fighting even if it loses.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 236,
+        "name": "tyrogue"
+      },
+      {
+        "id": 106,
+        "name": "hitmonlee"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

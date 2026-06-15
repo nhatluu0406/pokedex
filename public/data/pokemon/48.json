@@ -1,0 +1,57 @@
+{
+  "id": 48,
+  "name": "venonat",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 10,
+  "weight": 300,
+  "abilities": [
+    "compound-eyes",
+    "tinted-lens",
+    "run-away"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 48,
+        "name": "venonat"
+      },
+      {
+        "id": 49,
+        "name": "venomoth"
+      }
+    ],
+    "levels": [
+      31
+    ]
+  }
+}

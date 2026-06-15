@@ -1,0 +1,57 @@
+{
+  "id": 668,
+  "name": "pyroar-male",
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "height": 15,
+  "weight": 815,
+  "abilities": [
+    "rivalry",
+    "unnerve",
+    "moxie"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 86
+    },
+    {
+      "name": "attack",
+      "value": 68
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 109
+    },
+    {
+      "name": "special-defense",
+      "value": 66
+    },
+    {
+      "name": "speed",
+      "value": 106
+    }
+  ],
+  "flavorText": "The male with the largest mane of fire is the leader of the pride.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 667,
+        "name": "litleo"
+      },
+      {
+        "id": 668,
+        "name": "pyroar"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

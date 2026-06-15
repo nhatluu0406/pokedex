@@ -12,6 +12,9 @@ Build a Pokedex web app inspired by [pokedex.david-hckh.com](https://pokedex.dav
 | **Phase 4** | Complete | [phase-4-report.md](../tests/reports/phase-4-report.md) (PASS — Part A/B/C/D/E) |
 | **Phase 5** | Complete | Store-ready PWA + growth features |
 | **Phase 6** | Complete | [phase-6-report.md](../tests/reports/phase-6-report.md) (Part M watermark & filters) |
+| **Phase 7** | Complete (Option C) | [phase-7-report.md](../tests/reports/phase-7-report.md) — local data + deploy hardening |
+| **Phase 7B** | Complete | Local sprites (`public/sprites/`), no CDN; `npm run fetch-sprites` |
+| **Phase 8** | Deferred | RSC / SSG file-based routes — see Phase 8 section |
 
 **Phase 6 goal:** Fix regressions from Phase 5 dark mode and toolbar expansion — empty-state sprite clipping, scrolling background, single-row search toolbar, dark-theme contrast, back-to-top visibility/position, share icon button, mobile modal sprite display, no sidebar Pokeball loader, unified `tests/` layout, and automated UI contrast/layout regression tests.
 
@@ -21,7 +24,11 @@ Build a Pokedex web app inspired by [pokedex.david-hckh.com](https://pokedex.dav
 
 **Phase 3 delivered:** UI polish and reference parity — instant card names, smooth selection UX, fixed desktop detail panel, scrollable detail content, horizontal stats layout, Pokeball detail loader, back-to-top, production metadata and error handling.
 
-**Phase 4 goal:** Reference visual parity per [pokedex.david-hckh.com](https://pokedex.david-hckh.com/). **Part A/B** delivered overlap fixes and sidebar density. **Part C** closed gaps from [PLAN_REVIEWED.md](./PLAN_REVIEWED.md) reference audit. **Part D** addresses user-reported sidebar UX: wider panel, reduced top margin, separate stat pills, no inner empty border, animated loading Pokeball, evolution visible without horizontal scroll where possible.
+**Phase 4 goal:** Reference visual parity per [pokedex.david-hckh.com](https://pokedex.david-hckh.com/). **Part A/B** delivered overlap fixes and sidebar density. **Part C** closed gaps from the 2026-06-14 reference audit in [PLAN_REVIEWED.md](./PLAN_REVIEWED.md). **Part D** addresses user-reported sidebar UX: wider panel, reduced top margin, separate stat pills, no inner empty border, animated loading Pokeball, evolution visible without horizontal scroll where possible.
+
+**Phase 7 goal (complete — Option C + 7B):** Bundled local JSON under `public/data/` and local sprites under `public/sprites/`; security headers; SW data + sprite runtime cache; zero runtime PokeAPI or GitHub CDN.
+
+**Phase 7B goal (complete):** 1025 PNG + 649 GIF sprites in `public/sprites/`; sprite helpers use local paths; `remotePatterns` removed; `fetch-sprites` script; e2e confirms no external sprite CDN.
 
 **Phase 5 goal:** Make the app deployable and store-ready (PWA install, icons/splash, offline shell, favorites, type filters) via web + optional native wrapper.
 
@@ -123,9 +130,10 @@ pokedex/
 │   │   ├── usePokemonNameIndex.ts   # Phase 2+ name index + search filter
 │   │   └── usePokemonDetail.ts      # Detail fetch with AbortController
 │   ├── lib/                         # No React — pure data and constants
-│   │   ├── pokeapi.ts               # fetchPokemonById, sprite URLs
+│   │   ├── data.ts                  # Phase 7+ — fetch from /data/*.json
+│   │   ├── pokeapi.ts               # Sprite URL helpers (CDN until Phase 7B)
 │   │   ├── types.ts                 # PokemonListItem, PokemonDetail, API shapes
-│   │   └── constants.ts             # TYPE_COLORS, STAT_COLORS, SPRITE_BASE, POKEAPI_BASE
+│   │   └── constants.ts             # TYPE_COLORS, STAT_COLORS, TOTAL_POKEMON
 │   └── utils/
 │       └── format.ts                # formatPokemonId, capitalizeName, formatHeight, formatWeight
 ├── .gitignore
@@ -143,7 +151,7 @@ pokedex/
 | `src/app/` | Routing and page shell only | App Router convention; keeps `page.tsx` thin |
 | `src/components/list/` vs `detail/` | Feature-specific UI | Matches the two-panel layout; avoids a flat `components/` dump |
 | `src/components/shared/` | Cross-cutting UI | `TypeBadge` used in both list cards and detail header |
-| `src/lib/` | API client + types + constants | Testable without React; single place for PokeAPI logic |
+| `src/lib/` | Data client + types + constants | Testable without React; `data.ts` for JSON, `pokeapi.ts` for sprite URLs |
 | `src/hooks/` | Client-side data fetching | Encapsulates list pagination and detail fetch logic |
 | `src/utils/` | Pure string/number formatting | Keeps components free of display logic |
 | `public/assets/` | Local images | PokeAPI sprites are remote; local assets are for UI chrome only |
@@ -1433,7 +1441,7 @@ User reports: light-mode watermark overlapped toolbar buttons; scroll fade class
 ### Phase 6 success criteria (Part L)
 
 - [x] Light-mode watermark visible at scroll top (`opacity ≥ 0.45`)
-- [x] Light-mode scroll past 200px sets `html.bg-scrolled` and watermark opacity fades to 0
+- [x] ~~Light-mode scroll past 200px sets `html.bg-scrolled` and watermark opacity fades to 0~~ — **superseded by Part M** (fade removed; watermark stays visible)
 - [x] Toolbar buttons stack above watermark (z-index isolation or clickable)
 - [x] Dark-mode watermark remains visible when scrolled
 - [x] E2e regression tests pass
@@ -1464,3 +1472,173 @@ User reports: light-mode watermark faded away on scroll (unwanted); watermark to
 - [x] Dark-mode watermark remains visible when scrolled
 - [x] All chip inactive when a type is selected; click All clears types and reactivates All
 - [x] E2e regression tests pass
+
+### Part N — Mobile modal layout (2026-06-16)
+
+User feedback: close (X) misaligned; sprite too small and floating on green backdrop; sprite overlapped Pokedex entry when scrolling.
+
+| Task | Description | Status |
+|------|-------------|--------|
+| `fix-mobile-close-in-modal` | Close button inside `.pokemon-detail-modal` (absolute top-right on card) | [x] |
+| `fix-mobile-sprite-in-card` | On mobile only, render sprite **inside** `.detail-card` (desktop unchanged — sprite sibling above card) | [x] |
+| `fix-mobile-card-scroll` | `.detail-card` scrolls internally; sprite in document flow scrolls with content — no fixed overlay on text | [x] |
+| `fix-mobile-sprite-size` | In-card sprite `max-height: min(30vh, 180px)`; `AnimatedSprite` uses 4× scale on mobile | [x] |
+| `fix-mobile-info-pills` | Height/weight pills: tighter padding, `min-width: 0` so values not clipped | [x] |
+| `phase-6n-verify` | E2e: sprite inside card bounds; no overlap with entry after card scroll | [x] |
+
+#### Open questions — Part N
+
+| ID | Question | Decision |
+|----|----------|----------|
+| **Q77** | Mobile sprite placement? | **Inside `.detail-card`** at top — not on type-colored backdrop |
+| **Q78** | Mobile scroll container? | **`.detail-card` only** — modal shell does not scroll |
+| **Q79** | Desktop sprite layout? | **Unchanged** — absolute sprite sibling above scrollable card |
+
+### Phase 6 success criteria (Part N)
+
+- [x] Close button visible and within modal bounds (dark mode, 375×812)
+- [x] Mobile sprite fully visible inside card background
+- [x] Scrolling detail card does not leave sprite fixed over Pokedex entry
+- [x] Desktop sprite/id overlap tests still pass
+
+---
+
+## Phase 7 — Local data layer & deploy hardening
+
+> **Status:** Option C **complete** (2026-06-16). Full analysis, Vercel review, Q-A–Q-J decisions, and priority order: [PLAN_REVIEWED.md](./PLAN_REVIEWED.md) (Sections 1–9). Phase 7 replaces the runtime data source only — SPA layout unchanged.
+
+### Why Phase 7
+
+| Current pain point | Impact |
+|--------------------|--------|
+| Live PokeAPI at runtime (name index, per-card types, 3-fetch detail waterfall) | Slow first load, 429 risk, broken offline detail |
+| Sprites from `raw.githubusercontent.com` via `next.config.ts` `remotePatterns` | External CDN latency; GIFs cannot use `next/image` |
+| SW caches shell only | List names/types/detail fail offline |
+
+**Unlocks:** zero runtime API calls, full offline after first visit, instant name index, safe Vercel deploy (no secrets, no external data dependency), optional `next/image` for local PNGs.
+
+### Target layout
+
+**Option C (implemented):** `public/data/` committed (~2 MB JSON); sprites still from CDN via `src/lib/pokeapi.ts` sprite URL helpers.
+
+**Option A/B (Phase 7B):** add `public/sprites/` locally:
+
+```
+public/
+├── data/                         # ✅ committed (Option C)
+│   ├── index.json                # [{ id, name, types }] × N
+│   ├── meta.json                 # generatedAt, totalPokemon, spriteCount
+│   └── pokemon/{id}.json         # Full PokemonDetail incl. inlined evolution chain
+└── sprites/                      # ⏳ Phase 7B
+    ├── pokemon/{id}.png
+    └── animated/{id}.gif
+
+scripts/fetch-pokemon-data.ts     # Throttled, resumable; --no-sprites --no-gifs for Option C runs
+src/lib/data.ts                   # Runtime data reads from /data/*.json
+src/lib/pokeapi.ts                # Sprite URLs only (CDN until Phase 7B)
+```
+
+### Deployment strategy — **Option C chosen**
+
+| Option | What to commit | Status |
+|--------|----------------|--------|
+| **A — Commit all** | `public/data/` + `public/sprites/` | Deferred → **Phase 7B** |
+| **B — Vercel prebuild** | Script only; `prebuild` runs fetch | Optional; `prebuild` hook ready for activation |
+| **C — JSON only** | `public/data/*.json` (~2 MB) | **✅ Implemented** — sprites remain on `raw.githubusercontent.com` |
+
+Move to **Option A or B** in Phase 7B for local sprites and full offline animations.
+
+### Phase 7 tasks
+
+| ID | Task | Status |
+|----|------|--------|
+| `create-download-script` | `scripts/fetch-pokemon-data.ts` — throttled (10 concurrent), resumable, CLI flags (`--skip-existing`, `--force`, `--from`, `--to`, `--no-sprites`, `--no-gifs`) | [x] |
+| `run-download-locally` | Execute script; verify `public/data/meta.json` + all JSON files | [x] |
+| `commit-data-files` | Add `public/data/` (JSON only under Option C); `.gitattributes` for binaries if sprites added later | [x] |
+| `migrate-data-layer` | `src/lib/data.ts` reads `/data/...`; hooks updated; `pokeapi.ts` retained for sprite URLs | [x] |
+| `update-sprite-urls` | Local `/sprites/pokemon/` and `/sprites/animated/` paths in sprite helpers | [x] |
+| `add-security-headers` | `next.config.ts`: `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy` (no full CSP yet) | [x] |
+| `simplify-next-config` | Remove `images.remotePatterns` when sprites local; `next/image` for PNG list thumbnails | [x] |
+| `update-sw-precache` | Precache `/data/index.json`, `/data/meta.json`; runtime cache `/data/pokemon/` on fetch | [x] |
+| `add-fetch-data-scripts` | `package.json`: `fetch-data`, `fetch-data:force` (`--no-sprites --no-gifs` for Option C); optional `prebuild` for Option B | [x] |
+| `update-deploy-docs` | Rewrite `docs/DEPLOY.md` — data setup, no runtime PokeAPI note, security checklist | [x] |
+| `vercel-deploy-test` | Deploy to Vercel; verify build, `/data/index.json`, SW, offline data on production URL | [ ] |
+| `phase-7-verify` | E2e: no `pokeapi.co` for data; `/data/index.json` 1025+; security headers; offline sprite test deferred | [x] |
+
+#### Open questions — Phase 7
+
+| ID | Question | Decision |
+|----|----------|----------|
+| **Q67** | Sprite storage? | **Option C implemented** — JSON committed, sprites remote; Phase 7B → A or B |
+| **Q68** | Git LFS for sprites? | Not applicable under Option C; revisit for Option A (~50 MB binaries) |
+| **Q69** | Download script runtime? | **`tsx`** devDependency; `npm run fetch-data` (manual); optional `prebuild` for Option B |
+| **Q70** | Vercel first build (Option B)? | Free tier 45 min limit — sufficient; not yet exercised under Option C |
+| **Q71** | Data sync cadence? | **Manual** `npm run fetch-data` on new generations — no scheduled auto-commit |
+| **Q72** | Evolution in JSON? | **Inline** per `{id}.json` — eliminates 3rd serial fetch |
+| **Q73** | RSC / SSG refactor? | **Defer to Phase 8** — Phase 7 only replaces data source |
+| **Q74** | Local GIFs? | **Keep remote** under Option C; download locally in Phase 7B for full offline |
+| **Q75** | CSP header? | **Defer** — simpler security headers only (`X-Frame-Options`, etc.) |
+| **Q76** | `TOTAL_POKEMON` constant? | Script writes count to `meta.json`; read from there instead of hardcoding (future) |
+| **Q77–Q79** | Mobile modal layout? | See Phase 6 Part N |
+
+### Data sync (manual)
+
+```bash
+npm run fetch-data              # skip existing files
+npm run fetch-data:force        # full resync
+npm run fetch-data -- --from=1026 --to=1100   # new generation range
+```
+
+After sync: verify `meta.json`, run `npm run build`, commit `public/data/` (+ sprites), push → Vercel deploy.
+
+**Do not** automate weekly GitHub Action re-fetch — PokeAPI data is stable; avoid noisy commits and surprise redeploys.
+
+### Phase 7 success criteria
+
+- [x] App works with **zero runtime calls** to `pokeapi.co` or `raw.githubusercontent.com` for data/sprites
+- [x] `/data/index.json` serves 1025+ entries; detail loads from `/data/pokemon/{id}.json`
+- [x] Security headers present on production responses
+- [x] SW precache includes `/data/index.json` + `/data/meta.json`; runtime cache for `/data/pokemon/`
+- [ ] Offline test: list names, types, and detail visible after first visit (manual / Vercel)
+- [x] `docs/DEPLOY.md` updated; `tests/reports/phase-7-report.md` PASS (deploy hardening)
+- [ ] Production validation on Vercel (`vercel-deploy-test`)
+
+### Remaining priority (from [PLAN_REVIEWED.md](./PLAN_REVIEWED.md) §8)
+
+1. **`vercel-deploy-test`** — end-to-end production validation (highest remaining)
+2. ~~**Phase 7B** — local sprites~~ ✅ complete
+3. **Phase 8** — RSC / SSG migration
+
+---
+
+## Phase 7B — Local sprites (complete)
+
+Goal: complete the data layer by localizing sprites and removing external CDN dependency for images.
+
+| ID | Task | Status |
+|----|------|--------|
+| `download-sprites` | `npm run fetch-sprites` — 1025 PNG + 649 GIF in `public/sprites/` | [x] |
+| `update-sprite-urls` | Point `getAnimatedSpriteUrl` / `getStaticSpriteUrl` to `/sprites/...` | [x] |
+| `simplify-next-config` | Remove `images.remotePatterns`; list PNGs via `next/image` (local paths) | [x] |
+| `update-sw-precache-sprites` | Runtime cache `/sprites/` on fetch (stale-while-revalidate); `pokedex-v3` | [x] |
+| `phase-7b-verify` | E2e: no `raw.githubusercontent.com`; `/sprites/pokemon/25.png` 200; lint + unit PASS | [x] |
+
+**Scripts:** `fetch-sprites`, `fetch-sprites:force`, `--sprites-only` on fetch script.
+
+**Deploy:** Commit `public/sprites/` (~100–150 MB) or use Vercel `prebuild` with `fetch-sprites --skip-existing`.
+
+---
+
+## Phase 8 (deferred) — RSC / SSG
+
+Optional follow-up from [PLAN_REVIEWED.md](./PLAN_REVIEWED.md) §4:
+
+| Opportunity | Description |
+|-------------|-------------|
+| **RSC detail pages** | `src/app/pokemon/[id]/page.tsx` with `generateStaticParams` — 1025 static HTML pages at build time |
+| **`next/image` PNGs** | Requires Phase 7B local sprites |
+| **Pre-built search index** | `public/data/search-index.json` at download time for instant type-ahead |
+| **`meta.json` in UI** | Show "Pokedex data last updated" from `generatedAt` |
+| **Error boundary** | Simpler messaging for local data failures (broken deploy vs transient network) |
+
+High effort; do after Phase 7B data layer is stable.

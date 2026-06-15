@@ -1,0 +1,62 @@
+{
+  "id": 81,
+  "name": "magnemite",
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "height": 3,
+  "weight": 60,
+  "abilities": [
+    "magnet-pull",
+    "sturdy",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 25
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 81,
+        "name": "magnemite"
+      },
+      {
+        "id": 82,
+        "name": "magneton"
+      },
+      {
+        "id": 462,
+        "name": "magnezone"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": 912,
+  "name": "quaxly",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 61,
+  "abilities": [
+    "torrent",
+    "moxie"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 912,
+        "name": "quaxly"
+      },
+      {
+        "id": 913,
+        "name": "quaxwell"
+      },
+      {
+        "id": 914,
+        "name": "quaquaval"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

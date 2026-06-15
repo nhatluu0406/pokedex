@@ -1,0 +1,56 @@
+{
+  "id": 844,
+  "name": "sandaconda",
+  "types": [
+    "ground"
+  ],
+  "height": 38,
+  "weight": 655,
+  "abilities": [
+    "sand-spit",
+    "shed-skin",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 72
+    },
+    {
+      "name": "attack",
+      "value": 107
+    },
+    {
+      "name": "defense",
+      "value": 125
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 71
+    }
+  ],
+  "flavorText": "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 843,
+        "name": "silicobra"
+      },
+      {
+        "id": 844,
+        "name": "sandaconda"
+      }
+    ],
+    "levels": [
+      36
+    ]
+  }
+}

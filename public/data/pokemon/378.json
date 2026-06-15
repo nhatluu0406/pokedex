@@ -1,0 +1,41 @@
+{
+  "id": 378,
+  "name": "regice",
+  "types": [
+    "ice"
+  ],
+  "height": 18,
+  "weight": 1750,
+  "abilities": [
+    "clear-body",
+    "ice-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 200
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "REGICE’s body was made during an ice age. The deep-frozen body can’t be melted, even by fire. This POKéMON controls frigid air of minus 328 degrees F.",
+  "evolution": null
+}

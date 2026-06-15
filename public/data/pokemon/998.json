@@ -1,0 +1,61 @@
+{
+  "id": 998,
+  "name": "baxcalibur",
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "height": 21,
+  "weight": 2100,
+  "abilities": [
+    "thermal-exchange",
+    "ice-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 115
+    },
+    {
+      "name": "attack",
+      "value": 145
+    },
+    {
+      "name": "defense",
+      "value": 92
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 86
+    },
+    {
+      "name": "speed",
+      "value": 87
+    }
+  ],
+  "flavorText": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 996,
+        "name": "frigibax"
+      },
+      {
+        "id": 997,
+        "name": "arctibax"
+      },
+      {
+        "id": 998,
+        "name": "baxcalibur"
+      }
+    ],
+    "levels": [
+      35,
+      54
+    ]
+  }
+}

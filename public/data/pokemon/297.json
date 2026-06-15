@@ -1,0 +1,56 @@
+{
+  "id": 297,
+  "name": "hariyama",
+  "types": [
+    "fighting"
+  ],
+  "height": 23,
+  "weight": 2538,
+  "abilities": [
+    "thick-fat",
+    "guts",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 144
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It has the habit of challenging others without hesitation to tests of strength. It’s been known to stand on train tracks and stop trains using forearm thrusts.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 296,
+        "name": "makuhita"
+      },
+      {
+        "id": 297,
+        "name": "hariyama"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

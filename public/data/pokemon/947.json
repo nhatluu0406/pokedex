@@ -1,0 +1,56 @@
+{
+  "id": 947,
+  "name": "brambleghast",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "height": 12,
+  "weight": 60,
+  "abilities": [
+    "wind-rider",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 946,
+        "name": "bramblin"
+      },
+      {
+        "id": 947,
+        "name": "brambleghast"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

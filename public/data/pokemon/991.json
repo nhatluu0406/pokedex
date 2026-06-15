@@ -1,0 +1,41 @@
+{
+  "id": 991,
+  "name": "iron-bundle",
+  "types": [
+    "ice",
+    "water"
+  ],
+  "height": 6,
+  "weight": 110,
+  "abilities": [
+    "quark-drive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 56
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 114
+    },
+    {
+      "name": "special-attack",
+      "value": 124
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 136
+    }
+  ],
+  "flavorText": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
+  "evolution": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": 788,
+  "name": "tapu-fini",
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "height": 13,
+  "weight": 212,
+  "abilities": [
+    "misty-surge",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+  "evolution": null
+}

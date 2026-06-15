@@ -1,0 +1,55 @@
+{
+  "id": 867,
+  "name": "runerigus",
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "height": 16,
+  "weight": 666,
+  "abilities": [
+    "wandering-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 58
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 145
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 105
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 562,
+        "name": "yamask"
+      },
+      {
+        "id": 563,
+        "name": "cofagrigus"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

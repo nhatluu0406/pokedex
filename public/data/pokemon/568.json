@@ -1,0 +1,56 @@
+{
+  "id": 568,
+  "name": "trubbish",
+  "types": [
+    "poison"
+  ],
+  "height": 6,
+  "weight": 310,
+  "abilities": [
+    "stench",
+    "sticky-hold",
+    "aftermath"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 62
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 62
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 568,
+        "name": "trubbish"
+      },
+      {
+        "id": 569,
+        "name": "garbodor"
+      }
+    ],
+    "levels": [
+      36
+    ]
+  }
+}

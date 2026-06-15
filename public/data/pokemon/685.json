@@ -1,0 +1,55 @@
+{
+  "id": 685,
+  "name": "slurpuff",
+  "types": [
+    "fairy"
+  ],
+  "height": 8,
+  "weight": 50,
+  "abilities": [
+    "sweet-veil",
+    "unburden"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 82
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 86
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 72
+    }
+  ],
+  "flavorText": "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 684,
+        "name": "swirlix"
+      },
+      {
+        "id": 685,
+        "name": "slurpuff"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

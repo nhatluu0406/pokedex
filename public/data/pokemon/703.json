@@ -1,0 +1,42 @@
+{
+  "id": 703,
+  "name": "carbink",
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "height": 3,
+  "weight": 57,
+  "abilities": [
+    "clear-body",
+    "sturdy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 150
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 150
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Born from the temperatures and pressures deep underground, it fires beams from the stone in its head.",
+  "evolution": null
+}

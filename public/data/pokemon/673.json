@@ -1,0 +1,55 @@
+{
+  "id": 673,
+  "name": "gogoat",
+  "types": [
+    "grass"
+  ],
+  "height": 17,
+  "weight": 910,
+  "abilities": [
+    "sap-sipper",
+    "grass-pelt"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 123
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 62
+    },
+    {
+      "name": "special-attack",
+      "value": 97
+    },
+    {
+      "name": "special-defense",
+      "value": 81
+    },
+    {
+      "name": "speed",
+      "value": 68
+    }
+  ],
+  "flavorText": "It can tell how its Trainer is feeling by subtle shifts in the grip on its horns. This empathic sense lets them run as if one being.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 672,
+        "name": "skiddo"
+      },
+      {
+        "id": 673,
+        "name": "gogoat"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

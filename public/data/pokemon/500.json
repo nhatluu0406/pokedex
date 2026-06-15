@@ -1,0 +1,61 @@
+{
+  "id": 500,
+  "name": "emboar",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 1500,
+  "abilities": [
+    "blaze",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 123
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 498,
+        "name": "tepig"
+      },
+      {
+        "id": 499,
+        "name": "pignite"
+      },
+      {
+        "id": 500,
+        "name": "emboar"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

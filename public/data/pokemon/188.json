@@ -1,0 +1,62 @@
+{
+  "id": 188,
+  "name": "skiploom",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "height": 6,
+  "weight": 10,
+  "abilities": [
+    "chlorophyll",
+    "leaf-guard",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "The bloom on top of its head opens and closes as the temperature fluc­ tuates up and down.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 187,
+        "name": "hoppip"
+      },
+      {
+        "id": 188,
+        "name": "skiploom"
+      },
+      {
+        "id": 189,
+        "name": "jumpluff"
+      }
+    ],
+    "levels": [
+      18,
+      27
+    ]
+  }
+}

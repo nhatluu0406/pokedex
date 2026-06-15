@@ -1,0 +1,55 @@
+{
+  "id": 366,
+  "name": "clamperl",
+  "types": [
+    "water"
+  ],
+  "height": 4,
+  "weight": 525,
+  "abilities": [
+    "shell-armor",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 64
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 74
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 32
+    }
+  ],
+  "flavorText": "CLAMPERL’s sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown CLAMPERL’s shell will be scored with nicks and scratches all over.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 366,
+        "name": "clamperl"
+      },
+      {
+        "id": 367,
+        "name": "huntail"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

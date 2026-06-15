@@ -1,0 +1,60 @@
+{
+  "id": 148,
+  "name": "dragonair",
+  "types": [
+    "dragon"
+  ],
+  "height": 40,
+  "weight": 165,
+  "abilities": [
+    "shed-skin",
+    "marvel-scale"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 61
+    },
+    {
+      "name": "attack",
+      "value": 84
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 147,
+        "name": "dratini"
+      },
+      {
+        "id": 148,
+        "name": "dragonair"
+      },
+      {
+        "id": 149,
+        "name": "dragonite"
+      }
+    ],
+    "levels": [
+      30,
+      55
+    ]
+  }
+}

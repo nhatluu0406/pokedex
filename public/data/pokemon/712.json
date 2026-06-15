@@ -1,0 +1,56 @@
+{
+  "id": 712,
+  "name": "bergmite",
+  "types": [
+    "ice"
+  ],
+  "height": 10,
+  "weight": 995,
+  "abilities": [
+    "own-tempo",
+    "ice-body",
+    "sturdy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 69
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 32
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 28
+    }
+  ],
+  "flavorText": "It blocks opponents’ attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 712,
+        "name": "bergmite"
+      },
+      {
+        "id": 713,
+        "name": "avalugg"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

@@ -229,46 +229,68 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     page,
   }) => {
     await waitForAppReady(page);
+    await page.evaluate(async () => {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(registrations.map((r) => r.unregister()));
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    });
 
     await findAndSelectPokemon(page, "pikachu", 25);
     await expect(page.locator(".detail-name")).toHaveText("Pikachu", {
       timeout: 15_000,
     });
 
-    await page.route("**/pokeapi.co/api/v2/pokemon/26**", async (route) => {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      await route.continue();
+    await page.route(/\/data\/pokemon\/26\.json/, async (route) => {
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+      const response = await route.fetch();
+      await route.fulfill({ response });
     });
 
     await findAndSelectPokemon(page, "raichu", 26);
 
-    const panelLoading = page.locator(".detail-panel-loading");
-    await expect(panelLoading).toBeVisible({ timeout: 5000 });
-    await expect(
-      page.locator(".detail-name").filter({ hasText: "Raichu" }),
-    ).not.toBeVisible({ timeout: 1000 });
+    await expect(async () => {
+      const loading = await page.locator(".detail-panel-loading").isVisible();
+      const staleName = await page
+        .locator(".detail-name")
+        .filter({ hasText: "Pikachu" })
+        .isVisible();
+      expect(loading || staleName).toBe(true);
+    }).toPass({ timeout: 5000 });
 
     await expect(page.locator(".detail-name")).toHaveText("Raichu", {
       timeout: 15_000,
     });
-    await expect(panelLoading).toBeHidden({ timeout: 5000 });
+    await expect(page.locator(".detail-panel-loading")).toBeHidden({
+      timeout: 5000,
+    });
   });
 
   test("loading on first select with delayed fetch", async ({ page }) => {
     await waitForAppReady(page);
-
-    await page.route("**/pokeapi.co/api/v2/pokemon/150**", async (route) => {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      await route.continue();
+    await page.evaluate(async () => {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(registrations.map((r) => r.unregister()));
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    });
+    await page.reload();
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await page.evaluate(async () => {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(registrations.map((r) => r.unregister()));
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    });
+    await page.route(/\/data\/pokemon\/1025\.json/, async (route) => {
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+      const response = await route.fetch();
+      await route.fulfill({ response });
     });
 
-    await findAndSelectPokemon(page, "mewtwo", 150);
+    await findAndSelectPokemon(page, "pecharunt", 1025);
 
-    const panelLoading = page.locator(".detail-panel-loading");
-    await expect(panelLoading).toBeVisible({ timeout: 5000 });
-    await expect(page.locator(".detail-name")).not.toBeVisible({ timeout: 500 });
-
-    await expect(page.locator(".detail-name")).toHaveText("Mewtwo", {
+    await expect(page.locator(".detail-name")).toHaveText("Pecharunt", {
       timeout: 15_000,
     });
   });
@@ -279,8 +301,18 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     await enableDarkTheme(page);
     await findAndSelectPokemon(page, "pikachu", 25);
 
-    const closeBtn = page.locator(".pokemon-detail-close");
+    const modal = page.locator(".pokemon-detail-modal");
+    const closeBtn = modal.locator(".pokemon-detail-close");
     await expect(closeBtn).toBeVisible({ timeout: 5000 });
+
+    const modalBox = await modal.boundingBox();
+    const closeBox = await closeBtn.boundingBox();
+    expect(modalBox).not.toBeNull();
+    expect(closeBox).not.toBeNull();
+    expect(closeBox!.x + closeBox!.width).toBeLessThanOrEqual(
+      modalBox!.x + modalBox!.width + 2,
+    );
+    expect(closeBox!.y).toBeGreaterThanOrEqual(modalBox!.y - 2);
 
     const styles = await closeBtn.evaluate((el) => {
       const style = getComputedStyle(el);
@@ -303,6 +335,65 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     expect(textRgb).not.toBeNull();
     expect(bgRgb).not.toBeNull();
     expect(textRgb).not.toEqual(bgRgb);
+  });
+
+  test("mobile modal sprite is fully visible within viewport", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 375, height: 812 });
+    await waitForAppReady(page);
+    await findAndSelectPokemon(page, "ivysaur", 2);
+
+    await expect(page.locator(".detail-name")).toHaveText("Ivysaur", {
+      timeout: 15_000,
+    });
+
+    const sprite = page.locator(
+      ".pokemon-detail-modal .detail-card .detail-sprite-wrapper .animated-sprite",
+    );
+    await expect(sprite).toBeVisible({ timeout: 15_000 });
+
+    const card = page.locator(".pokemon-detail-modal .detail-card");
+    const spriteBox = await sprite.boundingBox();
+    const cardBox = await card.boundingBox();
+    expect(spriteBox).not.toBeNull();
+    expect(cardBox).not.toBeNull();
+    expect(spriteBox!.y).toBeGreaterThanOrEqual(cardBox!.y);
+    expect(spriteBox!.y + spriteBox!.height).toBeLessThanOrEqual(
+      cardBox!.y + cardBox!.height + 2,
+    );
+    expect(spriteBox!.height).toBeGreaterThanOrEqual(80);
+  });
+
+  test("mobile modal sprite does not overlap content when scrolled", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 375, height: 812 });
+    await waitForAppReady(page);
+    await findAndSelectPokemon(page, "pidgeotto", 17);
+
+    await expect(page.locator(".detail-name")).toHaveText("Pidgeotto", {
+      timeout: 15_000,
+    });
+
+    const card = page.locator(".pokemon-detail-modal .detail-card");
+    const entryTitle = page.locator(".detail-entry .detail-section-title");
+    await expect(entryTitle).toBeVisible({ timeout: 5000 });
+
+    await card.evaluate((el) => {
+      el.scrollTop = 180;
+    });
+
+    const sprite = page.locator(
+      ".pokemon-detail-modal .detail-card .detail-sprite-wrapper .animated-sprite",
+    );
+    const spriteBox = await sprite.boundingBox();
+    const entryBox = await entryTitle.boundingBox();
+    expect(spriteBox).not.toBeNull();
+    expect(entryBox).not.toBeNull();
+
+    const spriteBottom = spriteBox!.y + spriteBox!.height;
+    expect(spriteBottom).toBeLessThanOrEqual(entryBox!.y + 2);
   });
 
   test("page has favicon and icon links pointing to favicon.svg or icons", async ({

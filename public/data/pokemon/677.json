@@ -1,0 +1,56 @@
+{
+  "id": 677,
+  "name": "espurr",
+  "types": [
+    "psychic"
+  ],
+  "height": 3,
+  "weight": 35,
+  "abilities": [
+    "keen-eye",
+    "infiltrator",
+    "own-tempo"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 62
+    },
+    {
+      "name": "attack",
+      "value": 48
+    },
+    {
+      "name": "defense",
+      "value": 54
+    },
+    {
+      "name": "special-attack",
+      "value": 63
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 68
+    }
+  ],
+  "flavorText": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 677,
+        "name": "espurr"
+      },
+      {
+        "id": 678,
+        "name": "meowstic"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

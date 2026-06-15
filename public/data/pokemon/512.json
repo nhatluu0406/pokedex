@@ -1,0 +1,55 @@
+{
+  "id": 512,
+  "name": "simisage",
+  "types": [
+    "grass"
+  ],
+  "height": 11,
+  "weight": 305,
+  "abilities": [
+    "gluttony",
+    "overgrow"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 98
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 98
+    },
+    {
+      "name": "special-defense",
+      "value": 63
+    },
+    {
+      "name": "speed",
+      "value": 101
+    }
+  ],
+  "flavorText": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 511,
+        "name": "pansage"
+      },
+      {
+        "id": 512,
+        "name": "simisage"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 824,
+  "name": "blipbug",
+  "types": [
+    "bug"
+  ],
+  "height": 4,
+  "weight": 80,
+  "abilities": [
+    "swarm",
+    "compound-eyes",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 25
+    },
+    {
+      "name": "attack",
+      "value": 20
+    },
+    {
+      "name": "defense",
+      "value": 20
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "A constant collector of information, this Pokémon is very smart. Very strong is what it isn’t.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 824,
+        "name": "blipbug"
+      },
+      {
+        "id": 825,
+        "name": "dottler"
+      },
+      {
+        "id": 826,
+        "name": "orbeetle"
+      }
+    ],
+    "levels": [
+      10,
+      30
+    ]
+  }
+}

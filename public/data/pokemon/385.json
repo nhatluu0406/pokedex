@@ -1,0 +1,41 @@
+{
+  "id": 385,
+  "name": "jirachi",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "height": 3,
+  "weight": 11,
+  "abilities": [
+    "serene-grace"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "A legend states that JIRACHI will make true any wish that is written on notes attached to its head when it awakens. If this POKéMON senses danger, it will fight without awakening.",
+  "evolution": null
+}

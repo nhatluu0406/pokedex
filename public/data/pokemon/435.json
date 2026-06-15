@@ -1,0 +1,57 @@
+{
+  "id": 435,
+  "name": "skuntank",
+  "types": [
+    "poison",
+    "dark"
+  ],
+  "height": 10,
+  "weight": 380,
+  "abilities": [
+    "stench",
+    "aftermath",
+    "keen-eye"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 103
+    },
+    {
+      "name": "attack",
+      "value": 93
+    },
+    {
+      "name": "defense",
+      "value": 67
+    },
+    {
+      "name": "special-attack",
+      "value": 71
+    },
+    {
+      "name": "special-defense",
+      "value": 61
+    },
+    {
+      "name": "speed",
+      "value": 84
+    }
+  ],
+  "flavorText": "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 434,
+        "name": "stunky"
+      },
+      {
+        "id": 435,
+        "name": "skuntank"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

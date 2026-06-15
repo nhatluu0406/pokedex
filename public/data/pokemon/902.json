@@ -1,0 +1,57 @@
+{
+  "id": 902,
+  "name": "basculegion-male",
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "height": 30,
+  "weight": 1100,
+  "abilities": [
+    "swift-swim",
+    "adaptability",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 112
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 78
+    }
+  ],
+  "flavorText": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 550,
+        "name": "basculin"
+      },
+      {
+        "id": 902,
+        "name": "basculegion"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

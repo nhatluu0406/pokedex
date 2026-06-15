@@ -1,0 +1,54 @@
+{
+  "id": 963,
+  "name": "finizen",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 602,
+  "abilities": [
+    "water-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 963,
+        "name": "finizen"
+      },
+      {
+        "id": 964,
+        "name": "palafin"
+      }
+    ],
+    "levels": [
+      38
+    ]
+  }
+}

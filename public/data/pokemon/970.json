@@ -1,0 +1,56 @@
+{
+  "id": 970,
+  "name": "glimmora",
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "height": 15,
+  "weight": 450,
+  "abilities": [
+    "toxic-debris",
+    "corrosion"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 83
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 81
+    },
+    {
+      "name": "speed",
+      "value": 86
+    }
+  ],
+  "flavorText": "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 969,
+        "name": "glimmet"
+      },
+      {
+        "id": 970,
+        "name": "glimmora"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

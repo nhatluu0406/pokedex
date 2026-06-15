@@ -1,0 +1,61 @@
+{
+  "id": 782,
+  "name": "jangmo-o",
+  "types": [
+    "dragon"
+  ],
+  "height": 6,
+  "weight": 297,
+  "abilities": [
+    "bulletproof",
+    "soundproof",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 782,
+        "name": "jangmo-o"
+      },
+      {
+        "id": 783,
+        "name": "hakamo-o"
+      },
+      {
+        "id": 784,
+        "name": "kommo-o"
+      }
+    ],
+    "levels": [
+      35,
+      45
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 930,
+  "name": "arboliva",
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "height": 14,
+  "weight": 482,
+  "abilities": [
+    "seed-sower",
+    "harvest"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 69
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 109
+    },
+    {
+      "name": "speed",
+      "value": 39
+    }
+  ],
+  "flavorText": "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 928,
+        "name": "smoliv"
+      },
+      {
+        "id": 929,
+        "name": "dolliv"
+      },
+      {
+        "id": 930,
+        "name": "arboliva"
+      }
+    ],
+    "levels": [
+      25,
+      35
+    ]
+  }
+}

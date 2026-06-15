@@ -1,0 +1,57 @@
+{
+  "id": 743,
+  "name": "ribombee",
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "height": 2,
+  "weight": 5,
+  "abilities": [
+    "honey-gather",
+    "shield-dust",
+    "sweet-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 124
+    }
+  ],
+  "flavorText": "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 742,
+        "name": "cutiefly"
+      },
+      {
+        "id": 743,
+        "name": "ribombee"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

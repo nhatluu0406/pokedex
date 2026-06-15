@@ -1,0 +1,57 @@
+{
+  "id": 453,
+  "name": "croagunk",
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "height": 7,
+  "weight": 230,
+  "abilities": [
+    "anticipation",
+    "dry-skin",
+    "poison-touch"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 61
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 61
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 453,
+        "name": "croagunk"
+      },
+      {
+        "id": 454,
+        "name": "toxicroak"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

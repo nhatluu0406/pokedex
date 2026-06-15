@@ -1,0 +1,57 @@
+{
+  "id": 166,
+  "name": "ledian",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 14,
+  "weight": 356,
+  "abilities": [
+    "swarm",
+    "early-bird",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 110
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 165,
+        "name": "ledyba"
+      },
+      {
+        "id": 166,
+        "name": "ledian"
+      }
+    ],
+    "levels": [
+      18
+    ]
+  }
+}

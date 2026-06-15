@@ -1,0 +1,41 @@
+{
+  "id": 799,
+  "name": "guzzlord",
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "height": 55,
+  "weight": 8880,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 223
+    },
+    {
+      "name": "attack",
+      "value": 101
+    },
+    {
+      "name": "defense",
+      "value": 53
+    },
+    {
+      "name": "special-attack",
+      "value": 97
+    },
+    {
+      "name": "special-defense",
+      "value": 53
+    },
+    {
+      "name": "speed",
+      "value": 43
+    }
+  ],
+  "flavorText": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
+  "evolution": null
+}

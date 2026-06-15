@@ -1,0 +1,42 @@
+{
+  "id": 538,
+  "name": "throh",
+  "types": [
+    "fighting"
+  ],
+  "height": 13,
+  "weight": 555,
+  "abilities": [
+    "guts",
+    "inner-focus",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+  "evolution": null
+}

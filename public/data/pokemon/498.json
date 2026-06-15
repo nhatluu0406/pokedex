@@ -1,0 +1,60 @@
+{
+  "id": 498,
+  "name": "tepig",
+  "types": [
+    "fire"
+  ],
+  "height": 5,
+  "weight": 99,
+  "abilities": [
+    "blaze",
+    "thick-fat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 63
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 498,
+        "name": "tepig"
+      },
+      {
+        "id": 499,
+        "name": "pignite"
+      },
+      {
+        "id": 500,
+        "name": "emboar"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

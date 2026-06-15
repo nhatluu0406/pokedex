@@ -1,0 +1,40 @@
+{
+  "id": 808,
+  "name": "meltan",
+  "types": [
+    "steel"
+  ],
+  "height": 2,
+  "weight": 80,
+  "abilities": [
+    "magnet-pull"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 46
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 34
+    }
+  ],
+  "flavorText": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+  "evolution": null
+}

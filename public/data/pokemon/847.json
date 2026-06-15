@@ -1,0 +1,55 @@
+{
+  "id": 847,
+  "name": "barraskewda",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 300,
+  "abilities": [
+    "swift-swim",
+    "propeller-tail"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 61
+    },
+    {
+      "name": "attack",
+      "value": 123
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 136
+    }
+  ],
+  "flavorText": "This Pokémon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda’s flesh is surprisingly tasty, too.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 846,
+        "name": "arrokuda"
+      },
+      {
+        "id": 847,
+        "name": "barraskewda"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

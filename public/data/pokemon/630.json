@@ -1,0 +1,57 @@
+{
+  "id": 630,
+  "name": "mandibuzz",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 395,
+  "abilities": [
+    "big-pecks",
+    "overcoat",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 105
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 629,
+        "name": "vullaby"
+      },
+      {
+        "id": 630,
+        "name": "mandibuzz"
+      }
+    ],
+    "levels": [
+      54
+    ]
+  }
+}

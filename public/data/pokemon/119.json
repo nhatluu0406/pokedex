@@ -1,0 +1,56 @@
+{
+  "id": 119,
+  "name": "seaking",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 390,
+  "abilities": [
+    "swift-swim",
+    "water-veil",
+    "lightning-rod"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 92
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 68
+    }
+  ],
+  "flavorText": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 118,
+        "name": "goldeen"
+      },
+      {
+        "id": 119,
+        "name": "seaking"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

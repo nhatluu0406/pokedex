@@ -1,0 +1,57 @@
+{
+  "id": 195,
+  "name": "quagsire",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "height": 14,
+  "weight": 750,
+  "abilities": [
+    "damp",
+    "water-absorb",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "This carefree POKéMON has an easy-going nature. While swimming, it always bumps into boat hulls.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 194,
+        "name": "wooper"
+      },
+      {
+        "id": 195,
+        "name": "quagsire"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

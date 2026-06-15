@@ -1,0 +1,60 @@
+{
+  "id": 388,
+  "name": "grotle",
+  "types": [
+    "grass"
+  ],
+  "height": 11,
+  "weight": 970,
+  "abilities": [
+    "overgrow",
+    "shell-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 89
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 36
+    }
+  ],
+  "flavorText": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 387,
+        "name": "turtwig"
+      },
+      {
+        "id": 388,
+        "name": "grotle"
+      },
+      {
+        "id": 389,
+        "name": "torterra"
+      }
+    ],
+    "levels": [
+      18,
+      32
+    ]
+  }
+}

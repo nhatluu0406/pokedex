@@ -1,0 +1,57 @@
+{
+  "id": 528,
+  "name": "swoobat",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "height": 9,
+  "weight": 105,
+  "abilities": [
+    "unaware",
+    "klutz",
+    "simple"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 67
+    },
+    {
+      "name": "attack",
+      "value": 57
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 77
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 114
+    }
+  ],
+  "flavorText": "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 527,
+        "name": "woobat"
+      },
+      {
+        "id": 528,
+        "name": "swoobat"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

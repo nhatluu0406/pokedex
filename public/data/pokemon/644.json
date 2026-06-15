@@ -1,0 +1,41 @@
+{
+  "id": 644,
+  "name": "zekrom",
+  "types": [
+    "dragon",
+    "electric"
+  ],
+  "height": 29,
+  "weight": 3450,
+  "abilities": [
+    "teravolt"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 150
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+  "evolution": null
+}

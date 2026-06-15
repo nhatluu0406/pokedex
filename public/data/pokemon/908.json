@@ -1,0 +1,61 @@
+{
+  "id": 908,
+  "name": "meowscarada",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "height": 15,
+  "weight": 312,
+  "abilities": [
+    "overgrow",
+    "protean"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 76
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 81
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 123
+    }
+  ],
+  "flavorText": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 906,
+        "name": "sprigatito"
+      },
+      {
+        "id": 907,
+        "name": "floragato"
+      },
+      {
+        "id": 908,
+        "name": "meowscarada"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

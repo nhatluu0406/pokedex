@@ -1,0 +1,56 @@
+{
+  "id": 829,
+  "name": "gossifleur",
+  "types": [
+    "grass"
+  ],
+  "height": 4,
+  "weight": 22,
+  "abilities": [
+    "cotton-down",
+    "regenerator",
+    "effect-spore"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 10
+    }
+  ],
+  "flavorText": "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 829,
+        "name": "gossifleur"
+      },
+      {
+        "id": 830,
+        "name": "eldegoss"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

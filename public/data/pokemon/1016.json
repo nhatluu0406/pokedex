@@ -1,0 +1,42 @@
+{
+  "id": 1016,
+  "name": "fezandipiti",
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "height": 14,
+  "weight": 301,
+  "abilities": [
+    "toxic-chain",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 91
+    },
+    {
+      "name": "defense",
+      "value": 82
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 125
+    },
+    {
+      "name": "speed",
+      "value": 99
+    }
+  ],
+  "flavorText": "Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.",
+  "evolution": null
+}

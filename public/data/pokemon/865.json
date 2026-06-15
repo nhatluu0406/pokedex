@@ -1,0 +1,55 @@
+{
+  "id": 865,
+  "name": "sirfetchd",
+  "types": [
+    "fighting"
+  ],
+  "height": 8,
+  "weight": 1170,
+  "abilities": [
+    "steadfast",
+    "scrappy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 62
+    },
+    {
+      "name": "attack",
+      "value": 135
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 68
+    },
+    {
+      "name": "special-defense",
+      "value": 82
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "Only Farfetch’d that have survived many battles can attain this evolution. When this Pokémon’s leek withers, it will retire from combat.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 83,
+        "name": "farfetchd"
+      },
+      {
+        "id": 865,
+        "name": "sirfetchd"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

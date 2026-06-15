@@ -1,0 +1,43 @@
+{
+  "id": 701,
+  "name": "hawlucha",
+  "types": [
+    "fighting",
+    "flying"
+  ],
+  "height": 8,
+  "weight": 215,
+  "abilities": [
+    "limber",
+    "unburden",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 92
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 74
+    },
+    {
+      "name": "special-defense",
+      "value": 63
+    },
+    {
+      "name": "speed",
+      "value": 118
+    }
+  ],
+  "flavorText": "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
+  "evolution": null
+}

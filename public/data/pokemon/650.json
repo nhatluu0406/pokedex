@@ -1,0 +1,60 @@
+{
+  "id": 650,
+  "name": "chespin",
+  "types": [
+    "grass"
+  ],
+  "height": 4,
+  "weight": 90,
+  "abilities": [
+    "overgrow",
+    "bulletproof"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 56
+    },
+    {
+      "name": "attack",
+      "value": 61
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 48
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 38
+    }
+  ],
+  "flavorText": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 650,
+        "name": "chespin"
+      },
+      {
+        "id": 651,
+        "name": "quilladin"
+      },
+      {
+        "id": 652,
+        "name": "chesnaught"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

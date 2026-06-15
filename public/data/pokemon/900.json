@@ -1,0 +1,57 @@
+{
+  "id": 900,
+  "name": "kleavor",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "height": 18,
+  "weight": 890,
+  "abilities": [
+    "swarm",
+    "sheer-force",
+    "sharpness"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 135
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 123,
+        "name": "scyther"
+      },
+      {
+        "id": 212,
+        "name": "scizor"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 744,
+  "name": "rockruff",
+  "types": [
+    "rock"
+  ],
+  "height": 5,
+  "weight": 92,
+  "abilities": [
+    "keen-eye",
+    "vital-spirit",
+    "steadfast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It’s considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 744,
+        "name": "rockruff"
+      },
+      {
+        "id": 745,
+        "name": "lycanroc"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

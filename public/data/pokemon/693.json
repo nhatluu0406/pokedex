@@ -1,0 +1,54 @@
+{
+  "id": 693,
+  "name": "clawitzer",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 353,
+  "abilities": [
+    "mega-launcher"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 71
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 88
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 89
+    },
+    {
+      "name": "speed",
+      "value": 59
+    }
+  ],
+  "flavorText": "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 692,
+        "name": "clauncher"
+      },
+      {
+        "id": 693,
+        "name": "clawitzer"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

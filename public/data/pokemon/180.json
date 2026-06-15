@@ -1,0 +1,60 @@
+{
+  "id": 180,
+  "name": "flaaffy",
+  "types": [
+    "electric"
+  ],
+  "height": 8,
+  "weight": 133,
+  "abilities": [
+    "static",
+    "plus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 179,
+        "name": "mareep"
+      },
+      {
+        "id": 180,
+        "name": "flaaffy"
+      },
+      {
+        "id": 181,
+        "name": "ampharos"
+      }
+    ],
+    "levels": [
+      15,
+      30
+    ]
+  }
+}

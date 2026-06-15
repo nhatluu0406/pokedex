@@ -1,0 +1,57 @@
+{
+  "id": 139,
+  "name": "omastar",
+  "types": [
+    "rock",
+    "water"
+  ],
+  "height": 10,
+  "weight": 350,
+  "abilities": [
+    "swift-swim",
+    "shell-armor",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 125
+    },
+    {
+      "name": "special-attack",
+      "value": 115
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "A prehistoric POKéMON that died out when its heavy shell made it impossible to catch prey.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 138,
+        "name": "omanyte"
+      },
+      {
+        "id": 139,
+        "name": "omastar"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

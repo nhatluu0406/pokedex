@@ -1,0 +1,42 @@
+{
+  "id": 785,
+  "name": "tapu-koko",
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "height": 18,
+  "weight": 205,
+  "abilities": [
+    "electric-surge",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 130
+    }
+  ],
+  "flavorText": "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+  "evolution": null
+}

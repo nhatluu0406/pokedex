@@ -1,0 +1,56 @@
+{
+  "id": 505,
+  "name": "watchog",
+  "types": [
+    "normal"
+  ],
+  "height": 11,
+  "weight": 270,
+  "abilities": [
+    "illuminate",
+    "keen-eye",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 69
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 69
+    },
+    {
+      "name": "speed",
+      "value": 77
+    }
+  ],
+  "flavorText": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 504,
+        "name": "patrat"
+      },
+      {
+        "id": 505,
+        "name": "watchog"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

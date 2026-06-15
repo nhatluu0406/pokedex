@@ -1,0 +1,57 @@
+{
+  "id": 212,
+  "name": "scizor",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "height": 18,
+  "weight": 1180,
+  "abilities": [
+    "swarm",
+    "technician",
+    "light-metal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 123,
+        "name": "scyther"
+      },
+      {
+        "id": 212,
+        "name": "scizor"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

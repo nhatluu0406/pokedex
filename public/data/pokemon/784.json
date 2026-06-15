@@ -1,0 +1,62 @@
+{
+  "id": 784,
+  "name": "kommo-o",
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 782,
+  "abilities": [
+    "bulletproof",
+    "soundproof",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 125
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 105
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 782,
+        "name": "jangmo-o"
+      },
+      {
+        "id": 783,
+        "name": "hakamo-o"
+      },
+      {
+        "id": 784,
+        "name": "kommo-o"
+      }
+    ],
+    "levels": [
+      35,
+      45
+    ]
+  }
+}

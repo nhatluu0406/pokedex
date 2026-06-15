@@ -1,0 +1,57 @@
+{
+  "id": 177,
+  "name": "natu",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "height": 2,
+  "weight": 20,
+  "abilities": [
+    "synchronize",
+    "early-bird",
+    "magic-bounce"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "Because its wings aren't yet fully grown, it has to hop to get around. It is always star­ ing at something.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 177,
+        "name": "natu"
+      },
+      {
+        "id": 178,
+        "name": "xatu"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

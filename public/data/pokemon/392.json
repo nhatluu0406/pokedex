@@ -1,0 +1,61 @@
+{
+  "id": 392,
+  "name": "infernape",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "height": 12,
+  "weight": 550,
+  "abilities": [
+    "blaze",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 76
+    },
+    {
+      "name": "attack",
+      "value": 104
+    },
+    {
+      "name": "defense",
+      "value": 71
+    },
+    {
+      "name": "special-attack",
+      "value": 104
+    },
+    {
+      "name": "special-defense",
+      "value": 71
+    },
+    {
+      "name": "speed",
+      "value": 108
+    }
+  ],
+  "flavorText": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 390,
+        "name": "chimchar"
+      },
+      {
+        "id": 391,
+        "name": "monferno"
+      },
+      {
+        "id": 392,
+        "name": "infernape"
+      }
+    ],
+    "levels": [
+      14,
+      36
+    ]
+  }
+}

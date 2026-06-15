@@ -1,0 +1,60 @@
+{
+  "id": 179,
+  "name": "mareep",
+  "types": [
+    "electric"
+  ],
+  "height": 6,
+  "weight": 78,
+  "abilities": [
+    "static",
+    "plus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "If static elec­ tricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 179,
+        "name": "mareep"
+      },
+      {
+        "id": 180,
+        "name": "flaaffy"
+      },
+      {
+        "id": 181,
+        "name": "ampharos"
+      }
+    ],
+    "levels": [
+      15,
+      30
+    ]
+  }
+}

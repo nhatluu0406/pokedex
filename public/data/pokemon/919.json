@@ -1,0 +1,55 @@
+{
+  "id": 919,
+  "name": "nymble",
+  "types": [
+    "bug"
+  ],
+  "height": 2,
+  "weight": 10,
+  "abilities": [
+    "swarm",
+    "tinted-lens"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 33
+    },
+    {
+      "name": "attack",
+      "value": 46
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 21
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 919,
+        "name": "nymble"
+      },
+      {
+        "id": 920,
+        "name": "lokix"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

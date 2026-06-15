@@ -1,0 +1,57 @@
+{
+  "id": 711,
+  "name": "gourgeist-average",
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "height": 9,
+  "weight": 125,
+  "abilities": [
+    "pickup",
+    "frisk",
+    "insomnia"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 122
+    },
+    {
+      "name": "special-attack",
+      "value": 58
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 84
+    }
+  ],
+  "flavorText": "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 710,
+        "name": "pumpkaboo"
+      },
+      {
+        "id": 711,
+        "name": "gourgeist"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

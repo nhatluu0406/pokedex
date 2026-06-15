@@ -1,0 +1,57 @@
+{
+  "id": 759,
+  "name": "stufful",
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "height": 5,
+  "weight": 68,
+  "abilities": [
+    "fluffy",
+    "klutz",
+    "cute-charm"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 759,
+        "name": "stufful"
+      },
+      {
+        "id": 760,
+        "name": "bewear"
+      }
+    ],
+    "levels": [
+      27
+    ]
+  }
+}

@@ -7,6 +7,7 @@ export interface PokemonListItem {
 export interface PokemonNameEntry {
   id: number;
   name: string;
+  types: string[];
 }
 
 export interface EvolutionDisplay {
@@ -25,6 +26,7 @@ export interface PokemonDetail {
   speciesUrl?: string;
   flavorText?: string;
   evolutionChainUrl?: string;
+  evolution?: EvolutionDisplay | null;
 }
 
 export interface PokeApiPokemon {

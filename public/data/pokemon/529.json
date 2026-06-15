@@ -1,0 +1,56 @@
+{
+  "id": 529,
+  "name": "drilbur",
+  "types": [
+    "ground"
+  ],
+  "height": 3,
+  "weight": 85,
+  "abilities": [
+    "sand-rush",
+    "sand-force",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 68
+    }
+  ],
+  "flavorText": "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 529,
+        "name": "drilbur"
+      },
+      {
+        "id": 530,
+        "name": "excadrill"
+      }
+    ],
+    "levels": [
+      31
+    ]
+  }
+}

@@ -8,6 +8,7 @@ import { SearchBar } from "@/components/search/SearchBar";
 import { TypeFilter } from "@/components/search/TypeFilter";
 import { ThemeToggle } from "@/components/shared/ThemeToggle";
 import { useInfinitePokemonList } from "@/hooks/useInfinitePokemonList";
+import type { PokemonNameEntry } from "@/lib/types";
 import {
   filterByFavorites,
   filterByType,
@@ -19,6 +20,7 @@ interface PokemonListProps {
   onSelect: (id: number) => void;
   filterByName: (query: string) => number[];
   getNameById: (id: number) => string | undefined;
+  nameIndex: PokemonNameEntry[];
   favorites: Set<number>;
   isFavorite: (id: number) => boolean;
   onToggleFavorite: (id: number) => void;
@@ -29,6 +31,7 @@ export function PokemonList({
   onSelect,
   filterByName,
   getNameById,
+  nameIndex,
   favorites,
   isFavorite,
   onToggleFavorite,
@@ -49,7 +52,7 @@ export function PokemonList({
   );
 
   const { visibleIds, typesCache, loadingIds, sentinelRef, hasMore } =
-    useInfinitePokemonList(favoritesFilteredIds);
+    useInfinitePokemonList(favoritesFilteredIds, nameIndex);
 
   const displayIds = useMemo(
     () => filterByType(visibleIds, selectedTypes, typesCache),

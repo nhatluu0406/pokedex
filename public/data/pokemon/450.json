@@ -1,0 +1,55 @@
+{
+  "id": 450,
+  "name": "hippowdon",
+  "types": [
+    "ground"
+  ],
+  "height": 20,
+  "weight": 3000,
+  "abilities": [
+    "sand-stream",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 108
+    },
+    {
+      "name": "attack",
+      "value": 112
+    },
+    {
+      "name": "defense",
+      "value": 118
+    },
+    {
+      "name": "special-attack",
+      "value": 68
+    },
+    {
+      "name": "special-defense",
+      "value": 72
+    },
+    {
+      "name": "speed",
+      "value": 47
+    }
+  ],
+  "flavorText": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 449,
+        "name": "hippopotas"
+      },
+      {
+        "id": 450,
+        "name": "hippowdon"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

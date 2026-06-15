@@ -1,0 +1,55 @@
+{
+  "id": 953,
+  "name": "rellor",
+  "types": [
+    "bug"
+  ],
+  "height": 2,
+  "weight": 10,
+  "abilities": [
+    "compound-eyes",
+    "shed-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 41
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 31
+    },
+    {
+      "name": "special-defense",
+      "value": 58
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 953,
+        "name": "rellor"
+      },
+      {
+        "id": 954,
+        "name": "rabsca"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

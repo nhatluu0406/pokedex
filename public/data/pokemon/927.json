@@ -1,0 +1,55 @@
+{
+  "id": 927,
+  "name": "dachsbun",
+  "types": [
+    "fairy"
+  ],
+  "height": 5,
+  "weight": 149,
+  "abilities": [
+    "well-baked-body",
+    "aroma-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 57
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 926,
+        "name": "fidough"
+      },
+      {
+        "id": 927,
+        "name": "dachsbun"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

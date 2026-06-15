@@ -1,0 +1,56 @@
+{
+  "id": 591,
+  "name": "amoonguss",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 6,
+  "weight": 105,
+  "abilities": [
+    "effect-spore",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 114
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 590,
+        "name": "foongus"
+      },
+      {
+        "id": 591,
+        "name": "amoonguss"
+      }
+    ],
+    "levels": [
+      39
+    ]
+  }
+}

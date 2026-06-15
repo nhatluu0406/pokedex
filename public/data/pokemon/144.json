@@ -1,0 +1,42 @@
+{
+  "id": 144,
+  "name": "articuno",
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "height": 17,
+  "weight": 554,
+  "abilities": [
+    "pressure",
+    "snow-cloak"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 90
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 125
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.",
+  "evolution": null
+}

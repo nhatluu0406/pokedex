@@ -1,0 +1,54 @@
+{
+  "id": 200,
+  "name": "misdreavus",
+  "types": [
+    "ghost"
+  ],
+  "height": 7,
+  "weight": 10,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 200,
+        "name": "misdreavus"
+      },
+      {
+        "id": 429,
+        "name": "mismagius"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

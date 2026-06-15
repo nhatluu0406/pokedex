@@ -1,0 +1,61 @@
+{
+  "id": 35,
+  "name": "clefairy",
+  "types": [
+    "fairy"
+  ],
+  "height": 6,
+  "weight": 75,
+  "abilities": [
+    "cute-charm",
+    "magic-guard",
+    "friend-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 173,
+        "name": "cleffa"
+      },
+      {
+        "id": 35,
+        "name": "clefairy"
+      },
+      {
+        "id": 36,
+        "name": "clefable"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

@@ -28,8 +28,10 @@ export function AnimatedSprite({ pokemonId, name }: AnimatedSpriteProps) {
         return;
       }
 
-      const scaledHeight = img.naturalHeight * 3;
-      const maxHeight = window.innerHeight * 0.22;
+      const isMobile = window.innerWidth < 1100;
+      const scale = isMobile ? 4 : 3;
+      const scaledHeight = img.naturalHeight * scale;
+      const maxHeight = window.innerHeight * (isMobile ? 0.32 : 0.22);
       setImgHeight(Math.min(scaledHeight, maxHeight));
     },
     [staticUrl],

@@ -1,0 +1,56 @@
+{
+  "id": 161,
+  "name": "sentret",
+  "types": [
+    "normal"
+  ],
+  "height": 8,
+  "weight": 60,
+  "abilities": [
+    "run-away",
+    "keen-eye",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 46
+    },
+    {
+      "name": "defense",
+      "value": 34
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 161,
+        "name": "sentret"
+      },
+      {
+        "id": 162,
+        "name": "furret"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

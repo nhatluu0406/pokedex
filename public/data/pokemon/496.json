@@ -1,0 +1,60 @@
+{
+  "id": 496,
+  "name": "servine",
+  "types": [
+    "grass"
+  ],
+  "height": 8,
+  "weight": 160,
+  "abilities": [
+    "overgrow",
+    "contrary"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 83
+    }
+  ],
+  "flavorText": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 495,
+        "name": "snivy"
+      },
+      {
+        "id": 496,
+        "name": "servine"
+      },
+      {
+        "id": 497,
+        "name": "serperior"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

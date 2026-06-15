@@ -1,0 +1,42 @@
+{
+  "id": 115,
+  "name": "kangaskhan",
+  "types": [
+    "normal"
+  ],
+  "height": 22,
+  "weight": 800,
+  "abilities": [
+    "early-bird",
+    "scrappy",
+    "inner-focus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 105
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
+  "evolution": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": 395,
+  "name": "empoleon",
+  "types": [
+    "water",
+    "steel"
+  ],
+  "height": 17,
+  "weight": 845,
+  "abilities": [
+    "torrent",
+    "competitive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 84
+    },
+    {
+      "name": "attack",
+      "value": 86
+    },
+    {
+      "name": "defense",
+      "value": 88
+    },
+    {
+      "name": "special-attack",
+      "value": 111
+    },
+    {
+      "name": "special-defense",
+      "value": 101
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 393,
+        "name": "piplup"
+      },
+      {
+        "id": 394,
+        "name": "prinplup"
+      },
+      {
+        "id": 395,
+        "name": "empoleon"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

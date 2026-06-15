@@ -1,0 +1,43 @@
+{
+  "id": 973,
+  "name": "flamigo",
+  "types": [
+    "flying",
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 370,
+  "abilities": [
+    "scrappy",
+    "tangled-feet",
+    "costar"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 82
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 74
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 64
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+  "evolution": null
+}

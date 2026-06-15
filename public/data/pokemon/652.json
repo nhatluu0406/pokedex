@@ -1,0 +1,61 @@
+{
+  "id": 652,
+  "name": "chesnaught",
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 900,
+  "abilities": [
+    "overgrow",
+    "bulletproof"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 107
+    },
+    {
+      "name": "defense",
+      "value": 122
+    },
+    {
+      "name": "special-attack",
+      "value": 74
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 64
+    }
+  ],
+  "flavorText": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 650,
+        "name": "chespin"
+      },
+      {
+        "id": 651,
+        "name": "quilladin"
+      },
+      {
+        "id": 652,
+        "name": "chesnaught"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

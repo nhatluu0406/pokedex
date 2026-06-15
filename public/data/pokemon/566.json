@@ -1,0 +1,55 @@
+{
+  "id": 566,
+  "name": "archen",
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 95,
+  "abilities": [
+    "defeatist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 112
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 74
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 566,
+        "name": "archen"
+      },
+      {
+        "id": 567,
+        "name": "archeops"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

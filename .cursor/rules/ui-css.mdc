@@ -1,0 +1,34 @@
+---
+description: UI and CSS conventions for layout, theme, and detail panel
+globs: src/**/*.{tsx,css},public/assets/**
+alwaysApply: false
+---
+
+# UI & CSS rules
+
+## Styling
+
+- Use CSS variables in `:root` / `[data-theme="dark"]` — never hardcode navy text in dark mode
+- Type colors: `TYPE_COLORS` in `src/lib/constants.ts`; badges use `TypeBadge` / `.type-filter-chip`
+
+## Background watermark
+
+- Pokéball decoration: `html::before` with `z-index: -1`, asset `/assets/pokeball-watermark.svg`
+- Opacity: `var(--watermark-opacity)` — light `0.22`, dark `0.12`
+- **Do not** hide watermark on scroll in light mode; `.app-shell` / `.pokemon-list` need `z-index: 1` so menu stays above watermark
+
+## Detail panel (desktop)
+
+- Sidebar sprite: `position: absolute` **inside** `.pokemon-detail-panel` so it moves with slide animation — not `position: fixed` to viewport
+- Loading: panel-level `.detail-panel-loading` with `.detail-loading-ball` when `loading` is true
+- Favorite + share: `.detail-actions` flex row with gap; no overlap
+
+## Filters
+
+- **All** active only when `listMode === "all"` and no types selected
+- Click **All** → clear `selectedTypes`; select a type → All chip inactive
+
+## Icons & assets
+
+- Static assets in `public/assets/`; PWA icons in `public/icons/` and `src/app/icon.png`
+- Close button: inline SVG with `currentColor` on `var(--card-bg)` for dark-mode contrast

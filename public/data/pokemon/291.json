@@ -1,0 +1,56 @@
+{
+  "id": 291,
+  "name": "ninjask",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 8,
+  "weight": 120,
+  "abilities": [
+    "speed-boost",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 61
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 160
+    }
+  ],
+  "flavorText": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POKéMON was long believed to be invisible.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 290,
+        "name": "nincada"
+      },
+      {
+        "id": 291,
+        "name": "ninjask"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

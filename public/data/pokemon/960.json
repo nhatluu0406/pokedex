@@ -1,0 +1,56 @@
+{
+  "id": 960,
+  "name": "wiglett",
+  "types": [
+    "water"
+  ],
+  "height": 12,
+  "weight": 18,
+  "abilities": [
+    "gooey",
+    "rattled",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 10
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 25
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 960,
+        "name": "wiglett"
+      },
+      {
+        "id": 961,
+        "name": "wugtrio"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

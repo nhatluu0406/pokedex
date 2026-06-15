@@ -1,0 +1,61 @@
+{
+  "id": 36,
+  "name": "clefable",
+  "types": [
+    "fairy"
+  ],
+  "height": 13,
+  "weight": 400,
+  "abilities": [
+    "cute-charm",
+    "magic-guard",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 73
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 173,
+        "name": "cleffa"
+      },
+      {
+        "id": 35,
+        "name": "clefairy"
+      },
+      {
+        "id": 36,
+        "name": "clefable"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

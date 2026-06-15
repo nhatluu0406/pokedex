@@ -1,0 +1,40 @@
+{
+  "id": 201,
+  "name": "unown",
+  "types": [
+    "psychic"
+  ],
+  "height": 5,
+  "weight": 50,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 72
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 72
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 48
+    }
+  ],
+  "flavorText": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
+  "evolution": null
+}

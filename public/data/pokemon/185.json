@@ -1,0 +1,56 @@
+{
+  "id": 185,
+  "name": "sudowoodo",
+  "types": [
+    "rock"
+  ],
+  "height": 12,
+  "weight": 380,
+  "abilities": [
+    "sturdy",
+    "rock-head",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Although it always pretends to be a tree, its composi­ tion appears to be closer to a rock than a plant.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 438,
+        "name": "bonsly"
+      },
+      {
+        "id": 185,
+        "name": "sudowoodo"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

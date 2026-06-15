@@ -1,0 +1,62 @@
+{
+  "id": 230,
+  "name": "kingdra",
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "height": 18,
+  "weight": 1520,
+  "abilities": [
+    "swift-swim",
+    "sniper",
+    "damp"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 116,
+        "name": "horsea"
+      },
+      {
+        "id": 117,
+        "name": "seadra"
+      },
+      {
+        "id": 230,
+        "name": "kingdra"
+      }
+    ],
+    "levels": [
+      32,
+      null
+    ]
+  }
+}

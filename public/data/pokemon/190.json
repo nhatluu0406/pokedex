@@ -1,0 +1,56 @@
+{
+  "id": 190,
+  "name": "aipom",
+  "types": [
+    "normal"
+  ],
+  "height": 8,
+  "weight": 115,
+  "abilities": [
+    "run-away",
+    "pickup",
+    "skill-link"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 190,
+        "name": "aipom"
+      },
+      {
+        "id": 424,
+        "name": "ambipom"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

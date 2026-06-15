@@ -1,0 +1,55 @@
+{
+  "id": 846,
+  "name": "arrokuda",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 10,
+  "abilities": [
+    "swift-swim",
+    "propeller-tail"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 41
+    },
+    {
+      "name": "attack",
+      "value": 63
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 66
+    }
+  ],
+  "flavorText": "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It’s very proud of that jaw.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 846,
+        "name": "arrokuda"
+      },
+      {
+        "id": 847,
+        "name": "barraskewda"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

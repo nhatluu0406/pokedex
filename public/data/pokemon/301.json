@@ -1,0 +1,56 @@
+{
+  "id": 301,
+  "name": "delcatty",
+  "types": [
+    "normal"
+  ],
+  "height": 11,
+  "weight": 326,
+  "abilities": [
+    "cute-charm",
+    "normalize",
+    "wonder-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "DELCATTY prefers to live an unfettered existence in which it can do as it pleases at its own pace. Because this POKéMON eats and sleeps whenever it decides, its daily routines are completely random.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 300,
+        "name": "skitty"
+      },
+      {
+        "id": 301,
+        "name": "delcatty"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

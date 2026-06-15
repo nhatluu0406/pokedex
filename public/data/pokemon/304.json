@@ -1,0 +1,62 @@
+{
+  "id": 304,
+  "name": "aron",
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "height": 4,
+  "weight": 600,
+  "abilities": [
+    "sturdy",
+    "rock-head",
+    "heavy-metal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "This POKéMON has a body of steel. To make its body, ARON feeds on iron ore that it digs from mountains. Occasionally, it causes major trouble by eating bridges and rails.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 304,
+        "name": "aron"
+      },
+      {
+        "id": 305,
+        "name": "lairon"
+      },
+      {
+        "id": 306,
+        "name": "aggron"
+      }
+    ],
+    "levels": [
+      32,
+      42
+    ]
+  }
+}

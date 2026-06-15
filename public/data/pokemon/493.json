@@ -1,0 +1,40 @@
+{
+  "id": 493,
+  "name": "arceus",
+  "types": [
+    "normal"
+  ],
+  "height": 32,
+  "weight": 3200,
+  "abilities": [
+    "multitype"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 120
+    }
+  ],
+  "flavorText": "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+  "evolution": null
+}

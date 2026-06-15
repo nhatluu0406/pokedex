@@ -1,0 +1,57 @@
+{
+  "id": 675,
+  "name": "pangoro",
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "height": 21,
+  "weight": 1360,
+  "abilities": [
+    "iron-fist",
+    "mold-breaker",
+    "scrappy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 124
+    },
+    {
+      "name": "defense",
+      "value": 78
+    },
+    {
+      "name": "special-attack",
+      "value": 69
+    },
+    {
+      "name": "special-defense",
+      "value": 71
+    },
+    {
+      "name": "speed",
+      "value": 58
+    }
+  ],
+  "flavorText": "Although it possesses a violent temperament, it won’t put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 674,
+        "name": "pancham"
+      },
+      {
+        "id": 675,
+        "name": "pangoro"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 896,
+  "name": "glastrier",
+  "types": [
+    "ice"
+  ],
+  "height": 22,
+  "weight": 8000,
+  "abilities": [
+    "chilling-neigh"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 145
+    },
+    {
+      "name": "defense",
+      "value": 130
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 110
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force.",
+  "evolution": null
+}

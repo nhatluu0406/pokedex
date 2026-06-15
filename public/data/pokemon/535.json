@@ -1,0 +1,61 @@
+{
+  "id": 535,
+  "name": "tympole",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 45,
+  "abilities": [
+    "swift-swim",
+    "hydration",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 64
+    }
+  ],
+  "flavorText": "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 535,
+        "name": "tympole"
+      },
+      {
+        "id": 536,
+        "name": "palpitoad"
+      },
+      {
+        "id": 537,
+        "name": "seismitoad"
+      }
+    ],
+    "levels": [
+      25,
+      36
+    ]
+  }
+}

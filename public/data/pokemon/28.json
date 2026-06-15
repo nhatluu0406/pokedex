@@ -1,0 +1,55 @@
+{
+  "id": 28,
+  "name": "sandslash",
+  "types": [
+    "ground"
+  ],
+  "height": 10,
+  "weight": 295,
+  "abilities": [
+    "sand-veil",
+    "sand-rush"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 27,
+        "name": "sandshrew"
+      },
+      {
+        "id": 28,
+        "name": "sandslash"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

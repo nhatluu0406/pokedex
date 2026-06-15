@@ -1,0 +1,60 @@
+{
+  "id": 371,
+  "name": "bagon",
+  "types": [
+    "dragon"
+  ],
+  "height": 6,
+  "weight": 421,
+  "abilities": [
+    "rock-head",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 371,
+        "name": "bagon"
+      },
+      {
+        "id": 372,
+        "name": "shelgon"
+      },
+      {
+        "id": 373,
+        "name": "salamence"
+      }
+    ],
+    "levels": [
+      30,
+      50
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 548,
+  "name": "petilil",
+  "types": [
+    "grass"
+  ],
+  "height": 5,
+  "weight": 66,
+  "abilities": [
+    "chlorophyll",
+    "own-tempo",
+    "leaf-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 548,
+        "name": "petilil"
+      },
+      {
+        "id": 549,
+        "name": "lilligant"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

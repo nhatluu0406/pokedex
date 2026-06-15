@@ -1,0 +1,57 @@
+{
+  "id": 46,
+  "name": "paras",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "height": 3,
+  "weight": 54,
+  "abilities": [
+    "effect-spore",
+    "dry-skin",
+    "damp"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "Burrows to suck tree roots. The mushrooms on its back grow by draw­ ing nutrients from the bug host.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 46,
+        "name": "paras"
+      },
+      {
+        "id": 47,
+        "name": "parasect"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

@@ -1,14 +1,19 @@
 import type { NextConfig } from "next";
 
+const securityHeaders = [
+  { key: "X-Frame-Options", value: "SAMEORIGIN" },
+  { key: "X-Content-Type-Options", value: "nosniff" },
+  { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+];
+
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
+  async headers() {
+    return [
       {
-        protocol: "https",
-        hostname: "raw.githubusercontent.com",
-        pathname: "/PokeAPI/sprites/**",
+        source: "/:path*",
+        headers: securityHeaders,
       },
-    ],
+    ];
   },
 };
 

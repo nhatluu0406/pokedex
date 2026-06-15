@@ -1,0 +1,55 @@
+{
+  "id": 360,
+  "name": "wynaut",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 140,
+  "abilities": [
+    "shadow-tag",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 23
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 23
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 23
+    }
+  ],
+  "flavorText": "WYNAUT can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this POKéMON will be slapping the ground with its tail.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 360,
+        "name": "wynaut"
+      },
+      {
+        "id": 202,
+        "name": "wobbuffet"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

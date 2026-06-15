@@ -1,0 +1,43 @@
+{
+  "id": 225,
+  "name": "delibird",
+  "types": [
+    "ice",
+    "flying"
+  ],
+  "height": 9,
+  "weight": 160,
+  "abilities": [
+    "vital-spirit",
+    "hustle",
+    "insomnia"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+  "evolution": null
+}

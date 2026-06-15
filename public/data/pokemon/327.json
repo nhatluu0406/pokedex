@@ -1,0 +1,42 @@
+{
+  "id": 327,
+  "name": "spinda",
+  "types": [
+    "normal"
+  ],
+  "height": 11,
+  "weight": 50,
+  "abilities": [
+    "own-tempo",
+    "tangled-feet",
+    "contrary"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+  "evolution": null
+}

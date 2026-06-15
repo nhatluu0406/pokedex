@@ -1,0 +1,59 @@
+{
+  "id": 266,
+  "name": "silcoon",
+  "types": [
+    "bug"
+  ],
+  "height": 6,
+  "weight": 100,
+  "abilities": [
+    "shed-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 15
+    }
+  ],
+  "flavorText": "SILCOON tethers itself to a tree branch using silk to keep from falling. There, this POKéMON hangs quietly while it awaits evolution. It peers out of the silk cocoon through a small hole.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 265,
+        "name": "wurmple"
+      },
+      {
+        "id": 266,
+        "name": "silcoon"
+      },
+      {
+        "id": 267,
+        "name": "beautifly"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

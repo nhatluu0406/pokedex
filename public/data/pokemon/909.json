@@ -1,0 +1,60 @@
+{
+  "id": 909,
+  "name": "fuecoco",
+  "types": [
+    "fire"
+  ],
+  "height": 4,
+  "weight": 98,
+  "abilities": [
+    "blaze",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 67
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 59
+    },
+    {
+      "name": "special-attack",
+      "value": 63
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 36
+    }
+  ],
+  "flavorText": "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 909,
+        "name": "fuecoco"
+      },
+      {
+        "id": 910,
+        "name": "crocalor"
+      },
+      {
+        "id": 911,
+        "name": "skeledirge"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

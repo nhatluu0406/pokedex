@@ -1,0 +1,57 @@
+{
+  "id": 560,
+  "name": "scrafty",
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "height": 11,
+  "weight": 300,
+  "abilities": [
+    "shed-skin",
+    "moxie",
+    "intimidate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 115
+    },
+    {
+      "name": "speed",
+      "value": 58
+    }
+  ],
+  "flavorText": "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 559,
+        "name": "scraggy"
+      },
+      {
+        "id": 560,
+        "name": "scrafty"
+      }
+    ],
+    "levels": [
+      39
+    ]
+  }
+}

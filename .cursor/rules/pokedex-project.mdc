@@ -1,0 +1,38 @@
+---
+description: Core Pokedex project context, stack, and workflow
+alwaysApply: true
+---
+
+# Pokedex — project rules
+
+## Stack
+
+- **Next.js 16.2.9** App Router, **React 19**, **TypeScript**, **global CSS** (`src/app/globals.css`) — no Tailwind
+- Data: [PokeAPI](https://pokeapi.co/) — no API keys or env vars
+- Dev server: **port 3100** (`npm run dev`)
+- Reference UI: [pokedex.david-hckh.com](https://pokedex.david-hckh.com/)
+
+## Layout
+
+- Desktop (≥1100px): list left, fixed detail sidebar right (`--detail-width: 440px`)
+- Mobile: detail opens as modal with close button
+- Organize by domain: `src/components/list`, `detail`, `search`, `shared`; hooks in `src/hooks`; API in `src/lib`
+
+## Theme (do not regress)
+
+- SSR theme via **cookie** (`pokedex-theme`) in async `layout.tsx` + `ThemeProvider`
+- **Never** add inline `<script>` or `next/script` in layout for theme init
+- `ThemeToggle` uses `useSyncExternalStore` to avoid hydration mismatch
+
+## Scope & docs
+
+- Minimize diff scope; match existing naming and patterns
+- Phase/task tracking: `docs/PLAN.md` — update when implementing planned work
+- Commit/push only when the user explicitly asks
+- After UI changes: run `npm run lint`, `npm test`, `npm run build`, `npm run test:e2e`
+- Use `.cursor/skills/check-pokedex-ui/` for browser UI checks; `verify-pokedex-task/` for phase verification
+
+## Deploy
+
+- Production: Vercel — see `docs/DEPLOY.md`
+- Repo: https://github.com/nhatluu0406/pokedex

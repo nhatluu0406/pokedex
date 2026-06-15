@@ -1,0 +1,60 @@
+{
+  "id": 679,
+  "name": "honedge",
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "height": 8,
+  "weight": 20,
+  "abilities": [
+    "no-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 37
+    },
+    {
+      "name": "speed",
+      "value": 28
+    }
+  ],
+  "flavorText": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 679,
+        "name": "honedge"
+      },
+      {
+        "id": 680,
+        "name": "doublade"
+      },
+      {
+        "id": 681,
+        "name": "aegislash"
+      }
+    ],
+    "levels": [
+      35,
+      null
+    ]
+  }
+}

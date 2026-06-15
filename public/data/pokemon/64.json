@@ -1,0 +1,61 @@
+{
+  "id": 64,
+  "name": "kadabra",
+  "types": [
+    "psychic"
+  ],
+  "height": 13,
+  "weight": 565,
+  "abilities": [
+    "synchronize",
+    "inner-focus",
+    "magic-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "It emits special alpha waves from its body that induce headaches just by being close by.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 63,
+        "name": "abra"
+      },
+      {
+        "id": 64,
+        "name": "kadabra"
+      },
+      {
+        "id": 65,
+        "name": "alakazam"
+      }
+    ],
+    "levels": [
+      16,
+      null
+    ]
+  }
+}

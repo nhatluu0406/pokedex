@@ -1,0 +1,41 @@
+{
+  "id": 647,
+  "name": "keldeo-ordinary",
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "height": 14,
+  "weight": 485,
+  "abilities": [
+    "justified"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 91
+    },
+    {
+      "name": "attack",
+      "value": 72
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 129
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 108
+    }
+  ],
+  "flavorText": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+  "evolution": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": 351,
+  "name": "castform",
+  "types": [
+    "normal"
+  ],
+  "height": 3,
+  "weight": 8,
+  "abilities": [
+    "forecast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "CASTFORM’s appearance changes with the weather. This POKéMON gained the ability to use the vast power of nature to protect its tiny body.",
+  "evolution": null
+}

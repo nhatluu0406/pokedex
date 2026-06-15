@@ -1,0 +1,56 @@
+{
+  "id": 745,
+  "name": "lycanroc-midday",
+  "types": [
+    "rock"
+  ],
+  "height": 8,
+  "weight": 250,
+  "abilities": [
+    "keen-eye",
+    "sand-rush",
+    "steadfast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 112
+    }
+  ],
+  "flavorText": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 744,
+        "name": "rockruff"
+      },
+      {
+        "id": 745,
+        "name": "lycanroc"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

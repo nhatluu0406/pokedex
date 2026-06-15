@@ -1,0 +1,60 @@
+{
+  "id": 814,
+  "name": "raboot",
+  "types": [
+    "fire"
+  ],
+  "height": 6,
+  "weight": 90,
+  "abilities": [
+    "blaze",
+    "libero"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 86
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 94
+    }
+  ],
+  "flavorText": "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 813,
+        "name": "scorbunny"
+      },
+      {
+        "id": 814,
+        "name": "raboot"
+      },
+      {
+        "id": 815,
+        "name": "cinderace"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

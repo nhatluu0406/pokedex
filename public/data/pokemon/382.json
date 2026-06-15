@@ -1,0 +1,40 @@
+{
+  "id": 382,
+  "name": "kyogre",
+  "types": [
+    "water"
+  ],
+  "height": 45,
+  "weight": 3520,
+  "abilities": [
+    "drizzle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 150
+    },
+    {
+      "name": "special-defense",
+      "value": 140
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "KYOGRE has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This POKéMON saved people who were suffering from droughts.",
+  "evolution": null
+}

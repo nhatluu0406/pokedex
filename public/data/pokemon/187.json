@@ -1,0 +1,62 @@
+{
+  "id": 187,
+  "name": "hoppip",
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "height": 4,
+  "weight": 5,
+  "abilities": [
+    "chlorophyll",
+    "leaf-guard",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 187,
+        "name": "hoppip"
+      },
+      {
+        "id": 188,
+        "name": "skiploom"
+      },
+      {
+        "id": 189,
+        "name": "jumpluff"
+      }
+    ],
+    "levels": [
+      18,
+      27
+    ]
+  }
+}

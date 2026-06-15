@@ -1,0 +1,54 @@
+{
+  "id": 772,
+  "name": "type-null",
+  "types": [
+    "normal"
+  ],
+  "height": 19,
+  "weight": 1205,
+  "abilities": [
+    "battle-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 59
+    }
+  ],
+  "flavorText": "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 772,
+        "name": "type-null"
+      },
+      {
+        "id": 773,
+        "name": "silvally"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

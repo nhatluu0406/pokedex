@@ -1,0 +1,55 @@
+{
+  "id": 134,
+  "name": "vaporeon",
+  "types": [
+    "water"
+  ],
+  "height": 10,
+  "weight": 290,
+  "abilities": [
+    "water-absorb",
+    "hydration"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 130
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 133,
+        "name": "eevee"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

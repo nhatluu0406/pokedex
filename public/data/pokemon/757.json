@@ -1,0 +1,56 @@
+{
+  "id": 757,
+  "name": "salandit",
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "height": 6,
+  "weight": 48,
+  "abilities": [
+    "corrosion",
+    "oblivious"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 44
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 71
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 77
+    }
+  ],
+  "flavorText": "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 757,
+        "name": "salandit"
+      },
+      {
+        "id": 758,
+        "name": "salazzle"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

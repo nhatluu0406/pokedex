@@ -1,0 +1,61 @@
+{
+  "id": 705,
+  "name": "sliggoo",
+  "types": [
+    "dragon"
+  ],
+  "height": 8,
+  "weight": 175,
+  "abilities": [
+    "sap-sipper",
+    "hydration",
+    "gooey"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 53
+    },
+    {
+      "name": "special-attack",
+      "value": 83
+    },
+    {
+      "name": "special-defense",
+      "value": 113
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can’t see anything.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 704,
+        "name": "goomy"
+      },
+      {
+        "id": 705,
+        "name": "sliggoo"
+      },
+      {
+        "id": 706,
+        "name": "goodra"
+      }
+    ],
+    "levels": [
+      40,
+      50
+    ]
+  }
+}

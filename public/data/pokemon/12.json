@@ -1,0 +1,61 @@
+{
+  "id": 12,
+  "name": "butterfree",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 11,
+  "weight": 320,
+  "abilities": [
+    "compound-eyes",
+    "tinted-lens"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 10,
+        "name": "caterpie"
+      },
+      {
+        "id": 11,
+        "name": "metapod"
+      },
+      {
+        "id": 12,
+        "name": "butterfree"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

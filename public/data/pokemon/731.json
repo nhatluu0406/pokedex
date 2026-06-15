@@ -1,0 +1,62 @@
+{
+  "id": 731,
+  "name": "pikipek",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 3,
+  "weight": 12,
+  "abilities": [
+    "keen-eye",
+    "skill-link",
+    "pickup"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It can peck at a rate of 16 times a second to drill holes in trees. It uses the holes for food storage and for nesting.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 731,
+        "name": "pikipek"
+      },
+      {
+        "id": 732,
+        "name": "trumbeak"
+      },
+      {
+        "id": 733,
+        "name": "toucannon"
+      }
+    ],
+    "levels": [
+      14,
+      28
+    ]
+  }
+}

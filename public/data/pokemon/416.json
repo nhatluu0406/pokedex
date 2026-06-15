@@ -1,0 +1,56 @@
+{
+  "id": 416,
+  "name": "vespiquen",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 385,
+  "abilities": [
+    "pressure",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 102
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 102
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by COMBEE.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 415,
+        "name": "combee"
+      },
+      {
+        "id": 416,
+        "name": "vespiquen"
+      }
+    ],
+    "levels": [
+      21
+    ]
+  }
+}

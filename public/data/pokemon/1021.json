@@ -1,0 +1,41 @@
+{
+  "id": 1021,
+  "name": "raging-bolt",
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "height": 52,
+  "weight": 4800,
+  "abilities": [
+    "protosynthesis"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 125
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 91
+    },
+    {
+      "name": "special-attack",
+      "value": 137
+    },
+    {
+      "name": "special-defense",
+      "value": 89
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+  "evolution": null
+}

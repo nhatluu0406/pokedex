@@ -1,0 +1,57 @@
+{
+  "id": 952,
+  "name": "scovillain",
+  "types": [
+    "grass",
+    "fire"
+  ],
+  "height": 9,
+  "weight": 150,
+  "abilities": [
+    "chlorophyll",
+    "insomnia",
+    "moody"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 108
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 108
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 951,
+        "name": "capsakid"
+      },
+      {
+        "id": 952,
+        "name": "scovillain"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

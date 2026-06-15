@@ -14,7 +14,7 @@ export default function Home() {
     if (typeof window === "undefined") return null;
     return parsePokemonHash(window.location.hash);
   });
-  const { loading: indexLoading, filterByName, getNameById } =
+  const { index, loading: indexLoading, filterByName, getNameById } =
     usePokemonNameIndex();
   const { favorites, isFavorite, toggleFavorite } = useFavorites();
 
@@ -47,6 +47,7 @@ export default function Home() {
           onSelect={handleSelect}
           filterByName={filterByName}
           getNameById={getNameById}
+          nameIndex={index}
           favorites={favorites}
           isFavorite={isFavorite}
           onToggleFavorite={toggleFavorite}

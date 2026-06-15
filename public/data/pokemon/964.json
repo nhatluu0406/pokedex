@@ -1,0 +1,54 @@
+{
+  "id": 964,
+  "name": "palafin-zero",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 602,
+  "abilities": [
+    "zero-to-hero"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 53
+    },
+    {
+      "name": "special-defense",
+      "value": 62
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 963,
+        "name": "finizen"
+      },
+      {
+        "id": 964,
+        "name": "palafin"
+      }
+    ],
+    "levels": [
+      38
+    ]
+  }
+}

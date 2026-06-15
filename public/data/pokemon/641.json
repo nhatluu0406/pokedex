@@ -1,0 +1,41 @@
+{
+  "id": 641,
+  "name": "tornadus-incarnate",
+  "types": [
+    "flying"
+  ],
+  "height": 15,
+  "weight": 630,
+  "abilities": [
+    "prankster",
+    "defiant"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 79
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 111
+    }
+  ],
+  "flavorText": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+  "evolution": null
+}

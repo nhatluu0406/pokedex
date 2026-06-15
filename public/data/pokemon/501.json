@@ -1,0 +1,60 @@
+{
+  "id": 501,
+  "name": "oshawott",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 59,
+  "abilities": [
+    "torrent",
+    "shell-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 63
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 501,
+        "name": "oshawott"
+      },
+      {
+        "id": 502,
+        "name": "dewott"
+      },
+      {
+        "id": 503,
+        "name": "samurott"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

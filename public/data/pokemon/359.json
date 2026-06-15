@@ -1,0 +1,42 @@
+{
+  "id": 359,
+  "name": "absol",
+  "types": [
+    "dark"
+  ],
+  "height": 12,
+  "weight": 470,
+  "abilities": [
+    "pressure",
+    "super-luck",
+    "justified"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "Every time ABSOL appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster POKéMON.",
+  "evolution": null
+}

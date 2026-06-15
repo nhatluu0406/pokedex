@@ -1,0 +1,57 @@
+{
+  "id": 850,
+  "name": "sizzlipede",
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "height": 7,
+  "weight": 10,
+  "abilities": [
+    "flash-fire",
+    "white-smoke",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 850,
+        "name": "sizzlipede"
+      },
+      {
+        "id": 851,
+        "name": "centiskorch"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

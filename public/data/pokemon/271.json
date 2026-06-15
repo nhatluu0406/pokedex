@@ -1,0 +1,62 @@
+{
+  "id": 271,
+  "name": "lombre",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "height": 12,
+  "weight": 325,
+  "abilities": [
+    "swift-swim",
+    "rain-dish",
+    "own-tempo"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It lives at the water’s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 270,
+        "name": "lotad"
+      },
+      {
+        "id": 271,
+        "name": "lombre"
+      },
+      {
+        "id": 272,
+        "name": "ludicolo"
+      }
+    ],
+    "levels": [
+      14,
+      null
+    ]
+  }
+}

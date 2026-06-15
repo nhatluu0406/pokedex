@@ -1,0 +1,55 @@
+{
+  "id": 37,
+  "name": "vulpix",
+  "types": [
+    "fire"
+  ],
+  "height": 6,
+  "weight": 99,
+  "abilities": [
+    "flash-fire",
+    "drought"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 41
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 37,
+        "name": "vulpix"
+      },
+      {
+        "id": 38,
+        "name": "ninetales"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

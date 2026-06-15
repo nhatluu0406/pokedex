@@ -1,0 +1,41 @@
+{
+  "id": 1007,
+  "name": "koraidon",
+  "types": [
+    "fighting",
+    "dragon"
+  ],
+  "height": 25,
+  "weight": 3030,
+  "abilities": [
+    "orichalcum-pulse"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 135
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 135
+    }
+  ],
+  "flavorText": "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+  "evolution": null
+}

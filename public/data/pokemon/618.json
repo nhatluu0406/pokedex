@@ -1,0 +1,43 @@
+{
+  "id": 618,
+  "name": "stunfisk",
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "height": 7,
+  "weight": 110,
+  "abilities": [
+    "static",
+    "limber",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 109
+    },
+    {
+      "name": "attack",
+      "value": 66
+    },
+    {
+      "name": "defense",
+      "value": 84
+    },
+    {
+      "name": "special-attack",
+      "value": 81
+    },
+    {
+      "name": "special-defense",
+      "value": 99
+    },
+    {
+      "name": "speed",
+      "value": 32
+    }
+  ],
+  "flavorText": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+  "evolution": null
+}

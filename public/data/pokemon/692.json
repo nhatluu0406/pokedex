@@ -1,0 +1,54 @@
+{
+  "id": 692,
+  "name": "clauncher",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 83,
+  "abilities": [
+    "mega-launcher"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 53
+    },
+    {
+      "name": "defense",
+      "value": 62
+    },
+    {
+      "name": "special-attack",
+      "value": 58
+    },
+    {
+      "name": "special-defense",
+      "value": 63
+    },
+    {
+      "name": "speed",
+      "value": 44
+    }
+  ],
+  "flavorText": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 692,
+        "name": "clauncher"
+      },
+      {
+        "id": 693,
+        "name": "clawitzer"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

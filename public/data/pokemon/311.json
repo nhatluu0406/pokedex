@@ -1,0 +1,41 @@
+{
+  "id": 311,
+  "name": "plusle",
+  "types": [
+    "electric"
+  ],
+  "height": 4,
+  "weight": 42,
+  "abilities": [
+    "plus",
+    "lightning-rod"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "PLUSLE always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this POKéMON shorts out its body to create the crackling noises of sparks to show its joy.",
+  "evolution": null
+}

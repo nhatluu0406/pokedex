@@ -1,0 +1,57 @@
+{
+  "id": 451,
+  "name": "skorupi",
+  "types": [
+    "poison",
+    "bug"
+  ],
+  "height": 8,
+  "weight": 120,
+  "abilities": [
+    "battle-armor",
+    "sniper",
+    "keen-eye"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 451,
+        "name": "skorupi"
+      },
+      {
+        "id": 452,
+        "name": "drapion"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

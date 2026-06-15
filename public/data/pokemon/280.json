@@ -1,0 +1,62 @@
+{
+  "id": 280,
+  "name": "ralts",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 4,
+  "weight": 66,
+  "abilities": [
+    "synchronize",
+    "trace",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 28
+    },
+    {
+      "name": "attack",
+      "value": 25
+    },
+    {
+      "name": "defense",
+      "value": 25
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "RALTS senses the emotions of people using the horns on its head. This POKéMON rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 280,
+        "name": "ralts"
+      },
+      {
+        "id": 281,
+        "name": "kirlia"
+      },
+      {
+        "id": 282,
+        "name": "gardevoir"
+      }
+    ],
+    "levels": [
+      20,
+      30
+    ]
+  }
+}

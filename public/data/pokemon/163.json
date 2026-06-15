@@ -1,0 +1,57 @@
+{
+  "id": 163,
+  "name": "hoothoot",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 7,
+  "weight": 212,
+  "abilities": [
+    "insomnia",
+    "keen-eye",
+    "tinted-lens"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 36
+    },
+    {
+      "name": "special-defense",
+      "value": 56
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 163,
+        "name": "hoothoot"
+      },
+      {
+        "id": 164,
+        "name": "noctowl"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

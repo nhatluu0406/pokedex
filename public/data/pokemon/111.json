@@ -1,0 +1,62 @@
+{
+  "id": 111,
+  "name": "rhyhorn",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "height": 10,
+  "weight": 1150,
+  "abilities": [
+    "lightning-rod",
+    "rock-head",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "A POKéMON with a one-track mind. Once it charges, it won't stop running until it falls asleep.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 111,
+        "name": "rhyhorn"
+      },
+      {
+        "id": 112,
+        "name": "rhydon"
+      },
+      {
+        "id": 464,
+        "name": "rhyperior"
+      }
+    ],
+    "levels": [
+      42,
+      null
+    ]
+  }
+}

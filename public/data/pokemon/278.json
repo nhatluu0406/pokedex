@@ -1,0 +1,57 @@
+{
+  "id": 278,
+  "name": "wingull",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "height": 6,
+  "weight": 95,
+  "abilities": [
+    "keen-eye",
+    "hydration",
+    "rain-dish"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POKéMON rides the winds and flies as if it were skating across the sky.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 278,
+        "name": "wingull"
+      },
+      {
+        "id": 279,
+        "name": "pelipper"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

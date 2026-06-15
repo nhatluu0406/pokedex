@@ -1,0 +1,61 @@
+{
+  "id": 66,
+  "name": "machop",
+  "types": [
+    "fighting"
+  ],
+  "height": 8,
+  "weight": 195,
+  "abilities": [
+    "guts",
+    "no-guard",
+    "steadfast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 66,
+        "name": "machop"
+      },
+      {
+        "id": 67,
+        "name": "machoke"
+      },
+      {
+        "id": 68,
+        "name": "machamp"
+      }
+    ],
+    "levels": [
+      28,
+      null
+    ]
+  }
+}

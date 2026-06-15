@@ -1,0 +1,61 @@
+{
+  "id": 6,
+  "name": "charizard",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 17,
+  "weight": 905,
+  "abilities": [
+    "blaze",
+    "solar-power"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 84
+    },
+    {
+      "name": "defense",
+      "value": 78
+    },
+    {
+      "name": "special-attack",
+      "value": 109
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 4,
+        "name": "charmander"
+      },
+      {
+        "id": 5,
+        "name": "charmeleon"
+      },
+      {
+        "id": 6,
+        "name": "charizard"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

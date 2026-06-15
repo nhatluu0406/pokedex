@@ -1,0 +1,56 @@
+{
+  "id": 296,
+  "name": "makuhita",
+  "types": [
+    "fighting"
+  ],
+  "height": 10,
+  "weight": 864,
+  "abilities": [
+    "thick-fat",
+    "guts",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 72
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 20
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "MAKUHITA is tenacious - it will keep getting up and attacking its foe however many times it is knocked down. Every time it gets back up, this POKéMON stores more energy in its body for evolving.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 296,
+        "name": "makuhita"
+      },
+      {
+        "id": 297,
+        "name": "hariyama"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 440,
+  "name": "happiny",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 244,
+  "abilities": [
+    "natural-cure",
+    "serene-grace",
+    "friend-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 5
+    },
+    {
+      "name": "defense",
+      "value": 5
+    },
+    {
+      "name": "special-attack",
+      "value": 15
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 440,
+        "name": "happiny"
+      },
+      {
+        "id": 113,
+        "name": "chansey"
+      },
+      {
+        "id": 242,
+        "name": "blissey"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

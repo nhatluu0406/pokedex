@@ -1,0 +1,60 @@
+{
+  "id": 252,
+  "name": "treecko",
+  "types": [
+    "grass"
+  ],
+  "height": 5,
+  "weight": 50,
+  "abilities": [
+    "overgrow",
+    "unburden"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "TREECKO has small hooks on the bottom of its feet that enable it to scale vertical walls. This POKéMON attacks by slamming foes with its thick tail.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 252,
+        "name": "treecko"
+      },
+      {
+        "id": 253,
+        "name": "grovyle"
+      },
+      {
+        "id": 254,
+        "name": "sceptile"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

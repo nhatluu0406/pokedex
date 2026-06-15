@@ -1,0 +1,57 @@
+{
+  "id": 198,
+  "name": "murkrow",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 21,
+  "abilities": [
+    "insomnia",
+    "super-luck",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 42
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 42
+    },
+    {
+      "name": "speed",
+      "value": 91
+    }
+  ],
+  "flavorText": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 198,
+        "name": "murkrow"
+      },
+      {
+        "id": 430,
+        "name": "honchkrow"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

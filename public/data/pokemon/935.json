@@ -1,0 +1,55 @@
+{
+  "id": 935,
+  "name": "charcadet",
+  "types": [
+    "fire"
+  ],
+  "height": 6,
+  "weight": 105,
+  "abilities": [
+    "flash-fire",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 935,
+        "name": "charcadet"
+      },
+      {
+        "id": 936,
+        "name": "armarouge"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

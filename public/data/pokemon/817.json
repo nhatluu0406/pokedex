@@ -1,0 +1,60 @@
+{
+  "id": 817,
+  "name": "drizzile",
+  "types": [
+    "water"
+  ],
+  "height": 7,
+  "weight": 115,
+  "abilities": [
+    "torrent",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 816,
+        "name": "sobble"
+      },
+      {
+        "id": 817,
+        "name": "drizzile"
+      },
+      {
+        "id": 818,
+        "name": "inteleon"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

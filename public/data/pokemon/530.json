@@ -1,0 +1,57 @@
+{
+  "id": 530,
+  "name": "excadrill",
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "height": 7,
+  "weight": 404,
+  "abilities": [
+    "sand-rush",
+    "sand-force",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 135
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 88
+    }
+  ],
+  "flavorText": "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 529,
+        "name": "drilbur"
+      },
+      {
+        "id": 530,
+        "name": "excadrill"
+      }
+    ],
+    "levels": [
+      31
+    ]
+  }
+}

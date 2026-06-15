@@ -1,0 +1,61 @@
+{
+  "id": 33,
+  "name": "nidorino",
+  "types": [
+    "poison"
+  ],
+  "height": 9,
+  "weight": 195,
+  "abilities": [
+    "poison-point",
+    "rivalry",
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 61
+    },
+    {
+      "name": "attack",
+      "value": 72
+    },
+    {
+      "name": "defense",
+      "value": 57
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 32,
+        "name": "nidoran-m"
+      },
+      {
+        "id": 33,
+        "name": "nidorino"
+      },
+      {
+        "id": 34,
+        "name": "nidoking"
+      }
+    ],
+    "levels": [
+      16,
+      null
+    ]
+  }
+}

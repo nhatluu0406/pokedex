@@ -1,0 +1,57 @@
+{
+  "id": 581,
+  "name": "swanna",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "height": 13,
+  "weight": 242,
+  "abilities": [
+    "keen-eye",
+    "big-pecks",
+    "hydration"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 87
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 87
+    },
+    {
+      "name": "special-defense",
+      "value": 63
+    },
+    {
+      "name": "speed",
+      "value": 98
+    }
+  ],
+  "flavorText": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 580,
+        "name": "ducklett"
+      },
+      {
+        "id": 581,
+        "name": "swanna"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

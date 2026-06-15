@@ -1,0 +1,62 @@
+{
+  "id": 858,
+  "name": "hatterene",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 21,
+  "weight": 51,
+  "abilities": [
+    "healer",
+    "anticipation",
+    "magic-bounce"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 57
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 136
+    },
+    {
+      "name": "special-defense",
+      "value": 103
+    },
+    {
+      "name": "speed",
+      "value": 29
+    }
+  ],
+  "flavorText": "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 856,
+        "name": "hatenna"
+      },
+      {
+        "id": 857,
+        "name": "hattrem"
+      },
+      {
+        "id": 858,
+        "name": "hatterene"
+      }
+    ],
+    "levels": [
+      32,
+      42
+    ]
+  }
+}

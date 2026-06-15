@@ -1,0 +1,57 @@
+{
+  "id": 527,
+  "name": "woobat",
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "height": 4,
+  "weight": 21,
+  "abilities": [
+    "unaware",
+    "klutz",
+    "simple"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 43
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 43
+    },
+    {
+      "name": "speed",
+      "value": 72
+    }
+  ],
+  "flavorText": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 527,
+        "name": "woobat"
+      },
+      {
+        "id": 528,
+        "name": "swoobat"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

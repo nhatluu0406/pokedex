@@ -1,0 +1,60 @@
+{
+  "id": 816,
+  "name": "sobble",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 40,
+  "abilities": [
+    "torrent",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 816,
+        "name": "sobble"
+      },
+      {
+        "id": 817,
+        "name": "drizzile"
+      },
+      {
+        "id": 818,
+        "name": "inteleon"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 260,
+  "name": "swampert",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "height": 15,
+  "weight": 819,
+  "abilities": [
+    "torrent",
+    "damp"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "SWAMPERT is very strong. It has enough power to easily drag a boulder weighing more than a ton. This POKéMON also has powerful vision that lets it see even in murky water.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 258,
+        "name": "mudkip"
+      },
+      {
+        "id": 259,
+        "name": "marshtomp"
+      },
+      {
+        "id": 260,
+        "name": "swampert"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

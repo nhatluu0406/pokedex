@@ -1,0 +1,61 @@
+{
+  "id": 663,
+  "name": "talonflame",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 245,
+  "abilities": [
+    "flame-body",
+    "gale-wings"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 81
+    },
+    {
+      "name": "defense",
+      "value": 71
+    },
+    {
+      "name": "special-attack",
+      "value": 74
+    },
+    {
+      "name": "special-defense",
+      "value": 69
+    },
+    {
+      "name": "speed",
+      "value": 126
+    }
+  ],
+  "flavorText": "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 661,
+        "name": "fletchling"
+      },
+      {
+        "id": 662,
+        "name": "fletchinder"
+      },
+      {
+        "id": 663,
+        "name": "talonflame"
+      }
+    ],
+    "levels": [
+      17,
+      35
+    ]
+  }
+}

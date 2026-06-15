@@ -1,0 +1,57 @@
+{
+  "id": 596,
+  "name": "galvantula",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "height": 8,
+  "weight": 143,
+  "abilities": [
+    "compound-eyes",
+    "unnerve",
+    "swarm"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 77
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 97
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 108
+    }
+  ],
+  "flavorText": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 595,
+        "name": "joltik"
+      },
+      {
+        "id": 596,
+        "name": "galvantula"
+      }
+    ],
+    "levels": [
+      36
+    ]
+  }
+}

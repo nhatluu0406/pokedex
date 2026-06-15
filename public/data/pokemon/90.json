@@ -1,0 +1,56 @@
+{
+  "id": 90,
+  "name": "shellder",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 40,
+  "abilities": [
+    "shell-armor",
+    "skill-link",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 90,
+        "name": "shellder"
+      },
+      {
+        "id": 91,
+        "name": "cloyster"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

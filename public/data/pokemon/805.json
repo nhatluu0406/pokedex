@@ -1,0 +1,41 @@
+{
+  "id": 805,
+  "name": "stakataka",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "height": 55,
+  "weight": 8200,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 61
+    },
+    {
+      "name": "attack",
+      "value": 131
+    },
+    {
+      "name": "defense",
+      "value": 211
+    },
+    {
+      "name": "special-attack",
+      "value": 53
+    },
+    {
+      "name": "special-defense",
+      "value": 101
+    },
+    {
+      "name": "speed",
+      "value": 13
+    }
+  ],
+  "flavorText": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+  "evolution": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": 313,
+  "name": "volbeat",
+  "types": [
+    "bug"
+  ],
+  "height": 7,
+  "weight": 177,
+  "abilities": [
+    "illuminate",
+    "swarm",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 47
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "With the arrival of night, VOLBEAT emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This POKéMON is attracted by the sweet aroma of ILLUMISE.",
+  "evolution": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": 486,
+  "name": "regigigas",
+  "types": [
+    "normal"
+  ],
+  "height": 37,
+  "weight": 4200,
+  "abilities": [
+    "slow-start"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 160
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 110
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "There is an enduring legend that states this Pokémon towed continents with ropes.",
+  "evolution": null
+}

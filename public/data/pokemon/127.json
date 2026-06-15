@@ -1,0 +1,42 @@
+{
+  "id": 127,
+  "name": "pinsir",
+  "types": [
+    "bug"
+  ],
+  "height": 15,
+  "weight": 550,
+  "abilities": [
+    "hyper-cutter",
+    "mold-breaker",
+    "moxie"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 125
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
+  "evolution": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 227,
+  "name": "skarmory",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "height": 17,
+  "weight": 505,
+  "abilities": [
+    "keen-eye",
+    "sturdy",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 140
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+  "evolution": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": 740,
+  "name": "crabominable",
+  "types": [
+    "fighting",
+    "ice"
+  ],
+  "height": 17,
+  "weight": 1800,
+  "abilities": [
+    "hyper-cutter",
+    "iron-fist",
+    "anger-point"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 97
+    },
+    {
+      "name": "attack",
+      "value": 132
+    },
+    {
+      "name": "defense",
+      "value": 77
+    },
+    {
+      "name": "special-attack",
+      "value": 62
+    },
+    {
+      "name": "special-defense",
+      "value": 67
+    },
+    {
+      "name": "speed",
+      "value": 43
+    }
+  ],
+  "flavorText": "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 739,
+        "name": "crabrawler"
+      },
+      {
+        "id": 740,
+        "name": "crabominable"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

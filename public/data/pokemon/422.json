@@ -1,0 +1,56 @@
+{
+  "id": 422,
+  "name": "shellos",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 63,
+  "abilities": [
+    "sticky-hold",
+    "storm-drain",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 76
+    },
+    {
+      "name": "attack",
+      "value": 48
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 57
+    },
+    {
+      "name": "special-defense",
+      "value": 62
+    },
+    {
+      "name": "speed",
+      "value": 34
+    }
+  ],
+  "flavorText": "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 422,
+        "name": "shellos"
+      },
+      {
+        "id": 423,
+        "name": "gastrodon"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

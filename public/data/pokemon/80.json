@@ -1,0 +1,57 @@
+{
+  "id": 80,
+  "name": "slowbro",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "height": 16,
+  "weight": 785,
+  "abilities": [
+    "oblivious",
+    "own-tempo",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 79,
+        "name": "slowpoke"
+      },
+      {
+        "id": 80,
+        "name": "slowbro"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

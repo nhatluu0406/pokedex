@@ -1,0 +1,61 @@
+{
+  "id": 246,
+  "name": "larvitar",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "height": 6,
+  "weight": 720,
+  "abilities": [
+    "guts",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 64
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 41
+    }
+  ],
+  "flavorText": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 246,
+        "name": "larvitar"
+      },
+      {
+        "id": 247,
+        "name": "pupitar"
+      },
+      {
+        "id": 248,
+        "name": "tyranitar"
+      }
+    ],
+    "levels": [
+      30,
+      55
+    ]
+  }
+}

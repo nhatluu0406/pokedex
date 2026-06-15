@@ -1,0 +1,62 @@
+{
+  "id": 220,
+  "name": "swinub",
+  "types": [
+    "ice",
+    "ground"
+  ],
+  "height": 4,
+  "weight": 65,
+  "abilities": [
+    "oblivious",
+    "snow-cloak",
+    "thick-fat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 220,
+        "name": "swinub"
+      },
+      {
+        "id": 221,
+        "name": "piloswine"
+      },
+      {
+        "id": 473,
+        "name": "mamoswine"
+      }
+    ],
+    "levels": [
+      33,
+      null
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 780,
+  "name": "drampa",
+  "types": [
+    "normal",
+    "dragon"
+  ],
+  "height": 30,
+  "weight": 1850,
+  "abilities": [
+    "berserk",
+    "sap-sipper",
+    "cloud-nine"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 135
+    },
+    {
+      "name": "special-defense",
+      "value": 91
+    },
+    {
+      "name": "speed",
+      "value": 36
+    }
+  ],
+  "flavorText": "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+  "evolution": null
+}

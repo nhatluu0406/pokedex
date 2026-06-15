@@ -1,0 +1,57 @@
+{
+  "id": 848,
+  "name": "toxel",
+  "types": [
+    "electric",
+    "poison"
+  ],
+  "height": 4,
+  "weight": 110,
+  "abilities": [
+    "rattled",
+    "static",
+    "klutz"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 38
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 54
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 848,
+        "name": "toxel"
+      },
+      {
+        "id": 849,
+        "name": "toxtricity"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 852,
+  "name": "clobbopus",
+  "types": [
+    "fighting"
+  ],
+  "height": 6,
+  "weight": 40,
+  "abilities": [
+    "limber",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 68
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 32
+    }
+  ],
+  "flavorText": "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 852,
+        "name": "clobbopus"
+      },
+      {
+        "id": 853,
+        "name": "grapploct"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

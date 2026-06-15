@@ -1,0 +1,62 @@
+{
+  "id": 122,
+  "name": "mr-mime",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 13,
+  "weight": 545,
+  "abilities": [
+    "soundproof",
+    "filter",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 439,
+        "name": "mime-jr"
+      },
+      {
+        "id": 122,
+        "name": "mr-mime"
+      },
+      {
+        "id": 866,
+        "name": "mr-rime"
+      }
+    ],
+    "levels": [
+      null,
+      42
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 642,
+  "name": "thundurus-incarnate",
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "height": 15,
+  "weight": 610,
+  "abilities": [
+    "prankster",
+    "defiant"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 79
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 111
+    }
+  ],
+  "flavorText": "Countless charred remains mar the landscape of places through which Thundurus has passed.",
+  "evolution": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": 121,
+  "name": "starmie",
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "height": 11,
+  "weight": 800,
+  "abilities": [
+    "illuminate",
+    "natural-cure",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 115
+    }
+  ],
+  "flavorText": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 120,
+        "name": "staryu"
+      },
+      {
+        "id": 121,
+        "name": "starmie"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

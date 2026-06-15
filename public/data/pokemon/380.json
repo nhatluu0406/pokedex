@@ -1,0 +1,41 @@
+{
+  "id": 380,
+  "name": "latias",
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "height": 14,
+  "weight": 400,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "LATIAS is highly sensitive to the emotions of people. If it senses any hostility, this POKéMON ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
+  "evolution": null
+}

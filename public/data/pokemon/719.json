@@ -1,0 +1,41 @@
+{
+  "id": 719,
+  "name": "diancie",
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "height": 7,
+  "weight": 88,
+  "abilities": [
+    "clear-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 150
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 150
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+  "evolution": null
+}

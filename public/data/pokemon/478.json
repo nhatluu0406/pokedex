@@ -1,0 +1,56 @@
+{
+  "id": 478,
+  "name": "froslass",
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "height": 13,
+  "weight": 266,
+  "abilities": [
+    "snow-cloak",
+    "cursed-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 361,
+        "name": "snorunt"
+      },
+      {
+        "id": 362,
+        "name": "glalie"
+      }
+    ],
+    "levels": [
+      42
+    ]
+  }
+}

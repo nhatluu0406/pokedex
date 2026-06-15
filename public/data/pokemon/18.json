@@ -1,0 +1,62 @@
+{
+  "id": 18,
+  "name": "pidgeot",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 15,
+  "weight": 395,
+  "abilities": [
+    "keen-eye",
+    "tangled-feet",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 83
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 101
+    }
+  ],
+  "flavorText": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 16,
+        "name": "pidgey"
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto"
+      },
+      {
+        "id": 18,
+        "name": "pidgeot"
+      }
+    ],
+    "levels": [
+      18,
+      36
+    ]
+  }
+}

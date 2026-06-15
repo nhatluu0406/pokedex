@@ -1,0 +1,55 @@
+{
+  "id": 767,
+  "name": "wimpod",
+  "types": [
+    "bug",
+    "water"
+  ],
+  "height": 5,
+  "weight": 120,
+  "abilities": [
+    "wimp-out"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 25
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 20
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 767,
+        "name": "wimpod"
+      },
+      {
+        "id": 768,
+        "name": "golisopod"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

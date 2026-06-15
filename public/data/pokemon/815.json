@@ -1,0 +1,60 @@
+{
+  "id": 815,
+  "name": "cinderace",
+  "types": [
+    "fire"
+  ],
+  "height": 14,
+  "weight": 330,
+  "abilities": [
+    "blaze",
+    "libero"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 116
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 119
+    }
+  ],
+  "flavorText": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 813,
+        "name": "scorbunny"
+      },
+      {
+        "id": 814,
+        "name": "raboot"
+      },
+      {
+        "id": 815,
+        "name": "cinderace"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

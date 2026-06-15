@@ -1,0 +1,41 @@
+{
+  "id": 794,
+  "name": "buzzwole",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "height": 24,
+  "weight": 3336,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 107
+    },
+    {
+      "name": "attack",
+      "value": 139
+    },
+    {
+      "name": "defense",
+      "value": 139
+    },
+    {
+      "name": "special-attack",
+      "value": 53
+    },
+    {
+      "name": "special-defense",
+      "value": 53
+    },
+    {
+      "name": "speed",
+      "value": 79
+    }
+  ],
+  "flavorText": "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
+  "evolution": null
+}

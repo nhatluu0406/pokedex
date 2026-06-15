@@ -1,0 +1,62 @@
+{
+  "id": 887,
+  "name": "dragapult",
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "height": 30,
+  "weight": 500,
+  "abilities": [
+    "clear-body",
+    "infiltrator",
+    "cursed-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 142
+    }
+  ],
+  "flavorText": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 885,
+        "name": "dreepy"
+      },
+      {
+        "id": 886,
+        "name": "drakloak"
+      },
+      {
+        "id": 887,
+        "name": "dragapult"
+      }
+    ],
+    "levels": [
+      50,
+      60
+    ]
+  }
+}

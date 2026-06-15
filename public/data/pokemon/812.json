@@ -1,0 +1,60 @@
+{
+  "id": 812,
+  "name": "rillaboom",
+  "types": [
+    "grass"
+  ],
+  "height": 21,
+  "weight": 900,
+  "abilities": [
+    "overgrow",
+    "grassy-surge"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 125
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 810,
+        "name": "grookey"
+      },
+      {
+        "id": 811,
+        "name": "thwackey"
+      },
+      {
+        "id": 812,
+        "name": "rillaboom"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

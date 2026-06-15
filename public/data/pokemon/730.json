@@ -1,0 +1,61 @@
+{
+  "id": 730,
+  "name": "primarina",
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "height": 18,
+  "weight": 440,
+  "abilities": [
+    "torrent",
+    "liquid-voice"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 74
+    },
+    {
+      "name": "defense",
+      "value": 74
+    },
+    {
+      "name": "special-attack",
+      "value": 126
+    },
+    {
+      "name": "special-defense",
+      "value": 116
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 728,
+        "name": "popplio"
+      },
+      {
+        "id": 729,
+        "name": "brionne"
+      },
+      {
+        "id": 730,
+        "name": "primarina"
+      }
+    ],
+    "levels": [
+      17,
+      34
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 903,
+  "name": "sneasler",
+  "types": [
+    "fighting",
+    "poison"
+  ],
+  "height": 13,
+  "weight": 430,
+  "abilities": [
+    "pressure",
+    "unburden",
+    "poison-touch"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 120
+    }
+  ],
+  "flavorText": "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 215,
+        "name": "sneasel"
+      },
+      {
+        "id": 461,
+        "name": "weavile"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

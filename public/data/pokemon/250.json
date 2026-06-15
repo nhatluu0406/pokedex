@@ -1,0 +1,42 @@
+{
+  "id": 250,
+  "name": "ho-oh",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 38,
+  "weight": 1990,
+  "abilities": [
+    "pressure",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 106
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 154
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Legends claim this POKéMON flies the world's skies con­ tinuously on its magnificent seven- colored wings.",
+  "evolution": null
+}

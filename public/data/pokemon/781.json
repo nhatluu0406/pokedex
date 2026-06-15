@@ -1,0 +1,41 @@
+{
+  "id": 781,
+  "name": "dhelmise",
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "height": 39,
+  "weight": 2100,
+  "abilities": [
+    "steelworker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 131
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 86
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+  "evolution": null
+}

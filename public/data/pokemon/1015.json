@@ -1,0 +1,42 @@
+{
+  "id": 1015,
+  "name": "munkidori",
+  "types": [
+    "poison",
+    "psychic"
+  ],
+  "height": 10,
+  "weight": 122,
+  "abilities": [
+    "toxic-chain",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 66
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 106
+    }
+  ],
+  "flavorText": "The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.",
+  "evolution": null
+}

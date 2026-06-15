@@ -1,0 +1,62 @@
+{
+  "id": 464,
+  "name": "rhyperior",
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "height": 24,
+  "weight": 2828,
+  "abilities": [
+    "lightning-rod",
+    "solid-rock",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 115
+    },
+    {
+      "name": "attack",
+      "value": 140
+    },
+    {
+      "name": "defense",
+      "value": 130
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "It puts rocks in holes in its palms and uses its muscles to shoot them. GEODUDE are shot at rare times.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 111,
+        "name": "rhyhorn"
+      },
+      {
+        "id": 112,
+        "name": "rhydon"
+      },
+      {
+        "id": 464,
+        "name": "rhyperior"
+      }
+    ],
+    "levels": [
+      42,
+      null
+    ]
+  }
+}

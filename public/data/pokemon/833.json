@@ -1,0 +1,56 @@
+{
+  "id": 833,
+  "name": "chewtle",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 85,
+  "abilities": [
+    "strong-jaw",
+    "shell-armor",
+    "swift-swim"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 64
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 38
+    },
+    {
+      "name": "special-defense",
+      "value": 38
+    },
+    {
+      "name": "speed",
+      "value": 44
+    }
+  ],
+  "flavorText": "Apparently the itch of its teething impels it to snap its jaws at anything in front of it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 833,
+        "name": "chewtle"
+      },
+      {
+        "id": 834,
+        "name": "drednaw"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

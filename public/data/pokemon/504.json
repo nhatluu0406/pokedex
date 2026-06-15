@@ -1,0 +1,56 @@
+{
+  "id": 504,
+  "name": "patrat",
+  "types": [
+    "normal"
+  ],
+  "height": 5,
+  "weight": 116,
+  "abilities": [
+    "run-away",
+    "keen-eye",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 39
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 39
+    },
+    {
+      "name": "speed",
+      "value": 42
+    }
+  ],
+  "flavorText": "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 504,
+        "name": "patrat"
+      },
+      {
+        "id": 505,
+        "name": "watchog"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

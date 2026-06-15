@@ -1,0 +1,60 @@
+{
+  "id": 240,
+  "name": "magby",
+  "types": [
+    "fire"
+  ],
+  "height": 7,
+  "weight": 214,
+  "abilities": [
+    "flame-body",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 37
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 83
+    }
+  ],
+  "flavorText": "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 240,
+        "name": "magby"
+      },
+      {
+        "id": 126,
+        "name": "magmar"
+      },
+      {
+        "id": 467,
+        "name": "magmortar"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

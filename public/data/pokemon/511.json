@@ -1,0 +1,55 @@
+{
+  "id": 511,
+  "name": "pansage",
+  "types": [
+    "grass"
+  ],
+  "height": 6,
+  "weight": 105,
+  "abilities": [
+    "gluttony",
+    "overgrow"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 53
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 53
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 64
+    }
+  ],
+  "flavorText": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 511,
+        "name": "pansage"
+      },
+      {
+        "id": 512,
+        "name": "simisage"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

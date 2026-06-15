@@ -1,0 +1,56 @@
+{
+  "id": 758,
+  "name": "salazzle",
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "height": 12,
+  "weight": 222,
+  "abilities": [
+    "corrosion",
+    "oblivious"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 64
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 111
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 117
+    }
+  ],
+  "flavorText": "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 757,
+        "name": "salandit"
+      },
+      {
+        "id": 758,
+        "name": "salazzle"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

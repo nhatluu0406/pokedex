@@ -1,0 +1,54 @@
+{
+  "id": 490,
+  "name": "manaphy",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 14,
+  "abilities": [
+    "hydration"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 489,
+        "name": "phione"
+      },
+      {
+        "id": 490,
+        "name": "manaphy"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

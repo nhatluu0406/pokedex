@@ -1,0 +1,57 @@
+{
+  "id": 580,
+  "name": "ducklett",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 55,
+  "abilities": [
+    "keen-eye",
+    "big-pecks",
+    "hydration"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 62
+    },
+    {
+      "name": "attack",
+      "value": 44
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 44
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 580,
+        "name": "ducklett"
+      },
+      {
+        "id": 581,
+        "name": "swanna"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

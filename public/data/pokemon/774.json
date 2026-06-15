@@ -1,0 +1,41 @@
+{
+  "id": 774,
+  "name": "minior-red-meteor",
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "height": 3,
+  "weight": 400,
+  "abilities": [
+    "shields-down"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+  "evolution": null
+}

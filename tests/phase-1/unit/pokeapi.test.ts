@@ -4,32 +4,27 @@ import {
   getAnimatedSpriteUrl,
   getStaticSpriteUrl,
 } from "@/lib/pokeapi";
-import { SPRITE_BASE } from "@/lib/constants";
 import type { PokeApiPokemon } from "@/lib/types";
 
 describe("getAnimatedSpriteUrl", () => {
-  it("returns Gen V animated GIF for id below 650", () => {
-    expect(getAnimatedSpriteUrl(25)).toBe(
-      `${SPRITE_BASE}/versions/generation-v/black-white/animated/25.gif`,
-    );
+  it("returns local animated GIF for id below 650", () => {
+    expect(getAnimatedSpriteUrl(25)).toBe("/sprites/animated/25.gif");
   });
 
-  it("returns static PNG for id 649 (last GIF id)", () => {
-    expect(getAnimatedSpriteUrl(649)).toBe(
-      `${SPRITE_BASE}/versions/generation-v/black-white/animated/649.gif`,
-    );
+  it("returns local animated GIF for id 649 (last GIF id)", () => {
+    expect(getAnimatedSpriteUrl(649)).toBe("/sprites/animated/649.gif");
   });
 
-  it("returns static PNG fallback for id 650 and above", () => {
-    expect(getAnimatedSpriteUrl(650)).toBe(`${SPRITE_BASE}/650.png`);
-    expect(getAnimatedSpriteUrl(1025)).toBe(`${SPRITE_BASE}/1025.png`);
+  it("returns local static PNG fallback for id 650 and above", () => {
+    expect(getAnimatedSpriteUrl(650)).toBe("/sprites/pokemon/650.png");
+    expect(getAnimatedSpriteUrl(1025)).toBe("/sprites/pokemon/1025.png");
   });
 });
 
 describe("getStaticSpriteUrl", () => {
-  it("returns list thumbnail PNG URL for any id", () => {
-    expect(getStaticSpriteUrl(1)).toBe(`${SPRITE_BASE}/1.png`);
-    expect(getStaticSpriteUrl(650)).toBe(`${SPRITE_BASE}/650.png`);
+  it("returns local list thumbnail PNG path for any id", () => {
+    expect(getStaticSpriteUrl(1)).toBe("/sprites/pokemon/1.png");
+    expect(getStaticSpriteUrl(650)).toBe("/sprites/pokemon/650.png");
   });
 });
 

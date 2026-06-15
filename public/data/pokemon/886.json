@@ -1,0 +1,62 @@
+{
+  "id": 886,
+  "name": "drakloak",
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "height": 14,
+  "weight": 110,
+  "abilities": [
+    "clear-body",
+    "infiltrator",
+    "cursed-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 102
+    }
+  ],
+  "flavorText": "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 885,
+        "name": "dreepy"
+      },
+      {
+        "id": 886,
+        "name": "drakloak"
+      },
+      {
+        "id": 887,
+        "name": "dragapult"
+      }
+    ],
+    "levels": [
+      50,
+      60
+    ]
+  }
+}

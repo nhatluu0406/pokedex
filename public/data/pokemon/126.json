@@ -1,0 +1,60 @@
+{
+  "id": 126,
+  "name": "magmar",
+  "types": [
+    "fire"
+  ],
+  "height": 13,
+  "weight": 445,
+  "abilities": [
+    "flame-body",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 57
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 93
+    }
+  ],
+  "flavorText": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 240,
+        "name": "magby"
+      },
+      {
+        "id": 126,
+        "name": "magmar"
+      },
+      {
+        "id": 467,
+        "name": "magmortar"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

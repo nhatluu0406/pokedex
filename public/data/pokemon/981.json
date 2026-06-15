@@ -1,0 +1,57 @@
+{
+  "id": 981,
+  "name": "farigiraf",
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "height": 32,
+  "weight": 1600,
+  "abilities": [
+    "cud-chew",
+    "armor-tail",
+    "sap-sipper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 203,
+        "name": "girafarig"
+      },
+      {
+        "id": 981,
+        "name": "farigiraf"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

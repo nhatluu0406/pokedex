@@ -1,0 +1,60 @@
+{
+  "id": 729,
+  "name": "brionne",
+  "types": [
+    "water"
+  ],
+  "height": 6,
+  "weight": 175,
+  "abilities": [
+    "torrent",
+    "liquid-voice"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 69
+    },
+    {
+      "name": "defense",
+      "value": 69
+    },
+    {
+      "name": "special-attack",
+      "value": 91
+    },
+    {
+      "name": "special-defense",
+      "value": 81
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 728,
+        "name": "popplio"
+      },
+      {
+        "id": 729,
+        "name": "brionne"
+      },
+      {
+        "id": 730,
+        "name": "primarina"
+      }
+    ],
+    "levels": [
+      17,
+      34
+    ]
+  }
+}

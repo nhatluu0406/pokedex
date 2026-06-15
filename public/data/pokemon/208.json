@@ -1,0 +1,57 @@
+{
+  "id": 208,
+  "name": "steelix",
+  "types": [
+    "steel",
+    "ground"
+  ],
+  "height": 92,
+  "weight": 4000,
+  "abilities": [
+    "rock-head",
+    "sturdy",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 200
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 95,
+        "name": "onix"
+      },
+      {
+        "id": 208,
+        "name": "steelix"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

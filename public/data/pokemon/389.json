@@ -1,0 +1,61 @@
+{
+  "id": 389,
+  "name": "torterra",
+  "types": [
+    "grass",
+    "ground"
+  ],
+  "height": 22,
+  "weight": 3100,
+  "abilities": [
+    "overgrow",
+    "shell-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 109
+    },
+    {
+      "name": "defense",
+      "value": 105
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 56
+    }
+  ],
+  "flavorText": "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 387,
+        "name": "turtwig"
+      },
+      {
+        "id": 388,
+        "name": "grotle"
+      },
+      {
+        "id": 389,
+        "name": "torterra"
+      }
+    ],
+    "levels": [
+      18,
+      32
+    ]
+  }
+}

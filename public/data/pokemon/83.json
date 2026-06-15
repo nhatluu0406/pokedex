@@ -1,0 +1,57 @@
+{
+  "id": 83,
+  "name": "farfetchd",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 8,
+  "weight": 150,
+  "abilities": [
+    "keen-eye",
+    "inner-focus",
+    "defiant"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 52
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 58
+    },
+    {
+      "name": "special-defense",
+      "value": 62
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 83,
+        "name": "farfetchd"
+      },
+      {
+        "id": 865,
+        "name": "sirfetchd"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

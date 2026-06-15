@@ -1,0 +1,57 @@
+{
+  "id": 279,
+  "name": "pelipper",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 280,
+  "abilities": [
+    "keen-eye",
+    "drizzle",
+    "rain-dish"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 278,
+        "name": "wingull"
+      },
+      {
+        "id": 279,
+        "name": "pelipper"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

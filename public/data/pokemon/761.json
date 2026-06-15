@@ -1,0 +1,61 @@
+{
+  "id": 761,
+  "name": "bounsweet",
+  "types": [
+    "grass"
+  ],
+  "height": 3,
+  "weight": 32,
+  "abilities": [
+    "leaf-guard",
+    "oblivious",
+    "sweet-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 42
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 38
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 38
+    },
+    {
+      "name": "speed",
+      "value": 32
+    }
+  ],
+  "flavorText": "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 761,
+        "name": "bounsweet"
+      },
+      {
+        "id": 762,
+        "name": "steenee"
+      },
+      {
+        "id": 763,
+        "name": "tsareena"
+      }
+    ],
+    "levels": [
+      18,
+      null
+    ]
+  }
+}

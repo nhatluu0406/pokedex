@@ -1,0 +1,61 @@
+{
+  "id": 263,
+  "name": "zigzagoon",
+  "types": [
+    "normal"
+  ],
+  "height": 4,
+  "weight": 175,
+  "abilities": [
+    "pickup",
+    "gluttony",
+    "quick-feet"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 41
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 41
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "ZIGZAGOON restlessly wanders everywhere at all times. This POKéMON does so because it is very curious. It becomes interested in anything that it happens to see.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 263,
+        "name": "zigzagoon"
+      },
+      {
+        "id": 264,
+        "name": "linoone"
+      },
+      {
+        "id": 862,
+        "name": "obstagoon"
+      }
+    ],
+    "levels": [
+      20,
+      35
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 917,
+  "name": "tarountula",
+  "types": [
+    "bug"
+  ],
+  "height": 3,
+  "weight": 40,
+  "abilities": [
+    "insomnia",
+    "stakeout"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 41
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 29
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 917,
+        "name": "tarountula"
+      },
+      {
+        "id": 918,
+        "name": "spidops"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

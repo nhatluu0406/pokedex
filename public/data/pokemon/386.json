@@ -1,0 +1,40 @@
+{
+  "id": 386,
+  "name": "deoxys-normal",
+  "types": [
+    "psychic"
+  ],
+  "height": 17,
+  "weight": 608,
+  "abilities": [
+    "pressure"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 150
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 150
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 150
+    }
+  ],
+  "flavorText": "The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in DEOXYS. The crystalline organ on this POKéMON’s chest appears to be its brain.",
+  "evolution": null
+}

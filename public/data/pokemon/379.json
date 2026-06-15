@@ -1,0 +1,41 @@
+{
+  "id": 379,
+  "name": "registeel",
+  "types": [
+    "steel"
+  ],
+  "height": 19,
+  "weight": 2050,
+  "abilities": [
+    "clear-body",
+    "light-metal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 150
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 150
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "REGISTEEL has a body that is harder than any kind of metal. Its body is apparently hollow. No one has any idea what this POKéMON eats.",
+  "evolution": null
+}

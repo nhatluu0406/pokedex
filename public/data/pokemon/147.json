@@ -1,0 +1,60 @@
+{
+  "id": 147,
+  "name": "dratini",
+  "types": [
+    "dragon"
+  ],
+  "height": 18,
+  "weight": 33,
+  "abilities": [
+    "shed-skin",
+    "marvel-scale"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 41
+    },
+    {
+      "name": "attack",
+      "value": 64
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Long considered a mythical POKéMON until recently when a small colony was found living underwater.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 147,
+        "name": "dratini"
+      },
+      {
+        "id": 148,
+        "name": "dragonair"
+      },
+      {
+        "id": 149,
+        "name": "dragonite"
+      }
+    ],
+    "levels": [
+      30,
+      55
+    ]
+  }
+}

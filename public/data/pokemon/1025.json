@@ -1,0 +1,41 @@
+{
+  "id": 1025,
+  "name": "pecharunt",
+  "types": [
+    "poison",
+    "ghost"
+  ],
+  "height": 3,
+  "weight": 3,
+  "abilities": [
+    "poison-puppeteer"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 88
+    },
+    {
+      "name": "defense",
+      "value": 160
+    },
+    {
+      "name": "special-attack",
+      "value": 88
+    },
+    {
+      "name": "special-defense",
+      "value": 88
+    },
+    {
+      "name": "speed",
+      "value": 88
+    }
+  ],
+  "flavorText": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
+  "evolution": null
+}

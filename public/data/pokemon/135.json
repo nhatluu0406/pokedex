@@ -1,0 +1,55 @@
+{
+  "id": 135,
+  "name": "jolteon",
+  "types": [
+    "electric"
+  ],
+  "height": 8,
+  "weight": 245,
+  "abilities": [
+    "volt-absorb",
+    "quick-feet"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 130
+    }
+  ],
+  "flavorText": "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 133,
+        "name": "eevee"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

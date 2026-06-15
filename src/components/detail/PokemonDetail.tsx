@@ -198,15 +198,19 @@ export function PokemonDetail({
 
     const displayName = capitalizeName(data.name);
 
+    const spriteBlock = (
+      <div className="detail-sprite-wrapper">
+        <AnimatedSprite
+          key={data.id}
+          pokemonId={data.id}
+          name={data.name}
+        />
+      </div>
+    );
+
     return (
       <>
-        <div className="detail-sprite-wrapper">
-          <AnimatedSprite
-            key={data.id}
-            pokemonId={data.id}
-            name={data.name}
-          />
-        </div>
+        {!isMobile && spriteBlock}
         <div className="detail-card" aria-busy={loading || undefined}>
           <div className="detail-actions">
             <button
@@ -236,6 +240,7 @@ export function PokemonDetail({
               />
             </button>
           </div>
+          {isMobile && spriteBlock}
           <span className="detail-id">{formatPokemonId(data.id)}</span>
           <h2 className="detail-name">{displayName}</h2>
           <div className="detail-types">
@@ -276,8 +281,8 @@ export function PokemonDetail({
           <PokemonStats stats={data.stats} />
 
           <EvolutionChain
-            key={data.evolutionChainUrl ?? data.id}
-            evolutionChainUrl={data.evolutionChainUrl}
+            key={data.id}
+            evolution={data.evolution}
             onSelect={onSelect}
           />
         </div>
@@ -288,14 +293,20 @@ export function PokemonDetail({
   return (
     <>
       {isMobile && (
-        <>
-          <div
-            className={`pokemon-detail-backdrop${
-              backdropVisible ? " pokemon-detail-backdrop-visible" : ""
-            }`}
-            style={{ backgroundColor: backdropColor }}
-            aria-hidden="true"
-          />
+        <div
+          className={`pokemon-detail-backdrop${
+            backdropVisible ? " pokemon-detail-backdrop-visible" : ""
+          }`}
+          style={{ backgroundColor: backdropColor }}
+          aria-hidden="true"
+        />
+      )}
+      <aside
+        className={`pokemon-detail pokemon-detail-panel ${panelClass}${
+          isMobile ? " pokemon-detail-modal" : ""
+        }`}
+      >
+        {isMobile && (
           <button
             type="button"
             className="pokemon-detail-close"
@@ -311,13 +322,7 @@ export function PokemonDetail({
               />
             </svg>
           </button>
-        </>
-      )}
-      <aside
-        className={`pokemon-detail pokemon-detail-panel ${panelClass}${
-          isMobile ? " pokemon-detail-modal" : ""
-        }`}
-      >
+        )}
         {panelContent}
         {loading && (
           <div className="detail-panel-loading" aria-hidden="true">

@@ -1,0 +1,56 @@
+{
+  "id": 749,
+  "name": "mudbray",
+  "types": [
+    "ground"
+  ],
+  "height": 10,
+  "weight": 1100,
+  "abilities": [
+    "own-tempo",
+    "stamina",
+    "inner-focus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "The mud stuck to Mudbray’s hooves enhances its grip and its powerful running gait.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 749,
+        "name": "mudbray"
+      },
+      {
+        "id": 750,
+        "name": "mudsdale"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

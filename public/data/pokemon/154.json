@@ -1,0 +1,60 @@
+{
+  "id": 154,
+  "name": "meganium",
+  "types": [
+    "grass"
+  ],
+  "height": 18,
+  "weight": 1005,
+  "abilities": [
+    "overgrow",
+    "leaf-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 82
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 83
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 152,
+        "name": "chikorita"
+      },
+      {
+        "id": 153,
+        "name": "bayleef"
+      },
+      {
+        "id": 154,
+        "name": "meganium"
+      }
+    ],
+    "levels": [
+      16,
+      32
+    ]
+  }
+}

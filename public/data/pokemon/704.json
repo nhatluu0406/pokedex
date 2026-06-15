@@ -1,0 +1,61 @@
+{
+  "id": 704,
+  "name": "goomy",
+  "types": [
+    "dragon"
+  ],
+  "height": 3,
+  "weight": 28,
+  "abilities": [
+    "sap-sipper",
+    "hydration",
+    "gooey"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 704,
+        "name": "goomy"
+      },
+      {
+        "id": 705,
+        "name": "sliggoo"
+      },
+      {
+        "id": 706,
+        "name": "goodra"
+      }
+    ],
+    "levels": [
+      40,
+      50
+    ]
+  }
+}

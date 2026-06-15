@@ -1,0 +1,56 @@
+{
+  "id": 309,
+  "name": "electrike",
+  "types": [
+    "electric"
+  ],
+  "height": 6,
+  "weight": 152,
+  "abilities": [
+    "static",
+    "lightning-rod",
+    "minus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "ELECTRIKE stores electricity in its long body hair. This POKéMON stimulates its leg muscles with electric charges. These jolts of power give its legs explosive acceleration performance.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 309,
+        "name": "electrike"
+      },
+      {
+        "id": 310,
+        "name": "manectric"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 23,
+  "name": "ekans",
+  "types": [
+    "poison"
+  ],
+  "height": 20,
+  "weight": 69,
+  "abilities": [
+    "intimidate",
+    "shed-skin",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 44
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 54
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 23,
+        "name": "ekans"
+      },
+      {
+        "id": 24,
+        "name": "arbok"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 261,
+  "name": "poochyena",
+  "types": [
+    "dark"
+  ],
+  "height": 5,
+  "weight": 136,
+  "abilities": [
+    "run-away",
+    "quick-feet",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "At first sight, POOCHYENA takes a bite at anything that moves. This POKéMON chases after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 261,
+        "name": "poochyena"
+      },
+      {
+        "id": 262,
+        "name": "mightyena"
+      }
+    ],
+    "levels": [
+      18
+    ]
+  }
+}

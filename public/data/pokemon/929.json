@@ -1,0 +1,61 @@
+{
+  "id": 929,
+  "name": "dolliv",
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "height": 6,
+  "weight": 119,
+  "abilities": [
+    "early-bird",
+    "harvest"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 52
+    },
+    {
+      "name": "attack",
+      "value": 53
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 78
+    },
+    {
+      "name": "special-defense",
+      "value": 78
+    },
+    {
+      "name": "speed",
+      "value": 33
+    }
+  ],
+  "flavorText": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 928,
+        "name": "smoliv"
+      },
+      {
+        "id": 929,
+        "name": "dolliv"
+      },
+      {
+        "id": 930,
+        "name": "arboliva"
+      }
+    ],
+    "levels": [
+      25,
+      35
+    ]
+  }
+}

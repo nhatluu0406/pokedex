@@ -1,0 +1,61 @@
+{
+  "id": 837,
+  "name": "rolycoly",
+  "types": [
+    "rock"
+  ],
+  "height": 3,
+  "weight": 120,
+  "abilities": [
+    "steam-engine",
+    "heatproof",
+    "flash-fire"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 837,
+        "name": "rolycoly"
+      },
+      {
+        "id": 838,
+        "name": "carkol"
+      },
+      {
+        "id": 839,
+        "name": "coalossal"
+      }
+    ],
+    "levels": [
+      18,
+      34
+    ]
+  }
+}

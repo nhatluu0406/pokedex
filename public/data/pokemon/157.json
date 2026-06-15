@@ -1,0 +1,60 @@
+{
+  "id": 157,
+  "name": "typhlosion",
+  "types": [
+    "fire"
+  ],
+  "height": 17,
+  "weight": 795,
+  "abilities": [
+    "blaze",
+    "flash-fire"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 84
+    },
+    {
+      "name": "defense",
+      "value": 78
+    },
+    {
+      "name": "special-attack",
+      "value": 109
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 155,
+        "name": "cyndaquil"
+      },
+      {
+        "id": 156,
+        "name": "quilava"
+      },
+      {
+        "id": 157,
+        "name": "typhlosion"
+      }
+    ],
+    "levels": [
+      14,
+      36
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 170,
+  "name": "chinchou",
+  "types": [
+    "water",
+    "electric"
+  ],
+  "height": 5,
+  "weight": 120,
+  "abilities": [
+    "volt-absorb",
+    "illuminate",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 38
+    },
+    {
+      "name": "defense",
+      "value": 38
+    },
+    {
+      "name": "special-attack",
+      "value": 56
+    },
+    {
+      "name": "special-defense",
+      "value": 56
+    },
+    {
+      "name": "speed",
+      "value": 67
+    }
+  ],
+  "flavorText": "Chinchou blink their shining antennae at one another to claim their respective turf.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 170,
+        "name": "chinchou"
+      },
+      {
+        "id": 171,
+        "name": "lanturn"
+      }
+    ],
+    "levels": [
+      27
+    ]
+  }
+}

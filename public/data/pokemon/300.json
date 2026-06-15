@@ -1,0 +1,56 @@
+{
+  "id": 300,
+  "name": "skitty",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 110,
+  "abilities": [
+    "cute-charm",
+    "normalize",
+    "wonder-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "SKITTY has the habit of becoming fascinated by moving objects and chasing them around. This POKéMON is known to chase after its own tail and become dizzy.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 300,
+        "name": "skitty"
+      },
+      {
+        "id": 301,
+        "name": "delcatty"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

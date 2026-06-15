@@ -1,0 +1,57 @@
+{
+  "id": 141,
+  "name": "kabutops",
+  "types": [
+    "rock",
+    "water"
+  ],
+  "height": 13,
+  "weight": 405,
+  "abilities": [
+    "swift-swim",
+    "battle-armor",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 105
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "Its sleek shape is perfect for swim­ ming. It slashes prey with its claws and drains the body fluids.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 140,
+        "name": "kabuto"
+      },
+      {
+        "id": 141,
+        "name": "kabutops"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

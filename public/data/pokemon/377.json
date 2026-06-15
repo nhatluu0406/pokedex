@@ -1,0 +1,41 @@
+{
+  "id": 377,
+  "name": "regirock",
+  "types": [
+    "rock"
+  ],
+  "height": 17,
+  "weight": 2300,
+  "abilities": [
+    "clear-body",
+    "sturdy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 200
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
+  "evolution": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": 945,
+  "name": "grafaiai",
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "height": 7,
+  "weight": 272,
+  "abilities": [
+    "unburden",
+    "poison-touch",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 63
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 72
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 944,
+        "name": "shroodle"
+      },
+      {
+        "id": 945,
+        "name": "grafaiai"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

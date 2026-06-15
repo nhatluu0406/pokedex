@@ -1,0 +1,56 @@
+{
+  "id": 103,
+  "name": "exeggutor",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "height": 20,
+  "weight": 1200,
+  "abilities": [
+    "chlorophyll",
+    "harvest"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 102,
+        "name": "exeggcute"
+      },
+      {
+        "id": 103,
+        "name": "exeggutor"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

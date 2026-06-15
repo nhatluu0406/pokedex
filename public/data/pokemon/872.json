@@ -1,0 +1,56 @@
+{
+  "id": 872,
+  "name": "snom",
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "height": 3,
+  "weight": 38,
+  "abilities": [
+    "shield-dust",
+    "ice-scales"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 25
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 872,
+        "name": "snom"
+      },
+      {
+        "id": 873,
+        "name": "frosmoth"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

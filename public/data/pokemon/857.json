@@ -1,0 +1,61 @@
+{
+  "id": 857,
+  "name": "hattrem",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 48,
+  "abilities": [
+    "healer",
+    "anticipation",
+    "magic-bounce"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 57
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 86
+    },
+    {
+      "name": "special-defense",
+      "value": 73
+    },
+    {
+      "name": "speed",
+      "value": 49
+    }
+  ],
+  "flavorText": "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 856,
+        "name": "hatenna"
+      },
+      {
+        "id": 857,
+        "name": "hattrem"
+      },
+      {
+        "id": 858,
+        "name": "hatterene"
+      }
+    ],
+    "levels": [
+      32,
+      42
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 1,
+  "name": "bulbasaur",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 7,
+  "weight": 69,
+  "abilities": [
+    "overgrow",
+    "chlorophyll"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 49
+    },
+    {
+      "name": "defense",
+      "value": 49
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 1,
+        "name": "bulbasaur"
+      },
+      {
+        "id": 2,
+        "name": "ivysaur"
+      },
+      {
+        "id": 3,
+        "name": "venusaur"
+      }
+    ],
+    "levels": [
+      16,
+      32
+    ]
+  }
+}

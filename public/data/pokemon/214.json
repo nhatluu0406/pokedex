@@ -1,0 +1,43 @@
+{
+  "id": 214,
+  "name": "heracross",
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "height": 15,
+  "weight": 540,
+  "abilities": [
+    "swarm",
+    "guts",
+    "moxie"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 125
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "It is usually docile, but if it is disturbed while sipping honey, it chases off the intruder with its horn.",
+  "evolution": null
+}

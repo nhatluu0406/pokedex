@@ -1,0 +1,56 @@
+{
+  "id": 636,
+  "name": "larvesta",
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "height": 11,
+  "weight": 288,
+  "abilities": [
+    "flame-body",
+    "swarm"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 636,
+        "name": "larvesta"
+      },
+      {
+        "id": 637,
+        "name": "volcarona"
+      }
+    ],
+    "levels": [
+      59
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 314,
+  "name": "illumise",
+  "types": [
+    "bug"
+  ],
+  "height": 6,
+  "weight": 177,
+  "abilities": [
+    "oblivious",
+    "tinted-lens",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 47
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 73
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+  "evolution": null
+}

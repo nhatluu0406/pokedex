@@ -1,0 +1,42 @@
+{
+  "id": 235,
+  "name": "smeargle",
+  "types": [
+    "normal"
+  ],
+  "height": 12,
+  "weight": 580,
+  "abilities": [
+    "own-tempo",
+    "technician",
+    "moody"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 20
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 20
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+  "evolution": null
+}

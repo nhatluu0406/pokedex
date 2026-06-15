@@ -8,7 +8,11 @@
     "start": "next start -p 3100",
     "lint": "eslint",
     "test": "vitest run",
-    "test:e2e": "playwright test --config tests/e2e/playwright.config.ts"
+    "test:e2e": "playwright test --config tests/e2e/playwright.config.ts",
+    "fetch-data": "tsx scripts/fetch-pokemon-data.ts --skip-existing --no-sprites --no-gifs",
+    "fetch-data:force": "tsx scripts/fetch-pokemon-data.ts --force --no-sprites --no-gifs",
+    "fetch-sprites": "tsx scripts/fetch-pokemon-data.ts --sprites-only --skip-existing --sprites --gifs",
+    "fetch-sprites:force": "tsx scripts/fetch-pokemon-data.ts --sprites-only --force --sprites --gifs"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -22,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "tsx": "^4.22.4",
     "typescript": "^5",
     "vitest": "^3.2.4"
   }

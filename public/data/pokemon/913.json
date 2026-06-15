@@ -1,0 +1,60 @@
+{
+  "id": 913,
+  "name": "quaxwell",
+  "types": [
+    "water"
+  ],
+  "height": 12,
+  "weight": 215,
+  "abilities": [
+    "torrent",
+    "moxie"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 912,
+        "name": "quaxly"
+      },
+      {
+        "id": 913,
+        "name": "quaxwell"
+      },
+      {
+        "id": 914,
+        "name": "quaquaval"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { fetchPokemonById, fetchPokemonSpecies } from "@/lib/pokeapi";
+import { fetchPokemonDetail } from "@/lib/data";
 import type { PokemonDetail } from "@/lib/types";
 
 export function usePokemonDetail(id: number | null) {
@@ -29,24 +29,7 @@ export function usePokemonDetail(id: number | null) {
     setLoading(true);
     setError(null);
 
-    fetchPokemonById(id, abortController.signal)
-      .then(async (detail) => {
-        if (abortController.signal.aborted) return detail;
-
-        if (detail.speciesUrl) {
-          const species = await fetchPokemonSpecies(
-            detail.speciesUrl,
-            abortController.signal,
-          );
-          return {
-            ...detail,
-            flavorText: species.flavorText,
-            evolutionChainUrl: species.evolutionChainUrl,
-          };
-        }
-
-        return detail;
-      })
+    fetchPokemonDetail(id, abortController.signal)
       .then((detail) => {
         if (!abortController.signal.aborted) {
           setData(detail);

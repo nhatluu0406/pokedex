@@ -1,0 +1,42 @@
+{
+  "id": 978,
+  "name": "tatsugiri-curly",
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "height": 3,
+  "weight": 80,
+  "abilities": [
+    "commander",
+    "storm-drain"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 82
+    }
+  ],
+  "flavorText": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+  "evolution": null
+}

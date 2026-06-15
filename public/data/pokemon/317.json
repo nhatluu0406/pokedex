@@ -1,0 +1,56 @@
+{
+  "id": 317,
+  "name": "swalot",
+  "types": [
+    "poison"
+  ],
+  "height": 17,
+  "weight": 800,
+  "abilities": [
+    "liquid-ooze",
+    "sticky-hold",
+    "gluttony"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 83
+    },
+    {
+      "name": "special-attack",
+      "value": 73
+    },
+    {
+      "name": "special-defense",
+      "value": 83
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "When SWALOT spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this POKéMON gulps it down whole with its cavernous mouth.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 316,
+        "name": "gulpin"
+      },
+      {
+        "id": 317,
+        "name": "swalot"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

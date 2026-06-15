@@ -1,0 +1,41 @@
+{
+  "id": 244,
+  "name": "entei",
+  "types": [
+    "fire"
+  ],
+  "height": 21,
+  "weight": 1980,
+  "abilities": [
+    "pressure",
+    "inner-focus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 115
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "Volcanoes erupt when it barks. Un­ able to restrain its extreme power, it races headlong around the land.",
+  "evolution": null
+}

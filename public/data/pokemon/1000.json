@@ -1,0 +1,55 @@
+{
+  "id": 1000,
+  "name": "gholdengo",
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "height": 12,
+  "weight": 300,
+  "abilities": [
+    "good-as-gold"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 87
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 133
+    },
+    {
+      "name": "special-defense",
+      "value": 91
+    },
+    {
+      "name": "speed",
+      "value": 84
+    }
+  ],
+  "flavorText": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 999,
+        "name": "gimmighoul"
+      },
+      {
+        "id": 1000,
+        "name": "gholdengo"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

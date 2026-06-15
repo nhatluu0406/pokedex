@@ -1,0 +1,60 @@
+{
+  "id": 94,
+  "name": "gengar",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "height": 15,
+  "weight": 405,
+  "abilities": [
+    "cursed-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "Under a full moon, this POKéMON likes to mimic the shadows of people and laugh at their fright.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 92,
+        "name": "gastly"
+      },
+      {
+        "id": 93,
+        "name": "haunter"
+      },
+      {
+        "id": 94,
+        "name": "gengar"
+      }
+    ],
+    "levels": [
+      25,
+      null
+    ]
+  }
+}

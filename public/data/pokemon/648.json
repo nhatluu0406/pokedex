@@ -1,0 +1,41 @@
+{
+  "id": 648,
+  "name": "meloetta-aria",
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 65,
+  "abilities": [
+    "serene-grace"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 77
+    },
+    {
+      "name": "defense",
+      "value": 77
+    },
+    {
+      "name": "special-attack",
+      "value": 128
+    },
+    {
+      "name": "special-defense",
+      "value": 128
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+  "evolution": null
+}

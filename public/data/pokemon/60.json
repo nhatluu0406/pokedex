@@ -1,0 +1,61 @@
+{
+  "id": 60,
+  "name": "poliwag",
+  "types": [
+    "water"
+  ],
+  "height": 6,
+  "weight": 124,
+  "abilities": [
+    "water-absorb",
+    "damp",
+    "swift-swim"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 60,
+        "name": "poliwag"
+      },
+      {
+        "id": 61,
+        "name": "poliwhirl"
+      },
+      {
+        "id": 62,
+        "name": "poliwrath"
+      }
+    ],
+    "levels": [
+      25,
+      null
+    ]
+  }
+}

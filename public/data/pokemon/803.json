@@ -1,0 +1,54 @@
+{
+  "id": 803,
+  "name": "poipole",
+  "types": [
+    "poison"
+  ],
+  "height": 6,
+  "weight": 18,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 67
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 67
+    },
+    {
+      "name": "special-attack",
+      "value": 73
+    },
+    {
+      "name": "special-defense",
+      "value": 67
+    },
+    {
+      "name": "speed",
+      "value": 73
+    }
+  ],
+  "flavorText": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 803,
+        "name": "poipole"
+      },
+      {
+        "id": 804,
+        "name": "naganadel"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

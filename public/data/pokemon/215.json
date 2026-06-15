@@ -1,0 +1,57 @@
+{
+  "id": 215,
+  "name": "sneasel",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "height": 9,
+  "weight": 280,
+  "abilities": [
+    "inner-focus",
+    "keen-eye",
+    "pickpocket"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 115
+    }
+  ],
+  "flavorText": "Its paws conceal sharp claws. If attacked, it sud­ denly extends the claws and startles its enemy.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 215,
+        "name": "sneasel"
+      },
+      {
+        "id": 461,
+        "name": "weavile"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

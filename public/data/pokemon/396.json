@@ -1,0 +1,61 @@
+{
+  "id": 396,
+  "name": "starly",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 3,
+  "weight": 20,
+  "abilities": [
+    "keen-eye",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "They flock in great numbers. Though small, they flap their wings with great power.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 396,
+        "name": "starly"
+      },
+      {
+        "id": 397,
+        "name": "staravia"
+      },
+      {
+        "id": 398,
+        "name": "staraptor"
+      }
+    ],
+    "levels": [
+      14,
+      34
+    ]
+  }
+}

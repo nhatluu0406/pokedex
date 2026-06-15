@@ -1,0 +1,60 @@
+{
+  "id": 680,
+  "name": "doublade",
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "height": 8,
+  "weight": 45,
+  "abilities": [
+    "no-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 59
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 150
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 49
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "When Honedge evolves, it divides into two swords, which cooperate via telepathy to coordinate attacks and slash their enemies to ribbons.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 679,
+        "name": "honedge"
+      },
+      {
+        "id": 680,
+        "name": "doublade"
+      },
+      {
+        "id": 681,
+        "name": "aegislash"
+      }
+    ],
+    "levels": [
+      35,
+      null
+    ]
+  }
+}

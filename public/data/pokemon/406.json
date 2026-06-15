@@ -1,0 +1,62 @@
+{
+  "id": 406,
+  "name": "budew",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 2,
+  "weight": 12,
+  "abilities": [
+    "natural-cure",
+    "poison-point",
+    "leaf-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 406,
+        "name": "budew"
+      },
+      {
+        "id": 315,
+        "name": "roselia"
+      },
+      {
+        "id": 407,
+        "name": "roserade"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

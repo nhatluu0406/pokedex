@@ -1,0 +1,57 @@
+{
+  "id": 167,
+  "name": "spinarak",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 5,
+  "weight": 85,
+  "abilities": [
+    "swarm",
+    "insomnia",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 167,
+        "name": "spinarak"
+      },
+      {
+        "id": 168,
+        "name": "ariados"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 343,
+  "name": "baltoy",
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "height": 5,
+  "weight": 215,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "BALTOY moves while spinning around on its one foot. Primitive wall paintings depicting this POKéMON living among people were discovered in some ancient ruins.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 343,
+        "name": "baltoy"
+      },
+      {
+        "id": 344,
+        "name": "claydol"
+      }
+    ],
+    "levels": [
+      36
+    ]
+  }
+}

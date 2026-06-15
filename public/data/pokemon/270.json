@@ -1,0 +1,62 @@
+{
+  "id": 270,
+  "name": "lotad",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "height": 5,
+  "weight": 26,
+  "abilities": [
+    "swift-swim",
+    "rain-dish",
+    "own-tempo"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 270,
+        "name": "lotad"
+      },
+      {
+        "id": 271,
+        "name": "lombre"
+      },
+      {
+        "id": 272,
+        "name": "ludicolo"
+      }
+    ],
+    "levels": [
+      14,
+      null
+    ]
+  }
+}

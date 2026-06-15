@@ -1,0 +1,56 @@
+{
+  "id": 399,
+  "name": "bidoof",
+  "types": [
+    "normal"
+  ],
+  "height": 5,
+  "weight": 200,
+  "abilities": [
+    "simple",
+    "unaware",
+    "moody"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 59
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 31
+    }
+  ],
+  "flavorText": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 399,
+        "name": "bidoof"
+      },
+      {
+        "id": 400,
+        "name": "bibarel"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

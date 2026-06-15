@@ -1,0 +1,40 @@
+{
+  "id": 807,
+  "name": "zeraora",
+  "types": [
+    "electric"
+  ],
+  "height": 15,
+  "weight": 445,
+  "abilities": [
+    "volt-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 112
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 102
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 143
+    }
+  ],
+  "flavorText": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+  "evolution": null
+}

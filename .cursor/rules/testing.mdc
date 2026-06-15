@@ -1,0 +1,33 @@
+---
+description: Unit and e2e testing conventions
+globs: tests/**/*
+alwaysApply: false
+---
+
+# Testing rules
+
+## Commands
+
+```bash
+npm test              # Vitest unit tests (tests/phase-*/unit/)
+npm run test:e2e      # Playwright — server must be on port 3100
+npm run lint && npm run build
+```
+
+## E2e layout
+
+- Config: `tests/e2e/playwright.config.ts`
+- Specs: `pokedex-ui.spec.ts` (layout/flows), `ui-contrast.spec.ts` (theme, watermark, toolbar)
+- Helpers: `tests/e2e/helpers.ts` — `waitForAppReady`, `enableDarkTheme`, `getBodyBeforeStyle` (reads `documentElement::before`)
+- Artifacts: `tests/artifacts/test-results/` (gitignored)
+
+## When adding UI behavior
+
+- Add or update a desktop e2e assertion in `ui-contrast.spec.ts` for theme/layout regressions
+- Use bounding-box checks for overlap (sprite vs text, toolbar vs cards)
+- Watermark tests: opacity via `getBodyBeforeStyle`, not `body::before`
+
+## Reports
+
+- Phase results: `tests/reports/phase-*-report.md`
+- Do not commit secrets; no `.env` required for CI

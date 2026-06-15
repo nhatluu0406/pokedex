@@ -1,0 +1,43 @@
+{
+  "id": 441,
+  "name": "chatot",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 19,
+  "abilities": [
+    "keen-eye",
+    "tangled-feet",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 76
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 92
+    },
+    {
+      "name": "special-defense",
+      "value": 42
+    },
+    {
+      "name": "speed",
+      "value": 91
+    }
+  ],
+  "flavorText": "It can learn and speak human words. If they gather, they all learn the same saying.",
+  "evolution": null
+}

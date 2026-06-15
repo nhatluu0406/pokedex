@@ -1,0 +1,56 @@
+{
+  "id": 713,
+  "name": "avalugg",
+  "types": [
+    "ice"
+  ],
+  "height": 20,
+  "weight": 5050,
+  "abilities": [
+    "own-tempo",
+    "ice-body",
+    "sturdy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 117
+    },
+    {
+      "name": "defense",
+      "value": 184
+    },
+    {
+      "name": "special-attack",
+      "value": 44
+    },
+    {
+      "name": "special-defense",
+      "value": 46
+    },
+    {
+      "name": "speed",
+      "value": 28
+    }
+  ],
+  "flavorText": "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 712,
+        "name": "bergmite"
+      },
+      {
+        "id": 713,
+        "name": "avalugg"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

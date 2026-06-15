@@ -1,0 +1,56 @@
+{
+  "id": 341,
+  "name": "corphish",
+  "types": [
+    "water"
+  ],
+  "height": 6,
+  "weight": 115,
+  "abilities": [
+    "hyper-cutter",
+    "shell-armor",
+    "adaptability"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 43
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 341,
+        "name": "corphish"
+      },
+      {
+        "id": 342,
+        "name": "crawdaunt"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

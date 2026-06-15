@@ -1,0 +1,56 @@
+{
+  "id": 361,
+  "name": "snorunt",
+  "types": [
+    "ice"
+  ],
+  "height": 7,
+  "weight": 168,
+  "abilities": [
+    "inner-focus",
+    "ice-body",
+    "moody"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "SNORUNT live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this POKéMON steals away to live quietly among stalactites and stalagmites deep in caverns.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 361,
+        "name": "snorunt"
+      },
+      {
+        "id": 362,
+        "name": "glalie"
+      }
+    ],
+    "levels": [
+      42
+    ]
+  }
+}

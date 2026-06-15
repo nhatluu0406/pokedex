@@ -1,0 +1,60 @@
+{
+  "id": 633,
+  "name": "deino",
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "height": 8,
+  "weight": 173,
+  "abilities": [
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 52
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 38
+    }
+  ],
+  "flavorText": "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 633,
+        "name": "deino"
+      },
+      {
+        "id": 634,
+        "name": "zweilous"
+      },
+      {
+        "id": 635,
+        "name": "hydreigon"
+      }
+    ],
+    "levels": [
+      50,
+      64
+    ]
+  }
+}

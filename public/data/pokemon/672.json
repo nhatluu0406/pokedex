@@ -1,0 +1,55 @@
+{
+  "id": 672,
+  "name": "skiddo",
+  "types": [
+    "grass"
+  ],
+  "height": 9,
+  "weight": 310,
+  "abilities": [
+    "sap-sipper",
+    "grass-pelt"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 66
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 62
+    },
+    {
+      "name": "special-defense",
+      "value": 57
+    },
+    {
+      "name": "speed",
+      "value": 52
+    }
+  ],
+  "flavorText": "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 672,
+        "name": "skiddo"
+      },
+      {
+        "id": 673,
+        "name": "gogoat"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

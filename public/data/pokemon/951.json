@@ -1,0 +1,56 @@
+{
+  "id": 951,
+  "name": "capsakid",
+  "types": [
+    "grass"
+  ],
+  "height": 3,
+  "weight": 30,
+  "abilities": [
+    "chlorophyll",
+    "insomnia",
+    "klutz"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 62
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 62
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 951,
+        "name": "capsakid"
+      },
+      {
+        "id": 952,
+        "name": "scovillain"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 323,
+  "name": "camerupt",
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "height": 19,
+  "weight": 2200,
+  "abilities": [
+    "magma-armor",
+    "solid-rock",
+    "anger-point"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 105
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "CAMERUPT has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this POKéMON’s back erupt, spewing the superheated magma.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 322,
+        "name": "numel"
+      },
+      {
+        "id": 323,
+        "name": "camerupt"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

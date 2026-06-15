@@ -1,0 +1,41 @@
+{
+  "id": 494,
+  "name": "victini",
+  "types": [
+    "psychic",
+    "fire"
+  ],
+  "height": 4,
+  "weight": 40,
+  "abilities": [
+    "victory-star"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+  "evolution": null
+}

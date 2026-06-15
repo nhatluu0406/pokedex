@@ -1,0 +1,41 @@
+{
+  "id": 338,
+  "name": "solrock",
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "height": 12,
+  "weight": 1540,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 90
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+  "evolution": null
+}

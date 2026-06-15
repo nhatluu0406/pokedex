@@ -1,0 +1,56 @@
+{
+  "id": 334,
+  "name": "altaria",
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "height": 11,
+  "weight": 206,
+  "abilities": [
+    "natural-cure",
+    "cloud-nine"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 105
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "ALTARIA dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this POKéMON makes its listeners experience dreamy wonderment.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 333,
+        "name": "swablu"
+      },
+      {
+        "id": 334,
+        "name": "altaria"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

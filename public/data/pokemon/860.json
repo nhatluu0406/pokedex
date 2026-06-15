@@ -1,0 +1,62 @@
+{
+  "id": 860,
+  "name": "morgrem",
+  "types": [
+    "dark",
+    "fairy"
+  ],
+  "height": 8,
+  "weight": 125,
+  "abilities": [
+    "prankster",
+    "frisk",
+    "pickpocket"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 859,
+        "name": "impidimp"
+      },
+      {
+        "id": 860,
+        "name": "morgrem"
+      },
+      {
+        "id": 861,
+        "name": "grimmsnarl"
+      }
+    ],
+    "levels": [
+      32,
+      42
+    ]
+  }
+}

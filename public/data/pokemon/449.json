@@ -1,0 +1,55 @@
+{
+  "id": 449,
+  "name": "hippopotas",
+  "types": [
+    "ground"
+  ],
+  "height": 8,
+  "weight": 495,
+  "abilities": [
+    "sand-stream",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 72
+    },
+    {
+      "name": "defense",
+      "value": 78
+    },
+    {
+      "name": "special-attack",
+      "value": 38
+    },
+    {
+      "name": "special-defense",
+      "value": 42
+    },
+    {
+      "name": "speed",
+      "value": 32
+    }
+  ],
+  "flavorText": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 449,
+        "name": "hippopotas"
+      },
+      {
+        "id": 450,
+        "name": "hippowdon"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

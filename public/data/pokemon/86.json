@@ -1,0 +1,56 @@
+{
+  "id": 86,
+  "name": "seel",
+  "types": [
+    "water"
+  ],
+  "height": 11,
+  "weight": 900,
+  "abilities": [
+    "thick-fat",
+    "hydration",
+    "ice-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 86,
+        "name": "seel"
+      },
+      {
+        "id": 87,
+        "name": "dewgong"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

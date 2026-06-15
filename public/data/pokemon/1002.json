@@ -1,0 +1,41 @@
+{
+  "id": 1002,
+  "name": "chien-pao",
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "height": 19,
+  "weight": 1522,
+  "abilities": [
+    "sword-of-ruin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 135
+    }
+  ],
+  "flavorText": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
+  "evolution": null
+}

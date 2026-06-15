@@ -1,0 +1,55 @@
+{
+  "id": 869,
+  "name": "alcremie",
+  "types": [
+    "fairy"
+  ],
+  "height": 3,
+  "weight": 5,
+  "abilities": [
+    "sweet-veil",
+    "aroma-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 121
+    },
+    {
+      "name": "speed",
+      "value": 64
+    }
+  ],
+  "flavorText": "When it trusts a Trainer, it will treat them to berries it’s decorated with cream.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 868,
+        "name": "milcery"
+      },
+      {
+        "id": 869,
+        "name": "alcremie"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

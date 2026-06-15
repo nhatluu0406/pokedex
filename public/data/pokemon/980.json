@@ -1,0 +1,57 @@
+{
+  "id": 980,
+  "name": "clodsire",
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "height": 18,
+  "weight": 2230,
+  "abilities": [
+    "poison-point",
+    "water-absorb",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 130
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 194,
+        "name": "wooper"
+      },
+      {
+        "id": 195,
+        "name": "quagsire"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

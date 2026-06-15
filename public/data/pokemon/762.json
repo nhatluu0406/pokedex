@@ -1,0 +1,61 @@
+{
+  "id": 762,
+  "name": "steenee",
+  "types": [
+    "grass"
+  ],
+  "height": 7,
+  "weight": 82,
+  "abilities": [
+    "leaf-guard",
+    "oblivious",
+    "sweet-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 52
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 48
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 62
+    }
+  ],
+  "flavorText": "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 761,
+        "name": "bounsweet"
+      },
+      {
+        "id": 762,
+        "name": "steenee"
+      },
+      {
+        "id": 763,
+        "name": "tsareena"
+      }
+    ],
+    "levels": [
+      18,
+      null
+    ]
+  }
+}

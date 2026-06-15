@@ -1,0 +1,41 @@
+{
+  "id": 797,
+  "name": "celesteela",
+  "types": [
+    "steel",
+    "flying"
+  ],
+  "height": 92,
+  "weight": 9999,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 97
+    },
+    {
+      "name": "attack",
+      "value": 101
+    },
+    {
+      "name": "defense",
+      "value": 103
+    },
+    {
+      "name": "special-attack",
+      "value": 107
+    },
+    {
+      "name": "special-defense",
+      "value": 101
+    },
+    {
+      "name": "speed",
+      "value": 61
+    }
+  ],
+  "flavorText": "It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.",
+  "evolution": null
+}

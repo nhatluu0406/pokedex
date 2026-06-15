@@ -1,0 +1,41 @@
+{
+  "id": 479,
+  "name": "rotom",
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "height": 3,
+  "weight": 3,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 77
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 77
+    },
+    {
+      "name": "speed",
+      "value": 91
+    }
+  ],
+  "flavorText": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+  "evolution": null
+}

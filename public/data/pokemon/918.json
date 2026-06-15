@@ -1,0 +1,55 @@
+{
+  "id": 918,
+  "name": "spidops",
+  "types": [
+    "bug"
+  ],
+  "height": 10,
+  "weight": 165,
+  "abilities": [
+    "insomnia",
+    "stakeout"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 79
+    },
+    {
+      "name": "defense",
+      "value": 92
+    },
+    {
+      "name": "special-attack",
+      "value": 52
+    },
+    {
+      "name": "special-defense",
+      "value": 86
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 917,
+        "name": "tarountula"
+      },
+      {
+        "id": 918,
+        "name": "spidops"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

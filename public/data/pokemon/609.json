@@ -1,0 +1,62 @@
+{
+  "id": 609,
+  "name": "chandelure",
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "height": 10,
+  "weight": 343,
+  "abilities": [
+    "flash-fire",
+    "flame-body",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 145
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 607,
+        "name": "litwick"
+      },
+      {
+        "id": 608,
+        "name": "lampent"
+      },
+      {
+        "id": 609,
+        "name": "chandelure"
+      }
+    ],
+    "levels": [
+      41,
+      null
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 720,
+  "name": "hoopa",
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "height": 5,
+  "weight": 90,
+  "abilities": [
+    "magician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 150
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+  "evolution": null
+}

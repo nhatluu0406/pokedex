@@ -1,0 +1,56 @@
+{
+  "id": 120,
+  "name": "staryu",
+  "types": [
+    "water"
+  ],
+  "height": 8,
+  "weight": 345,
+  "abilities": [
+    "illuminate",
+    "natural-cure",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 120,
+        "name": "staryu"
+      },
+      {
+        "id": 121,
+        "name": "starmie"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 605,
+  "name": "elgyem",
+  "types": [
+    "psychic"
+  ],
+  "height": 5,
+  "weight": 90,
+  "abilities": [
+    "telepathy",
+    "synchronize",
+    "analytic"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 605,
+        "name": "elgyem"
+      },
+      {
+        "id": 606,
+        "name": "beheeyem"
+      }
+    ],
+    "levels": [
+      42
+    ]
+  }
+}

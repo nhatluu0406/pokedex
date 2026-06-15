@@ -1,0 +1,41 @@
+{
+  "id": 995,
+  "name": "iron-thorns",
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "height": 16,
+  "weight": 3030,
+  "abilities": [
+    "quark-drive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 134
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 84
+    },
+    {
+      "name": "speed",
+      "value": 72
+    }
+  ],
+  "flavorText": "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
+  "evolution": null
+}

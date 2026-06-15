@@ -1,0 +1,43 @@
+{
+  "id": 303,
+  "name": "mawile",
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "height": 6,
+  "weight": 115,
+  "abilities": [
+    "hyper-cutter",
+    "intimidate",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "MAWHILE’s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+  "evolution": null
+}

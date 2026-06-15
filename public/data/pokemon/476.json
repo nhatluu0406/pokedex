@@ -1,0 +1,57 @@
+{
+  "id": 476,
+  "name": "probopass",
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "height": 14,
+  "weight": 3400,
+  "abilities": [
+    "sturdy",
+    "magnet-pull",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 145
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 150
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "It freely controls three small units called Mini-Noses using magnetic force.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 299,
+        "name": "nosepass"
+      },
+      {
+        "id": 476,
+        "name": "probopass"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

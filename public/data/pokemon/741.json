@@ -1,0 +1,41 @@
+{
+  "id": 741,
+  "name": "oricorio-baile",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 6,
+  "weight": 34,
+  "abilities": [
+    "dancer"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 98
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 93
+    }
+  ],
+  "flavorText": "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
+  "evolution": null
+}

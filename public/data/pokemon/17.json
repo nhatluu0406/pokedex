@@ -1,0 +1,62 @@
+{
+  "id": 17,
+  "name": "pidgeotto",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 11,
+  "weight": 300,
+  "abilities": [
+    "keen-eye",
+    "tangled-feet",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 63
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 71
+    }
+  ],
+  "flavorText": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 16,
+        "name": "pidgey"
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto"
+      },
+      {
+        "id": 18,
+        "name": "pidgeot"
+      }
+    ],
+    "levels": [
+      18,
+      36
+    ]
+  }
+}

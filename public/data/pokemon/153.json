@@ -1,0 +1,60 @@
+{
+  "id": 153,
+  "name": "bayleef",
+  "types": [
+    "grass"
+  ],
+  "height": 12,
+  "weight": 158,
+  "abilities": [
+    "overgrow",
+    "leaf-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 62
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 63
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 152,
+        "name": "chikorita"
+      },
+      {
+        "id": 153,
+        "name": "bayleef"
+      },
+      {
+        "id": 154,
+        "name": "meganium"
+      }
+    ],
+    "levels": [
+      16,
+      32
+    ]
+  }
+}

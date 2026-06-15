@@ -1,0 +1,61 @@
+{
+  "id": 577,
+  "name": "solosis",
+  "types": [
+    "psychic"
+  ],
+  "height": 3,
+  "weight": 10,
+  "abilities": [
+    "overcoat",
+    "magic-guard",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 105
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 577,
+        "name": "solosis"
+      },
+      {
+        "id": 578,
+        "name": "duosion"
+      },
+      {
+        "id": 579,
+        "name": "reuniclus"
+      }
+    ],
+    "levels": [
+      32,
+      41
+    ]
+  }
+}

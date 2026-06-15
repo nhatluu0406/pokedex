@@ -1,8 +1,10 @@
-const CACHE_NAME = "pokedex-shell-v1";
+const CACHE_NAME = "pokedex-v3";
 const SHELL_URLS = [
   "/",
   "/offline.html",
   "/manifest.json",
+  "/data/index.json",
+  "/data/meta.json",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
   "/assets/pokeball-icon.png",
@@ -11,9 +13,25 @@ const SHELL_URLS = [
   "/assets/no-pokemon-selected.png",
 ];
 
+async function staleWhileRevalidate(request) {
+  const cache = await caches.open(CACHE_NAME);
+  const cached = await cache.match(request);
+  const network = fetch(request).then((response) => {
+    if (response.ok) {
+      cache.put(request, response.clone());
+    }
+    return response;
+  });
+  return cached ?? network;
+}
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_URLS)),
+    caches.open(CACHE_NAME).then(async (cache) => {
+      await Promise.allSettled(
+        SHELL_URLS.map((url) => cache.add(url)),
+      );
+    }),
   );
   self.skipWaiting();
 });
@@ -38,6 +56,16 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   if (url.origin !== self.location.origin) return;
+
+  if (url.pathname.startsWith("/data/")) {
+    event.respondWith(staleWhileRevalidate(request));
+    return;
+  }
+
+  if (url.pathname.startsWith("/sprites/")) {
+    event.respondWith(staleWhileRevalidate(request));
+    return;
+  }
 
   if (request.mode === "navigate") {
     event.respondWith(

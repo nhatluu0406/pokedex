@@ -1,0 +1,56 @@
+{
+  "id": 619,
+  "name": "mienfoo",
+  "types": [
+    "fighting"
+  ],
+  "height": 9,
+  "weight": 200,
+  "abilities": [
+    "inner-focus",
+    "regenerator",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 619,
+        "name": "mienfoo"
+      },
+      {
+        "id": 620,
+        "name": "mienshao"
+      }
+    ],
+    "levels": [
+      50
+    ]
+  }
+}

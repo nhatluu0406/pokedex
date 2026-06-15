@@ -1,0 +1,57 @@
+{
+  "id": 448,
+  "name": "lucario",
+  "types": [
+    "fighting",
+    "steel"
+  ],
+  "height": 12,
+  "weight": 540,
+  "abilities": [
+    "steadfast",
+    "inner-focus",
+    "justified"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 115
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "It has the ability to sense the auras of all things. It understands human speech.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 447,
+        "name": "riolu"
+      },
+      {
+        "id": 448,
+        "name": "lucario"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

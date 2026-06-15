@@ -1,0 +1,61 @@
+{
+  "id": 724,
+  "name": "decidueye",
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "height": 16,
+  "weight": 366,
+  "abilities": [
+    "overgrow",
+    "long-reach"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 78
+    },
+    {
+      "name": "attack",
+      "value": 107
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 722,
+        "name": "rowlet"
+      },
+      {
+        "id": 723,
+        "name": "dartrix"
+      },
+      {
+        "id": 724,
+        "name": "decidueye"
+      }
+    ],
+    "levels": [
+      17,
+      34
+    ]
+  }
+}

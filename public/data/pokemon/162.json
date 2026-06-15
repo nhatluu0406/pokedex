@@ -1,0 +1,56 @@
+{
+  "id": 162,
+  "name": "furret",
+  "types": [
+    "normal"
+  ],
+  "height": 18,
+  "weight": 325,
+  "abilities": [
+    "run-away",
+    "keen-eye",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 85
+    },
+    {
+      "name": "attack",
+      "value": 76
+    },
+    {
+      "name": "defense",
+      "value": 64
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 161,
+        "name": "sentret"
+      },
+      {
+        "id": 162,
+        "name": "furret"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

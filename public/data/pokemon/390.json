@@ -1,0 +1,60 @@
+{
+  "id": 390,
+  "name": "chimchar",
+  "types": [
+    "fire"
+  ],
+  "height": 5,
+  "weight": 62,
+  "abilities": [
+    "blaze",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 44
+    },
+    {
+      "name": "attack",
+      "value": 58
+    },
+    {
+      "name": "defense",
+      "value": 44
+    },
+    {
+      "name": "special-attack",
+      "value": 58
+    },
+    {
+      "name": "special-defense",
+      "value": 44
+    },
+    {
+      "name": "speed",
+      "value": 61
+    }
+  ],
+  "flavorText": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 390,
+        "name": "chimchar"
+      },
+      {
+        "id": 391,
+        "name": "monferno"
+      },
+      {
+        "id": 392,
+        "name": "infernape"
+      }
+    ],
+    "levels": [
+      14,
+      36
+    ]
+  }
+}

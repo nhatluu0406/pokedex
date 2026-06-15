@@ -1,0 +1,56 @@
+{
+  "id": 915,
+  "name": "lechonk",
+  "types": [
+    "normal"
+  ],
+  "height": 5,
+  "weight": 102,
+  "abilities": [
+    "aroma-veil",
+    "gluttony",
+    "thick-fat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 54
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 915,
+        "name": "lechonk"
+      },
+      {
+        "id": 916,
+        "name": "oinkologne"
+      }
+    ],
+    "levels": [
+      18
+    ]
+  }
+}

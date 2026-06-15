@@ -1,53 +1,27 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
-import { fetchEvolutionChain, getStaticSpriteUrl } from "@/lib/pokeapi";
+import { getStaticSpriteUrl } from "@/lib/pokeapi";
 import type { EvolutionDisplay } from "@/lib/types";
 import { capitalizeName } from "@/utils/format";
 
 interface EvolutionChainProps {
-  evolutionChainUrl?: string;
+  evolution?: EvolutionDisplay | null;
   onSelect: (id: number) => void;
 }
 
-export function EvolutionChain({
-  evolutionChainUrl,
-  onSelect,
-}: EvolutionChainProps) {
-  const [chain, setChain] = useState<EvolutionDisplay | null>(null);
-
-  useEffect(() => {
-    if (!evolutionChainUrl) return;
-
-    const abortController = new AbortController();
-
-    fetchEvolutionChain(evolutionChainUrl, abortController.signal)
-      .then((result) => {
-        if (!abortController.signal.aborted) {
-          setChain(result);
-        }
-      })
-      .catch(() => {
-        if (!abortController.signal.aborted) {
-          setChain(null);
-        }
-      });
-
-    return () => abortController.abort();
-  }, [evolutionChainUrl]);
-
-  if (!chain) return null;
+export function EvolutionChain({ evolution, onSelect }: EvolutionChainProps) {
+  if (!evolution) return null;
 
   return (
     <div className="detail-evolution">
       <h3 className="detail-section-title">Evolution</h3>
       <div className="evolution-chain">
-        {chain.pokemon.map((stage, index) => (
+        {evolution.pokemon.map((stage, index) => (
           <div key={stage.id} className="evolution-stage-group">
             {index > 0 && (
               <div className="evolution-level">
-                Lv. {chain.levels[index - 1] ?? "?"}
+                Lv. {evolution.levels[index - 1] ?? "?"}
               </div>
             )}
             <button

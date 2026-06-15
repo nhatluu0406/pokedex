@@ -1,0 +1,61 @@
+{
+  "id": 662,
+  "name": "fletchinder",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 7,
+  "weight": 160,
+  "abilities": [
+    "flame-body",
+    "gale-wings"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 62
+    },
+    {
+      "name": "attack",
+      "value": 73
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 56
+    },
+    {
+      "name": "special-defense",
+      "value": 52
+    },
+    {
+      "name": "speed",
+      "value": 84
+    }
+  ],
+  "flavorText": "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 661,
+        "name": "fletchling"
+      },
+      {
+        "id": 662,
+        "name": "fletchinder"
+      },
+      {
+        "id": 663,
+        "name": "talonflame"
+      }
+    ],
+    "levels": [
+      17,
+      35
+    ]
+  }
+}

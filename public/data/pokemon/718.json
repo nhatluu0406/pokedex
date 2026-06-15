@@ -1,0 +1,41 @@
+{
+  "id": 718,
+  "name": "zygarde-50",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "height": 50,
+  "weight": 3050,
+  "abilities": [
+    "aura-break"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 108
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 121
+    },
+    {
+      "name": "special-attack",
+      "value": 81
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
+  "evolution": null
+}

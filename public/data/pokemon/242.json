@@ -1,0 +1,61 @@
+{
+  "id": 242,
+  "name": "blissey",
+  "types": [
+    "normal"
+  ],
+  "height": 15,
+  "weight": 468,
+  "abilities": [
+    "natural-cure",
+    "serene-grace",
+    "healer"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 255
+    },
+    {
+      "name": "attack",
+      "value": 10
+    },
+    {
+      "name": "defense",
+      "value": 10
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 135
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "Anyone who takes even one bite of BLISSEY's egg be­ comes unfailingly caring and pleas­ ant to everyone.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 440,
+        "name": "happiny"
+      },
+      {
+        "id": 113,
+        "name": "chansey"
+      },
+      {
+        "id": 242,
+        "name": "blissey"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

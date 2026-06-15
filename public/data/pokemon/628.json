@@ -1,0 +1,57 @@
+{
+  "id": 628,
+  "name": "braviary",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 15,
+  "weight": 410,
+  "abilities": [
+    "keen-eye",
+    "sheer-force",
+    "defiant"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 123
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 57
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 627,
+        "name": "rufflet"
+      },
+      {
+        "id": 628,
+        "name": "braviary"
+      }
+    ],
+    "levels": [
+      54
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 34,
+  "name": "nidoking",
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "height": 14,
+  "weight": 620,
+  "abilities": [
+    "poison-point",
+    "rivalry",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 81
+    },
+    {
+      "name": "attack",
+      "value": 102
+    },
+    {
+      "name": "defense",
+      "value": 77
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 32,
+        "name": "nidoran-m"
+      },
+      {
+        "id": 33,
+        "name": "nidorino"
+      },
+      {
+        "id": 34,
+        "name": "nidoking"
+      }
+    ],
+    "levels": [
+      16,
+      null
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1006,
+  "name": "iron-valiant",
+  "types": [
+    "fairy",
+    "fighting"
+  ],
+  "height": 14,
+  "weight": 350,
+  "abilities": [
+    "quark-drive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 74
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 116
+    }
+  ],
+  "flavorText": "It has some similarities to a mad scientist’s invention covered in a paranormal magazine.",
+  "evolution": null
+}

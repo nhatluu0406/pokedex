@@ -1,0 +1,60 @@
+{
+  "id": 10,
+  "name": "caterpie",
+  "types": [
+    "bug"
+  ],
+  "height": 3,
+  "weight": 29,
+  "abilities": [
+    "shield-dust",
+    "run-away"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 20
+    },
+    {
+      "name": "special-defense",
+      "value": 20
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 10,
+        "name": "caterpie"
+      },
+      {
+        "id": 11,
+        "name": "metapod"
+      },
+      {
+        "id": 12,
+        "name": "butterfree"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 45,
+  "name": "vileplume",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 12,
+  "weight": 186,
+  "abilities": [
+    "chlorophyll",
+    "effect-spore"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 43,
+        "name": "oddish"
+      },
+      {
+        "id": 44,
+        "name": "gloom"
+      },
+      {
+        "id": 45,
+        "name": "vileplume"
+      }
+    ],
+    "levels": [
+      21,
+      null
+    ]
+  }
+}

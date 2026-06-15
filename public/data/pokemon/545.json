@@ -1,0 +1,62 @@
+{
+  "id": 545,
+  "name": "scolipede",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 25,
+  "weight": 2005,
+  "abilities": [
+    "poison-point",
+    "swarm",
+    "speed-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 89
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 69
+    },
+    {
+      "name": "speed",
+      "value": 112
+    }
+  ],
+  "flavorText": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 543,
+        "name": "venipede"
+      },
+      {
+        "id": 544,
+        "name": "whirlipede"
+      },
+      {
+        "id": 545,
+        "name": "scolipede"
+      }
+    ],
+    "levels": [
+      22,
+      30
+    ]
+  }
+}

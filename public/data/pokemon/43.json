@@ -1,0 +1,61 @@
+{
+  "id": 43,
+  "name": "oddish",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 5,
+  "weight": 54,
+  "abilities": [
+    "chlorophyll",
+    "run-away"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 43,
+        "name": "oddish"
+      },
+      {
+        "id": 44,
+        "name": "gloom"
+      },
+      {
+        "id": 45,
+        "name": "vileplume"
+      }
+    ],
+    "levels": [
+      21,
+      null
+    ]
+  }
+}

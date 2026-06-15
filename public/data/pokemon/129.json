@@ -1,0 +1,55 @@
+{
+  "id": 129,
+  "name": "magikarp",
+  "types": [
+    "water"
+  ],
+  "height": 9,
+  "weight": 100,
+  "abilities": [
+    "swift-swim",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 20
+    },
+    {
+      "name": "attack",
+      "value": 10
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 15
+    },
+    {
+      "name": "special-defense",
+      "value": 20
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 129,
+        "name": "magikarp"
+      },
+      {
+        "id": 130,
+        "name": "gyarados"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

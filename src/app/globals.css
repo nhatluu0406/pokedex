@@ -666,6 +666,36 @@ html::before {
     scrollbar-width: none;
   }
 
+  .pokemon-detail-modal .pokemon-detail-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: var(--card-bg);
+    color: var(--text);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+
+  .pokemon-detail-modal .pokemon-detail-close svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+
+  .pokemon-detail-modal .pokemon-detail-close:hover {
+    opacity: 0.5;
+  }
+
   .pokemon-detail-modal.slide-out {
     animation: slideOutMobile 0.35s ease-in-out forwards;
   }
@@ -692,49 +722,12 @@ html::before {
     pointer-events: auto;
   }
 
-  .pokemon-detail-close {
-    position: fixed;
-    top: max(12px, env(safe-area-inset-top));
-    right: max(12px, env(safe-area-inset-right));
-    z-index: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 44px;
-    min-height: 44px;
-    padding: 10px;
-    margin-bottom: env(safe-area-inset-bottom);
-    border: none;
-    border-radius: 12px;
-    background: var(--card-bg);
-    color: var(--text);
-    box-shadow: var(--shadow);
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-  }
-
-  .pokemon-detail-close svg {
-    width: 22px;
-    height: 22px;
-    flex-shrink: 0;
-  }
-
-  .pokemon-detail-close:hover {
-    opacity: 0.5;
-  }
-
-  .pokemon-detail-modal .detail-sprite-wrapper {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -35%);
-  }
-
   .pokemon-detail-modal .detail-card {
-    padding-top: 115px;
     max-height: calc(
       100vh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom)
     );
+    padding-top: 12px;
+    overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -742,6 +735,44 @@ html::before {
 
   .pokemon-detail-modal .detail-card::-webkit-scrollbar {
     display: none;
+  }
+
+  .pokemon-detail-modal .detail-card .detail-sprite-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0 0 4px;
+    padding: 48px 52px 8px 48px;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pokemon-detail-modal .detail-card .animated-sprite-container {
+    width: 100%;
+    max-width: 220px;
+    justify-content: center;
+  }
+
+  .pokemon-detail-modal .detail-card .animated-sprite {
+    display: block;
+    max-height: min(30vh, 180px);
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .pokemon-detail-modal .detail-info {
+    margin: 8px 0 4px;
+    gap: 8px;
+  }
+
+  .pokemon-detail-modal .detail-info-pill {
+    min-width: 0;
+    padding: 10px 12px;
+    font-size: 0.9375rem;
   }
 
   .pokemon-detail-modal .detail-actions {

@@ -1,0 +1,57 @@
+{
+  "id": 340,
+  "name": "whiscash",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "height": 9,
+  "weight": 236,
+  "abilities": [
+    "oblivious",
+    "anticipation",
+    "hydration"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 78
+    },
+    {
+      "name": "defense",
+      "value": 73
+    },
+    {
+      "name": "special-attack",
+      "value": 76
+    },
+    {
+      "name": "special-defense",
+      "value": 71
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "WHISCASH is extremely territorial. Just one of these POKéMON will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 339,
+        "name": "barboach"
+      },
+      {
+        "id": 340,
+        "name": "whiscash"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 588,
+  "name": "karrablast",
+  "types": [
+    "bug"
+  ],
+  "height": 5,
+  "weight": 59,
+  "abilities": [
+    "swarm",
+    "shed-skin",
+    "no-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 588,
+        "name": "karrablast"
+      },
+      {
+        "id": 589,
+        "name": "escavalier"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

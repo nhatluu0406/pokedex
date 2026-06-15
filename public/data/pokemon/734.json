@@ -1,0 +1,56 @@
+{
+  "id": 734,
+  "name": "yungoos",
+  "types": [
+    "normal"
+  ],
+  "height": 4,
+  "weight": 60,
+  "abilities": [
+    "stakeout",
+    "strong-jaw",
+    "adaptability"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 734,
+        "name": "yungoos"
+      },
+      {
+        "id": 735,
+        "name": "gumshoos"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

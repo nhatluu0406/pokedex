@@ -1,0 +1,56 @@
+{
+  "id": 22,
+  "name": "fearow",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 380,
+  "abilities": [
+    "keen-eye",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 61
+    },
+    {
+      "name": "special-defense",
+      "value": 61
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 21,
+        "name": "spearow"
+      },
+      {
+        "id": 22,
+        "name": "fearow"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

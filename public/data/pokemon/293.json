@@ -1,0 +1,60 @@
+{
+  "id": 293,
+  "name": "whismur",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 163,
+  "abilities": [
+    "soundproof",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 64
+    },
+    {
+      "name": "attack",
+      "value": 51
+    },
+    {
+      "name": "defense",
+      "value": 23
+    },
+    {
+      "name": "special-attack",
+      "value": 51
+    },
+    {
+      "name": "special-defense",
+      "value": 23
+    },
+    {
+      "name": "speed",
+      "value": 28
+    }
+  ],
+  "flavorText": "Normally, WHISMUR’s voice is very quiet - it is barely audible even if one is paying close attention. However, if this POKéMON senses danger, it starts crying at an earsplitting volume.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 293,
+        "name": "whismur"
+      },
+      {
+        "id": 294,
+        "name": "loudred"
+      },
+      {
+        "id": 295,
+        "name": "exploud"
+      }
+    ],
+    "levels": [
+      20,
+      40
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 629,
+  "name": "vullaby",
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 90,
+  "abilities": [
+    "big-pecks",
+    "overcoat",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "Their wings are too tiny to allow them to fly. They guard their posteriors with bones that were gathered by Mandibuzz.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 629,
+        "name": "vullaby"
+      },
+      {
+        "id": 630,
+        "name": "mandibuzz"
+      }
+    ],
+    "levels": [
+      54
+    ]
+  }
+}

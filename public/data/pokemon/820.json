@@ -1,0 +1,55 @@
+{
+  "id": 820,
+  "name": "greedent",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 60,
+  "abilities": [
+    "cheek-pouch",
+    "gluttony"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn’t notice the loss.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 819,
+        "name": "skwovet"
+      },
+      {
+        "id": 820,
+        "name": "greedent"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

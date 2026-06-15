@@ -1,0 +1,60 @@
+{
+  "id": 295,
+  "name": "exploud",
+  "types": [
+    "normal"
+  ],
+  "height": 15,
+  "weight": 840,
+  "abilities": [
+    "soundproof",
+    "scrappy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 104
+    },
+    {
+      "name": "attack",
+      "value": 91
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 91
+    },
+    {
+      "name": "special-defense",
+      "value": 73
+    },
+    {
+      "name": "speed",
+      "value": 68
+    }
+  ],
+  "flavorText": "EXPLOUD triggers earthquakes with the tremors it creates by bellowing. If this POKéMON violently inhales from the ports on its body, it’s a sign that it is preparing to let loose a huge bellow.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 293,
+        "name": "whismur"
+      },
+      {
+        "id": 294,
+        "name": "loudred"
+      },
+      {
+        "id": 295,
+        "name": "exploud"
+      }
+    ],
+    "levels": [
+      20,
+      40
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 175,
+  "name": "togepi",
+  "types": [
+    "fairy"
+  ],
+  "height": 3,
+  "weight": 15,
+  "abilities": [
+    "hustle",
+    "serene-grace",
+    "super-luck"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 20
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 175,
+        "name": "togepi"
+      },
+      {
+        "id": 176,
+        "name": "togetic"
+      },
+      {
+        "id": 468,
+        "name": "togekiss"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

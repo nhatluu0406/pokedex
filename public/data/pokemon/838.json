@@ -1,0 +1,62 @@
+{
+  "id": 838,
+  "name": "carkol",
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "height": 11,
+  "weight": 780,
+  "abilities": [
+    "steam-engine",
+    "flame-body",
+    "flash-fire"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 837,
+        "name": "rolycoly"
+      },
+      {
+        "id": 838,
+        "name": "carkol"
+      },
+      {
+        "id": 839,
+        "name": "coalossal"
+      }
+    ],
+    "levels": [
+      18,
+      34
+    ]
+  }
+}

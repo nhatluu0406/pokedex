@@ -1,0 +1,40 @@
+{
+  "id": 615,
+  "name": "cryogonal",
+  "types": [
+    "ice"
+  ],
+  "height": 11,
+  "weight": 1480,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 135
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+  "evolution": null
+}

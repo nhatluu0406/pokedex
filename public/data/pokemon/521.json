@@ -1,0 +1,62 @@
+{
+  "id": 521,
+  "name": "unfezant",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 290,
+  "abilities": [
+    "big-pecks",
+    "super-luck",
+    "rivalry"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 93
+    }
+  ],
+  "flavorText": "Males swing their head plumage to threaten opponents. The females’ flying abilities surpass those of the males.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 519,
+        "name": "pidove"
+      },
+      {
+        "id": 520,
+        "name": "tranquill"
+      },
+      {
+        "id": 521,
+        "name": "unfezant"
+      }
+    ],
+    "levels": [
+      21,
+      32
+    ]
+  }
+}

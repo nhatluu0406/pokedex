@@ -1,0 +1,56 @@
+{
+  "id": 234,
+  "name": "stantler",
+  "types": [
+    "normal"
+  ],
+  "height": 14,
+  "weight": 712,
+  "abilities": [
+    "intimidate",
+    "frisk",
+    "sap-sipper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 73
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 62
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "The curved antlers subtly change the flow of air to create a strange space where real­ ity is distorted.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 234,
+        "name": "stantler"
+      },
+      {
+        "id": 899,
+        "name": "wyrdeer"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

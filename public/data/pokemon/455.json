@@ -1,0 +1,40 @@
+{
+  "id": 455,
+  "name": "carnivine",
+  "types": [
+    "grass"
+  ],
+  "height": 14,
+  "weight": 270,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 74
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 72
+    },
+    {
+      "name": "speed",
+      "value": 46
+    }
+  ],
+  "flavorText": "It attracts prey with its sweet- smelling saliva, then chomps down. It takes a whole day to eat prey.",
+  "evolution": null
+}

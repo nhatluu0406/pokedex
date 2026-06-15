@@ -1,0 +1,60 @@
+{
+  "id": 811,
+  "name": "thwackey",
+  "types": [
+    "grass"
+  ],
+  "height": 7,
+  "weight": 140,
+  "abilities": [
+    "overgrow",
+    "grassy-surge"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 810,
+        "name": "grookey"
+      },
+      {
+        "id": 811,
+        "name": "thwackey"
+      },
+      {
+        "id": 812,
+        "name": "rillaboom"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

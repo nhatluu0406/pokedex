@@ -1,0 +1,56 @@
+{
+  "id": 752,
+  "name": "araquanid",
+  "types": [
+    "water",
+    "bug"
+  ],
+  "height": 18,
+  "weight": 820,
+  "abilities": [
+    "water-bubble",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 92
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 132
+    },
+    {
+      "name": "speed",
+      "value": 42
+    }
+  ],
+  "flavorText": "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 751,
+        "name": "dewpider"
+      },
+      {
+        "id": 752,
+        "name": "araquanid"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

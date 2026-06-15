@@ -1,0 +1,60 @@
+{
+  "id": 466,
+  "name": "electivire",
+  "types": [
+    "electric"
+  ],
+  "height": 18,
+  "weight": 1386,
+  "abilities": [
+    "motor-drive",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 123
+    },
+    {
+      "name": "defense",
+      "value": 67
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 239,
+        "name": "elekid"
+      },
+      {
+        "id": 125,
+        "name": "electabuzz"
+      },
+      {
+        "id": 466,
+        "name": "electivire"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

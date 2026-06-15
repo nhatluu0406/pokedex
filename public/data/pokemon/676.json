@@ -1,0 +1,40 @@
+{
+  "id": 676,
+  "name": "furfrou",
+  "types": [
+    "normal"
+  ],
+  "height": 12,
+  "weight": 280,
+  "abilities": [
+    "fur-coat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 102
+    }
+  ],
+  "flavorText": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+  "evolution": null
+}

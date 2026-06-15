@@ -1,0 +1,56 @@
+{
+  "id": 191,
+  "name": "sunkern",
+  "types": [
+    "grass"
+  ],
+  "height": 3,
+  "weight": 18,
+  "abilities": [
+    "chlorophyll",
+    "solar-power",
+    "early-bird"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 30
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 191,
+        "name": "sunkern"
+      },
+      {
+        "id": 192,
+        "name": "sunflora"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

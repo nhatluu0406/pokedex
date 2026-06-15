@@ -1,0 +1,56 @@
+{
+  "id": 299,
+  "name": "nosepass",
+  "types": [
+    "rock"
+  ],
+  "height": 10,
+  "weight": 970,
+  "abilities": [
+    "sturdy",
+    "magnet-pull",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 135
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "NOSEPASS’s magnetic nose is always pointed to the north. If two of these POKéMON meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 299,
+        "name": "nosepass"
+      },
+      {
+        "id": 476,
+        "name": "probopass"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

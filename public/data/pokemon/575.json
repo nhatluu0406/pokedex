@@ -1,0 +1,61 @@
+{
+  "id": 575,
+  "name": "gothorita",
+  "types": [
+    "psychic"
+  ],
+  "height": 7,
+  "weight": 180,
+  "abilities": [
+    "frisk",
+    "competitive",
+    "shadow-tag"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 574,
+        "name": "gothita"
+      },
+      {
+        "id": 575,
+        "name": "gothorita"
+      },
+      {
+        "id": 576,
+        "name": "gothitelle"
+      }
+    ],
+    "levels": [
+      32,
+      41
+    ]
+  }
+}

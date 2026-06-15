@@ -1,0 +1,56 @@
+{
+  "id": 965,
+  "name": "varoom",
+  "types": [
+    "steel",
+    "poison"
+  ],
+  "height": 10,
+  "weight": 350,
+  "abilities": [
+    "overcoat",
+    "slow-start"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 47
+    }
+  ],
+  "flavorText": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 965,
+        "name": "varoom"
+      },
+      {
+        "id": 966,
+        "name": "revavroom"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

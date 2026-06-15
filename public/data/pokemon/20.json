@@ -1,0 +1,56 @@
+{
+  "id": 20,
+  "name": "raticate",
+  "types": [
+    "normal"
+  ],
+  "height": 7,
+  "weight": 185,
+  "abilities": [
+    "run-away",
+    "guts",
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 81
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 97
+    }
+  ],
+  "flavorText": "It uses its whis­ kers to maintain its balance. It apparently slows down if they are cut off.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 19,
+        "name": "rattata"
+      },
+      {
+        "id": 20,
+        "name": "raticate"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

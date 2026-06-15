@@ -1,0 +1,61 @@
+{
+  "id": 932,
+  "name": "nacli",
+  "types": [
+    "rock"
+  ],
+  "height": 4,
+  "weight": 160,
+  "abilities": [
+    "purifying-salt",
+    "sturdy",
+    "clear-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 932,
+        "name": "nacli"
+      },
+      {
+        "id": 933,
+        "name": "naclstack"
+      },
+      {
+        "id": 934,
+        "name": "garganacl"
+      }
+    ],
+    "levels": [
+      24,
+      38
+    ]
+  }
+}

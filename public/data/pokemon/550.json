@@ -1,0 +1,56 @@
+{
+  "id": 550,
+  "name": "basculin-red-striped",
+  "types": [
+    "water"
+  ],
+  "height": 10,
+  "weight": 180,
+  "abilities": [
+    "reckless",
+    "adaptability",
+    "mold-breaker"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 92
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 98
+    }
+  ],
+  "flavorText": "Red and blue Basculin get along so poorly, they’ll start fighting instantly. These Pokémon are very hostile.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 550,
+        "name": "basculin"
+      },
+      {
+        "id": 902,
+        "name": "basculegion"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 809,
+  "name": "melmetal",
+  "types": [
+    "steel"
+  ],
+  "height": 25,
+  "weight": 8000,
+  "abilities": [
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 135
+    },
+    {
+      "name": "attack",
+      "value": 143
+    },
+    {
+      "name": "defense",
+      "value": 143
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 34
+    }
+  ],
+  "flavorText": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+  "evolution": null
+}

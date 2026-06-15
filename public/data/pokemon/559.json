@@ -1,0 +1,57 @@
+{
+  "id": 559,
+  "name": "scraggy",
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "height": 6,
+  "weight": 118,
+  "abilities": [
+    "shed-skin",
+    "moxie",
+    "intimidate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 48
+    }
+  ],
+  "flavorText": "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 559,
+        "name": "scraggy"
+      },
+      {
+        "id": 560,
+        "name": "scrafty"
+      }
+    ],
+    "levels": [
+      39
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 632,
+  "name": "durant",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "height": 3,
+  "weight": 330,
+  "abilities": [
+    "swarm",
+    "hustle",
+    "truant"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 58
+    },
+    {
+      "name": "attack",
+      "value": 109
+    },
+    {
+      "name": "defense",
+      "value": 112
+    },
+    {
+      "name": "special-attack",
+      "value": 48
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 109
+    }
+  ],
+  "flavorText": "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+  "evolution": null
+}

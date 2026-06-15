@@ -1,0 +1,62 @@
+{
+  "id": 16,
+  "name": "pidgey",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 3,
+  "weight": 18,
+  "abilities": [
+    "keen-eye",
+    "tangled-feet",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 56
+    }
+  ],
+  "flavorText": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 16,
+        "name": "pidgey"
+      },
+      {
+        "id": 17,
+        "name": "pidgeotto"
+      },
+      {
+        "id": 18,
+        "name": "pidgeot"
+      }
+    ],
+    "levels": [
+      18,
+      36
+    ]
+  }
+}

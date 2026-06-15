@@ -1,0 +1,54 @@
+{
+  "id": 420,
+  "name": "cherubi",
+  "types": [
+    "grass"
+  ],
+  "height": 4,
+  "weight": 33,
+  "abilities": [
+    "chlorophyll"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 62
+    },
+    {
+      "name": "special-defense",
+      "value": 53
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 420,
+        "name": "cherubi"
+      },
+      {
+        "id": 421,
+        "name": "cherrim"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

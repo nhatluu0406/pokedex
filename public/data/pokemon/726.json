@@ -1,0 +1,60 @@
+{
+  "id": 726,
+  "name": "torracat",
+  "types": [
+    "fire"
+  ],
+  "height": 7,
+  "weight": 250,
+  "abilities": [
+    "blaze",
+    "intimidate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 725,
+        "name": "litten"
+      },
+      {
+        "id": 726,
+        "name": "torracat"
+      },
+      {
+        "id": 727,
+        "name": "incineroar"
+      }
+    ],
+    "levels": [
+      17,
+      34
+    ]
+  }
+}

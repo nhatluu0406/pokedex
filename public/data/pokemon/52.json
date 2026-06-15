@@ -1,0 +1,56 @@
+{
+  "id": 52,
+  "name": "meowth",
+  "types": [
+    "normal"
+  ],
+  "height": 4,
+  "weight": 42,
+  "abilities": [
+    "pickup",
+    "technician",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 52,
+        "name": "meowth"
+      },
+      {
+        "id": 53,
+        "name": "persian"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

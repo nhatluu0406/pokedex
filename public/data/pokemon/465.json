@@ -1,0 +1,56 @@
+{
+  "id": 465,
+  "name": "tangrowth",
+  "types": [
+    "grass"
+  ],
+  "height": 20,
+  "weight": 1286,
+  "abilities": [
+    "chlorophyll",
+    "leaf-guard",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 125
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 114,
+        "name": "tangela"
+      },
+      {
+        "id": 465,
+        "name": "tangrowth"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

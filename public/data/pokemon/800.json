@@ -1,0 +1,40 @@
+{
+  "id": 800,
+  "name": "necrozma",
+  "types": [
+    "psychic"
+  ],
+  "height": 24,
+  "weight": 2300,
+  "abilities": [
+    "prism-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 97
+    },
+    {
+      "name": "attack",
+      "value": 107
+    },
+    {
+      "name": "defense",
+      "value": 101
+    },
+    {
+      "name": "special-attack",
+      "value": 127
+    },
+    {
+      "name": "special-defense",
+      "value": 89
+    },
+    {
+      "name": "speed",
+      "value": 79
+    }
+  ],
+  "flavorText": "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+  "evolution": null
+}

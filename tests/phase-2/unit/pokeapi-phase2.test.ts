@@ -120,8 +120,8 @@ describe("fetchPokemonNameIndex", () => {
 
     const index = await fetchPokemonNameIndex();
     expect(index).toEqual([
-      { id: 1, name: "bulbasaur" },
-      { id: 2, name: "ivysaur" },
+      { id: 1, name: "bulbasaur", types: [] },
+      { id: 2, name: "ivysaur", types: [] },
     ]);
   });
 });

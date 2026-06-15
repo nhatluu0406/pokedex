@@ -1,0 +1,60 @@
+{
+  "id": 25,
+  "name": "pikachu",
+  "types": [
+    "electric"
+  ],
+  "height": 4,
+  "weight": 60,
+  "abilities": [
+    "static",
+    "lightning-rod"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "When several of these POKéMON gather, their electricity could build and cause lightning storms.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 172,
+        "name": "pichu"
+      },
+      {
+        "id": 25,
+        "name": "pikachu"
+      },
+      {
+        "id": 26,
+        "name": "raichu"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

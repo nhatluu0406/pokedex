@@ -1,0 +1,41 @@
+{
+  "id": 793,
+  "name": "nihilego",
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "height": 12,
+  "weight": 555,
+  "abilities": [
+    "beast-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 109
+    },
+    {
+      "name": "attack",
+      "value": 53
+    },
+    {
+      "name": "defense",
+      "value": 47
+    },
+    {
+      "name": "special-attack",
+      "value": 127
+    },
+    {
+      "name": "special-defense",
+      "value": 131
+    },
+    {
+      "name": "speed",
+      "value": 103
+    }
+  ],
+  "flavorText": "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
+  "evolution": null
+}

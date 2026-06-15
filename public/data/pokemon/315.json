@@ -1,0 +1,62 @@
+{
+  "id": 315,
+  "name": "roselia",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 3,
+  "weight": 20,
+  "abilities": [
+    "natural-cure",
+    "poison-point",
+    "leaf-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "ROSELIA shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this POKéMON brings serenity to living things.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 406,
+        "name": "budew"
+      },
+      {
+        "id": 315,
+        "name": "roselia"
+      },
+      {
+        "id": 407,
+        "name": "roserade"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

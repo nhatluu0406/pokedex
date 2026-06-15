@@ -1,0 +1,56 @@
+{
+  "id": 827,
+  "name": "nickit",
+  "types": [
+    "dark"
+  ],
+  "height": 6,
+  "weight": 89,
+  "abilities": [
+    "run-away",
+    "unburden",
+    "stakeout"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 28
+    },
+    {
+      "name": "defense",
+      "value": 28
+    },
+    {
+      "name": "special-attack",
+      "value": 47
+    },
+    {
+      "name": "special-defense",
+      "value": 52
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 827,
+        "name": "nickit"
+      },
+      {
+        "id": 828,
+        "name": "thievul"
+      }
+    ],
+    "levels": [
+      18
+    ]
+  }
+}

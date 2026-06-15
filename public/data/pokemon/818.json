@@ -1,0 +1,60 @@
+{
+  "id": 818,
+  "name": "inteleon",
+  "types": [
+    "water"
+  ],
+  "height": 19,
+  "weight": 452,
+  "abilities": [
+    "torrent",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 120
+    }
+  ],
+  "flavorText": "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 816,
+        "name": "sobble"
+      },
+      {
+        "id": 817,
+        "name": "drizzile"
+      },
+      {
+        "id": 818,
+        "name": "inteleon"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 146,
+  "name": "moltres",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 20,
+  "weight": 600,
+  "abilities": [
+    "pressure",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 90
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+  "evolution": null
+}

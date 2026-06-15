@@ -1,0 +1,57 @@
+{
+  "id": 469,
+  "name": "yanmega",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 19,
+  "weight": 515,
+  "abilities": [
+    "speed-boost",
+    "tinted-lens",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 86
+    },
+    {
+      "name": "attack",
+      "value": 76
+    },
+    {
+      "name": "defense",
+      "value": 86
+    },
+    {
+      "name": "special-attack",
+      "value": 116
+    },
+    {
+      "name": "special-defense",
+      "value": 56
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 193,
+        "name": "yanma"
+      },
+      {
+        "id": 469,
+        "name": "yanmega"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

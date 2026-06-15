@@ -1,0 +1,61 @@
+{
+  "id": 70,
+  "name": "weepinbell",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 10,
+  "weight": 64,
+  "abilities": [
+    "chlorophyll",
+    "gluttony"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 69,
+        "name": "bellsprout"
+      },
+      {
+        "id": 70,
+        "name": "weepinbell"
+      },
+      {
+        "id": 71,
+        "name": "victreebel"
+      }
+    ],
+    "levels": [
+      21,
+      null
+    ]
+  }
+}

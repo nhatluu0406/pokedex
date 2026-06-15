@@ -1,0 +1,57 @@
+{
+  "id": 694,
+  "name": "helioptile",
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "height": 5,
+  "weight": 60,
+  "abilities": [
+    "dry-skin",
+    "sand-veil",
+    "solar-power"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 44
+    },
+    {
+      "name": "attack",
+      "value": 38
+    },
+    {
+      "name": "defense",
+      "value": 33
+    },
+    {
+      "name": "special-attack",
+      "value": 61
+    },
+    {
+      "name": "special-defense",
+      "value": 43
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 694,
+        "name": "helioptile"
+      },
+      {
+        "id": 695,
+        "name": "heliolisk"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

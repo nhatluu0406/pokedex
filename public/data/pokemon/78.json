@@ -1,0 +1,56 @@
+{
+  "id": 78,
+  "name": "rapidash",
+  "types": [
+    "fire"
+  ],
+  "height": 17,
+  "weight": 950,
+  "abilities": [
+    "run-away",
+    "flash-fire",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 77,
+        "name": "ponyta"
+      },
+      {
+        "id": 78,
+        "name": "rapidash"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

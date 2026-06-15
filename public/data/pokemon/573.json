@@ -1,0 +1,56 @@
+{
+  "id": 573,
+  "name": "cinccino",
+  "types": [
+    "normal"
+  ],
+  "height": 5,
+  "weight": 75,
+  "abilities": [
+    "cute-charm",
+    "technician",
+    "skill-link"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 115
+    }
+  ],
+  "flavorText": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 572,
+        "name": "minccino"
+      },
+      {
+        "id": 573,
+        "name": "cinccino"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

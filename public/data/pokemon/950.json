@@ -1,0 +1,42 @@
+{
+  "id": 950,
+  "name": "klawf",
+  "types": [
+    "rock"
+  ],
+  "height": 13,
+  "weight": 790,
+  "abilities": [
+    "anger-shell",
+    "shell-armor",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.",
+  "evolution": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": 699,
+  "name": "aurorus",
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "height": 27,
+  "weight": 2250,
+  "abilities": [
+    "refrigerate",
+    "snow-warning"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 123
+    },
+    {
+      "name": "attack",
+      "value": 77
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 99
+    },
+    {
+      "name": "special-defense",
+      "value": 92
+    },
+    {
+      "name": "speed",
+      "value": 58
+    }
+  ],
+  "flavorText": "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 698,
+        "name": "amaura"
+      },
+      {
+        "id": 699,
+        "name": "aurorus"
+      }
+    ],
+    "levels": [
+      39
+    ]
+  }
+}

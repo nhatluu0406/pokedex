@@ -1,0 +1,43 @@
+{
+  "id": 302,
+  "name": "sableye",
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "height": 5,
+  "weight": 110,
+  "abilities": [
+    "keen-eye",
+    "stall",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POKéMON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+  "evolution": null
+}

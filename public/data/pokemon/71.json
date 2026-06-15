@@ -1,0 +1,61 @@
+{
+  "id": 71,
+  "name": "victreebel",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 17,
+  "weight": 155,
+  "abilities": [
+    "chlorophyll",
+    "gluttony"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 105
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 69,
+        "name": "bellsprout"
+      },
+      {
+        "id": 70,
+        "name": "weepinbell"
+      },
+      {
+        "id": 71,
+        "name": "victreebel"
+      }
+    ],
+    "levels": [
+      21,
+      null
+    ]
+  }
+}

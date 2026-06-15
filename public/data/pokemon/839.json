@@ -1,0 +1,62 @@
+{
+  "id": 839,
+  "name": "coalossal",
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "height": 28,
+  "weight": 3105,
+  "abilities": [
+    "steam-engine",
+    "flame-body",
+    "flash-fire"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It’s usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 837,
+        "name": "rolycoly"
+      },
+      {
+        "id": 838,
+        "name": "carkol"
+      },
+      {
+        "id": 839,
+        "name": "coalossal"
+      }
+    ],
+    "levels": [
+      18,
+      34
+    ]
+  }
+}

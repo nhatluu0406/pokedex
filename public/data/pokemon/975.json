@@ -1,0 +1,56 @@
+{
+  "id": 975,
+  "name": "cetitan",
+  "types": [
+    "ice"
+  ],
+  "height": 45,
+  "weight": 7000,
+  "abilities": [
+    "thick-fat",
+    "slush-rush",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 170
+    },
+    {
+      "name": "attack",
+      "value": 113
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 73
+    }
+  ],
+  "flavorText": "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 974,
+        "name": "cetoddle"
+      },
+      {
+        "id": 975,
+        "name": "cetitan"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

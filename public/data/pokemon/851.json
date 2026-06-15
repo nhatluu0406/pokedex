@@ -1,0 +1,57 @@
+{
+  "id": 851,
+  "name": "centiskorch",
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "height": 30,
+  "weight": 1200,
+  "abilities": [
+    "flash-fire",
+    "white-smoke",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 850,
+        "name": "sizzlipede"
+      },
+      {
+        "id": 851,
+        "name": "centiskorch"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

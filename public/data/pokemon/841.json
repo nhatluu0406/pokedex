@@ -1,0 +1,57 @@
+{
+  "id": 841,
+  "name": "flapple",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "height": 3,
+  "weight": 10,
+  "abilities": [
+    "ripen",
+    "gluttony",
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 840,
+        "name": "applin"
+      },
+      {
+        "id": 841,
+        "name": "flapple"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 823,
+  "name": "corviknight",
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "height": 22,
+  "weight": 750,
+  "abilities": [
+    "pressure",
+    "unnerve",
+    "mirror-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 98
+    },
+    {
+      "name": "attack",
+      "value": 87
+    },
+    {
+      "name": "defense",
+      "value": 105
+    },
+    {
+      "name": "special-attack",
+      "value": 53
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 67
+    }
+  ],
+  "flavorText": "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 821,
+        "name": "rookidee"
+      },
+      {
+        "id": 822,
+        "name": "corvisquire"
+      },
+      {
+        "id": 823,
+        "name": "corviknight"
+      }
+    ],
+    "levels": [
+      18,
+      38
+    ]
+  }
+}

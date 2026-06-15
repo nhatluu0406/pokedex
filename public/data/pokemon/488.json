@@ -1,0 +1,40 @@
+{
+  "id": 488,
+  "name": "cresselia",
+  "types": [
+    "psychic"
+  ],
+  "height": 15,
+  "weight": 856,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 120
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+  "evolution": null
+}

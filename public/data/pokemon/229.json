@@ -1,0 +1,57 @@
+{
+  "id": 229,
+  "name": "houndoom",
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "height": 14,
+  "weight": 350,
+  "abilities": [
+    "early-bird",
+    "flash-fire",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 228,
+        "name": "houndour"
+      },
+      {
+        "id": 229,
+        "name": "houndoom"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

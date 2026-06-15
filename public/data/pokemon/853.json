@@ -1,0 +1,55 @@
+{
+  "id": 853,
+  "name": "grapploct",
+  "types": [
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 390,
+  "abilities": [
+    "limber",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 118
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 42
+    }
+  ],
+  "flavorText": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 852,
+        "name": "clobbopus"
+      },
+      {
+        "id": 853,
+        "name": "grapploct"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

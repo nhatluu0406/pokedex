@@ -1,0 +1,56 @@
+{
+  "id": 446,
+  "name": "munchlax",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 1050,
+  "abilities": [
+    "pickup",
+    "thick-fat",
+    "gluttony"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 135
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 5
+    }
+  ],
+  "flavorText": "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 446,
+        "name": "munchlax"
+      },
+      {
+        "id": 143,
+        "name": "snorlax"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

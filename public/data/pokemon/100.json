@@ -1,0 +1,56 @@
+{
+  "id": 100,
+  "name": "voltorb",
+  "types": [
+    "electric"
+  ],
+  "height": 5,
+  "weight": 104,
+  "abilities": [
+    "soundproof",
+    "static",
+    "aftermath"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 100,
+        "name": "voltorb"
+      },
+      {
+        "id": 101,
+        "name": "electrode"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

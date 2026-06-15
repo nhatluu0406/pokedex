@@ -1,0 +1,61 @@
+{
+  "id": 397,
+  "name": "staravia",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 6,
+  "weight": 155,
+  "abilities": [
+    "intimidate",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 396,
+        "name": "starly"
+      },
+      {
+        "id": 397,
+        "name": "staravia"
+      },
+      {
+        "id": 398,
+        "name": "staraptor"
+      }
+    ],
+    "levels": [
+      14,
+      34
+    ]
+  }
+}

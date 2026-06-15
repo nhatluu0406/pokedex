@@ -1,0 +1,56 @@
+{
+  "id": 318,
+  "name": "carvanha",
+  "types": [
+    "water",
+    "dark"
+  ],
+  "height": 8,
+  "weight": 208,
+  "abilities": [
+    "rough-skin",
+    "speed-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 20
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 20
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "CARVANHA’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POKéMON.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 318,
+        "name": "carvanha"
+      },
+      {
+        "id": 319,
+        "name": "sharpedo"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

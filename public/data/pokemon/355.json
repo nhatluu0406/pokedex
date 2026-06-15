@@ -1,0 +1,60 @@
+{
+  "id": 355,
+  "name": "duskull",
+  "types": [
+    "ghost"
+  ],
+  "height": 8,
+  "weight": 150,
+  "abilities": [
+    "levitate",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 20
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 355,
+        "name": "duskull"
+      },
+      {
+        "id": 356,
+        "name": "dusclops"
+      },
+      {
+        "id": 477,
+        "name": "dusknoir"
+      }
+    ],
+    "levels": [
+      37,
+      null
+    ]
+  }
+}

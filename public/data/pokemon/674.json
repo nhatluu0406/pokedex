@@ -1,0 +1,56 @@
+{
+  "id": 674,
+  "name": "pancham",
+  "types": [
+    "fighting"
+  ],
+  "height": 6,
+  "weight": 80,
+  "abilities": [
+    "iron-fist",
+    "mold-breaker",
+    "scrappy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 67
+    },
+    {
+      "name": "attack",
+      "value": 82
+    },
+    {
+      "name": "defense",
+      "value": 62
+    },
+    {
+      "name": "special-attack",
+      "value": 46
+    },
+    {
+      "name": "special-defense",
+      "value": 48
+    },
+    {
+      "name": "speed",
+      "value": 43
+    }
+  ],
+  "flavorText": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 674,
+        "name": "pancham"
+      },
+      {
+        "id": 675,
+        "name": "pangoro"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

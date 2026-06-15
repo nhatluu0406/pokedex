@@ -1,0 +1,61 @@
+{
+  "id": 15,
+  "name": "beedrill",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 10,
+  "weight": 295,
+  "abilities": [
+    "swarm",
+    "sniper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 13,
+        "name": "weedle"
+      },
+      {
+        "id": 14,
+        "name": "kakuna"
+      },
+      {
+        "id": 15,
+        "name": "beedrill"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

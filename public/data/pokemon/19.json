@@ -1,0 +1,56 @@
+{
+  "id": 19,
+  "name": "rattata",
+  "types": [
+    "normal"
+  ],
+  "height": 3,
+  "weight": 35,
+  "abilities": [
+    "run-away",
+    "guts",
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 56
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 72
+    }
+  ],
+  "flavorText": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 19,
+        "name": "rattata"
+      },
+      {
+        "id": 20,
+        "name": "raticate"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

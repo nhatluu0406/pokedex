@@ -1,0 +1,42 @@
+{
+  "id": 324,
+  "name": "torkoal",
+  "types": [
+    "fire"
+  ],
+  "height": 5,
+  "weight": 804,
+  "abilities": [
+    "white-smoke",
+    "drought",
+    "shell-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 140
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 20
+    }
+  ],
+  "flavorText": "You can tell how it’s feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.",
+  "evolution": null
+}

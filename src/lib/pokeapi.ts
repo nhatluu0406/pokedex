@@ -1,4 +1,4 @@
-import { POKEAPI_BASE, SPRITE_BASE, TOTAL_POKEMON } from "./constants";
+import { POKEAPI_BASE, TOTAL_POKEMON } from "./constants";
 import type {
   EvolutionDisplay,
   PokeApiEvolutionChain,
@@ -13,12 +13,12 @@ import type {
 
 export function getAnimatedSpriteUrl(id: number): string {
   return id < 650
-    ? `${SPRITE_BASE}/versions/generation-v/black-white/animated/${id}.gif`
-    : `${SPRITE_BASE}/${id}.png`;
+    ? `/sprites/animated/${id}.gif`
+    : `/sprites/pokemon/${id}.png`;
 }
 
 export function getStaticSpriteUrl(id: number): string {
-  return `${SPRITE_BASE}/${id}.png`;
+  return `/sprites/pokemon/${id}.png`;
 }
 
 function mapPokemonResponse(data: PokeApiPokemon): PokemonDetail {
@@ -147,6 +147,7 @@ export async function fetchPokemonNameIndex(
   return data.results.map((entry, index) => ({
     id: index + 1,
     name: entry.name,
+    types: [] as string[],
   }));
 }
 

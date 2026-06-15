@@ -1,0 +1,59 @@
+{
+  "id": 268,
+  "name": "cascoon",
+  "types": [
+    "bug"
+  ],
+  "height": 7,
+  "weight": 115,
+  "abilities": [
+    "shed-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 15
+    }
+  ],
+  "flavorText": "CASCOON makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This POKéMON prepares for its evolution inside the cocoon.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 265,
+        "name": "wurmple"
+      },
+      {
+        "id": 266,
+        "name": "silcoon"
+      },
+      {
+        "id": 267,
+        "name": "beautifly"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

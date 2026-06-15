@@ -1,0 +1,56 @@
+{
+  "id": 522,
+  "name": "blitzle",
+  "types": [
+    "electric"
+  ],
+  "height": 8,
+  "weight": 298,
+  "abilities": [
+    "lightning-rod",
+    "motor-drive",
+    "sap-sipper"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 32
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 32
+    },
+    {
+      "name": "speed",
+      "value": 76
+    }
+  ],
+  "flavorText": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 522,
+        "name": "blitzle"
+      },
+      {
+        "id": 523,
+        "name": "zebstrika"
+      }
+    ],
+    "levels": [
+      27
+    ]
+  }
+}

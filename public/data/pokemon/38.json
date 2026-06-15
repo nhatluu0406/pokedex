@@ -1,0 +1,55 @@
+{
+  "id": 38,
+  "name": "ninetales",
+  "types": [
+    "fire"
+  ],
+  "height": 11,
+  "weight": 199,
+  "abilities": [
+    "flash-fire",
+    "drought"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 73
+    },
+    {
+      "name": "attack",
+      "value": 76
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 81
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 37,
+        "name": "vulpix"
+      },
+      {
+        "id": 38,
+        "name": "ninetales"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

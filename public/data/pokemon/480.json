@@ -1,0 +1,40 @@
+{
+  "id": 480,
+  "name": "uxie",
+  "types": [
+    "psychic"
+  ],
+  "height": 3,
+  "weight": 3,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 130
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes.",
+  "evolution": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": 267,
+  "name": "beautifly",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 10,
+  "weight": 284,
+  "abilities": [
+    "swarm",
+    "rivalry"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "BEAUTIFLY’s favorite food is the sweet pollen of flowers. If you want to see this POKéMON, just leave a potted flower by an open window. BEAUTIFLY is sure to come looking for pollen.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 265,
+        "name": "wurmple"
+      },
+      {
+        "id": 266,
+        "name": "silcoon"
+      },
+      {
+        "id": 267,
+        "name": "beautifly"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 678,
+  "name": "meowstic-male",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 85,
+  "abilities": [
+    "keen-eye",
+    "infiltrator",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 74
+    },
+    {
+      "name": "attack",
+      "value": 48
+    },
+    {
+      "name": "defense",
+      "value": 76
+    },
+    {
+      "name": "special-attack",
+      "value": 83
+    },
+    {
+      "name": "special-defense",
+      "value": 81
+    },
+    {
+      "name": "speed",
+      "value": 104
+    }
+  ],
+  "flavorText": "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 677,
+        "name": "espurr"
+      },
+      {
+        "id": 678,
+        "name": "meowstic"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

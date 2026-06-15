@@ -1,0 +1,55 @@
+{
+  "id": 471,
+  "name": "glaceon",
+  "types": [
+    "ice"
+  ],
+  "height": 8,
+  "weight": 259,
+  "abilities": [
+    "snow-cloak",
+    "ice-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 133,
+        "name": "eevee"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

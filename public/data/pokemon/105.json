@@ -1,0 +1,56 @@
+{
+  "id": 105,
+  "name": "marowak",
+  "types": [
+    "ground"
+  ],
+  "height": 10,
+  "weight": 450,
+  "abilities": [
+    "rock-head",
+    "lightning-rod",
+    "battle-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 104,
+        "name": "cubone"
+      },
+      {
+        "id": 105,
+        "name": "marowak"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

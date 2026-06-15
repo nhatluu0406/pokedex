@@ -1,0 +1,61 @@
+{
+  "id": 655,
+  "name": "delphox",
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "height": 15,
+  "weight": 390,
+  "abilities": [
+    "blaze",
+    "magician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 69
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 114
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 104
+    }
+  ],
+  "flavorText": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 653,
+        "name": "fennekin"
+      },
+      {
+        "id": 654,
+        "name": "braixen"
+      },
+      {
+        "id": 655,
+        "name": "delphox"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

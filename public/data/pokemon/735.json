@@ -1,0 +1,56 @@
+{
+  "id": 735,
+  "name": "gumshoos",
+  "types": [
+    "normal"
+  ],
+  "height": 7,
+  "weight": 142,
+  "abilities": [
+    "stakeout",
+    "strong-jaw",
+    "adaptability"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 88
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "When it finds a trace of its prey, it patiently stakes out the location...but it’s always snoozing by nightfall.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 734,
+        "name": "yungoos"
+      },
+      {
+        "id": 735,
+        "name": "gumshoos"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

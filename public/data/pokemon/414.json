@@ -1,0 +1,56 @@
+{
+  "id": 414,
+  "name": "mothim",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 9,
+  "weight": 233,
+  "abilities": [
+    "swarm",
+    "tinted-lens"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 94
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 94
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 66
+    }
+  ],
+  "flavorText": "It loves the honey of flowers and steals honey collected by COMBEE.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 412,
+        "name": "burmy"
+      },
+      {
+        "id": 413,
+        "name": "wormadam"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

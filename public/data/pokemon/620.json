@@ -1,0 +1,56 @@
+{
+  "id": 620,
+  "name": "mienshao",
+  "types": [
+    "fighting"
+  ],
+  "height": 14,
+  "weight": 355,
+  "abilities": [
+    "inner-focus",
+    "regenerator",
+    "reckless"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 125
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 619,
+        "name": "mienfoo"
+      },
+      {
+        "id": 620,
+        "name": "mienshao"
+      }
+    ],
+    "levels": [
+      50
+    ]
+  }
+}

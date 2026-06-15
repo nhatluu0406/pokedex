@@ -1,0 +1,62 @@
+{
+  "id": 542,
+  "name": "leavanny",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "height": 12,
+  "weight": 205,
+  "abilities": [
+    "swarm",
+    "chlorophyll",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 103
+    },
+    {
+      "name": "defense",
+      "value": 80
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 92
+    }
+  ],
+  "flavorText": "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 540,
+        "name": "sewaddle"
+      },
+      {
+        "id": 541,
+        "name": "swadloon"
+      },
+      {
+        "id": 542,
+        "name": "leavanny"
+      }
+    ],
+    "levels": [
+      20,
+      null
+    ]
+  }
+}

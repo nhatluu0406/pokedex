@@ -1,0 +1,61 @@
+{
+  "id": 533,
+  "name": "gurdurr",
+  "types": [
+    "fighting"
+  ],
+  "height": 12,
+  "weight": 400,
+  "abilities": [
+    "guts",
+    "sheer-force",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 85
+    },
+    {
+      "name": "attack",
+      "value": 105
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 40
+    }
+  ],
+  "flavorText": "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 532,
+        "name": "timburr"
+      },
+      {
+        "id": 533,
+        "name": "gurdurr"
+      },
+      {
+        "id": 534,
+        "name": "conkeldurr"
+      }
+    ],
+    "levels": [
+      25,
+      null
+    ]
+  }
+}

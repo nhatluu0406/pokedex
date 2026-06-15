@@ -1,0 +1,56 @@
+{
+  "id": 751,
+  "name": "dewpider",
+  "types": [
+    "water",
+    "bug"
+  ],
+  "height": 3,
+  "weight": 40,
+  "abilities": [
+    "water-bubble",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 52
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 72
+    },
+    {
+      "name": "speed",
+      "value": 27
+    }
+  ],
+  "flavorText": "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 751,
+        "name": "dewpider"
+      },
+      {
+        "id": 752,
+        "name": "araquanid"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

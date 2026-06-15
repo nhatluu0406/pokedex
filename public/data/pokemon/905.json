@@ -1,0 +1,42 @@
+{
+  "id": 905,
+  "name": "enamorus-incarnate",
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "height": 16,
+  "weight": 480,
+  "abilities": [
+    "cute-charm",
+    "contrary"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 74
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 135
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 106
+    }
+  ],
+  "flavorText": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
+  "evolution": null
+}

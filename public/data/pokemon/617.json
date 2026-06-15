@@ -1,0 +1,56 @@
+{
+  "id": 617,
+  "name": "accelgor",
+  "types": [
+    "bug"
+  ],
+  "height": 8,
+  "weight": 253,
+  "abilities": [
+    "hydration",
+    "sticky-hold",
+    "unburden"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 145
+    }
+  ],
+  "flavorText": "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 616,
+        "name": "shelmet"
+      },
+      {
+        "id": 617,
+        "name": "accelgor"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

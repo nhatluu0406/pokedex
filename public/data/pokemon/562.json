@@ -1,0 +1,54 @@
+{
+  "id": 562,
+  "name": "yamask",
+  "types": [
+    "ghost"
+  ],
+  "height": 5,
+  "weight": 15,
+  "abilities": [
+    "mummy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 30
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 562,
+        "name": "yamask"
+      },
+      {
+        "id": 563,
+        "name": "cofagrigus"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

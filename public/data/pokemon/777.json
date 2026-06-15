@@ -1,0 +1,43 @@
+{
+  "id": 777,
+  "name": "togedemaru",
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "height": 3,
+  "weight": 33,
+  "abilities": [
+    "iron-barbs",
+    "lightning-rod",
+    "sturdy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 98
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 73
+    },
+    {
+      "name": "speed",
+      "value": 96
+    }
+  ],
+  "flavorText": "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
+  "evolution": null
+}

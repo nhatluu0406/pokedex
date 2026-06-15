@@ -1,0 +1,61 @@
+{
+  "id": 117,
+  "name": "seadra",
+  "types": [
+    "water"
+  ],
+  "height": 12,
+  "weight": 250,
+  "abilities": [
+    "poison-point",
+    "sniper",
+    "damp"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "Capable of swim­ ming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 116,
+        "name": "horsea"
+      },
+      {
+        "id": 117,
+        "name": "seadra"
+      },
+      {
+        "id": 230,
+        "name": "kingdra"
+      }
+    ],
+    "levels": [
+      32,
+      null
+    ]
+  }
+}

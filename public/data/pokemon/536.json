@@ -1,0 +1,62 @@
+{
+  "id": 536,
+  "name": "palpitoad",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "height": 8,
+  "weight": 170,
+  "abilities": [
+    "swift-swim",
+    "hydration",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 69
+    }
+  ],
+  "flavorText": "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 535,
+        "name": "tympole"
+      },
+      {
+        "id": 536,
+        "name": "palpitoad"
+      },
+      {
+        "id": 537,
+        "name": "seismitoad"
+      }
+    ],
+    "levels": [
+      25,
+      36
+    ]
+  }
+}

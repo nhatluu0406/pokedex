@@ -1,0 +1,41 @@
+{
+  "id": 992,
+  "name": "iron-hands",
+  "types": [
+    "fighting",
+    "electric"
+  ],
+  "height": 18,
+  "weight": 3807,
+  "abilities": [
+    "quark-drive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 154
+    },
+    {
+      "name": "attack",
+      "value": 140
+    },
+    {
+      "name": "defense",
+      "value": 108
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 68
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.",
+  "evolution": null
+}

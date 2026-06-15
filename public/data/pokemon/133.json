@@ -1,0 +1,56 @@
+{
+  "id": 133,
+  "name": "eevee",
+  "types": [
+    "normal"
+  ],
+  "height": 3,
+  "weight": 65,
+  "abilities": [
+    "run-away",
+    "adaptability",
+    "anticipation"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 133,
+        "name": "eevee"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

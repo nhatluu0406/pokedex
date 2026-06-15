@@ -1,0 +1,60 @@
+{
+  "id": 503,
+  "name": "samurott",
+  "types": [
+    "water"
+  ],
+  "height": 15,
+  "weight": 946,
+  "abilities": [
+    "torrent",
+    "shell-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 108
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 501,
+        "name": "oshawott"
+      },
+      {
+        "id": 502,
+        "name": "dewott"
+      },
+      {
+        "id": 503,
+        "name": "samurott"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

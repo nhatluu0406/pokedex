@@ -1,0 +1,40 @@
+{
+  "id": 491,
+  "name": "darkrai",
+  "types": [
+    "dark"
+  ],
+  "height": 15,
+  "weight": 505,
+  "abilities": [
+    "bad-dreams"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 135
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 125
+    }
+  ],
+  "flavorText": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+  "evolution": null
+}

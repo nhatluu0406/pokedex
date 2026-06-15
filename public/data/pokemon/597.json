@@ -1,0 +1,55 @@
+{
+  "id": 597,
+  "name": "ferroseed",
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "height": 6,
+  "weight": 188,
+  "abilities": [
+    "iron-barbs"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 44
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 91
+    },
+    {
+      "name": "special-attack",
+      "value": 24
+    },
+    {
+      "name": "special-defense",
+      "value": 86
+    },
+    {
+      "name": "speed",
+      "value": 10
+    }
+  ],
+  "flavorText": "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 597,
+        "name": "ferroseed"
+      },
+      {
+        "id": 598,
+        "name": "ferrothorn"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

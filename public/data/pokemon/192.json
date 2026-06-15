@@ -1,0 +1,56 @@
+{
+  "id": 192,
+  "name": "sunflora",
+  "types": [
+    "grass"
+  ],
+  "height": 8,
+  "weight": 85,
+  "abilities": [
+    "chlorophyll",
+    "solar-power",
+    "early-bird"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 105
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "It converts sun­ light into energy. In the darkness after sunset, it closes its petals and becomes still.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 191,
+        "name": "sunkern"
+      },
+      {
+        "id": 192,
+        "name": "sunflora"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

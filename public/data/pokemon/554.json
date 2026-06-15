@@ -1,0 +1,55 @@
+{
+  "id": 554,
+  "name": "darumaka",
+  "types": [
+    "fire"
+  ],
+  "height": 6,
+  "weight": 375,
+  "abilities": [
+    "hustle",
+    "inner-focus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 15
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 554,
+        "name": "darumaka"
+      },
+      {
+        "id": 555,
+        "name": "darmanitan"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

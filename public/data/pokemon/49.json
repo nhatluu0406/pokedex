@@ -1,0 +1,57 @@
+{
+  "id": 49,
+  "name": "venomoth",
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "height": 15,
+  "weight": 125,
+  "abilities": [
+    "shield-dust",
+    "tinted-lens",
+    "wonder-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "The dustlike scales covering its wings are color-coded to indicate the kinds of poison it has.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 48,
+        "name": "venonat"
+      },
+      {
+        "id": 49,
+        "name": "venomoth"
+      }
+    ],
+    "levels": [
+      31
+    ]
+  }
+}

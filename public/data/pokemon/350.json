@@ -1,0 +1,56 @@
+{
+  "id": 350,
+  "name": "milotic",
+  "types": [
+    "water"
+  ],
+  "height": 62,
+  "weight": 1620,
+  "abilities": [
+    "marvel-scale",
+    "competitive",
+    "cute-charm"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 95
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 79
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 125
+    },
+    {
+      "name": "speed",
+      "value": 81
+    }
+  ],
+  "flavorText": "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 349,
+        "name": "feebas"
+      },
+      {
+        "id": 350,
+        "name": "milotic"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 51,
+  "name": "dugtrio",
+  "types": [
+    "ground"
+  ],
+  "height": 7,
+  "weight": 333,
+  "abilities": [
+    "sand-veil",
+    "arena-trap",
+    "sand-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 120
+    }
+  ],
+  "flavorText": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 50,
+        "name": "diglett"
+      },
+      {
+        "id": 51,
+        "name": "dugtrio"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

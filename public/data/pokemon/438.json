@@ -1,0 +1,56 @@
+{
+  "id": 438,
+  "name": "bonsly",
+  "types": [
+    "rock"
+  ],
+  "height": 5,
+  "weight": 150,
+  "abilities": [
+    "sturdy",
+    "rock-head",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 10
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 10
+    }
+  ],
+  "flavorText": "It looks as if it is always crying. It is actually adjusting its body’s fluid levels by eliminating excess.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 438,
+        "name": "bonsly"
+      },
+      {
+        "id": 185,
+        "name": "sudowoodo"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

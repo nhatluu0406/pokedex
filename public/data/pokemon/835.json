@@ -1,0 +1,55 @@
+{
+  "id": 835,
+  "name": "yamper",
+  "types": [
+    "electric"
+  ],
+  "height": 3,
+  "weight": 135,
+  "abilities": [
+    "ball-fetch",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 59
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 26
+    }
+  ],
+  "flavorText": "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 835,
+        "name": "yamper"
+      },
+      {
+        "id": 836,
+        "name": "boltund"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

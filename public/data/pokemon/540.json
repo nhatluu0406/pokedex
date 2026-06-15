@@ -1,0 +1,62 @@
+{
+  "id": 540,
+  "name": "sewaddle",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "height": 3,
+  "weight": 25,
+  "abilities": [
+    "swarm",
+    "chlorophyll",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 53
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 42
+    }
+  ],
+  "flavorText": "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 540,
+        "name": "sewaddle"
+      },
+      {
+        "id": 541,
+        "name": "swadloon"
+      },
+      {
+        "id": 542,
+        "name": "leavanny"
+      }
+    ],
+    "levels": [
+      20,
+      null
+    ]
+  }
+}

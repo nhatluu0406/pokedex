@@ -1,0 +1,57 @@
+{
+  "id": 400,
+  "name": "bibarel",
+  "types": [
+    "normal",
+    "water"
+  ],
+  "height": 10,
+  "weight": 315,
+  "abilities": [
+    "simple",
+    "unaware",
+    "moody"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 79
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 71
+    }
+  ],
+  "flavorText": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 399,
+        "name": "bidoof"
+      },
+      {
+        "id": 400,
+        "name": "bibarel"
+      }
+    ],
+    "levels": [
+      15
+    ]
+  }
+}

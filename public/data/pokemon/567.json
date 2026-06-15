@@ -1,0 +1,55 @@
+{
+  "id": 567,
+  "name": "archeops",
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "height": 14,
+  "weight": 320,
+  "abilities": [
+    "defeatist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 140
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 112
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 566,
+        "name": "archen"
+      },
+      {
+        "id": 567,
+        "name": "archeops"
+      }
+    ],
+    "levels": [
+      37
+    ]
+  }
+}

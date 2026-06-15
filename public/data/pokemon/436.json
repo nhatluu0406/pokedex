@@ -1,0 +1,57 @@
+{
+  "id": 436,
+  "name": "bronzor",
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "height": 5,
+  "weight": 605,
+  "abilities": [
+    "levitate",
+    "heatproof",
+    "heavy-metal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 57
+    },
+    {
+      "name": "attack",
+      "value": 24
+    },
+    {
+      "name": "defense",
+      "value": 86
+    },
+    {
+      "name": "special-attack",
+      "value": 24
+    },
+    {
+      "name": "special-defense",
+      "value": 86
+    },
+    {
+      "name": "speed",
+      "value": 23
+    }
+  ],
+  "flavorText": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 436,
+        "name": "bronzor"
+      },
+      {
+        "id": 437,
+        "name": "bronzong"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 419,
+  "name": "floatzel",
+  "types": [
+    "water"
+  ],
+  "height": 11,
+  "weight": 335,
+  "abilities": [
+    "swift-swim",
+    "water-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 85
+    },
+    {
+      "name": "attack",
+      "value": 105
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 115
+    }
+  ],
+  "flavorText": "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 418,
+        "name": "buizel"
+      },
+      {
+        "id": 419,
+        "name": "floatzel"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 77,
+  "name": "ponyta",
+  "types": [
+    "fire"
+  ],
+  "height": 10,
+  "weight": 300,
+  "abilities": [
+    "run-away",
+    "flash-fire",
+    "flame-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 77,
+        "name": "ponyta"
+      },
+      {
+        "id": 78,
+        "name": "rapidash"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

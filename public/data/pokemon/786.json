@@ -1,0 +1,42 @@
+{
+  "id": 786,
+  "name": "tapu-lele",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 12,
+  "weight": 186,
+  "abilities": [
+    "psychic-surge",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 115
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
+  "evolution": null
+}

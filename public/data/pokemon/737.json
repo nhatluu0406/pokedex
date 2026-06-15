@@ -1,0 +1,60 @@
+{
+  "id": 737,
+  "name": "charjabug",
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "height": 5,
+  "weight": 105,
+  "abilities": [
+    "battery"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 57
+    },
+    {
+      "name": "attack",
+      "value": 82
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 36
+    }
+  ],
+  "flavorText": "Its body is capable of storing electricity. On camping trips, people are grateful to have one around.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 736,
+        "name": "grubbin"
+      },
+      {
+        "id": 737,
+        "name": "charjabug"
+      },
+      {
+        "id": 738,
+        "name": "vikavolt"
+      }
+    ],
+    "levels": [
+      20,
+      null
+    ]
+  }
+}

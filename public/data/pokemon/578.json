@@ -1,0 +1,61 @@
+{
+  "id": 578,
+  "name": "duosion",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 80,
+  "abilities": [
+    "overcoat",
+    "magic-guard",
+    "regenerator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 577,
+        "name": "solosis"
+      },
+      {
+        "id": 578,
+        "name": "duosion"
+      },
+      {
+        "id": 579,
+        "name": "reuniclus"
+      }
+    ],
+    "levels": [
+      32,
+      41
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 257,
+  "name": "blaziken",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "height": 19,
+  "weight": 520,
+  "abilities": [
+    "blaze",
+    "speed-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 110
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POKéMON’s wrists burn.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 255,
+        "name": "torchic"
+      },
+      {
+        "id": 256,
+        "name": "combusken"
+      },
+      {
+        "id": 257,
+        "name": "blaziken"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

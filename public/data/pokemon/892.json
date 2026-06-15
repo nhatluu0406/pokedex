@@ -1,0 +1,55 @@
+{
+  "id": 892,
+  "name": "urshifu-single-strike",
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "height": 19,
+  "weight": 1050,
+  "abilities": [
+    "unseen-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 63
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 97
+    }
+  ],
+  "flavorText": "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 891,
+        "name": "kubfu"
+      },
+      {
+        "id": 892,
+        "name": "urshifu"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

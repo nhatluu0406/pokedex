@@ -1,0 +1,60 @@
+{
+  "id": 125,
+  "name": "electabuzz",
+  "types": [
+    "electric"
+  ],
+  "height": 11,
+  "weight": 300,
+  "abilities": [
+    "static",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 83
+    },
+    {
+      "name": "defense",
+      "value": 57
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 239,
+        "name": "elekid"
+      },
+      {
+        "id": 125,
+        "name": "electabuzz"
+      },
+      {
+        "id": 466,
+        "name": "electivire"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

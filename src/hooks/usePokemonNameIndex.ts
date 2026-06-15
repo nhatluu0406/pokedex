@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { fetchPokemonNameIndex } from "@/lib/pokeapi";
+import { fetchNameIndex } from "@/lib/data";
 import { TOTAL_POKEMON } from "@/lib/constants";
 import type { PokemonNameEntry } from "@/lib/types";
 
@@ -15,7 +15,7 @@ export function usePokemonNameIndex() {
   useEffect(() => {
     const abortController = new AbortController();
 
-    fetchPokemonNameIndex(abortController.signal)
+    fetchNameIndex(abortController.signal)
       .then((entries) => {
         if (!abortController.signal.aborted) {
           setIndex(entries);

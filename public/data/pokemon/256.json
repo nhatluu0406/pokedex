@@ -1,0 +1,61 @@
+{
+  "id": 256,
+  "name": "combusken",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "height": 9,
+  "weight": 195,
+  "abilities": [
+    "blaze",
+    "speed-boost"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "COMBUSKEN toughens up its legs and thighs by running through fields and mountains. This POKéMON’s legs possess both speed and power, enabling it to dole out ten kicks in one second.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 255,
+        "name": "torchic"
+      },
+      {
+        "id": 256,
+        "name": "combusken"
+      },
+      {
+        "id": 257,
+        "name": "blaziken"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

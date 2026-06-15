@@ -1,0 +1,41 @@
+{
+  "id": 985,
+  "name": "scream-tail",
+  "types": [
+    "fairy",
+    "psychic"
+  ],
+  "height": 12,
+  "weight": 80,
+  "abilities": [
+    "protosynthesis"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 115
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 99
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 115
+    },
+    {
+      "name": "speed",
+      "value": 111
+    }
+  ],
+  "flavorText": "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+  "evolution": null
+}

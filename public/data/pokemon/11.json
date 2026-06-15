@@ -1,0 +1,59 @@
+{
+  "id": 11,
+  "name": "metapod",
+  "types": [
+    "bug"
+  ],
+  "height": 7,
+  "weight": 99,
+  "abilities": [
+    "shed-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 20
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 10,
+        "name": "caterpie"
+      },
+      {
+        "id": 11,
+        "name": "metapod"
+      },
+      {
+        "id": 12,
+        "name": "butterfree"
+      }
+    ],
+    "levels": [
+      7,
+      10
+    ]
+  }
+}

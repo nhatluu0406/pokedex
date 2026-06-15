@@ -1,0 +1,40 @@
+{
+  "id": 775,
+  "name": "komala",
+  "types": [
+    "normal"
+  ],
+  "height": 4,
+  "weight": 199,
+  "abilities": [
+    "comatose"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
+  "evolution": null
+}

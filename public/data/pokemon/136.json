@@ -1,0 +1,55 @@
+{
+  "id": 136,
+  "name": "flareon",
+  "types": [
+    "fire"
+  ],
+  "height": 9,
+  "weight": 250,
+  "abilities": [
+    "flash-fire",
+    "guts"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 110
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 133,
+        "name": "eevee"
+      },
+      {
+        "id": 134,
+        "name": "vaporeon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

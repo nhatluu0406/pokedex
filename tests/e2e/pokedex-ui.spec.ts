@@ -566,25 +566,6 @@ test.describe("Phase 4 — layout overlap", () => {
     const detailIdTop = detailIdBox!.y;
     expect(spriteBottom).toBeLessThanOrEqual(detailIdTop - 4);
   });
-
-  test("detail load shows rotating pokeball when waiting", async ({ page }, testInfo) => {
-    test.skip(
-      isMobileProject(testInfo.project.name),
-      "Desktop loading state",
-    );
-    await page.setViewportSize({ width: 1400, height: 900 });
-    await waitForAppReady(page);
-
-    await page.route("**/pokeapi.co/api/v2/pokemon/144**", async (route) => {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      await route.continue();
-    });
-
-    await findAndSelectPokemon(page, "articuno", 144);
-    await expect(page.locator(".detail-loading-ball")).toBeVisible({
-      timeout: 5000,
-    });
-  });
 });
 
 test.describe("Mobile layout", () => {

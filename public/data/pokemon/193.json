@@ -1,0 +1,57 @@
+{
+  "id": 193,
+  "name": "yanma",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 12,
+  "weight": 380,
+  "abilities": [
+    "speed-boost",
+    "compound-eyes",
+    "frisk"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "If it flaps its wings really fast, it can generate shock waves that will shatter win­ dows in the area.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 193,
+        "name": "yanma"
+      },
+      {
+        "id": 469,
+        "name": "yanmega"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

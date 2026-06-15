@@ -1,0 +1,56 @@
+{
+  "id": 969,
+  "name": "glimmet",
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "height": 7,
+  "weight": 80,
+  "abilities": [
+    "toxic-debris",
+    "corrosion"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 42
+    },
+    {
+      "name": "special-attack",
+      "value": 105
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 969,
+        "name": "glimmet"
+      },
+      {
+        "id": 970,
+        "name": "glimmora"
+      }
+    ],
+    "levels": [
+      35
+    ]
+  }
+}

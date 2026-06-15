@@ -1,0 +1,55 @@
+{
+  "id": 683,
+  "name": "aromatisse",
+  "types": [
+    "fairy"
+  ],
+  "height": 8,
+  "weight": 155,
+  "abilities": [
+    "healer",
+    "aroma-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 101
+    },
+    {
+      "name": "attack",
+      "value": 72
+    },
+    {
+      "name": "defense",
+      "value": 72
+    },
+    {
+      "name": "special-attack",
+      "value": 99
+    },
+    {
+      "name": "special-defense",
+      "value": 89
+    },
+    {
+      "name": "speed",
+      "value": 29
+    }
+  ],
+  "flavorText": "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 682,
+        "name": "spritzee"
+      },
+      {
+        "id": 683,
+        "name": "aromatisse"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

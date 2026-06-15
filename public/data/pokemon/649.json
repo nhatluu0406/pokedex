@@ -1,0 +1,41 @@
+{
+  "id": 649,
+  "name": "genesect",
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "height": 15,
+  "weight": 825,
+  "abilities": [
+    "download"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 71
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 99
+    }
+  ],
+  "flavorText": "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
+  "evolution": null
+}

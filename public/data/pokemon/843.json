@@ -1,0 +1,56 @@
+{
+  "id": 843,
+  "name": "silicobra",
+  "types": [
+    "ground"
+  ],
+  "height": 22,
+  "weight": 76,
+  "abilities": [
+    "sand-spit",
+    "shed-skin",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 52
+    },
+    {
+      "name": "attack",
+      "value": 57
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 46
+    }
+  ],
+  "flavorText": "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 843,
+        "name": "silicobra"
+      },
+      {
+        "id": 844,
+        "name": "sandaconda"
+      }
+    ],
+    "levels": [
+      36
+    ]
+  }
+}

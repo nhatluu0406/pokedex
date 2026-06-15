@@ -1,0 +1,60 @@
+{
+  "id": 467,
+  "name": "magmortar",
+  "types": [
+    "fire"
+  ],
+  "height": 16,
+  "weight": 680,
+  "abilities": [
+    "flame-body",
+    "vital-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 67
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 83
+    }
+  ],
+  "flavorText": "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 240,
+        "name": "magby"
+      },
+      {
+        "id": 126,
+        "name": "magmar"
+      },
+      {
+        "id": 467,
+        "name": "magmortar"
+      }
+    ],
+    "levels": [
+      30,
+      null
+    ]
+  }
+}

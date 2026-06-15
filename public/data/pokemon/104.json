@@ -1,0 +1,56 @@
+{
+  "id": 104,
+  "name": "cubone",
+  "types": [
+    "ground"
+  ],
+  "height": 4,
+  "weight": 65,
+  "abilities": [
+    "rock-head",
+    "lightning-rod",
+    "battle-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Because it never removes its skull helmet, no one has ever seen this POKéMON's real face.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 104,
+        "name": "cubone"
+      },
+      {
+        "id": 105,
+        "name": "marowak"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

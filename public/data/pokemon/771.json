@@ -1,0 +1,41 @@
+{
+  "id": 771,
+  "name": "pyukumuku",
+  "types": [
+    "water"
+  ],
+  "height": 3,
+  "weight": 12,
+  "abilities": [
+    "innards-out",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 130
+    },
+    {
+      "name": "special-attack",
+      "value": 30
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 5
+    }
+  ],
+  "flavorText": "It’s covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up.",
+  "evolution": null
+}

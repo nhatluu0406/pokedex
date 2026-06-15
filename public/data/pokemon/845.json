@@ -1,0 +1,41 @@
+{
+  "id": 845,
+  "name": "cramorant",
+  "types": [
+    "flying",
+    "water"
+  ],
+  "height": 8,
+  "weight": 180,
+  "abilities": [
+    "gulp-missile"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 95
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
+  "evolution": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": 661,
+  "name": "fletchling",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 3,
+  "weight": 17,
+  "abilities": [
+    "big-pecks",
+    "gale-wings"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 43
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 38
+    },
+    {
+      "name": "speed",
+      "value": 62
+    }
+  ],
+  "flavorText": "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 661,
+        "name": "fletchling"
+      },
+      {
+        "id": 662,
+        "name": "fletchinder"
+      },
+      {
+        "id": 663,
+        "name": "talonflame"
+      }
+    ],
+    "levels": [
+      17,
+      35
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 821,
+  "name": "rookidee",
+  "types": [
+    "flying"
+  ],
+  "height": 2,
+  "weight": 18,
+  "abilities": [
+    "keen-eye",
+    "unnerve",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 47
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 33
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 57
+    }
+  ],
+  "flavorText": "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 821,
+        "name": "rookidee"
+      },
+      {
+        "id": 822,
+        "name": "corvisquire"
+      },
+      {
+        "id": 823,
+        "name": "corviknight"
+      }
+    ],
+    "levels": [
+      18,
+      38
+    ]
+  }
+}

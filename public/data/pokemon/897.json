@@ -1,0 +1,40 @@
+{
+  "id": 897,
+  "name": "spectrier",
+  "types": [
+    "ghost"
+  ],
+  "height": 20,
+  "weight": 445,
+  "abilities": [
+    "grim-neigh"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 145
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 130
+    }
+  ],
+  "flavorText": "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.",
+  "evolution": null
+}

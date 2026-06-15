@@ -1,0 +1,62 @@
+{
+  "id": 923,
+  "name": "pawmot",
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "height": 9,
+  "weight": 410,
+  "abilities": [
+    "volt-absorb",
+    "natural-cure",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 105
+    }
+  ],
+  "flavorText": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 921,
+        "name": "pawmi"
+      },
+      {
+        "id": 922,
+        "name": "pawmo"
+      },
+      {
+        "id": 923,
+        "name": "pawmot"
+      }
+    ],
+    "levels": [
+      18,
+      null
+    ]
+  }
+}

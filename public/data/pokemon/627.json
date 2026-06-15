@@ -1,0 +1,57 @@
+{
+  "id": 627,
+  "name": "rufflet",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 5,
+  "weight": 105,
+  "abilities": [
+    "keen-eye",
+    "sheer-force",
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 83
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 37
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 627,
+        "name": "rufflet"
+      },
+      {
+        "id": 628,
+        "name": "braviary"
+      }
+    ],
+    "levels": [
+      54
+    ]
+  }
+}

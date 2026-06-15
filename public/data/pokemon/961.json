@@ -1,0 +1,56 @@
+{
+  "id": 961,
+  "name": "wugtrio",
+  "types": [
+    "water"
+  ],
+  "height": 12,
+  "weight": 54,
+  "abilities": [
+    "gooey",
+    "rattled",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 120
+    }
+  ],
+  "flavorText": "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 960,
+        "name": "wiglett"
+      },
+      {
+        "id": 961,
+        "name": "wugtrio"
+      }
+    ],
+    "levels": [
+      26
+    ]
+  }
+}

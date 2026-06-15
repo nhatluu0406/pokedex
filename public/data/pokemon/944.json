@@ -1,0 +1,57 @@
+{
+  "id": 944,
+  "name": "shroodle",
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "height": 2,
+  "weight": 7,
+  "abilities": [
+    "unburden",
+    "pickpocket",
+    "prankster"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 944,
+        "name": "shroodle"
+      },
+      {
+        "id": 945,
+        "name": "grafaiai"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

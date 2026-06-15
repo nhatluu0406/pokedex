@@ -1,0 +1,42 @@
+{
+  "id": 128,
+  "name": "tauros",
+  "types": [
+    "normal"
+  ],
+  "height": 14,
+  "weight": 884,
+  "abilities": [
+    "intimidate",
+    "anger-point",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 110
+    }
+  ],
+  "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+  "evolution": null
+}

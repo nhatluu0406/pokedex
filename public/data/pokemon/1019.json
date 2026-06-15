@@ -1,0 +1,57 @@
+{
+  "id": 1019,
+  "name": "hydrapple",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "height": 18,
+  "weight": 930,
+  "abilities": [
+    "supersweet-syrup",
+    "regenerator",
+    "sticky-hold"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 106
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 44
+    }
+  ],
+  "flavorText": "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 840,
+        "name": "applin"
+      },
+      {
+        "id": 841,
+        "name": "flapple"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

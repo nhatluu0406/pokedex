@@ -1,0 +1,61 @@
+{
+  "id": 67,
+  "name": "machoke",
+  "types": [
+    "fighting"
+  ],
+  "height": 15,
+  "weight": 705,
+  "abilities": [
+    "guts",
+    "no-guard",
+    "steadfast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 45
+    }
+  ],
+  "flavorText": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 66,
+        "name": "machop"
+      },
+      {
+        "id": 67,
+        "name": "machoke"
+      },
+      {
+        "id": 68,
+        "name": "machamp"
+      }
+    ],
+    "levels": [
+      28,
+      null
+    ]
+  }
+}

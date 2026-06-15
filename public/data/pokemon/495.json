@@ -1,0 +1,60 @@
+{
+  "id": 495,
+  "name": "snivy",
+  "types": [
+    "grass"
+  ],
+  "height": 6,
+  "weight": 81,
+  "abilities": [
+    "overgrow",
+    "contrary"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 45
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 63
+    }
+  ],
+  "flavorText": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 495,
+        "name": "snivy"
+      },
+      {
+        "id": 496,
+        "name": "servine"
+      },
+      {
+        "id": 497,
+        "name": "serperior"
+      }
+    ],
+    "levels": [
+      17,
+      36
+    ]
+  }
+}

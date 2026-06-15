@@ -1,0 +1,42 @@
+{
+  "id": 556,
+  "name": "maractus",
+  "types": [
+    "grass"
+  ],
+  "height": 10,
+  "weight": 280,
+  "abilities": [
+    "water-absorb",
+    "chlorophyll",
+    "storm-drain"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 86
+    },
+    {
+      "name": "defense",
+      "value": 67
+    },
+    {
+      "name": "special-attack",
+      "value": 106
+    },
+    {
+      "name": "special-defense",
+      "value": 67
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+  "evolution": null
+}

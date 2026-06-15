@@ -1,0 +1,42 @@
+{
+  "id": 487,
+  "name": "giratina-altered",
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "height": 45,
+  "weight": 7500,
+  "abilities": [
+    "pressure",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 150
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+  "evolution": null
+}

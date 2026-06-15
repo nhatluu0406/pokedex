@@ -1,0 +1,60 @@
+{
+  "id": 92,
+  "name": "gastly",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "height": 13,
+  "weight": 1,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 30
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 92,
+        "name": "gastly"
+      },
+      {
+        "id": 93,
+        "name": "haunter"
+      },
+      {
+        "id": 94,
+        "name": "gengar"
+      }
+    ],
+    "levels": [
+      25,
+      null
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 409,
+  "name": "rampardos",
+  "types": [
+    "rock"
+  ],
+  "height": 16,
+  "weight": 1025,
+  "abilities": [
+    "mold-breaker",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 97
+    },
+    {
+      "name": "attack",
+      "value": 165
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 58
+    }
+  ],
+  "flavorText": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 408,
+        "name": "cranidos"
+      },
+      {
+        "id": 409,
+        "name": "rampardos"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

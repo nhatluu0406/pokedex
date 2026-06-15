@@ -1,0 +1,57 @@
+{
+  "id": 73,
+  "name": "tentacruel",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "height": 16,
+  "weight": 550,
+  "abilities": [
+    "clear-body",
+    "liquid-ooze",
+    "rain-dish"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 65
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 72,
+        "name": "tentacool"
+      },
+      {
+        "id": 73,
+        "name": "tentacruel"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

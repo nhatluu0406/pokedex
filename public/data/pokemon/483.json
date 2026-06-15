@@ -1,0 +1,42 @@
+{
+  "id": 483,
+  "name": "dialga",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "height": 54,
+  "weight": 6830,
+  "abilities": [
+    "pressure",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 150
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+  "evolution": null
+}

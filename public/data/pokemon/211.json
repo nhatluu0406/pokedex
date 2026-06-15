@@ -1,0 +1,57 @@
+{
+  "id": 211,
+  "name": "qwilfish",
+  "types": [
+    "water",
+    "poison"
+  ],
+  "height": 5,
+  "weight": 39,
+  "abilities": [
+    "poison-point",
+    "swift-swim",
+    "intimidate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 211,
+        "name": "qwilfish"
+      },
+      {
+        "id": 904,
+        "name": "overqwil"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 697,
+  "name": "tyrantrum",
+  "types": [
+    "rock",
+    "dragon"
+  ],
+  "height": 25,
+  "weight": 2700,
+  "abilities": [
+    "strong-jaw",
+    "rock-head"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 82
+    },
+    {
+      "name": "attack",
+      "value": 121
+    },
+    {
+      "name": "defense",
+      "value": 119
+    },
+    {
+      "name": "special-attack",
+      "value": 69
+    },
+    {
+      "name": "special-defense",
+      "value": 59
+    },
+    {
+      "name": "speed",
+      "value": 71
+    }
+  ],
+  "flavorText": "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 696,
+        "name": "tyrunt"
+      },
+      {
+        "id": 697,
+        "name": "tyrantrum"
+      }
+    ],
+    "levels": [
+      39
+    ]
+  }
+}

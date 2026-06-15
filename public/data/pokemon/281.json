@@ -1,0 +1,62 @@
+{
+  "id": 281,
+  "name": "kirlia",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 8,
+  "weight": 202,
+  "abilities": [
+    "synchronize",
+    "trace",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 38
+    },
+    {
+      "name": "attack",
+      "value": 35
+    },
+    {
+      "name": "defense",
+      "value": 35
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It is said that a KIRLIA that is exposed to the positive emotions of its TRAINER grows beautiful. This POKéMON controls psychokinetic powers with its highly developed brain.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 280,
+        "name": "ralts"
+      },
+      {
+        "id": 281,
+        "name": "kirlia"
+      },
+      {
+        "id": 282,
+        "name": "gardevoir"
+      }
+    ],
+    "levels": [
+      20,
+      30
+    ]
+  }
+}

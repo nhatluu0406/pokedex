@@ -1,0 +1,56 @@
+{
+  "id": 831,
+  "name": "wooloo",
+  "types": [
+    "normal"
+  ],
+  "height": 6,
+  "weight": 60,
+  "abilities": [
+    "fluffy",
+    "run-away",
+    "bulletproof"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 42
+    },
+    {
+      "name": "attack",
+      "value": 40
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 48
+    }
+  ],
+  "flavorText": "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 831,
+        "name": "wooloo"
+      },
+      {
+        "id": 832,
+        "name": "dubwool"
+      }
+    ],
+    "levels": [
+      24
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 925,
+  "name": "maushold-family-of-four",
+  "types": [
+    "normal"
+  ],
+  "height": 3,
+  "weight": 28,
+  "abilities": [
+    "friend-guard",
+    "cheek-pouch",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 74
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 111
+    }
+  ],
+  "flavorText": "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 924,
+        "name": "tandemaus"
+      },
+      {
+        "id": 925,
+        "name": "maushold"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

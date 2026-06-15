@@ -1,0 +1,57 @@
+{
+  "id": 585,
+  "name": "deerling",
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "height": 6,
+  "weight": 195,
+  "abilities": [
+    "chlorophyll",
+    "sap-sipper",
+    "serene-grace"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 585,
+        "name": "deerling"
+      },
+      {
+        "id": 586,
+        "name": "sawsbuck"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

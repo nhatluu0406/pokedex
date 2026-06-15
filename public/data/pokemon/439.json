@@ -1,0 +1,62 @@
+{
+  "id": 439,
+  "name": "mime-jr",
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "height": 6,
+  "weight": 130,
+  "abilities": [
+    "soundproof",
+    "filter",
+    "technician"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 20
+    },
+    {
+      "name": "attack",
+      "value": 25
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 439,
+        "name": "mime-jr"
+      },
+      {
+        "id": 122,
+        "name": "mr-mime"
+      },
+      {
+        "id": 866,
+        "name": "mr-rime"
+      }
+    ],
+    "levels": [
+      null,
+      42
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 983,
+  "name": "kingambit",
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "height": 20,
+  "weight": 1200,
+  "abilities": [
+    "defiant",
+    "supreme-overlord",
+    "pressure"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 135
+    },
+    {
+      "name": "defense",
+      "value": 120
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 624,
+        "name": "pawniard"
+      },
+      {
+        "id": 625,
+        "name": "bisharp"
+      },
+      {
+        "id": 983,
+        "name": "kingambit"
+      }
+    ],
+    "levels": [
+      52,
+      null
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 517,
+  "name": "munna",
+  "types": [
+    "psychic"
+  ],
+  "height": 6,
+  "weight": 233,
+  "abilities": [
+    "forewarn",
+    "synchronize",
+    "telepathy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 76
+    },
+    {
+      "name": "attack",
+      "value": 25
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 67
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 24
+    }
+  ],
+  "flavorText": "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 517,
+        "name": "munna"
+      },
+      {
+        "id": 518,
+        "name": "musharna"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

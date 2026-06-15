@@ -1,0 +1,61 @@
+{
+  "id": 445,
+  "name": "garchomp",
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "height": 19,
+  "weight": 950,
+  "abilities": [
+    "sand-veil",
+    "rough-skin"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 108
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 102
+    }
+  ],
+  "flavorText": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 443,
+        "name": "gible"
+      },
+      {
+        "id": 444,
+        "name": "gabite"
+      },
+      {
+        "id": 445,
+        "name": "garchomp"
+      }
+    ],
+    "levels": [
+      24,
+      48
+    ]
+  }
+}

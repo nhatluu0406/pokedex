@@ -1,0 +1,56 @@
+{
+  "id": 863,
+  "name": "perrserker",
+  "types": [
+    "steel"
+  ],
+  "height": 8,
+  "weight": 280,
+  "abilities": [
+    "battle-armor",
+    "tough-claws",
+    "steely-spirit"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 110
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 52,
+        "name": "meowth"
+      },
+      {
+        "id": 53,
+        "name": "persian"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

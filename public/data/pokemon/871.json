@@ -1,0 +1,41 @@
+{
+  "id": 871,
+  "name": "pincurchin",
+  "types": [
+    "electric"
+  ],
+  "height": 3,
+  "weight": 10,
+  "abilities": [
+    "lightning-rod",
+    "electric-surge"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 48
+    },
+    {
+      "name": "attack",
+      "value": 101
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 91
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 15
+    }
+  ],
+  "flavorText": "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
+  "evolution": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": 884,
+  "name": "duraludon",
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "height": 18,
+  "weight": 400,
+  "abilities": [
+    "light-metal",
+    "heavy-metal",
+    "stalwart"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 120
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 884,
+        "name": "duraludon"
+      },
+      {
+        "id": 1018,
+        "name": "archaludon"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 763,
+  "name": "tsareena",
+  "types": [
+    "grass"
+  ],
+  "height": 12,
+  "weight": 214,
+  "abilities": [
+    "leaf-guard",
+    "queenly-majesty",
+    "sweet-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 72
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 98
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 98
+    },
+    {
+      "name": "speed",
+      "value": 72
+    }
+  ],
+  "flavorText": "Its long, striking legs aren’t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 761,
+        "name": "bounsweet"
+      },
+      {
+        "id": 762,
+        "name": "steenee"
+      },
+      {
+        "id": 763,
+        "name": "tsareena"
+      }
+    ],
+    "levels": [
+      18,
+      null
+    ]
+  }
+}

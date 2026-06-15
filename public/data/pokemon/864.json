@@ -1,0 +1,55 @@
+{
+  "id": 864,
+  "name": "cursola",
+  "types": [
+    "ghost"
+  ],
+  "height": 10,
+  "weight": 4,
+  "abilities": [
+    "weak-armor",
+    "perish-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 145
+    },
+    {
+      "name": "special-defense",
+      "value": 130
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon’s core spirit.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 222,
+        "name": "corsola"
+      },
+      {
+        "id": 864,
+        "name": "cursola"
+      }
+    ],
+    "levels": [
+      38
+    ]
+  }
+}

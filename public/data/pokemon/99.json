@@ -1,0 +1,56 @@
+{
+  "id": 99,
+  "name": "kingler",
+  "types": [
+    "water"
+  ],
+  "height": 13,
+  "weight": 600,
+  "abilities": [
+    "hyper-cutter",
+    "shell-armor",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 75
+    }
+  ],
+  "flavorText": "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 98,
+        "name": "krabby"
+      },
+      {
+        "id": 99,
+        "name": "kingler"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

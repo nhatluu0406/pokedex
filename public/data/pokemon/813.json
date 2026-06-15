@@ -1,0 +1,60 @@
+{
+  "id": 813,
+  "name": "scorbunny",
+  "types": [
+    "fire"
+  ],
+  "height": 3,
+  "weight": 45,
+  "abilities": [
+    "blaze",
+    "libero"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 71
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 69
+    }
+  ],
+  "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 813,
+        "name": "scorbunny"
+      },
+      {
+        "id": 814,
+        "name": "raboot"
+      },
+      {
+        "id": 815,
+        "name": "cinderace"
+      }
+    ],
+    "levels": [
+      16,
+      35
+    ]
+  }
+}

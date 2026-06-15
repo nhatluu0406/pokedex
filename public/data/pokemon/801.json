@@ -1,0 +1,41 @@
+{
+  "id": 801,
+  "name": "magearna",
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "height": 10,
+  "weight": 805,
+  "abilities": [
+    "soul-heart"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 115
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
+  "evolution": null
+}

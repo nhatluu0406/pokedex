@@ -1,0 +1,61 @@
+{
+  "id": 611,
+  "name": "fraxure",
+  "types": [
+    "dragon"
+  ],
+  "height": 10,
+  "weight": 360,
+  "abilities": [
+    "rivalry",
+    "mold-breaker",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 66
+    },
+    {
+      "name": "attack",
+      "value": 117
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 67
+    }
+  ],
+  "flavorText": "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they’ve been fighting.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 610,
+        "name": "axew"
+      },
+      {
+        "id": 611,
+        "name": "fraxure"
+      },
+      {
+        "id": 612,
+        "name": "haxorus"
+      }
+    ],
+    "levels": [
+      38,
+      48
+    ]
+  }
+}

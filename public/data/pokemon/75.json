@@ -1,0 +1,62 @@
+{
+  "id": 75,
+  "name": "graveler",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "height": 10,
+  "weight": 1050,
+  "abilities": [
+    "rock-head",
+    "sturdy",
+    "sand-veil"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 45
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 74,
+        "name": "geodude"
+      },
+      {
+        "id": 75,
+        "name": "graveler"
+      },
+      {
+        "id": 76,
+        "name": "golem"
+      }
+    ],
+    "levels": [
+      25,
+      null
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 822,
+  "name": "corvisquire",
+  "types": [
+    "flying"
+  ],
+  "height": 8,
+  "weight": 160,
+  "abilities": [
+    "keen-eye",
+    "unnerve",
+    "big-pecks"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 68
+    },
+    {
+      "name": "attack",
+      "value": 67
+    },
+    {
+      "name": "defense",
+      "value": 55
+    },
+    {
+      "name": "special-attack",
+      "value": 43
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 77
+    }
+  ],
+  "flavorText": "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 821,
+        "name": "rookidee"
+      },
+      {
+        "id": 822,
+        "name": "corvisquire"
+      },
+      {
+        "id": 823,
+        "name": "corviknight"
+      }
+    ],
+    "levels": [
+      18,
+      38
+    ]
+  }
+}

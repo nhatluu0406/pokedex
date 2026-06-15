@@ -1,0 +1,61 @@
+{
+  "id": 248,
+  "name": "tyranitar",
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "height": 20,
+  "weight": 2020,
+  "abilities": [
+    "sand-stream",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 134
+    },
+    {
+      "name": "defense",
+      "value": 110
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 61
+    }
+  ],
+  "flavorText": "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 246,
+        "name": "larvitar"
+      },
+      {
+        "id": 247,
+        "name": "pupitar"
+      },
+      {
+        "id": 248,
+        "name": "tyranitar"
+      }
+    ],
+    "levels": [
+      30,
+      55
+    ]
+  }
+}

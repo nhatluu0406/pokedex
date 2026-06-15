@@ -1,0 +1,62 @@
+{
+  "id": 733,
+  "name": "toucannon",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "height": 11,
+  "weight": 260,
+  "abilities": [
+    "keen-eye",
+    "skill-link",
+    "sheer-force"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 120
+    },
+    {
+      "name": "defense",
+      "value": 75
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 731,
+        "name": "pikipek"
+      },
+      {
+        "id": 732,
+        "name": "trumbeak"
+      },
+      {
+        "id": 733,
+        "name": "toucannon"
+      }
+    ],
+    "levels": [
+      14,
+      28
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 237,
+  "name": "hitmontop",
+  "types": [
+    "fighting"
+  ],
+  "height": 14,
+  "weight": 480,
+  "abilities": [
+    "intimidate",
+    "technician",
+    "steadfast"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 110
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 236,
+        "name": "tyrogue"
+      },
+      {
+        "id": 106,
+        "name": "hitmonlee"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

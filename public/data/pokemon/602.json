@@ -1,0 +1,59 @@
+{
+  "id": 602,
+  "name": "tynamo",
+  "types": [
+    "electric"
+  ],
+  "height": 2,
+  "weight": 3,
+  "abilities": [
+    "levitate"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 35
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 602,
+        "name": "tynamo"
+      },
+      {
+        "id": 603,
+        "name": "eelektrik"
+      },
+      {
+        "id": 604,
+        "name": "eelektross"
+      }
+    ],
+    "levels": [
+      39,
+      null
+    ]
+  }
+}

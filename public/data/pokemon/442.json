@@ -1,0 +1,42 @@
+{
+  "id": 442,
+  "name": "spiritomb",
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "height": 10,
+  "weight": 1080,
+  "abilities": [
+    "pressure",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 92
+    },
+    {
+      "name": "defense",
+      "value": 108
+    },
+    {
+      "name": "special-attack",
+      "value": 92
+    },
+    {
+      "name": "special-defense",
+      "value": 108
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+  "evolution": null
+}

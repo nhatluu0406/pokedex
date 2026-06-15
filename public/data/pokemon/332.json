@@ -1,0 +1,56 @@
+{
+  "id": 332,
+  "name": "cacturne",
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "height": 13,
+  "weight": 774,
+  "abilities": [
+    "sand-veil",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 115
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 115
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "During the daytime, CACTURNE remains unmoving so that it does not lose any moisture to the harsh desert sun. This POKéMON becomes active at night when the temperature drops.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 331,
+        "name": "cacnea"
+      },
+      {
+        "id": 332,
+        "name": "cacturne"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

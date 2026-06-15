@@ -1,0 +1,61 @@
+{
+  "id": 601,
+  "name": "klinklang",
+  "types": [
+    "steel"
+  ],
+  "height": 6,
+  "weight": 810,
+  "abilities": [
+    "plus",
+    "minus",
+    "clear-body"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 115
+    },
+    {
+      "name": "special-attack",
+      "value": 70
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "The gear with the red core is rotated at high speed for a rapid energy charge.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 599,
+        "name": "klink"
+      },
+      {
+        "id": 600,
+        "name": "klang"
+      },
+      {
+        "id": 601,
+        "name": "klinklang"
+      }
+    ],
+    "levels": [
+      38,
+      49
+    ]
+  }
+}

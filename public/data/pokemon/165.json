@@ -1,0 +1,57 @@
+{
+  "id": 165,
+  "name": "ledyba",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height": 10,
+  "weight": 108,
+  "abilities": [
+    "swarm",
+    "early-bird",
+    "rattled"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 40
+    },
+    {
+      "name": "attack",
+      "value": 20
+    },
+    {
+      "name": "defense",
+      "value": 30
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 165,
+        "name": "ledyba"
+      },
+      {
+        "id": 166,
+        "name": "ledian"
+      }
+    ],
+    "levels": [
+      18
+    ]
+  }
+}

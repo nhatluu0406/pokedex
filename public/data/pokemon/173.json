@@ -1,0 +1,61 @@
+{
+  "id": 173,
+  "name": "cleffa",
+  "types": [
+    "fairy"
+  ],
+  "height": 3,
+  "weight": 30,
+  "abilities": [
+    "cute-charm",
+    "magic-guard",
+    "friend-guard"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 25
+    },
+    {
+      "name": "defense",
+      "value": 28
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 55
+    },
+    {
+      "name": "speed",
+      "value": 15
+    }
+  ],
+  "flavorText": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 173,
+        "name": "cleffa"
+      },
+      {
+        "id": 35,
+        "name": "clefairy"
+      },
+      {
+        "id": 36,
+        "name": "clefable"
+      }
+    ],
+    "levels": [
+      null,
+      null
+    ]
+  }
+}

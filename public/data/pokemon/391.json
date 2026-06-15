@@ -1,0 +1,61 @@
+{
+  "id": 391,
+  "name": "monferno",
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "height": 9,
+  "weight": 220,
+  "abilities": [
+    "blaze",
+    "iron-fist"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 64
+    },
+    {
+      "name": "attack",
+      "value": 78
+    },
+    {
+      "name": "defense",
+      "value": 52
+    },
+    {
+      "name": "special-attack",
+      "value": 78
+    },
+    {
+      "name": "special-defense",
+      "value": 52
+    },
+    {
+      "name": "speed",
+      "value": 81
+    }
+  ],
+  "flavorText": "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 390,
+        "name": "chimchar"
+      },
+      {
+        "id": 391,
+        "name": "monferno"
+      },
+      {
+        "id": 392,
+        "name": "infernape"
+      }
+    ],
+    "levels": [
+      14,
+      36
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 331,
+  "name": "cacnea",
+  "types": [
+    "grass"
+  ],
+  "height": 4,
+  "weight": 513,
+  "abilities": [
+    "sand-veil",
+    "water-absorb"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 40
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 40
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "CACNEA lives in arid locations such as deserts. It releases a strong aroma from its flower to attract prey. When prey comes near, this POKéMON shoots sharp thorns from its body to bring the victim down.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 331,
+        "name": "cacnea"
+      },
+      {
+        "id": 332,
+        "name": "cacturne"
+      }
+    ],
+    "levels": [
+      32
+    ]
+  }
+}

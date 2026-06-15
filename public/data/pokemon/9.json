@@ -1,0 +1,60 @@
+{
+  "id": 9,
+  "name": "blastoise",
+  "types": [
+    "water"
+  ],
+  "height": 16,
+  "weight": 855,
+  "abilities": [
+    "torrent",
+    "rain-dish"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 79
+    },
+    {
+      "name": "attack",
+      "value": 83
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 85
+    },
+    {
+      "name": "special-defense",
+      "value": 105
+    },
+    {
+      "name": "speed",
+      "value": 78
+    }
+  ],
+  "flavorText": "A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 7,
+        "name": "squirtle"
+      },
+      {
+        "id": 8,
+        "name": "wartortle"
+      },
+      {
+        "id": 9,
+        "name": "blastoise"
+      }
+    ],
+    "levels": [
+      16,
+      36
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 830,
+  "name": "eldegoss",
+  "types": [
+    "grass"
+  ],
+  "height": 5,
+  "weight": 25,
+  "abilities": [
+    "cotton-down",
+    "regenerator",
+    "effect-spore"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 50
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 120
+    },
+    {
+      "name": "speed",
+      "value": 60
+    }
+  ],
+  "flavorText": "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 829,
+        "name": "gossifleur"
+      },
+      {
+        "id": 830,
+        "name": "eldegoss"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

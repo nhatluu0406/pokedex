@@ -1,0 +1,41 @@
+{
+  "id": 646,
+  "name": "kyurem",
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "height": 30,
+  "weight": 3250,
+  "abilities": [
+    "pressure"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 125
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 130
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+  "evolution": null
+}

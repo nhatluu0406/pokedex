@@ -1,0 +1,56 @@
+{
+  "id": 345,
+  "name": "lileep",
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "height": 10,
+  "weight": 238,
+  "abilities": [
+    "suction-cups",
+    "storm-drain"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 66
+    },
+    {
+      "name": "attack",
+      "value": 41
+    },
+    {
+      "name": "defense",
+      "value": 77
+    },
+    {
+      "name": "special-attack",
+      "value": 61
+    },
+    {
+      "name": "special-defense",
+      "value": 87
+    },
+    {
+      "name": "speed",
+      "value": 23
+    }
+  ],
+  "flavorText": "LILEEP became extinct approximately a hundred million years ago. This ancient POKéMON attaches itself to a rock on the seafloor and catches approaching prey using tentacles shaped like flower petals.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 345,
+        "name": "lileep"
+      },
+      {
+        "id": 346,
+        "name": "cradily"
+      }
+    ],
+    "levels": [
+      40
+    ]
+  }
+}

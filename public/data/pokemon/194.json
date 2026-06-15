@@ -1,0 +1,57 @@
+{
+  "id": 194,
+  "name": "wooper",
+  "types": [
+    "water",
+    "ground"
+  ],
+  "height": 4,
+  "weight": 85,
+  "abilities": [
+    "damp",
+    "water-absorb",
+    "unaware"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 45
+    },
+    {
+      "name": "defense",
+      "value": 45
+    },
+    {
+      "name": "special-attack",
+      "value": 25
+    },
+    {
+      "name": "special-defense",
+      "value": 25
+    },
+    {
+      "name": "speed",
+      "value": 15
+    }
+  ],
+  "flavorText": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 194,
+        "name": "wooper"
+      },
+      {
+        "id": 195,
+        "name": "quagsire"
+      }
+    ],
+    "levels": [
+      20
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 587,
+  "name": "emolga",
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "height": 4,
+  "weight": 50,
+  "abilities": [
+    "static",
+    "motor-drive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 75
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 75
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 103
+    }
+  ],
+  "flavorText": "The energy made in its cheeks’ electric pouches is stored inside its membrane and released while it is gliding.",
+  "evolution": null
+}

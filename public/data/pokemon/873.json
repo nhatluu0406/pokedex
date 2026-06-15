@@ -1,0 +1,56 @@
+{
+  "id": 873,
+  "name": "frosmoth",
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "height": 13,
+  "weight": 420,
+  "abilities": [
+    "shield-dust",
+    "ice-scales"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 70
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 125
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 872,
+        "name": "snom"
+      },
+      {
+        "id": 873,
+        "name": "frosmoth"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

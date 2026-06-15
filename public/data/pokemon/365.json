@@ -1,0 +1,62 @@
+{
+  "id": 365,
+  "name": "walrein",
+  "types": [
+    "ice",
+    "water"
+  ],
+  "height": 14,
+  "weight": 1506,
+  "abilities": [
+    "thick-fat",
+    "ice-body",
+    "oblivious"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 110
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 90
+    },
+    {
+      "name": "speed",
+      "value": 65
+    }
+  ],
+  "flavorText": "It swims through icy seas while shattering ice floes with its large tusks. It is protected by its thick blubber.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 363,
+        "name": "spheal"
+      },
+      {
+        "id": 364,
+        "name": "sealeo"
+      },
+      {
+        "id": 365,
+        "name": "walrein"
+      }
+    ],
+    "levels": [
+      32,
+      44
+    ]
+  }
+}

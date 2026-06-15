@@ -1,0 +1,55 @@
+{
+  "id": 836,
+  "name": "boltund",
+  "types": [
+    "electric"
+  ],
+  "height": 10,
+  "weight": 340,
+  "abilities": [
+    "strong-jaw",
+    "competitive"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 69
+    },
+    {
+      "name": "attack",
+      "value": 90
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 60
+    },
+    {
+      "name": "speed",
+      "value": 121
+    }
+  ],
+  "flavorText": "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 835,
+        "name": "yamper"
+      },
+      {
+        "id": 836,
+        "name": "boltund"
+      }
+    ],
+    "levels": [
+      25
+    ]
+  }
+}

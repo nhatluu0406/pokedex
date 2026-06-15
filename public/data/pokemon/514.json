@@ -1,0 +1,55 @@
+{
+  "id": 514,
+  "name": "simisear",
+  "types": [
+    "fire"
+  ],
+  "height": 10,
+  "weight": 280,
+  "abilities": [
+    "gluttony",
+    "blaze"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 98
+    },
+    {
+      "name": "defense",
+      "value": 63
+    },
+    {
+      "name": "special-attack",
+      "value": 98
+    },
+    {
+      "name": "special-defense",
+      "value": 63
+    },
+    {
+      "name": "speed",
+      "value": 101
+    }
+  ],
+  "flavorText": "It loves sweets because they become energy for the fire burning inside its body.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 513,
+        "name": "pansear"
+      },
+      {
+        "id": 514,
+        "name": "simisear"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

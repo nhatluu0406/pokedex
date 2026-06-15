@@ -1,0 +1,62 @@
+{
+  "id": 541,
+  "name": "swadloon",
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "height": 5,
+  "weight": 73,
+  "abilities": [
+    "leaf-guard",
+    "chlorophyll",
+    "overcoat"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 55
+    },
+    {
+      "name": "attack",
+      "value": 63
+    },
+    {
+      "name": "defense",
+      "value": 90
+    },
+    {
+      "name": "special-attack",
+      "value": 50
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 42
+    }
+  ],
+  "flavorText": "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 540,
+        "name": "sewaddle"
+      },
+      {
+        "id": 541,
+        "name": "swadloon"
+      },
+      {
+        "id": 542,
+        "name": "leavanny"
+      }
+    ],
+    "levels": [
+      20,
+      null
+    ]
+  }
+}

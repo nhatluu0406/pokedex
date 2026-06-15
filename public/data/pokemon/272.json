@@ -1,0 +1,62 @@
+{
+  "id": 272,
+  "name": "ludicolo",
+  "types": [
+    "water",
+    "grass"
+  ],
+  "height": 15,
+  "weight": 550,
+  "abilities": [
+    "swift-swim",
+    "rain-dish",
+    "own-tempo"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 90
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 70
+    }
+  ],
+  "flavorText": "LUDICOLO begins dancing as soon as it hears cheerful, festive music. This POKéMON is said to appear when it hears the singing of children on hiking outings.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 270,
+        "name": "lotad"
+      },
+      {
+        "id": 271,
+        "name": "lombre"
+      },
+      {
+        "id": 272,
+        "name": "ludicolo"
+      }
+    ],
+    "levels": [
+      14,
+      null
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 695,
+  "name": "heliolisk",
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "height": 10,
+  "weight": 210,
+  "abilities": [
+    "dry-skin",
+    "sand-veil",
+    "solar-power"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 62
+    },
+    {
+      "name": "attack",
+      "value": 55
+    },
+    {
+      "name": "defense",
+      "value": 52
+    },
+    {
+      "name": "special-attack",
+      "value": 109
+    },
+    {
+      "name": "special-defense",
+      "value": 94
+    },
+    {
+      "name": "speed",
+      "value": 109
+    }
+  ],
+  "flavorText": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 694,
+        "name": "helioptile"
+      },
+      {
+        "id": 695,
+        "name": "heliolisk"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

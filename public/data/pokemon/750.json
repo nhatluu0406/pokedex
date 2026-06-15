@@ -1,0 +1,56 @@
+{
+  "id": 750,
+  "name": "mudsdale",
+  "types": [
+    "ground"
+  ],
+  "height": 25,
+  "weight": 9200,
+  "abilities": [
+    "own-tempo",
+    "stamina",
+    "inner-focus"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 125
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 55
+    },
+    {
+      "name": "special-defense",
+      "value": 85
+    },
+    {
+      "name": "speed",
+      "value": 35
+    }
+  ],
+  "flavorText": "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 749,
+        "name": "mudbray"
+      },
+      {
+        "id": 750,
+        "name": "mudsdale"
+      }
+    ],
+    "levels": [
+      30
+    ]
+  }
+}

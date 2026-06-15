@@ -1,0 +1,57 @@
+{
+  "id": 472,
+  "name": "gliscor",
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "height": 20,
+  "weight": 425,
+  "abilities": [
+    "hyper-cutter",
+    "sand-veil",
+    "poison-heal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 125
+    },
+    {
+      "name": "special-attack",
+      "value": 45
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 95
+    }
+  ],
+  "flavorText": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 207,
+        "name": "gligar"
+      },
+      {
+        "id": 472,
+        "name": "gliscor"
+      }
+    ],
+    "levels": [
+      null
+    ]
+  }
+}

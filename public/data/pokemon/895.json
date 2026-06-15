@@ -1,0 +1,40 @@
+{
+  "id": 895,
+  "name": "regidrago",
+  "types": [
+    "dragon"
+  ],
+  "height": 21,
+  "weight": 2000,
+  "abilities": [
+    "dragons-maw"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 200
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+  "evolution": null
+}

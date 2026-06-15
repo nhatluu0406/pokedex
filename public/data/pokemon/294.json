@@ -1,0 +1,60 @@
+{
+  "id": 294,
+  "name": "loudred",
+  "types": [
+    "normal"
+  ],
+  "height": 10,
+  "weight": 405,
+  "abilities": [
+    "soundproof",
+    "scrappy"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 84
+    },
+    {
+      "name": "attack",
+      "value": 71
+    },
+    {
+      "name": "defense",
+      "value": 43
+    },
+    {
+      "name": "special-attack",
+      "value": 71
+    },
+    {
+      "name": "special-defense",
+      "value": 43
+    },
+    {
+      "name": "speed",
+      "value": 48
+    }
+  ],
+  "flavorText": "LOUDRED’s bellowing can completely decimate a wood-frame house. It uses its voice to punish its foes. This POKéMON’s round ears serve as loudspeakers.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 293,
+        "name": "whismur"
+      },
+      {
+        "id": 294,
+        "name": "loudred"
+      },
+      {
+        "id": 295,
+        "name": "exploud"
+      }
+    ],
+    "levels": [
+      20,
+      40
+    ]
+  }
+}

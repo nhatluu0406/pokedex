@@ -1,0 +1,61 @@
+{
+  "id": 42,
+  "name": "golbat",
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "height": 16,
+  "weight": 550,
+  "abilities": [
+    "inner-focus",
+    "infiltrator"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 75
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 75
+    },
+    {
+      "name": "speed",
+      "value": 90
+    }
+  ],
+  "flavorText": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 41,
+        "name": "zubat"
+      },
+      {
+        "id": 42,
+        "name": "golbat"
+      },
+      {
+        "id": 169,
+        "name": "crobat"
+      }
+    ],
+    "levels": [
+      22,
+      null
+    ]
+  }
+}

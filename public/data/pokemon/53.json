@@ -1,0 +1,56 @@
+{
+  "id": 53,
+  "name": "persian",
+  "types": [
+    "normal"
+  ],
+  "height": 10,
+  "weight": 320,
+  "abilities": [
+    "limber",
+    "technician",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 65
+    },
+    {
+      "name": "attack",
+      "value": 70
+    },
+    {
+      "name": "defense",
+      "value": 60
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 65
+    },
+    {
+      "name": "speed",
+      "value": 115
+    }
+  ],
+  "flavorText": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 52,
+        "name": "meowth"
+      },
+      {
+        "id": 53,
+        "name": "persian"
+      }
+    ],
+    "levels": [
+      28
+    ]
+  }
+}

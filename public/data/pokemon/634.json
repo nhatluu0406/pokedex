@@ -1,0 +1,60 @@
+{
+  "id": 634,
+  "name": "zweilous",
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "height": 14,
+  "weight": 500,
+  "abilities": [
+    "hustle"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 72
+    },
+    {
+      "name": "attack",
+      "value": 85
+    },
+    {
+      "name": "defense",
+      "value": 70
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 70
+    },
+    {
+      "name": "speed",
+      "value": 58
+    }
+  ],
+  "flavorText": "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 633,
+        "name": "deino"
+      },
+      {
+        "id": 634,
+        "name": "zweilous"
+      },
+      {
+        "id": 635,
+        "name": "hydreigon"
+      }
+    ],
+    "levels": [
+      50,
+      64
+    ]
+  }
+}

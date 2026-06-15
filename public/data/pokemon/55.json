@@ -1,0 +1,56 @@
+{
+  "id": 55,
+  "name": "golduck",
+  "types": [
+    "water"
+  ],
+  "height": 17,
+  "weight": 766,
+  "abilities": [
+    "damp",
+    "cloud-nine",
+    "swift-swim"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 82
+    },
+    {
+      "name": "defense",
+      "value": 78
+    },
+    {
+      "name": "special-attack",
+      "value": 95
+    },
+    {
+      "name": "special-defense",
+      "value": 80
+    },
+    {
+      "name": "speed",
+      "value": 85
+    }
+  ],
+  "flavorText": "Often seen swim­ ming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 54,
+        "name": "psyduck"
+      },
+      {
+        "id": 55,
+        "name": "golduck"
+      }
+    ],
+    "levels": [
+      33
+    ]
+  }
+}

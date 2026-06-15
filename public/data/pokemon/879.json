@@ -1,0 +1,55 @@
+{
+  "id": 879,
+  "name": "copperajah",
+  "types": [
+    "steel"
+  ],
+  "height": 30,
+  "weight": 6500,
+  "abilities": [
+    "sheer-force",
+    "heavy-metal"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 122
+    },
+    {
+      "name": "attack",
+      "value": 130
+    },
+    {
+      "name": "defense",
+      "value": 69
+    },
+    {
+      "name": "special-attack",
+      "value": 80
+    },
+    {
+      "name": "special-defense",
+      "value": 69
+    },
+    {
+      "name": "speed",
+      "value": 30
+    }
+  ],
+  "flavorText": "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 878,
+        "name": "cufant"
+      },
+      {
+        "id": 879,
+        "name": "copperajah"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

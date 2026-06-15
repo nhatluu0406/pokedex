@@ -1,0 +1,57 @@
+{
+  "id": 557,
+  "name": "dwebble",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "height": 3,
+  "weight": 145,
+  "abilities": [
+    "sturdy",
+    "shell-armor",
+    "weak-armor"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 50
+    },
+    {
+      "name": "attack",
+      "value": 65
+    },
+    {
+      "name": "defense",
+      "value": 85
+    },
+    {
+      "name": "special-attack",
+      "value": 35
+    },
+    {
+      "name": "special-defense",
+      "value": 35
+    },
+    {
+      "name": "speed",
+      "value": 55
+    }
+  ],
+  "flavorText": "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 557,
+        "name": "dwebble"
+      },
+      {
+        "id": 558,
+        "name": "crustle"
+      }
+    ],
+    "levels": [
+      34
+    ]
+  }
+}

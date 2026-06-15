@@ -1,0 +1,40 @@
+{
+  "id": 716,
+  "name": "xerneas",
+  "types": [
+    "fairy"
+  ],
+  "height": 30,
+  "weight": 2150,
+  "abilities": [
+    "fairy-aura"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 126
+    },
+    {
+      "name": "attack",
+      "value": 131
+    },
+    {
+      "name": "defense",
+      "value": 95
+    },
+    {
+      "name": "special-attack",
+      "value": 131
+    },
+    {
+      "name": "special-defense",
+      "value": 98
+    },
+    {
+      "name": "speed",
+      "value": 99
+    }
+  ],
+  "flavorText": "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+  "evolution": null
+}

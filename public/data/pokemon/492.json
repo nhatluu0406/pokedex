@@ -1,0 +1,40 @@
+{
+  "id": 492,
+  "name": "shaymin-land",
+  "types": [
+    "grass"
+  ],
+  "height": 2,
+  "weight": 21,
+  "abilities": [
+    "natural-cure"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 100
+    },
+    {
+      "name": "attack",
+      "value": 100
+    },
+    {
+      "name": "defense",
+      "value": 100
+    },
+    {
+      "name": "special-attack",
+      "value": 100
+    },
+    {
+      "name": "special-defense",
+      "value": 100
+    },
+    {
+      "name": "speed",
+      "value": 100
+    }
+  ],
+  "flavorText": "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+  "evolution": null
+}

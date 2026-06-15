@@ -1,0 +1,56 @@
+{
+  "id": 24,
+  "name": "arbok",
+  "types": [
+    "poison"
+  ],
+  "height": 35,
+  "weight": 650,
+  "abilities": [
+    "intimidate",
+    "shed-skin",
+    "unnerve"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 60
+    },
+    {
+      "name": "attack",
+      "value": 95
+    },
+    {
+      "name": "defense",
+      "value": 69
+    },
+    {
+      "name": "special-attack",
+      "value": 65
+    },
+    {
+      "name": "special-defense",
+      "value": 79
+    },
+    {
+      "name": "speed",
+      "value": 80
+    }
+  ],
+  "flavorText": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 23,
+        "name": "ekans"
+      },
+      {
+        "id": 24,
+        "name": "arbok"
+      }
+    ],
+    "levels": [
+      22
+    ]
+  }
+}

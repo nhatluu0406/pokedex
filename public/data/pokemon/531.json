@@ -1,0 +1,42 @@
+{
+  "id": 531,
+  "name": "audino",
+  "types": [
+    "normal"
+  ],
+  "height": 11,
+  "weight": 310,
+  "abilities": [
+    "healer",
+    "regenerator",
+    "klutz"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 103
+    },
+    {
+      "name": "attack",
+      "value": 60
+    },
+    {
+      "name": "defense",
+      "value": 86
+    },
+    {
+      "name": "special-attack",
+      "value": 60
+    },
+    {
+      "name": "special-defense",
+      "value": 86
+    },
+    {
+      "name": "speed",
+      "value": 50
+    }
+  ],
+  "flavorText": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+  "evolution": null
+}

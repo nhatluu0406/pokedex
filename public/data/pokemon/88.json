@@ -1,0 +1,56 @@
+{
+  "id": 88,
+  "name": "grimer",
+  "types": [
+    "poison"
+  ],
+  "height": 9,
+  "weight": 300,
+  "abilities": [
+    "stench",
+    "sticky-hold",
+    "poison-touch"
+  ],
+  "stats": [
+    {
+      "name": "hp",
+      "value": 80
+    },
+    {
+      "name": "attack",
+      "value": 80
+    },
+    {
+      "name": "defense",
+      "value": 50
+    },
+    {
+      "name": "special-attack",
+      "value": 40
+    },
+    {
+      "name": "special-defense",
+      "value": 50
+    },
+    {
+      "name": "speed",
+      "value": 25
+    }
+  ],
+  "flavorText": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+  "evolution": {
+    "pokemon": [
+      {
+        "id": 88,
+        "name": "grimer"
+      },
+      {
+        "id": 89,
+        "name": "muk"
+      }
+    ],
+    "levels": [
+      38
+    ]
+  }
+}
