@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Love-Hate Pokémon",
+  "cryUrl": "/cries/905.ogg"
 }

@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Gnash Teeth Pokémon",
+  "cryUrl": "/cries/779.ogg"
 }

@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wild Bull Pokémon",
+  "cryUrl": "/cries/128.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Boss Pokémon",
+  "cryUrl": "/cries/943.ogg"
 }

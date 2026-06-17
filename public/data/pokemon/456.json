@@ -52,5 +52,9 @@
     "levels": [
       31
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wing Fish Pokémon",
+  "cryUrl": "/cries/456.ogg"
 }

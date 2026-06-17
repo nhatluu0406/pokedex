@@ -51,5 +51,9 @@
     "levels": [
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Coral Pokémon",
+  "cryUrl": "/cries/864.ogg"
 }

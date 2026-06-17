@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "It can learn and speak human words. If they gather, they all learn the same saying.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Music Note Pokémon",
+  "cryUrl": "/cries/441.ogg"
 }

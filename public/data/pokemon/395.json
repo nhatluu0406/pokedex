@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Emperor Pokémon",
+  "cryUrl": "/cries/395.ogg"
 }

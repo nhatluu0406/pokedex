@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Freeze Pokémon",
+  "cryUrl": "/cries/144.ogg"
 }

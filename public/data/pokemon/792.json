@@ -56,5 +56,9 @@
       43,
       53
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Moone Pokémon",
+  "cryUrl": "/cries/792.ogg"
 }

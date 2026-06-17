@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Big Catfish Pokémon",
+  "cryUrl": "/cries/977.ogg"
 }

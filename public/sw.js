@@ -1,10 +1,11 @@
-const CACHE_NAME = "pokedex-v3";
+const CACHE_NAME = "pokedex-v5";
 const SHELL_URLS = [
   "/",
   "/offline.html",
   "/manifest.json",
   "/data/index.json",
   "/data/meta.json",
+  "/data/types.json",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
   "/assets/pokeball-icon.png",
@@ -62,6 +63,11 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (url.pathname.startsWith("/sprites/")) {
+    event.respondWith(staleWhileRevalidate(request));
+    return;
+  }
+
+  if (url.pathname.startsWith("/cries/")) {
     event.respondWith(staleWhileRevalidate(request));
     return;
   }

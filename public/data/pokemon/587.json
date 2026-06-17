@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "The energy made in its cheeks’ electric pouches is stored inside its membrane and released while it is gliding.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sky Squirrel Pokémon",
+  "cryUrl": "/cries/587.ogg"
 }

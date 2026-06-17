@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "EleFrog Pokémon",
+  "cryUrl": "/cries/939.ogg"
 }

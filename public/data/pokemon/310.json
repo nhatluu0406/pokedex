@@ -52,5 +52,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Discharge Pokémon",
+  "cryUrl": "/cries/310.ogg"
 }

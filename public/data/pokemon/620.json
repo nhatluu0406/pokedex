@@ -52,5 +52,9 @@
     "levels": [
       50
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Martial Arts Pokémon",
+  "cryUrl": "/cries/620.ogg"
 }

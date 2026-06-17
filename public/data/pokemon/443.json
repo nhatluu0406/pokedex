@@ -57,5 +57,9 @@
       24,
       48
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Land Shark Pokémon",
+  "cryUrl": "/cries/443.ogg"
 }

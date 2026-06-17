@@ -53,5 +53,9 @@
     "levels": [
       27
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Strong Arm Pokémon",
+  "cryUrl": "/cries/760.ogg"
 }

@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Turtle Pokémon",
+  "cryUrl": "/cries/7.ogg"
 }

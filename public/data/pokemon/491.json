@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Pitch-Black Pokémon",
+  "cryUrl": "/cries/491.ogg"
 }

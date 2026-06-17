@@ -55,5 +55,9 @@
       39,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "EleFish Pokémon",
+  "cryUrl": "/cries/602.ogg"
 }

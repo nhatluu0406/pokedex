@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ambush Pokémon",
+  "cryUrl": "/cries/950.ogg"
 }

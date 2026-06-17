@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Judo Pokémon",
+  "cryUrl": "/cries/538.ogg"
 }

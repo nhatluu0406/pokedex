@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scarf Pokémon",
+  "cryUrl": "/cries/573.ogg"
 }

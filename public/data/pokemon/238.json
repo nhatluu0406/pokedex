@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Kiss Pokémon",
+  "cryUrl": "/cries/238.ogg"
 }

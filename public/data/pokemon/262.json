@@ -52,5 +52,9 @@
     "levels": [
       18
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bite Pokémon",
+  "cryUrl": "/cries/262.ogg"
 }

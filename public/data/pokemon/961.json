@@ -52,5 +52,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Garden Eel Pokémon",
+  "cryUrl": "/cries/961.ogg"
 }

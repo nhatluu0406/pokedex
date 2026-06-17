@@ -57,5 +57,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hibernator Pokémon",
+  "cryUrl": "/cries/217.ogg"
 }

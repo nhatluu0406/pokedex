@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bell Pokémon",
+  "cryUrl": "/cries/433.ogg"
 }

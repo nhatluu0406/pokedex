@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "GROUDON has long been described in mythology as the POKéMON that raised lands and expanded continents. This POKéMON took to sleep after a cataclysmic battle with KYOGRE.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Continent Pokémon",
+  "cryUrl": "/cries/383.ogg"
 }

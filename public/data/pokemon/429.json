@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Magical Pokémon",
+  "cryUrl": "/cries/429.ogg"
 }

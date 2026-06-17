@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/1023.ogg"
 }

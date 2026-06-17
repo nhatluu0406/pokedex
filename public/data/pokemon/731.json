@@ -58,5 +58,9 @@
       14,
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Woodpecker Pokémon",
+  "cryUrl": "/cries/731.ogg"
 }

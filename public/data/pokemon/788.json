@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Land Spirit Pokémon",
+  "cryUrl": "/cries/788.ogg"
 }

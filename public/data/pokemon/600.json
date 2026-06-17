@@ -57,5 +57,9 @@
       38,
       49
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Gear Pokémon",
+  "cryUrl": "/cries/600.ogg"
 }

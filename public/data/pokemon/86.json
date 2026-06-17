@@ -52,5 +52,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sea Lion Pokémon",
+  "cryUrl": "/cries/86.ogg"
 }

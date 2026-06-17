@@ -58,5 +58,9 @@
       10,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Radome Pokémon",
+  "cryUrl": "/cries/825.ogg"
 }

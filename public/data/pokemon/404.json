@@ -57,5 +57,9 @@
       15,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spark Pokémon",
+  "cryUrl": "/cries/404.ogg"
 }

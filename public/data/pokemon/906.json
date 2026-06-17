@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Grass Cat Pokémon",
+  "cryUrl": "/cries/906.ogg"
 }

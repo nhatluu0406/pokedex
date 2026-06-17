@@ -51,5 +51,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mount Pokémon",
+  "cryUrl": "/cries/672.ogg"
 }

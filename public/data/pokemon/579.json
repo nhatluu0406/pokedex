@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Multiplying Pokémon",
+  "cryUrl": "/cries/579.ogg"
 }

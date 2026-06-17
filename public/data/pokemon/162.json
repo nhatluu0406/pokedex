@@ -52,5 +52,9 @@
     "levels": [
       15
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Long Body Pokémon",
+  "cryUrl": "/cries/162.ogg"
 }

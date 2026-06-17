@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cotton Bloom Pokémon",
+  "cryUrl": "/cries/830.ogg"
 }

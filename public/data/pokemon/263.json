@@ -57,5 +57,9 @@
       20,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Raccoon Pokémon",
+  "cryUrl": "/cries/263.ogg"
 }

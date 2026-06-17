@@ -53,5 +53,9 @@
     "levels": [
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Toxic Monkey Pokémon",
+  "cryUrl": "/cries/945.ogg"
 }

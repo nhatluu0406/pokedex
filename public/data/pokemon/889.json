@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Warrior Pokémon",
+  "cryUrl": "/cries/889.ogg"
 }

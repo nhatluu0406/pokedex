@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It resembles a Pokémon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/1022.ogg"
 }

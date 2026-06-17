@@ -56,5 +56,9 @@
       37,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Gripper Pokémon",
+  "cryUrl": "/cries/477.ogg"
 }

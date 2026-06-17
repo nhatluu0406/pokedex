@@ -53,5 +53,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "EleSpider Pokémon",
+  "cryUrl": "/cries/596.ogg"
 }

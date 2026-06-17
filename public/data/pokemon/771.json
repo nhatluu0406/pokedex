@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It’s covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sea Cucumber Pokémon",
+  "cryUrl": "/cries/771.ogg"
 }

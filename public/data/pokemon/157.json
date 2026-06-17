@@ -56,5 +56,9 @@
       14,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Volcano Pokémon",
+  "cryUrl": "/cries/157.ogg"
 }

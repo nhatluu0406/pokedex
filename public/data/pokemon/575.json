@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Manipulate Pokémon",
+  "cryUrl": "/cries/575.ogg"
 }

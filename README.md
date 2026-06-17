@@ -26,14 +26,16 @@ Open [http://localhost:3100](http://localhost:3100).
 | `npm run fetch-data` | Download / refresh Pokémon JSON into `public/data/` |
 | `npm run fetch-data:force` | Full resync of local JSON |
 | `npm run fetch-sprites` | Download PNG + GIF sprites into `public/sprites/` |
-| `npm run fetch-sprites:force` | Full resync of local sprites |
+| `npm run fetch-types` | Download type chart into `public/data/types.json` |
+| `npm run rebuild-index` | Rebuild `index.json` filter fields from local `pokemon/*.json` |
 
 ## Features
 
-- **Browse & search** — infinite scroll grid, name search, multi-select type filters
+- **Advanced filters** — search by dex number, Legendary/Mythical/Baby, weak to / resists type, color & habitat (when in index)
 - **Detail panel** — animated sprites, stats, abilities, Pokédex entry, evolution chain
 - **Favorites** — star Pokémon; filter to ★ Favorites (`localStorage`)
-- **Deep links** — `#pokemon/25` opens detail; Web Share API on detail panel
+- **Detail extras** — genus, Legendary/Mythical badges, type weaknesses/resistances, Pokémon cry button
+- **Showdown sprites** — animated GIFs for IDs 650+ when downloaded with `--showdown`
 - **Dark mode** — cookie-backed SSR theme + manual toggle
 - **PWA** — installable, service worker caches app shell, data, and sprites
 - **Responsive** — fixed detail sidebar on desktop; full-screen modal on mobile

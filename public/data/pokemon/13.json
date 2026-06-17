@@ -57,5 +57,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hairy Bug Pokémon",
+  "cryUrl": "/cries/13.ogg"
 }

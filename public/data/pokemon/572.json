@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Chinchilla Pokémon",
+  "cryUrl": "/cries/572.ogg"
 }

@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Trap Pokémon",
+  "cryUrl": "/cries/618.ogg"
 }

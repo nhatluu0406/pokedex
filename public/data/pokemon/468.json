@@ -58,5 +58,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Jubilee Pokémon",
+  "cryUrl": "/cries/468.ogg"
 }

@@ -51,5 +51,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "First Bird Pokémon",
+  "cryUrl": "/cries/567.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       15
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scout Pokémon",
+  "cryUrl": "/cries/161.ogg"
 }

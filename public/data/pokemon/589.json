@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cavalry Pokémon",
+  "cryUrl": "/cries/589.ogg"
 }

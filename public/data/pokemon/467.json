@@ -56,5 +56,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blast Pokémon",
+  "cryUrl": "/cries/467.ogg"
 }

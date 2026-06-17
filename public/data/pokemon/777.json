@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Roly-Poly Pokémon",
+  "cryUrl": "/cries/777.ogg"
 }

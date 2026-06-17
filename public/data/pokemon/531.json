@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hearing Pokémon",
+  "cryUrl": "/cries/531.ogg"
 }

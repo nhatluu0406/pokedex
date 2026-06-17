@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rock Snake Pokémon",
+  "cryUrl": "/cries/95.ogg"
 }

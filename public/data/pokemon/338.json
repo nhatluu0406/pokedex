@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Meteorite Pokémon",
+  "cryUrl": "/cries/338.ogg"
 }

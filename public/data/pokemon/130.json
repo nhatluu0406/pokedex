@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Atrocious Pokémon",
+  "cryUrl": "/cries/130.ogg"
 }

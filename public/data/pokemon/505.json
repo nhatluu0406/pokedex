@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lookout Pokémon",
+  "cryUrl": "/cries/505.ogg"
 }

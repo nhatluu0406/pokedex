@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Memories of battling its arch-rival SEVIPER are etched into every cell of ZANGOOSE’s body. This POKéMON adroitly dodges attacks with incredible agility.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cat Ferret Pokémon",
+  "cryUrl": "/cries/335.ogg"
 }

@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Chick Pokémon",
+  "cryUrl": "/cries/255.ogg"
 }

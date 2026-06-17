@@ -55,5 +55,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cocoon Pokémon",
+  "cryUrl": "/cries/266.ogg"
 }

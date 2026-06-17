@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Loitering Pokémon",
+  "cryUrl": "/cries/734.ogg"
 }

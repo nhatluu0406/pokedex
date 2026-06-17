@@ -58,5 +58,9 @@
       33,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Twin Tusk Pokémon",
+  "cryUrl": "/cries/473.ogg"
 }

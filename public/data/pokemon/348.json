@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Plate Pokémon",
+  "cryUrl": "/cries/348.ogg"
 }

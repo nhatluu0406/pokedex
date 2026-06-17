@@ -51,5 +51,9 @@
     "levels": [
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cricket Pokémon",
+  "cryUrl": "/cries/401.ogg"
 }

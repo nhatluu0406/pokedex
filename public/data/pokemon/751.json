@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Water Bubble Pokémon",
+  "cryUrl": "/cries/751.ogg"
 }

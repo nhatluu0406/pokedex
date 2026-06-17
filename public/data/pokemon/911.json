@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Singer Pokémon",
+  "cryUrl": "/cries/911.ogg"
 }

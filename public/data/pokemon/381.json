@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "LATIOS has the ability to make its foe see an image of what it has seen or imagines in its head. This POKéMON is intelligent and understands human speech.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Eon Pokémon",
+  "cryUrl": "/cries/381.ogg"
 }

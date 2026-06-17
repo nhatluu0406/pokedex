@@ -13,6 +13,15 @@ async function searchPokemon(page: Page, query: string) {
   await page.waitForTimeout(50);
 }
 
+async function selectFilterGroup(page: Page, label: string) {
+  await page.getByRole("button", { name: /filter category/i }).click();
+  await page.getByRole("option", { name: label, exact: true }).click();
+}
+
+function filterValues(page: Page) {
+  return page.getByRole("group", { name: /filter values/i });
+}
+
 function cardById(page: Page, id: number) {
   return page.locator(".pokemon-card").filter({
     has: page.getByText(`N° ${id}`, { exact: true }),
@@ -350,7 +359,12 @@ test.describe("Phase 3 — layout polish", () => {
   });
 });
 
-type BoundingBox = NonNullable<Awaited<ReturnType<Page["locator"]>["boundingBox"]>>;
+type BoundingBox = {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+};
 
 function boxesIntersect(a: BoundingBox, b: BoundingBox): boolean {
   return !(
@@ -593,7 +607,7 @@ test.describe("Phase 5 — PWA features", () => {
     await star.click();
     await expect(star).toHaveClass(/favorite-btn-active/);
 
-    await page.getByRole("button", { name: /★ favorites/i }).click();
+    await page.getByRole("button", { name: /show favorites only/i }).click();
     await expect(cardById(page, 25)).toBeVisible();
     await expect(cardById(page, 1)).toHaveCount(0);
 
@@ -603,9 +617,10 @@ test.describe("Phase 5 — PWA features", () => {
 
   test("type filter narrows list", async ({ page }) => {
     await waitForAppReady(page);
-    await page.getByRole("button", { name: "fire", exact: true }).click();
+    await selectFilterGroup(page, "Type");
+    await filterValues(page).getByRole("button", { name: "Fire", exact: true }).click();
     await expect(
-      page.getByRole("button", { name: "fire", exact: true }),
+      filterValues(page).getByRole("button", { name: "Fire", exact: true }),
     ).toHaveAttribute("aria-pressed", "true");
 
     await searchPokemon(page, "char");
@@ -613,24 +628,32 @@ test.describe("Phase 5 — PWA features", () => {
     await expect(cardById(page, 1)).toHaveCount(0);
   });
 
-  test("All and type filters are mutually exclusive", async ({ page }) => {
+  test("type filter toggles on and off", async ({ page }) => {
     await waitForAppReady(page);
 
-    const allChip = page.getByRole("button", { name: "All", exact: true });
-    const fireChip = page.getByRole("button", { name: "fire", exact: true });
+    const fireChip = filterValues(page).getByRole("button", { name: "Fire", exact: true });
 
-    await expect(allChip).toHaveClass(/list-filter-chip-active/);
     await fireChip.click();
-
     await expect(fireChip).toHaveAttribute("aria-pressed", "true");
-    await expect(allChip).not.toHaveClass(/list-filter-chip-active/);
-    await expect(allChip).toHaveAttribute("aria-pressed", "false");
 
-    await allChip.click();
-
-    await expect(allChip).toHaveClass(/list-filter-chip-active/);
-    await expect(allChip).toHaveAttribute("aria-pressed", "true");
+    await fireChip.click();
     await expect(fireChip).toHaveAttribute("aria-pressed", "false");
+  });
+
+  test("weak to filter toggles on and off", async ({ page }) => {
+    await waitForAppReady(page);
+    await selectFilterGroup(page, "Weak to");
+
+    const waterChip = filterValues(page).getByRole("button", {
+      name: "Water",
+      exact: true,
+    });
+
+    await waterChip.click();
+    await expect(waterChip).toHaveAttribute("aria-pressed", "true");
+
+    await waterChip.click();
+    await expect(waterChip).toHaveAttribute("aria-pressed", "false");
   });
 
   test("hash deep link opens pokemon detail", async ({ page }) => {
@@ -640,6 +663,34 @@ test.describe("Phase 5 — PWA features", () => {
       timeout: 15_000,
     });
     await expect(page).toHaveURL(/#pokemon\/25/);
+  });
+
+  test("hash deep link scrolls the selected card into view", async ({
+    page,
+  }, testInfo) => {
+    test.skip(
+      isMobileProject(testInfo.project.name),
+      "Desktop list scroll targeting",
+    );
+
+    await page.goto("/#pokemon/100");
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await expect(page.locator(".detail-name")).toBeVisible({ timeout: 15_000 });
+
+    const card = page.locator('[data-pokemon-id="100"]');
+    await expect(card).toBeVisible({ timeout: 15_000 });
+
+    const cardBox = await card.boundingBox();
+    const viewport = page.viewportSize()!;
+    expect(cardBox).not.toBeNull();
+    expect(
+      isFullyWithinViewport(cardBox!, {
+        x: 0,
+        y: 0,
+        width: viewport.width,
+        height: viewport.height,
+      }),
+    ).toBe(true);
   });
 
   test("hash deep link survives reload without hydration errors", async ({
@@ -673,6 +724,91 @@ test.describe("Phase 5 — PWA features", () => {
     expect(hydrationErrors).toEqual([]);
   });
 
+  test("SSG pokemon route renders detail without client fetch", async ({
+    page,
+  }) => {
+    await page.goto("/pokemon/25");
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await expect(page.locator(".detail-name")).toHaveText("Pikachu", {
+      timeout: 15_000,
+    });
+    await expect(page).toHaveURL(/\/pokemon\/25$/);
+    await expect(page).toHaveTitle(/Pikachu/i);
+  });
+
+  test("SSG pokemon route navigates between entries", async ({ page }) => {
+    await page.goto("/pokemon/4");
+    await expect(page.locator(".loading-screen")).toBeHidden({ timeout: 60_000 });
+    await expect(page.locator(".detail-name")).toHaveText("Charmander", {
+      timeout: 15_000,
+    });
+
+    await page.locator(".evolution-chain button").nth(1).click();
+    await expect(page).toHaveURL(/\/pokemon\/5$/);
+    await expect(page.locator(".detail-name")).toHaveText("Charmeleon", {
+      timeout: 15_000,
+    });
+  });
+
+  test("phase 9 shows genus and type weaknesses for Pikachu", async ({ page }) => {
+    test.setTimeout(90_000);
+    await page.goto("/pokemon/25");
+    await expect(page.locator(".detail-name")).toHaveText("Pikachu", {
+      timeout: 60_000,
+    });
+    await expect(page.locator(".detail-genus")).toHaveText("Mouse Pokémon");
+    await expect(page.locator(".detail-type-chart")).toBeVisible();
+    await expect(page.locator(".detail-type-chart .type-badge").first()).toBeVisible();
+  });
+
+  test("phase 9 cry button is visible for Pikachu", async ({ page }) => {
+    test.setTimeout(90_000);
+    await page.goto("/pokemon/25");
+    await expect(page.locator(".detail-name")).toHaveText("Pikachu", {
+      timeout: 60_000,
+    });
+    await expect(page.locator(".detail-cry-btn")).toBeVisible();
+  });
+
+  test("type effectiveness appears after evolution", async ({ page }) => {
+    test.setTimeout(90_000);
+    await page.goto("/pokemon/3");
+    await expect(page.locator(".detail-name")).toHaveText("Venusaur", {
+      timeout: 60_000,
+    });
+
+    const order = await page.locator(".detail-card").evaluate((card) => {
+      const follows = (beforeSelector: string, afterSelector: string) => {
+        const before = card.querySelector(beforeSelector);
+        const after = card.querySelector(afterSelector);
+        if (!before || !after) return false;
+        return (before.compareDocumentPosition(after) &
+          Node.DOCUMENT_POSITION_FOLLOWING) !==
+          0;
+      };
+
+      return {
+        abilitiesBeforeEvolution: follows(
+          ".detail-abilities",
+          ".detail-evolution",
+        ),
+        evolutionBeforeTypeChart: follows(
+          ".detail-evolution",
+          ".detail-type-chart",
+        ),
+      };
+    });
+
+    expect(order.abilitiesBeforeEvolution).toBe(true);
+    expect(order.evolutionBeforeTypeChart).toBe(true);
+  });
+
+  test("invalid pokemon route shows not found", async ({ page }) => {
+    const response = await page.goto("/pokemon/9999");
+    expect(response?.status()).toBe(404);
+    await expect(page.getByRole("heading", { name: /not found/i })).toBeVisible();
+  });
+
   test("dark mode toggle switches theme", async ({ page }) => {
     await waitForAppReady(page);
     const toggle = page.locator(".theme-toggle");
@@ -683,5 +819,95 @@ test.describe("Phase 5 — PWA features", () => {
 
     await toggle.click();
     await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  });
+});
+
+test.describe("Phase 10 — search and filters", () => {
+  test("search by number finds Pikachu", async ({ page }) => {
+    await waitForAppReady(page);
+    await searchPokemon(page, "25");
+    await expect(cardById(page, 25)).toBeVisible();
+    await expect(cardById(page, 1)).toHaveCount(0);
+  });
+
+  test("legendary filter shows Mewtwo when data has isLegendary", async ({
+    page,
+    request,
+    baseURL,
+  }) => {
+    const index = (await (
+      await request.get(`${baseURL}/data/index.json`)
+    ).json()) as { id: number; name: string; isLegendary?: boolean }[];
+    const mewtwo = index.find((entry) => entry.name === "mewtwo");
+    test.skip(!mewtwo?.isLegendary, "index.json missing isLegendary on Mewtwo");
+
+    await waitForAppReady(page);
+    await filterValues(page)
+      .getByRole("button", { name: "Legendary", exact: true })
+      .click();
+    await expect(cardById(page, 150)).toBeVisible({ timeout: 15_000 });
+  });
+});
+
+test.describe("Phase 10B — list UX & navigation", () => {
+  test("pokemon cards expose data-pokemon-id for scroll targeting", async ({
+    page,
+  }) => {
+    await waitForAppReady(page);
+    await expect(page.locator('[data-pokemon-id="25"]')).toBeVisible();
+    await expect(page.locator('[data-pokemon-id="25"]')).toHaveAttribute(
+      "data-pokemon-id",
+      "25",
+    );
+  });
+
+  test("selecting a card marks it selected", async ({ page }) => {
+    await waitForAppReady(page);
+    await cardById(page, 25).click();
+    await expect(cardById(page, 25)).toHaveClass(/pokemon-card-selected/);
+    await expect(page.locator(".detail-name")).toHaveText("Pikachu", {
+      timeout: 15_000,
+    });
+  });
+
+  test("card hover levitate styles are defined", async ({ page }) => {
+    await waitForAppReady(page);
+    const transform = await page
+      .locator(".pokemon-card")
+      .first()
+      .evaluate((el) => getComputedStyle(el).transitionProperty);
+    expect(transform).toContain("transform");
+  });
+
+  test("selecting a visible card does not shift the dashboard on desktop", async ({
+    page,
+  }, testInfo) => {
+    test.skip(
+      isMobileProject(testInfo.project.name),
+      "Desktop layout stability only",
+    );
+
+    await waitForAppReady(page);
+    await page.evaluate(() => window.scrollTo(0, 0));
+
+    const dashboard = page.locator(".search-toolbar-row");
+    const bulbasaur = cardById(page, 1);
+    await bulbasaur.scrollIntoViewIfNeeded();
+
+    const before = await dashboard.boundingBox();
+    expect(before).not.toBeNull();
+
+    const scrollYBefore = await page.evaluate(() => window.scrollY);
+    await bulbasaur.click({ position: { x: 8, y: 8 } });
+    await expect(bulbasaur).toHaveClass(/pokemon-card-selected/);
+    await page.waitForTimeout(400);
+
+    const after = await dashboard.boundingBox();
+    const scrollYAfter = await page.evaluate(() => window.scrollY);
+    expect(after).not.toBeNull();
+
+    expect(Math.abs(after!.y - before!.y)).toBeLessThan(1);
+    expect(Math.abs(after!.x - before!.x)).toBeLessThan(1);
+    expect(scrollYAfter).toBe(scrollYBefore);
   });
 });

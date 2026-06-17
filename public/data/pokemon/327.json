@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spot Panda Pokémon",
+  "cryUrl": "/cries/327.ogg"
 }

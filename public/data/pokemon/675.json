@@ -53,5 +53,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Daunting Pokémon",
+  "cryUrl": "/cries/675.ogg"
 }

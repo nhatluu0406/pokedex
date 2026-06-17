@@ -51,5 +51,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Clay Doll Pokémon",
+  "cryUrl": "/cries/343.ogg"
 }

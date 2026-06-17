@@ -50,5 +50,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Howitzer Pokémon",
+  "cryUrl": "/cries/693.ogg"
 }

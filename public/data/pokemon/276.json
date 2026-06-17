@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Swallow Pokémon",
+  "cryUrl": "/cries/276.ogg"
 }

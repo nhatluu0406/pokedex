@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Rock Peak Pokémon",
+  "cryUrl": "/cries/377.ogg"
 }

@@ -57,5 +57,9 @@
       14,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Acorn Pokémon",
+  "cryUrl": "/cries/273.ogg"
 }

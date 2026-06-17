@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rampart Pokémon",
+  "cryUrl": "/cries/805.ogg"
 }

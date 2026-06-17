@@ -58,5 +58,9 @@
       25,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Megaton Pokémon",
+  "cryUrl": "/cries/76.ogg"
 }

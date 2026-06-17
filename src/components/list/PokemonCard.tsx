@@ -9,7 +9,6 @@ interface PokemonCardProps {
   id: number;
   name: string | undefined;
   types: string[] | undefined;
-  typesLoading: boolean;
   selected: boolean;
   favorite: boolean;
   onSelect: (id: number) => void;
@@ -20,7 +19,6 @@ export function PokemonCard({
   id,
   name,
   types,
-  typesLoading,
   selected,
   favorite,
   onSelect,
@@ -31,6 +29,7 @@ export function PokemonCard({
   return (
     <article
       className={`pokemon-card${selected ? " pokemon-card-selected" : ""}`}
+      data-pokemon-id={id}
       role="button"
       tabIndex={0}
       aria-pressed={selected}
@@ -72,8 +71,6 @@ export function PokemonCard({
             <TypeBadge key={type} type={type} />
           ))}
         </div>
-      ) : typesLoading ? (
-        <span className="pokemon-card-types pokemon-card-loading">...</span>
       ) : null}
     </article>
   );

@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Colt Pokémon",
+  "cryUrl": "/cries/647.ogg"
 }

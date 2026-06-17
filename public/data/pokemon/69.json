@@ -57,5 +57,9 @@
       21,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flower Pokémon",
+  "cryUrl": "/cries/69.ogg"
 }

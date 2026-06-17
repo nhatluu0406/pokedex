@@ -11,8 +11,10 @@
     "test:e2e": "playwright test --config tests/e2e/playwright.config.ts",
     "fetch-data": "tsx scripts/fetch-pokemon-data.ts --skip-existing --no-sprites --no-gifs",
     "fetch-data:force": "tsx scripts/fetch-pokemon-data.ts --force --no-sprites --no-gifs",
+    "fetch-types": "tsx scripts/fetch-pokemon-data.ts --types-only",
     "fetch-sprites": "tsx scripts/fetch-pokemon-data.ts --sprites-only --skip-existing --sprites --gifs",
-    "fetch-sprites:force": "tsx scripts/fetch-pokemon-data.ts --sprites-only --force --sprites --gifs"
+    "fetch-sprites:force": "tsx scripts/fetch-pokemon-data.ts --sprites-only --force --sprites --gifs",
+    "rebuild-index": "tsx scripts/fetch-pokemon-data.ts --index-only"
   },
   "dependencies": {
     "next": "16.2.9",

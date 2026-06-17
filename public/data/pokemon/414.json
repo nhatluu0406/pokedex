@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Moth Pokémon",
+  "cryUrl": "/cries/414.ogg"
 }

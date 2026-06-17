@@ -57,5 +57,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mega Fire Pig Pokémon",
+  "cryUrl": "/cries/500.ogg"
 }

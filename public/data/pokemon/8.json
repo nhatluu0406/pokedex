@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Turtle Pokémon",
+  "cryUrl": "/cries/8.ogg"
 }

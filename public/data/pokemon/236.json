@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scuffle Pokémon",
+  "cryUrl": "/cries/236.ogg"
 }

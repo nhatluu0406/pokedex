@@ -56,5 +56,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thunderbolt Pokémon",
+  "cryUrl": "/cries/466.ogg"
 }

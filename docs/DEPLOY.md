@@ -12,6 +12,7 @@ Pokémon JSON is bundled under `public/data/` — the app does **not** call Poke
 ```bash
 npm run fetch-data              # skip existing files
 npm run fetch-data:force        # full resync
+npm run fetch-types             # type effectiveness chart (types.json)
 npm run fetch-data -- --from=1026 --to=1100   # new generation range only
 ```
 

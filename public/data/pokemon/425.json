@@ -53,5 +53,9 @@
     "levels": [
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Balloon Pokémon",
+  "cryUrl": "/cries/425.ogg"
 }

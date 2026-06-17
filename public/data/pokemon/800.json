@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Prism Pokémon",
+  "cryUrl": "/cries/800.ogg"
 }

@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spray Pokémon",
+  "cryUrl": "/cries/515.ogg"
 }

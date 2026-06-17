@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Placid Pokémon",
+  "cryUrl": "/cries/780.ogg"
 }

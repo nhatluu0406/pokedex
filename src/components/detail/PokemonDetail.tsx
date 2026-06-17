@@ -4,11 +4,15 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { AnimatedSprite } from "./AnimatedSprite";
 import { EvolutionChain } from "./EvolutionChain";
+import { PokemonCryButton } from "./PokemonCryButton";
+import { PokemonMeta } from "./PokemonMeta";
 import { PokemonStats } from "./StatBar";
+import { TypeEffectiveness } from "./TypeEffectiveness";
 import { TypeBadge } from "@/components/shared/TypeBadge";
 import { usePokemonDetail } from "@/hooks/usePokemonDetail";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import { TYPE_COLORS } from "@/lib/constants";
+import type { PokemonDetail as PokemonDetailData } from "@/lib/types";
 import {
   capitalizeName,
   formatHeight,
@@ -24,6 +28,7 @@ interface PokemonDetailProps {
   onClose: () => void;
   isFavorite: boolean;
   onToggleFavorite: (id: number) => void;
+  initialData?: PokemonDetailData;
 }
 
 export function PokemonDetail({
@@ -32,10 +37,20 @@ export function PokemonDetail({
   onClose,
   isFavorite,
   onToggleFavorite,
+  initialData,
 }: PokemonDetailProps) {
-  const [displayId, setDisplayId] = useState<number | null>(null);
-  const displayIdRef = useRef<number | null>(null);
-  const { data, loading, error, retry } = usePokemonDetail(displayId);
+  const [displayId, setDisplayId] = useState<number | null>(() =>
+    selectedId !== null && initialData?.id === selectedId ? selectedId : null,
+  );
+  const displayIdRef = useRef<number | null>(
+    selectedId !== null && initialData?.id === selectedId ? selectedId : null,
+  );
+  const { data, loading, error, retry } = usePokemonDetail(displayId, {
+    initialData:
+      displayId !== null && initialData?.id === displayId
+        ? initialData
+        : undefined,
+  });
   const isMobile = useIsMobile();
   const [panelClass, setPanelClass] = useState("");
   const [backdropVisible, setBackdropVisible] = useState(false);
@@ -162,6 +177,19 @@ export function PokemonDetail({
   const primaryType = data?.types[0];
   const backdropColor = primaryType ? TYPE_COLORS[primaryType] : "#f6f8fc";
 
+  const detailLoadingOverlay =
+    loading ? (
+      <div className="detail-panel-loading" aria-hidden="true">
+        <Image
+          src="/assets/pokeball-icon.png"
+          alt=""
+          width={72}
+          height={72}
+          className="detail-loading-ball"
+        />
+      </div>
+    ) : null;
+
   const panelContent = (() => {
     if (error && !data) {
       return (
@@ -180,7 +208,9 @@ export function PokemonDetail({
           className="detail-card detail-card-loading"
           aria-busy="true"
           aria-label="Loading Pokémon data"
-        />
+        >
+          {detailLoadingOverlay}
+        </div>
       );
     }
 
@@ -198,10 +228,18 @@ export function PokemonDetail({
       </div>
     );
 
+    const cryButton =
+      data.cryUrl ? (
+        <PokemonCryButton cryUrl={data.cryUrl} pokemonName={displayName} />
+      ) : null;
+
     return (
       <>
         {!isMobile && spriteBlock}
         <div className="detail-card" aria-busy={loading || undefined}>
+          {!isMobile && cryButton && (
+            <div className="detail-cry-slot">{cryButton}</div>
+          )}
           <div className="detail-actions">
             <button
               type="button"
@@ -229,10 +267,16 @@ export function PokemonDetail({
                 height={18}
               />
             </button>
+            {isMobile && cryButton}
           </div>
           {isMobile && spriteBlock}
           <span className="detail-id">{formatPokemonId(data.id)}</span>
           <h2 className="detail-name">{displayName}</h2>
+          <PokemonMeta
+            genera={data.genera}
+            isLegendary={data.isLegendary}
+            isMythical={data.isMythical}
+          />
           <div className="detail-types">
             {data.types.map((type) => (
               <TypeBadge key={type} type={type} />
@@ -275,6 +319,9 @@ export function PokemonDetail({
             evolution={data.evolution}
             onSelect={onSelect}
           />
+
+          <TypeEffectiveness types={data.types} />
+          {detailLoadingOverlay}
         </div>
       </>
     );
@@ -314,17 +361,6 @@ export function PokemonDetail({
           </button>
         )}
         {panelContent}
-        {loading && (
-          <div className="detail-panel-loading" aria-hidden="true">
-            <Image
-              src="/assets/pokeball-icon.png"
-              alt=""
-              width={72}
-              height={72}
-              className="detail-loading-ball"
-            />
-          </div>
-        )}
       </aside>
     </>
   );

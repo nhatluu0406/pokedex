@@ -53,5 +53,9 @@
     "levels": [
       33
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Eruption Pokémon",
+  "cryUrl": "/cries/323.ogg"
 }

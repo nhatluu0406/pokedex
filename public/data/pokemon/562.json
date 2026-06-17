@@ -50,5 +50,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spirit Pokémon",
+  "cryUrl": "/cries/562.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Grasshopper Pokémon",
+  "cryUrl": "/cries/920.ogg"
 }

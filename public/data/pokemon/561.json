@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Avianoid Pokémon",
+  "cryUrl": "/cries/561.ogg"
 }

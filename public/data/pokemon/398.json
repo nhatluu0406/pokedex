@@ -57,5 +57,9 @@
       14,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Predator Pokémon",
+  "cryUrl": "/cries/398.ogg"
 }

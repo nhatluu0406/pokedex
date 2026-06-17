@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Dragon Orb Pokémon",
+  "cryUrl": "/cries/895.ogg"
 }

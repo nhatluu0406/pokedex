@@ -52,5 +52,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Puppy Pokémon",
+  "cryUrl": "/cries/744.ogg"
 }

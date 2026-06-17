@@ -58,5 +58,9 @@
       20,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blocking Pokémon",
+  "cryUrl": "/cries/862.ogg"
 }

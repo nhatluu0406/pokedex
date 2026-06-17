@@ -57,5 +57,9 @@
       14,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Starling Pokémon",
+  "cryUrl": "/cries/397.ogg"
 }

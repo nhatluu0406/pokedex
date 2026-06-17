@@ -57,5 +57,9 @@
       25,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Olive Pokémon",
+  "cryUrl": "/cries/930.ogg"
 }

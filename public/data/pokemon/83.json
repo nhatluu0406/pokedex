@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wild Duck Pokémon",
+  "cryUrl": "/cries/83.ogg"
 }

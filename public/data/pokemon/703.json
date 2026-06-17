@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Born from the temperatures and pressures deep underground, it fires beams from the stone in its head.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Jewel Pokémon",
+  "cryUrl": "/cries/703.ogg"
 }

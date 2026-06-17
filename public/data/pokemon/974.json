@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Terra Whale Pokémon",
+  "cryUrl": "/cries/974.ogg"
 }

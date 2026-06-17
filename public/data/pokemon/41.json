@@ -57,5 +57,9 @@
       22,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bat Pokémon",
+  "cryUrl": "/cries/41.ogg"
 }

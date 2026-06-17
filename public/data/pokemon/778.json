@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Disguise Pokémon",
+  "cryUrl": "/cries/778.ogg"
 }

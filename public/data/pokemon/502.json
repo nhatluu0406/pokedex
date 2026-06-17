@@ -56,5 +56,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Discipline Pokémon",
+  "cryUrl": "/cries/502.ogg"
 }

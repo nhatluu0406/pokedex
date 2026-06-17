@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Iron Ant Pokémon",
+  "cryUrl": "/cries/632.ogg"
 }

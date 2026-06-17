@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Human Shape Pokémon",
+  "cryUrl": "/cries/124.ogg"
 }

@@ -51,5 +51,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thorn Seed Pokémon",
+  "cryUrl": "/cries/597.ogg"
 }

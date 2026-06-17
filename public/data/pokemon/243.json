@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Thunder Pokémon",
+  "cryUrl": "/cries/243.ogg"
 }

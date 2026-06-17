@@ -53,5 +53,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Two-Handed Pokémon",
+  "cryUrl": "/cries/688.ogg"
 }

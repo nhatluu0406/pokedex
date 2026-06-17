@@ -52,5 +52,9 @@
     "levels": [
       59
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sun Pokémon",
+  "cryUrl": "/cries/637.ogg"
 }

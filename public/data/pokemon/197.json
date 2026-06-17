@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Moonlight Pokémon",
+  "cryUrl": "/cries/197.ogg"
 }

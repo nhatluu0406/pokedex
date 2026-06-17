@@ -56,5 +56,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Grass Snake Pokémon",
+  "cryUrl": "/cries/496.ogg"
 }

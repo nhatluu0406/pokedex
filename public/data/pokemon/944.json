@@ -53,5 +53,9 @@
     "levels": [
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Toxic Mouse Pokémon",
+  "cryUrl": "/cries/944.ogg"
 }

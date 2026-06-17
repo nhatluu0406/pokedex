@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Pond Skater Pokémon",
+  "cryUrl": "/cries/283.ogg"
 }

@@ -57,5 +57,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Poison Bee Pokémon",
+  "cryUrl": "/cries/15.ogg"
 }

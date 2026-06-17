@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Knowledge Pokémon",
+  "cryUrl": "/cries/480.ogg"
 }

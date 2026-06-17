@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Sea Drifter Pokémon",
+  "cryUrl": "/cries/489.ogg"
 }

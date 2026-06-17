@@ -56,5 +56,9 @@
       18,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Grove Pokémon",
+  "cryUrl": "/cries/388.ogg"
 }

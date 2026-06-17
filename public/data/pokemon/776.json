@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blast Turtle Pokémon",
+  "cryUrl": "/cries/776.ogg"
 }

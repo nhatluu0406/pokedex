@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Countless charred remains mar the landscape of places through which Thundurus has passed.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Bolt Strike Pokémon",
+  "cryUrl": "/cries/642.ogg"
 }

@@ -57,5 +57,9 @@
       35,
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ice Dragon Pokémon",
+  "cryUrl": "/cries/998.ogg"
 }

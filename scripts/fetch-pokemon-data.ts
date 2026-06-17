@@ -5,12 +5,15 @@ import { fileURLToPath } from "node:url";
 
 import { POKEAPI_BASE, SPRITE_BASE, TOTAL_POKEMON } from "../src/lib/constants";
 import { parseEvolutionChain } from "../src/lib/pokeapi";
+import { getResistances, getWeaknesses } from "../src/lib/type-chart";
 import type {
   EvolutionDisplay,
   PokeApiEvolutionChain,
   PokeApiPokemon,
   PokeApiSpecies,
+  PokeApiType,
   PokemonListItem,
+  TypeChartData,
 } from "../src/lib/types";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -19,8 +22,12 @@ const DATA_DIR = path.join(ROOT, "public", "data");
 const POKEMON_DIR = path.join(DATA_DIR, "pokemon");
 const SPRITE_PNG_DIR = path.join(ROOT, "public", "sprites", "pokemon");
 const SPRITE_GIF_DIR = path.join(ROOT, "public", "sprites", "animated");
+const SHOWDOWN_DIR = path.join(ROOT, "public", "sprites", "showdown");
+const CRIES_DIR = path.join(ROOT, "public", "cries");
+const TYPES_PATH = path.join(DATA_DIR, "types.json");
 
 const CONCURRENCY = 10;
+const TYPE_IDS = Array.from({ length: 18 }, (_, index) => index + 1);
 const POKEAPI_SOURCE_VERSION = "v2";
 
 interface LocalPokemonDetail {
@@ -33,6 +40,13 @@ interface LocalPokemonDetail {
   stats: { name: string; value: number }[];
   flavorText: string;
   evolution: EvolutionDisplay | null;
+  genera?: string;
+  isLegendary?: boolean;
+  isMythical?: boolean;
+  isBaby?: boolean;
+  color?: string | null;
+  habitat?: string | null;
+  cryUrl?: string;
 }
 
 interface CliOptions {
@@ -42,6 +56,10 @@ interface CliOptions {
   noSprites: boolean;
   noGifs: boolean;
   spritesOnly: boolean;
+  typesOnly: boolean;
+  indexOnly: boolean;
+  cries: boolean;
+  showdown: boolean;
 }
 
 interface FetchMeta {
@@ -58,6 +76,10 @@ function parseArgs(argv: string[]): CliOptions {
   let noSprites = true;
   let noGifs = true;
   let spritesOnly = false;
+  let typesOnly = false;
+  let indexOnly = false;
+  let cries = false;
+  let showdown = false;
 
   for (const arg of argv) {
     if (arg === "--force") {
@@ -66,6 +88,14 @@ function parseArgs(argv: string[]): CliOptions {
       skipExisting = true;
     } else if (arg === "--sprites-only") {
       spritesOnly = true;
+    } else if (arg === "--types-only") {
+      typesOnly = true;
+    } else if (arg === "--index-only") {
+      indexOnly = true;
+    } else if (arg === "--cries") {
+      cries = true;
+    } else if (arg === "--showdown") {
+      showdown = true;
     } else if (arg === "--no-sprites") {
       noSprites = true;
     } else if (arg === "--sprites") {
@@ -88,7 +118,18 @@ function parseArgs(argv: string[]): CliOptions {
     throw new Error(`Invalid --to value: ${to}`);
   }
 
-  return { skipExisting, from, to, noSprites, noGifs, spritesOnly };
+  return {
+    skipExisting,
+    from,
+    to,
+    noSprites,
+    noGifs,
+    spritesOnly,
+    typesOnly,
+    indexOnly,
+    cries,
+    showdown,
+  };
 }
 
 class Semaphore {
@@ -139,12 +180,19 @@ async function fetchJson<T>(url: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+function getEnglishGenus(species: PokeApiSpecies): string | undefined {
+  const entry = species.genera.find((genus) => genus.language.name === "en");
+  return entry?.genus;
+}
+
 function mapPokemonDetail(
   pokemon: PokeApiPokemon,
+  species: PokeApiSpecies,
   flavorText: string,
   evolution: EvolutionDisplay | null,
+  cryUrl?: string,
 ): LocalPokemonDetail {
-  return {
+  const detail: LocalPokemonDetail = {
     id: pokemon.id,
     name: pokemon.name,
     types: pokemon.types.map((entry) => entry.type.name),
@@ -157,15 +205,54 @@ function mapPokemonDetail(
     })),
     flavorText,
     evolution,
+    isLegendary: species.is_legendary,
+    isMythical: species.is_mythical,
+    isBaby: species.is_baby,
+    color: species.color?.name ?? null,
+    habitat: species.habitat?.name ?? null,
   };
+
+  const genera = getEnglishGenus(species);
+  if (genera) {
+    detail.genera = genera;
+  }
+
+  if (cryUrl) {
+    detail.cryUrl = cryUrl;
+  }
+
+  return detail;
 }
 
-function toListItem(detail: LocalPokemonDetail): PokemonListItem {
-  return {
+function toListItem(
+  detail: LocalPokemonDetail,
+  typeChart: TypeChartData,
+): PokemonListItem {
+  const item: PokemonListItem = {
     id: detail.id,
     name: detail.name,
     types: detail.types,
+    weaknesses: getWeaknesses(detail.types, typeChart),
+    resistances: getResistances(detail.types, typeChart),
   };
+
+  if (detail.isLegendary !== undefined) {
+    item.isLegendary = detail.isLegendary;
+  }
+  if (detail.isMythical !== undefined) {
+    item.isMythical = detail.isMythical;
+  }
+  if (detail.isBaby !== undefined) {
+    item.isBaby = detail.isBaby;
+  }
+  if (detail.color !== undefined) {
+    item.color = detail.color;
+  }
+  if (detail.habitat !== undefined) {
+    item.habitat = detail.habitat;
+  }
+
+  return item;
 }
 
 async function downloadBinary(
@@ -187,7 +274,57 @@ async function downloadBinary(
   return true;
 }
 
-async function fetchPokemonDetail(id: number): Promise<LocalPokemonDetail> {
+async function maybeDownloadCry(
+  id: number,
+  pokemon: PokeApiPokemon,
+  options: CliOptions,
+): Promise<string | undefined> {
+  if (!options.cries) {
+    return undefined;
+  }
+
+  const crySourceUrl = pokemon.cries?.latest;
+  if (!crySourceUrl) {
+    console.warn(`  warn: no cry URL for #${id}`);
+    return undefined;
+  }
+
+  await mkdir(CRIES_DIR, { recursive: true });
+  const destination = path.join(CRIES_DIR, `${id}.ogg`);
+  await downloadBinary(crySourceUrl, destination, options.skipExisting);
+  return `/cries/${id}.ogg`;
+}
+
+async function maybeDownloadShowdown(
+  id: number,
+  pokemon: PokeApiPokemon,
+  options: CliOptions,
+): Promise<void> {
+  if (!options.showdown || id < 650) {
+    return;
+  }
+
+  const showdownUrl = pokemon.sprites?.other?.showdown?.front_default;
+  if (!showdownUrl) {
+    console.warn(`  warn: no showdown sprite for #${id}`);
+    return;
+  }
+
+  await mkdir(SHOWDOWN_DIR, { recursive: true });
+  const destination = path.join(SHOWDOWN_DIR, `${id}.gif`);
+  try {
+    await downloadBinary(showdownUrl, destination, options.skipExisting);
+  } catch (error) {
+    console.warn(
+      `  warn: skipping showdown GIF for #${id}: ${error instanceof Error ? error.message : error}`,
+    );
+  }
+}
+
+async function fetchPokemonDetail(
+  id: number,
+  options: CliOptions,
+): Promise<LocalPokemonDetail> {
   const pokemon = await fetchJson<PokeApiPokemon>(`${POKEAPI_BASE}/pokemon/${id}`);
   const species = await fetchJson<PokeApiSpecies>(pokemon.species.url);
 
@@ -206,7 +343,55 @@ async function fetchPokemonDetail(id: number): Promise<LocalPokemonDetail> {
     evolution = parseEvolutionChain(chain);
   }
 
-  return mapPokemonDetail(pokemon, flavorText, evolution);
+  const cryUrl = await maybeDownloadCry(id, pokemon, options);
+  await maybeDownloadShowdown(id, pokemon, options);
+
+  return mapPokemonDetail(pokemon, species, flavorText, evolution, cryUrl);
+}
+
+async function patchPokemonAssets(id: number, options: CliOptions): Promise<void> {
+  const pokemon = await fetchJson<PokeApiPokemon>(`${POKEAPI_BASE}/pokemon/${id}`);
+  const cryUrl = await maybeDownloadCry(id, pokemon, options);
+  await maybeDownloadShowdown(id, pokemon, options);
+
+  if (!cryUrl) {
+    return;
+  }
+
+  const pokemonPath = path.join(POKEMON_DIR, `${id}.json`);
+  const raw = await readFile(pokemonPath, "utf8");
+  const detail = JSON.parse(raw) as LocalPokemonDetail;
+  if (detail.cryUrl === cryUrl) {
+    return;
+  }
+
+  detail.cryUrl = cryUrl;
+  await writeFile(pokemonPath, `${JSON.stringify(detail, null, 2)}\n`, "utf8");
+}
+
+async function fetchAllTypes(): Promise<void> {
+  const types: TypeChartData["types"] = {};
+
+  for (const id of TYPE_IDS) {
+    const typeData = await fetchJson<PokeApiType>(`${POKEAPI_BASE}/type/${id}`);
+    types[typeData.name] = {
+      name: typeData.name,
+      damageRelations: {
+        double_damage_from: typeData.damage_relations.double_damage_from.map(
+          (entry) => entry.name,
+        ),
+        half_damage_from: typeData.damage_relations.half_damage_from.map(
+          (entry) => entry.name,
+        ),
+        no_damage_from: typeData.damage_relations.no_damage_from.map(
+          (entry) => entry.name,
+        ),
+      },
+    };
+  }
+
+  await mkdir(DATA_DIR, { recursive: true });
+  await writeFile(TYPES_PATH, `${JSON.stringify({ types }, null, 2)}\n`, "utf8");
 }
 
 async function maybeDownloadSprites(
@@ -271,9 +456,12 @@ async function writeMeta(
   extraNote?: string,
 ): Promise<void> {
   const notes = [
+    options.typesOnly ? "types-only run" : null,
     options.spritesOnly ? "sprites-only run" : `Range ${options.from}-${options.to}`,
     options.noSprites ? "sprites skipped" : "sprites downloaded",
     options.noGifs ? "gifs skipped" : "gifs downloaded",
+    options.cries ? "cries downloaded" : "cries skipped",
+    options.showdown ? "showdown sprites downloaded" : "showdown sprites skipped",
     errors.length > 0 ? `${errors.length} fetch error(s)` : "no fetch errors",
     extraNote,
   ]
@@ -294,6 +482,66 @@ async function writeMeta(
   );
 }
 
+async function loadTypeChartFromDisk(): Promise<TypeChartData> {
+  if (!(await fileExists(TYPES_PATH))) {
+    throw new Error(`Missing ${TYPES_PATH}. Run npm run fetch-types first.`);
+  }
+
+  const raw = await readFile(TYPES_PATH, "utf8");
+  return JSON.parse(raw) as TypeChartData;
+}
+
+async function buildIndexFromPokemonFiles(
+  typeChart: TypeChartData,
+): Promise<PokemonListItem[]> {
+  const allPokemonFiles = await readdir(POKEMON_DIR);
+  const pokemonIds = allPokemonFiles
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => Number(file.replace(/\.json$/, "")))
+    .filter((id) => Number.isInteger(id) && id > 0)
+    .sort((a, b) => a - b);
+
+  const indexItems: PokemonListItem[] = [];
+
+  for (const id of pokemonIds) {
+    const pokemonPath = path.join(POKEMON_DIR, `${id}.json`);
+    const raw = await readFile(pokemonPath, "utf8");
+    const detail = JSON.parse(raw) as LocalPokemonDetail;
+    indexItems.push(toListItem(detail, typeChart));
+  }
+
+  return indexItems;
+}
+
+async function rebuildIndexOnly(): Promise<void> {
+  console.log("Rebuilding index from existing pokemon JSON files (no API fetch)");
+
+  const typeChart = await loadTypeChartFromDisk();
+  const indexItems = await buildIndexFromPokemonFiles(typeChart);
+
+  await mkdir(DATA_DIR, { recursive: true });
+  await writeFile(
+    path.join(DATA_DIR, "index.json"),
+    `${JSON.stringify(indexItems, null, 2)}\n`,
+    "utf8",
+  );
+
+  const meta: FetchMeta = {
+    generatedAt: new Date().toISOString(),
+    totalPokemon: indexItems.length,
+    sourceVersion: POKEAPI_SOURCE_VERSION,
+    notes: "index-only rebuild from existing pokemon JSON",
+  };
+
+  await writeFile(
+    path.join(DATA_DIR, "meta.json"),
+    `${JSON.stringify(meta, null, 2)}\n`,
+    "utf8",
+  );
+
+  console.log(`Done. Index: ${indexItems.length} entries.`);
+}
+
 async function countPokemonFiles(): Promise<number> {
   try {
     const allPokemonFiles = await readdir(POKEMON_DIR);
@@ -305,6 +553,19 @@ async function countPokemonFiles(): Promise<number> {
 
 async function main(): Promise<void> {
   const options = parseArgs(process.argv.slice(2));
+
+  if (options.indexOnly) {
+    await rebuildIndexOnly();
+    return;
+  }
+
+  if (options.typesOnly) {
+    console.log(`Fetching type chart (${TYPE_IDS.length} types)`);
+    await fetchAllTypes();
+    console.log(`Done. Wrote ${TYPES_PATH}.`);
+    return;
+  }
+
   const ids = Array.from(
     { length: options.to - options.from + 1 },
     (_, index) => options.from + index,
@@ -315,12 +576,19 @@ async function main(): Promise<void> {
       `Downloading sprites ${options.from}–${options.to} (${ids.length} IDs, concurrency ${CONCURRENCY})`,
     );
     console.log(
-      `Options: skipExisting=${options.skipExisting}, noSprites=${options.noSprites}, noGifs=${options.noGifs}`,
+      `Options: skipExisting=${options.skipExisting}, noSprites=${options.noSprites}, noGifs=${options.noGifs}, cries=${options.cries}, showdown=${options.showdown}`,
     );
 
     const { errors } = await runWithConcurrency(ids, async (id) => {
       console.log(`  sprite #${id}`);
       await maybeDownloadSprites(id, options);
+      if (options.cries || options.showdown) {
+        const pokemon = await fetchJson<PokeApiPokemon>(
+          `${POKEAPI_BASE}/pokemon/${id}`,
+        );
+        await maybeDownloadCry(id, pokemon, options);
+        await maybeDownloadShowdown(id, pokemon, options);
+      }
       return id;
     });
 
@@ -345,18 +613,22 @@ async function main(): Promise<void> {
     `Fetching Pokémon ${options.from}–${options.to} (${ids.length} IDs, concurrency ${CONCURRENCY})`,
   );
   console.log(
-    `Options: skipExisting=${options.skipExisting}, noSprites=${options.noSprites}, noGifs=${options.noGifs}`,
+    `Options: skipExisting=${options.skipExisting}, noSprites=${options.noSprites}, noGifs=${options.noGifs}, cries=${options.cries}, showdown=${options.showdown}`,
   );
 
   await mkdir(POKEMON_DIR, { recursive: true });
 
   let skipped = 0;
   const idsToFetch: number[] = [];
+  const idsForAssetsOnly: number[] = [];
 
   for (const id of ids) {
     const pokemonPath = path.join(POKEMON_DIR, `${id}.json`);
     if (options.skipExisting && (await fileExists(pokemonPath))) {
       skipped++;
+      if (options.cries || options.showdown) {
+        idsForAssetsOnly.push(id);
+      }
       continue;
     }
     idsToFetch.push(id);
@@ -366,11 +638,11 @@ async function main(): Promise<void> {
     console.log(`Skipping ${skipped} existing pokemon JSON file(s).`);
   }
 
-  const { results: fetchedDetails, errors } = await runWithConcurrency(
+  const { results: fetchedDetails, errors: fetchErrors } = await runWithConcurrency(
     idsToFetch,
     async (id) => {
       console.log(`  fetch #${id}`);
-      const detail = await fetchPokemonDetail(id);
+      const detail = await fetchPokemonDetail(id, options);
       const pokemonPath = path.join(POKEMON_DIR, `${id}.json`);
       await writeFile(pokemonPath, `${JSON.stringify(detail, null, 2)}\n`, "utf8");
       await maybeDownloadSprites(id, options);
@@ -378,21 +650,19 @@ async function main(): Promise<void> {
     },
   );
 
-  const indexItems: PokemonListItem[] = [];
-  const allPokemonFiles = await readdir(POKEMON_DIR);
+  const { errors: assetErrors } = await runWithConcurrency(
+    idsForAssetsOnly,
+    async (id) => {
+      console.log(`  assets #${id}`);
+      await patchPokemonAssets(id, options);
+      return id;
+    },
+  );
 
-  const pokemonIds = allPokemonFiles
-    .filter((file) => file.endsWith(".json"))
-    .map((file) => Number(file.replace(/\.json$/, "")))
-    .filter((id) => Number.isInteger(id) && id > 0)
-    .sort((a, b) => a - b);
+  const errors = [...fetchErrors, ...assetErrors];
 
-  for (const id of pokemonIds) {
-    const pokemonPath = path.join(POKEMON_DIR, `${id}.json`);
-    const raw = await readFile(pokemonPath, "utf8");
-    const detail = JSON.parse(raw) as LocalPokemonDetail;
-    indexItems.push(toListItem(detail));
-  }
+  const typeChart = await loadTypeChartFromDisk();
+  const indexItems = await buildIndexFromPokemonFiles(typeChart);
 
   await writeFile(
     path.join(DATA_DIR, "index.json"),

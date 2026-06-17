@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Snow Land Pokémon",
+  "cryUrl": "/cries/478.ogg"
 }

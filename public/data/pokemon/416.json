@@ -52,5 +52,9 @@
     "levels": [
       21
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Beehive Pokémon",
+  "cryUrl": "/cries/416.ogg"
 }

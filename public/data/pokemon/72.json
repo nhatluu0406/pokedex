@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Jellyfish Pokémon",
+  "cryUrl": "/cries/72.ogg"
 }

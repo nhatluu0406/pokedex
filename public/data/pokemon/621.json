@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cave Pokémon",
+  "cryUrl": "/cries/621.ogg"
 }

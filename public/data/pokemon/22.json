@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Beak Pokémon",
+  "cryUrl": "/cries/22.ogg"
 }

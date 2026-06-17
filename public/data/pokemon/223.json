@@ -52,5 +52,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Jet Pokémon",
+  "cryUrl": "/cries/223.ogg"
 }

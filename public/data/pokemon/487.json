@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Renegade Pokémon",
+  "cryUrl": "/cries/487.ogg"
 }

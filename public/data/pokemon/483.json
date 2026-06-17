@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Temporal Pokémon",
+  "cryUrl": "/cries/483.ogg"
 }

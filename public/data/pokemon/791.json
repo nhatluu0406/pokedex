@@ -56,5 +56,9 @@
       43,
       53
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Sunne Pokémon",
+  "cryUrl": "/cries/791.ogg"
 }

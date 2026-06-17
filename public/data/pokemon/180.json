@@ -56,5 +56,9 @@
       15,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wool Pokémon",
+  "cryUrl": "/cries/180.ogg"
 }

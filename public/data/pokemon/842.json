@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Apple Nectar Pokémon",
+  "cryUrl": "/cries/842.ogg"
 }

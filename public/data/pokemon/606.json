@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cerebral Pokémon",
+  "cryUrl": "/cries/606.ogg"
 }

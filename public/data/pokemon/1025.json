@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Subjugation Pokémon",
+  "cryUrl": "/cries/1025.ogg"
 }

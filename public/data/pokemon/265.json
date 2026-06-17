@@ -56,5 +56,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Worm Pokémon",
+  "cryUrl": "/cries/265.ogg"
 }

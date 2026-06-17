@@ -52,5 +52,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Frill Pokémon",
+  "cryUrl": "/cries/955.ogg"
 }

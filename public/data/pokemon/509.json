@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Devious Pokémon",
+  "cryUrl": "/cries/509.ogg"
 }

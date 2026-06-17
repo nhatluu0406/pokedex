@@ -58,5 +58,9 @@
       32,
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Silent Pokémon",
+  "cryUrl": "/cries/858.ogg"
 }

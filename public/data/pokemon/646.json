@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Boundary Pokémon",
+  "cryUrl": "/cries/646.ogg"
 }

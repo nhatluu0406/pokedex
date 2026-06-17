@@ -57,5 +57,9 @@
       25,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Frog Pokémon",
+  "cryUrl": "/cries/186.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ore Pokémon",
+  "cryUrl": "/cries/969.ogg"
 }

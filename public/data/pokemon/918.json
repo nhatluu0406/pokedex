@@ -51,5 +51,9 @@
     "levels": [
       15
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Trap Pokémon",
+  "cryUrl": "/cries/918.ogg"
 }

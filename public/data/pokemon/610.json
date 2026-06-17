@@ -57,5 +57,9 @@
       38,
       48
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tusk Pokémon",
+  "cryUrl": "/cries/610.ogg"
 }

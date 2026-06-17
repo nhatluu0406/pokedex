@@ -52,5 +52,9 @@
     "levels": [
       59
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Torch Pokémon",
+  "cryUrl": "/cries/636.ogg"
 }

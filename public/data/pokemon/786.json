@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Land Spirit Pokémon",
+  "cryUrl": "/cries/786.ogg"
 }

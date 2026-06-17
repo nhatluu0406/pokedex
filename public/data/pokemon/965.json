@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Single-Cyl Pokémon",
+  "cryUrl": "/cries/965.ogg"
 }

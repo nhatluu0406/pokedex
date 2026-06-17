@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Dancing Pokémon",
+  "cryUrl": "/cries/741.ogg"
 }

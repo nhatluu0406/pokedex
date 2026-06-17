@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Tera Pokémon",
+  "cryUrl": "/cries/1024.ogg"
 }

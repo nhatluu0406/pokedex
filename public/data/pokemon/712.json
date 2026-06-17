@@ -52,5 +52,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ice Chunk Pokémon",
+  "cryUrl": "/cries/712.ogg"
 }

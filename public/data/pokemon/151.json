@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "New Species Pokémon",
+  "cryUrl": "/cries/151.ogg"
 }

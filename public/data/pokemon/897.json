@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Swift Horse Pokémon",
+  "cryUrl": "/cries/897.ogg"
 }

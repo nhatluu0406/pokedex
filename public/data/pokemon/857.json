@@ -57,5 +57,9 @@
       32,
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Serene Pokémon",
+  "cryUrl": "/cries/857.ogg"
 }

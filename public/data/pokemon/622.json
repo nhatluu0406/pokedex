@@ -53,5 +53,9 @@
     "levels": [
       43
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Automaton Pokémon",
+  "cryUrl": "/cries/622.ogg"
 }

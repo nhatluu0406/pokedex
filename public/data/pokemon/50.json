@@ -52,5 +52,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mole Pokémon",
+  "cryUrl": "/cries/50.ogg"
 }

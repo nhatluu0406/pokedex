@@ -53,5 +53,9 @@
     "levels": [
       27
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flailing Pokémon",
+  "cryUrl": "/cries/759.ogg"
 }

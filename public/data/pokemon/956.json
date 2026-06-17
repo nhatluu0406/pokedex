@@ -52,5 +52,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ostrich Pokémon",
+  "cryUrl": "/cries/956.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cobra Pokémon",
+  "cryUrl": "/cries/24.ogg"
 }

@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mold Pokémon",
+  "cryUrl": "/cries/213.ogg"
 }

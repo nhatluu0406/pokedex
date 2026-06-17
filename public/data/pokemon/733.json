@@ -58,5 +58,9 @@
       14,
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cannon Pokémon",
+  "cryUrl": "/cries/733.ogg"
 }

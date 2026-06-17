@@ -53,5 +53,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lion Cub Pokémon",
+  "cryUrl": "/cries/667.ogg"
 }

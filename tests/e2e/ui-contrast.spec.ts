@@ -1,4 +1,4 @@
-import { expect, test, type TestInfo } from "@playwright/test";
+import { expect, test, type Page, type TestInfo } from "@playwright/test";
 import {
   enableDarkTheme,
   enableLightTheme,
@@ -12,6 +12,10 @@ import {
 
 function isDesktopProject(testInfo: TestInfo) {
   return testInfo.project.name === "desktop";
+}
+
+function filterValues(page: Page) {
+  return page.getByRole("group", { name: /filter values/i });
 }
 
 test.describe("Phase 6 — UI contrast and layout", () => {
@@ -141,9 +145,9 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     });
 
     const themeToggle = toolbar.locator(".theme-toggle");
-    const allChip = page.getByRole("button", { name: "All", exact: true });
+    const filterDropdown = page.getByRole("button", { name: /filter category/i });
     await expect(themeToggle).toBeVisible();
-    await expect(allChip).toBeVisible();
+    await expect(filterDropdown).toBeVisible();
 
     if (!stackedAboveWatermark) {
       await themeToggle.click();
@@ -152,8 +156,10 @@ test.describe("Phase 6 — UI contrast and layout", () => {
       await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
     }
 
-    await allChip.click();
-    await expect(allChip).toHaveClass(/list-filter-chip-active/);
+    await filterDropdown.click();
+    await page.getByRole("option", { name: "Color", exact: true }).click();
+    await filterValues(page).getByRole("button", { name: "Red", exact: true }).click();
+    await expect(filterDropdown).toHaveClass(/filter-dropdown-trigger-active/);
   });
 
   test("dark mode keeps background decoration visible when scrolled", async ({
@@ -170,37 +176,37 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     expect(opacity).toBeGreaterThan(0);
   });
 
-  test("search toolbar keeps theme toggle and All chip on one row", async ({
+  test("search toolbar keeps theme toggle and filter dropdown on one row", async ({
     page,
   }) => {
     await waitForAppReady(page);
     await expect(page.locator(".search-toolbar-row")).toBeVisible();
 
     const themeToggle = page.locator(".search-toolbar-row .theme-toggle");
-    const allChip = page.getByRole("button", { name: "All", exact: true });
+    const filterDropdown = page.getByRole("button", { name: /filter category/i });
     await expect(themeToggle).toBeVisible();
-    await expect(allChip).toBeVisible();
+    await expect(filterDropdown).toBeVisible();
 
     const themeBox = await themeToggle.boundingBox();
-    const allBox = await allChip.boundingBox();
+    const filterBox = await filterDropdown.boundingBox();
     expect(themeBox).not.toBeNull();
-    expect(allBox).not.toBeNull();
-    expect(Math.abs(themeBox!.y - allBox!.y)).toBeLessThanOrEqual(5);
+    expect(filterBox).not.toBeNull();
+    expect(Math.abs(themeBox!.y - filterBox!.y)).toBeLessThanOrEqual(5);
   });
 
-  test("toolbar places All chip left of search bar", async ({ page }) => {
+  test("toolbar places filter dropdown left of search bar", async ({ page }) => {
     await waitForAppReady(page);
 
     const searchBar = page.locator(".search-toolbar-row .search-bar");
-    const allChip = page.getByRole("button", { name: "All", exact: true });
+    const filterDropdown = page.getByRole("button", { name: /filter category/i });
     await expect(searchBar).toBeVisible();
-    await expect(allChip).toBeVisible();
+    await expect(filterDropdown).toBeVisible();
 
     const searchBox = await searchBar.boundingBox();
-    const allBox = await allChip.boundingBox();
+    const filterBox = await filterDropdown.boundingBox();
     expect(searchBox).not.toBeNull();
-    expect(allBox).not.toBeNull();
-    expect(allBox!.x).toBeLessThan(searchBox!.x);
+    expect(filterBox).not.toBeNull();
+    expect(filterBox!.x).toBeLessThan(searchBox!.x);
   });
 
   test("theme preference persists after reload", async ({ page }) => {
@@ -453,10 +459,10 @@ test.describe("Phase 6 — UI contrast and layout", () => {
     expect(hydrationErrors).toEqual([]);
   });
 
-  test("filter chips have no border ring", async ({ page }) => {
+  test("filter chips use transparent borders for stable layout", async ({ page }) => {
     await waitForAppReady(page);
 
-    const chips = page.locator(".search-toolbar-row .list-filter-chip");
+    const chips = page.locator(".search-toolbar-row .filter-value-chip");
     await expect(chips.first()).toBeVisible();
     const count = await chips.count();
 
@@ -466,9 +472,12 @@ test.describe("Phase 6 — UI contrast and layout", () => {
         return {
           width: style.borderWidth,
           style: style.borderStyle,
+          color: style.borderColor,
         };
       });
-      expect(border.width === "0px" || border.style === "none").toBe(true);
+      expect(border.width).toBe("2px");
+      expect(border.style).toBe("solid");
+      expect(border.color).toBe("rgba(0, 0, 0, 0)");
     }
   });
 

@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fireworks Pokémon",
+  "cryUrl": "/cries/806.ogg"
 }

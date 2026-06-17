@@ -52,5 +52,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Poison Gas Pokémon",
+  "cryUrl": "/cries/110.ogg"
 }

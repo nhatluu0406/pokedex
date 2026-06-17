@@ -55,5 +55,9 @@
       43,
       53
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Nebula Pokémon",
+  "cryUrl": "/cries/789.ogg"
 }

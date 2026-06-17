@@ -56,5 +56,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Formidable Pokémon",
+  "cryUrl": "/cries/503.ogg"
 }

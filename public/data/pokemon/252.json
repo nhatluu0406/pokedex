@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wood Gecko Pokémon",
+  "cryUrl": "/cries/252.ogg"
 }

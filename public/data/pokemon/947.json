@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tumbleweed Pokémon",
+  "cryUrl": "/cries/947.ogg"
 }

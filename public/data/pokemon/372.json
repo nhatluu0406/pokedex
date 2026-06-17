@@ -56,5 +56,9 @@
       30,
       50
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Endurance Pokémon",
+  "cryUrl": "/cries/372.ogg"
 }

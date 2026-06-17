@@ -2,10 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { fetchNameIndex } from "@/lib/data";
-import { TOTAL_POKEMON } from "@/lib/constants";
 import type { PokemonNameEntry } from "@/lib/types";
-
-const ALL_IDS = Array.from({ length: TOTAL_POKEMON }, (_, i) => i + 1);
+import { matchPokemonSearch } from "@/utils/pokemonSearch";
 
 export function usePokemonNameIndex() {
   const [index, setIndex] = useState<PokemonNameEntry[]>([]);
@@ -26,9 +24,7 @@ export function usePokemonNameIndex() {
         setError("Failed to load Pokémon index.");
       })
       .finally(() => {
-        if (!abortController.signal.aborted) {
-          setLoading(false);
-        }
+        setLoading(false);
       });
 
     return () => abortController.abort();
@@ -48,16 +44,7 @@ export function usePokemonNameIndex() {
   );
 
   const filterByName = useCallback(
-    (query: string): number[] => {
-      const normalized = query.trim().toLowerCase();
-      if (!normalized) return ALL_IDS;
-
-      return index
-        .filter((entry) =>
-          entry.name.replaceAll("-", " ").includes(normalized),
-        )
-        .map((entry) => entry.id);
-    },
+    (query: string): number[] => matchPokemonSearch(query, index),
     [index],
   );
 

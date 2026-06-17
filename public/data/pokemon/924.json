@@ -52,5 +52,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Couple Pokémon",
+  "cryUrl": "/cries/924.ogg"
 }

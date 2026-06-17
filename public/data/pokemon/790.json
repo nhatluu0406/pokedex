@@ -55,5 +55,9 @@
       43,
       53
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Protostar Pokémon",
+  "cryUrl": "/cries/790.ogg"
 }

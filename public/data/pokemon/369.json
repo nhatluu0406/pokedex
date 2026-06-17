@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "RELICANTH is a POKéMON species that existed for a hundred million years without ever changing its form. This ancient POKéMON feeds on microscopic organisms with its toothless mouth.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Longevity Pokémon",
+  "cryUrl": "/cries/369.ogg"
 }

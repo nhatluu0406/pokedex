@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "SEVIPER shares a generations-long feud with ZANGOOSE. The scars on its body are evidence of vicious battles. This POKéMON attacks using its sword- edged tail.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fang Snake Pokémon",
+  "cryUrl": "/cries/336.ogg"
 }

@@ -56,5 +56,9 @@
       18,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Big Jaw Pokémon",
+  "cryUrl": "/cries/160.ogg"
 }

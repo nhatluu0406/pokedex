@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sea Creeper Pokémon",
+  "cryUrl": "/cries/781.ogg"
 }

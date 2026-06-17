@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Milk Cow Pokémon",
+  "cryUrl": "/cries/241.ogg"
 }

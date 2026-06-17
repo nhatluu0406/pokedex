@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/986.ogg"
 }

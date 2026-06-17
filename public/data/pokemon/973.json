@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Synchronize Pokémon",
+  "cryUrl": "/cries/973.ogg"
 }

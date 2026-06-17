@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Wild Horse Pokémon",
+  "cryUrl": "/cries/896.ogg"
 }

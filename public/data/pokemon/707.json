@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "These key collectors threaten any attackers by fiercely jingling their keys at them.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Key Ring Pokémon",
+  "cryUrl": "/cries/707.ogg"
 }

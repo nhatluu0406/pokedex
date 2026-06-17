@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "REGICE’s body was made during an ice age. The deep-frozen body can’t be melted, even by fire. This POKéMON controls frigid air of minus 328 degrees F.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Iceberg Pokémon",
+  "cryUrl": "/cries/378.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Star Shape Pokémon",
+  "cryUrl": "/cries/120.ogg"
 }

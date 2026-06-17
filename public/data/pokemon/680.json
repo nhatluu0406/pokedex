@@ -56,5 +56,9 @@
       35,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sword Pokémon",
+  "cryUrl": "/cries/680.ogg"
 }

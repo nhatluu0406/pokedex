@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Pin Cluster Pokémon",
+  "cryUrl": "/cries/904.ogg"
 }

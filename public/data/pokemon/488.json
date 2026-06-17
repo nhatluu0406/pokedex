@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Lunar Pokémon",
+  "cryUrl": "/cries/488.ogg"
 }

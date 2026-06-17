@@ -58,5 +58,9 @@
       18,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bird Pokémon",
+  "cryUrl": "/cries/18.ogg"
 }

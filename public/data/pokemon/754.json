@@ -51,5 +51,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bloom Sickle Pokémon",
+  "cryUrl": "/cries/754.ogg"
 }

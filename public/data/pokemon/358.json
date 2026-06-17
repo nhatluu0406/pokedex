@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wind Chime Pokémon",
+  "cryUrl": "/cries/358.ogg"
 }

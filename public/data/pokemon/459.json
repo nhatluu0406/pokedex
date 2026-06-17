@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Frost Tree Pokémon",
+  "cryUrl": "/cries/459.ogg"
 }

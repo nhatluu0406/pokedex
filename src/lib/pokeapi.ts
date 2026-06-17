@@ -7,14 +7,18 @@ import type {
   PokeApiPokemon,
   PokeApiSpecies,
   PokemonDetail,
-  PokemonListItem,
   PokemonNameEntry,
 } from "./types";
 
 export function getAnimatedSpriteUrl(id: number): string {
-  return id < 650
-    ? `/sprites/animated/${id}.gif`
-    : `/sprites/pokemon/${id}.png`;
+  if (id < 650) {
+    return `/sprites/animated/${id}.gif`;
+  }
+  return `/sprites/showdown/${id}.gif`;
+}
+
+export function getAnimatedSpriteFallbackUrl(id: number): string {
+  return getStaticSpriteUrl(id);
 }
 
 export function getStaticSpriteUrl(id: number): string {
@@ -37,14 +41,6 @@ function mapPokemonResponse(data: PokeApiPokemon): PokemonDetail {
   };
 }
 
-function mapListItem(data: PokeApiPokemon): PokemonListItem {
-  return {
-    id: data.id,
-    name: data.name,
-    types: data.types.map((t) => t.type.name),
-  };
-}
-
 export async function fetchPokemonById(
   id: number,
   signal?: AbortSignal,
@@ -57,34 +53,6 @@ export async function fetchPokemonById(
 
   const data: PokeApiPokemon = await response.json();
   return mapPokemonResponse(data);
-}
-
-export async function fetchPokemonListItem(
-  id: number,
-  signal?: AbortSignal,
-): Promise<PokemonListItem> {
-  const response = await fetch(`${POKEAPI_BASE}/pokemon/${id}`, { signal });
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch Pokémon #${id}`);
-  }
-
-  const data: PokeApiPokemon = await response.json();
-  return mapListItem(data);
-}
-
-export async function fetchPokemonTypes(
-  id: number,
-  signal?: AbortSignal,
-): Promise<string[]> {
-  const response = await fetch(`${POKEAPI_BASE}/pokemon/${id}`, { signal });
-
-  if (!response.ok) {
-    throw new Error(`Failed to fetch Pokémon #${id} types`);
-  }
-
-  const data: PokeApiPokemon = await response.json();
-  return data.types.map((t) => t.type.name);
 }
 
 export function extractSpeciesId(url: string): number {
@@ -172,18 +140,4 @@ export async function fetchPokemonSpecies(
       : "",
     evolutionChainUrl: data.evolution_chain.url,
   };
-}
-
-export async function fetchEvolutionChain(
-  url: string,
-  signal?: AbortSignal,
-): Promise<EvolutionDisplay | null> {
-  const response = await fetch(url, { signal });
-
-  if (!response.ok) {
-    throw new Error("Failed to fetch evolution chain");
-  }
-
-  const data: PokeApiEvolutionChain = await response.json();
-  return parseEvolutionChain(data);
 }

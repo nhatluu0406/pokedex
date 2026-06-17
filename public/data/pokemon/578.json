@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mitosis Pokémon",
+  "cryUrl": "/cries/578.ogg"
 }

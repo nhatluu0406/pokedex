@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Gulp Pokémon",
+  "cryUrl": "/cries/845.ogg"
 }

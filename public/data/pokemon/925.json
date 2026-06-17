@@ -52,5 +52,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Family Pokémon",
+  "cryUrl": "/cries/925.ogg"
 }

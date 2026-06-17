@@ -57,5 +57,9 @@
       25,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tadpole Pokémon",
+  "cryUrl": "/cries/535.ogg"
 }

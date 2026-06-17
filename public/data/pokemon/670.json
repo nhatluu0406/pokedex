@@ -56,5 +56,9 @@
       19,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Single Bloom Pokémon",
+  "cryUrl": "/cries/670.ogg"
 }

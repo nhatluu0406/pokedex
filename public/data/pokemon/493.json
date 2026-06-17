@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Alpha Pokémon",
+  "cryUrl": "/cries/493.ogg"
 }

@@ -57,5 +57,9 @@
       18,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fruit Pokémon",
+  "cryUrl": "/cries/762.ogg"
 }

@@ -57,5 +57,9 @@
       28,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Pig Monkey Pokémon",
+  "cryUrl": "/cries/56.ogg"
 }

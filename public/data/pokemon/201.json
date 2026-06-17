@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Symbol Pokémon",
+  "cryUrl": "/cries/201.ogg"
 }

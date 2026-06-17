@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mud Fish Pokémon",
+  "cryUrl": "/cries/259.ogg"
 }

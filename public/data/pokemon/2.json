@@ -57,5 +57,9 @@
       16,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Seed Pokémon",
+  "cryUrl": "/cries/2.ogg"
 }

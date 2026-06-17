@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ninja Pokémon",
+  "cryUrl": "/cries/291.ogg"
 }

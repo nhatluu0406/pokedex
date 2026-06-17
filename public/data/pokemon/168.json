@@ -53,5 +53,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Long Leg Pokémon",
+  "cryUrl": "/cries/168.ogg"
 }

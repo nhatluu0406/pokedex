@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Land Snake Pokémon",
+  "cryUrl": "/cries/206.ogg"
 }

@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Parent Pokémon",
+  "cryUrl": "/cries/115.ogg"
 }

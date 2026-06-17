@@ -58,5 +58,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bouquet Pokémon",
+  "cryUrl": "/cries/407.ogg"
 }

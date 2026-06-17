@@ -58,5 +58,9 @@
       25,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Vibration Pokémon",
+  "cryUrl": "/cries/537.ogg"
 }

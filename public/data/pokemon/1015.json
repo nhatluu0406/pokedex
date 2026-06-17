@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Retainer Pokémon",
+  "cryUrl": "/cries/1015.ogg"
 }

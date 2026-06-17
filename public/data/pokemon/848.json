@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Baby Pokémon",
+  "cryUrl": "/cries/848.ogg"
 }

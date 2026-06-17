@@ -51,5 +51,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rush Pokémon",
+  "cryUrl": "/cries/846.ogg"
 }

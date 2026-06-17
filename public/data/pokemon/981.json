@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Long Neck Pokémon",
+  "cryUrl": "/cries/981.ogg"
 }

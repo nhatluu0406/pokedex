@@ -52,5 +52,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bounce Pokémon",
+  "cryUrl": "/cries/325.ogg"
 }

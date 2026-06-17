@@ -56,5 +56,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spitfire Pokémon",
+  "cryUrl": "/cries/126.ogg"
 }

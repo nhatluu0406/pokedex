@@ -57,5 +57,9 @@
       35,
       47
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Snowstorm Pokémon",
+  "cryUrl": "/cries/584.ogg"
 }

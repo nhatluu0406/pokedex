@@ -56,5 +56,9 @@
       16,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Leaf Pokémon",
+  "cryUrl": "/cries/152.ogg"
 }

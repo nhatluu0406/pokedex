@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/1021.ogg"
 }

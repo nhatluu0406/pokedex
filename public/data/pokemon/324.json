@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "You can tell how it’s feeling by the smoke spouting from its shell. Tremendous velocity is a sign of good health.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Coal Pokémon",
+  "cryUrl": "/cries/324.ogg"
 }

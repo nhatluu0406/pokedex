@@ -52,5 +52,9 @@
     "levels": [
       18
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hog Pokémon",
+  "cryUrl": "/cries/916.ogg"
 }

@@ -53,5 +53,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Owl Pokémon",
+  "cryUrl": "/cries/163.ogg"
 }

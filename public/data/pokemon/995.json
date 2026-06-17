@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/995.ogg"
 }

@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cell Pokémon",
+  "cryUrl": "/cries/577.ogg"
 }

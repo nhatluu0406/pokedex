@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thorn Pod Pokémon",
+  "cryUrl": "/cries/598.ogg"
 }

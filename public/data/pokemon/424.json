@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Long Tail Pokémon",
+  "cryUrl": "/cries/424.ogg"
 }

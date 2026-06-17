@@ -56,5 +56,9 @@
       16,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Drummer Pokémon",
+  "cryUrl": "/cries/812.ogg"
 }

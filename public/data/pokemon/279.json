@@ -53,5 +53,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Water Bird Pokémon",
+  "cryUrl": "/cries/279.ogg"
 }

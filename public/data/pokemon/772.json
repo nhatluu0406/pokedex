@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Synthetic Pokémon",
+  "cryUrl": "/cries/772.ogg"
 }

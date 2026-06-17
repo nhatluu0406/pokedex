@@ -53,5 +53,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Stone Home Pokémon",
+  "cryUrl": "/cries/558.ogg"
 }

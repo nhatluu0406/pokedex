@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Snail Pokémon",
+  "cryUrl": "/cries/616.ogg"
 }

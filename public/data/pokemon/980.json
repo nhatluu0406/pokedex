@@ -53,5 +53,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spiny Fish Pokémon",
+  "cryUrl": "/cries/980.ogg"
 }

@@ -57,5 +57,9 @@
       30,
       55
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Armor Pokémon",
+  "cryUrl": "/cries/248.ogg"
 }

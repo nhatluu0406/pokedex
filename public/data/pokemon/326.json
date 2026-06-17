@@ -52,5 +52,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Manipulate Pokémon",
+  "cryUrl": "/cries/326.ogg"
 }

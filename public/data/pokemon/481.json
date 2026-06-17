@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Emotion Pokémon",
+  "cryUrl": "/cries/481.ogg"
 }

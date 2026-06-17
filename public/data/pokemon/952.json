@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spicy Pepper Pokémon",
+  "cryUrl": "/cries/952.ogg"
 }

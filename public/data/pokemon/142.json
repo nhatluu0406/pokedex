@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fossil Pokémon",
+  "cryUrl": "/cries/142.ogg"
 }

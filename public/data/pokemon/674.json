@@ -52,5 +52,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Playful Pokémon",
+  "cryUrl": "/cries/674.ogg"
 }

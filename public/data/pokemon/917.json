@@ -51,5 +51,9 @@
     "levels": [
       15
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "String Ball Pokémon",
+  "cryUrl": "/cries/917.ogg"
 }

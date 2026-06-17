@@ -57,5 +57,9 @@
       17,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Robin Pokémon",
+  "cryUrl": "/cries/661.ogg"
 }

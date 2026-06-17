@@ -52,5 +52,9 @@
     "levels": [
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lava Pokémon",
+  "cryUrl": "/cries/218.ogg"
 }

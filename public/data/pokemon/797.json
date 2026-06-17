@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Launch Pokémon",
+  "cryUrl": "/cries/797.ogg"
 }

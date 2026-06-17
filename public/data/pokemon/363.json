@@ -58,5 +58,9 @@
       32,
       44
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Clap Pokémon",
+  "cryUrl": "/cries/363.ogg"
 }

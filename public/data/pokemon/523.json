@@ -52,5 +52,9 @@
     "levels": [
       27
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thunderbolt Pokémon",
+  "cryUrl": "/cries/523.ogg"
 }

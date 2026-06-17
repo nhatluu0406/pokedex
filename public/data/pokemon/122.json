@@ -58,5 +58,9 @@
       null,
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Barrier Pokémon",
+  "cryUrl": "/cries/122.ogg"
 }

@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Land Spirit Pokémon",
+  "cryUrl": "/cries/785.ogg"
 }

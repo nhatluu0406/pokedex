@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rolling Pokémon",
+  "cryUrl": "/cries/954.ogg"
 }

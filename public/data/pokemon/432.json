@@ -52,5 +52,9 @@
     "levels": [
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiger Cat Pokémon",
+  "cryUrl": "/cries/432.ogg"
 }

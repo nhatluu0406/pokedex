@@ -58,5 +58,9 @@
       52,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sword Blade Pokémon",
+  "cryUrl": "/cries/625.ogg"
 }

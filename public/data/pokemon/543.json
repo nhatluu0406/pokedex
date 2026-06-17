@@ -58,5 +58,9 @@
       22,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Centipede Pokémon",
+  "cryUrl": "/cries/543.ogg"
 }

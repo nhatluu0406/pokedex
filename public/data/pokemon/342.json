@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rogue Pokémon",
+  "cryUrl": "/cries/342.ogg"
 }

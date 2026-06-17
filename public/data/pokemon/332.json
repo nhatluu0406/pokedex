@@ -52,5 +52,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scarecrow Pokémon",
+  "cryUrl": "/cries/332.ogg"
 }

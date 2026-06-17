@@ -51,5 +51,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sickle Grass Pokémon",
+  "cryUrl": "/cries/753.ogg"
 }

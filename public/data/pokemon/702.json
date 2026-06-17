@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Antenna Pokémon",
+  "cryUrl": "/cries/702.ogg"
 }

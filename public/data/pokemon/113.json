@@ -57,5 +57,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Egg Pokémon",
+  "cryUrl": "/cries/113.ogg"
 }

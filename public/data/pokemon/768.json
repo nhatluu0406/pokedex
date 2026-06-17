@@ -51,5 +51,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hard Scale Pokémon",
+  "cryUrl": "/cries/768.ogg"
 }

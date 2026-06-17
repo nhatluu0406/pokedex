@@ -53,5 +53,9 @@
     "levels": [
       28
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Radiator Pokémon",
+  "cryUrl": "/cries/850.ogg"
 }

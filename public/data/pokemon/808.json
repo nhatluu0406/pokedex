@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Hex Nut Pokémon",
+  "cryUrl": "/cries/808.ogg"
 }

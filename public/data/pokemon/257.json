@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blaze Pokémon",
+  "cryUrl": "/cries/257.ogg"
 }

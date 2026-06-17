@@ -2,8 +2,8 @@
 
 import { useCallback, useState } from "react";
 import {
+  getAnimatedSpriteFallbackUrl,
   getAnimatedSpriteUrl,
-  getStaticSpriteUrl,
 } from "@/lib/pokeapi";
 import { capitalizeName } from "@/utils/format";
 
@@ -17,7 +17,7 @@ export function AnimatedSprite({ pokemonId, name }: AnimatedSpriteProps) {
   const [imgHeight, setImgHeight] = useState<number | undefined>();
 
   const displayName = capitalizeName(name);
-  const staticUrl = getStaticSpriteUrl(pokemonId);
+  const staticUrl = getAnimatedSpriteFallbackUrl(pokemonId);
 
   const handleLoad = useCallback(
     (e: React.SyntheticEvent<HTMLImageElement>) => {

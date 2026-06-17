@@ -58,5 +58,9 @@
       32,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Dragon Pokémon",
+  "cryUrl": "/cries/230.ogg"
 }

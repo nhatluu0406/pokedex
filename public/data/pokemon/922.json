@@ -58,5 +58,9 @@
       18,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mouse Pokémon",
+  "cryUrl": "/cries/922.ogg"
 }

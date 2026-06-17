@@ -52,5 +52,9 @@
     "levels": [
       33
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Duck Pokémon",
+  "cryUrl": "/cries/54.ogg"
 }

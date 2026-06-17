@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Black Tea Pokémon",
+  "cryUrl": "/cries/855.ogg"
 }

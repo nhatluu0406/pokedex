@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fossil Pokémon",
+  "cryUrl": "/cries/880.ogg"
 }

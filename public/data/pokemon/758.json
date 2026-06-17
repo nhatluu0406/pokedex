@@ -52,5 +52,9 @@
     "levels": [
       33
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Toxic Lizard Pokémon",
+  "cryUrl": "/cries/758.ogg"
 }

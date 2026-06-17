@@ -1,6 +1,7 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   fetchPokemonById,
+  getAnimatedSpriteFallbackUrl,
   getAnimatedSpriteUrl,
   getStaticSpriteUrl,
 } from "@/lib/pokeapi";
@@ -15,9 +16,13 @@ describe("getAnimatedSpriteUrl", () => {
     expect(getAnimatedSpriteUrl(649)).toBe("/sprites/animated/649.gif");
   });
 
-  it("returns local static PNG fallback for id 650 and above", () => {
-    expect(getAnimatedSpriteUrl(650)).toBe("/sprites/pokemon/650.png");
-    expect(getAnimatedSpriteUrl(1025)).toBe("/sprites/pokemon/1025.png");
+  it("returns showdown GIF path for id 650 and above", () => {
+    expect(getAnimatedSpriteUrl(650)).toBe("/sprites/showdown/650.gif");
+    expect(getAnimatedSpriteUrl(1025)).toBe("/sprites/showdown/1025.gif");
+  });
+
+  it("falls back to static PNG via getAnimatedSpriteFallbackUrl", () => {
+    expect(getAnimatedSpriteFallbackUrl(650)).toBe("/sprites/pokemon/650.png");
   });
 });
 

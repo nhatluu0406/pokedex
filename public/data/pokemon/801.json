@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Artificial Pokémon",
+  "cryUrl": "/cries/801.ogg"
 }

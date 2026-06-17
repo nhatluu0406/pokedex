@@ -51,5 +51,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Dog Pokémon",
+  "cryUrl": "/cries/836.ogg"
 }

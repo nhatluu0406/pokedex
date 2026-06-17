@@ -58,5 +58,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bud Pokémon",
+  "cryUrl": "/cries/406.ogg"
 }

@@ -57,5 +57,9 @@
       20,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rushing Pokémon",
+  "cryUrl": "/cries/264.ogg"
 }

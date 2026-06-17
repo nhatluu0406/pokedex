@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Elder Tree Pokémon",
+  "cryUrl": "/cries/709.ogg"
 }

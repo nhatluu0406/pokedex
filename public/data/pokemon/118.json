@@ -52,5 +52,9 @@
     "levels": [
       33
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Goldfish Pokémon",
+  "cryUrl": "/cries/118.ogg"
 }

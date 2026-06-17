@@ -52,5 +52,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Guts Pokémon",
+  "cryUrl": "/cries/296.ogg"
 }

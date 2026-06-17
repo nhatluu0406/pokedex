@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Parrot Pokémon",
+  "cryUrl": "/cries/931.ogg"
 }

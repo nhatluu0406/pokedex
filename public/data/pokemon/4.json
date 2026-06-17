@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lizard Pokémon",
+  "cryUrl": "/cries/4.ogg"
 }

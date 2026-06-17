@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flame Pokémon",
+  "cryUrl": "/cries/136.ogg"
 }

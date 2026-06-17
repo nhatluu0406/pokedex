@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Glowing Pokémon",
+  "cryUrl": "/cries/796.ogg"
 }

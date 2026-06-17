@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Mischief Pokémon",
+  "cryUrl": "/cries/720.ogg"
 }

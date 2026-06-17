@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Many of its physical characteristics match those of a Virizion from the future that was covered in a paranormal magazine.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/1010.ogg"
 }

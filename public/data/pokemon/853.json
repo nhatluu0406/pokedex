@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Jujitsu Pokémon",
+  "cryUrl": "/cries/853.ogg"
 }

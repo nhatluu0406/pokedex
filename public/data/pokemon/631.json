@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Anteater Pokémon",
+  "cryUrl": "/cries/631.ogg"
 }

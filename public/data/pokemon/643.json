@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Vast White Pokémon",
+  "cryUrl": "/cries/643.ogg"
 }

@@ -57,5 +57,9 @@
       25,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Compressed Pokémon",
+  "cryUrl": "/cries/526.ogg"
 }

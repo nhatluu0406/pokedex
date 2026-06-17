@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it’s best suited to veteran Trainers.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sage Pokémon",
+  "cryUrl": "/cries/765.ogg"
 }

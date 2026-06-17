@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Warrior Pokémon",
+  "cryUrl": "/cries/888.ogg"
 }

@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Wushu Pokémon",
+  "cryUrl": "/cries/891.ogg"
 }

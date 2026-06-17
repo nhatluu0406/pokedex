@@ -57,5 +57,9 @@
       35,
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ice Fin Pokémon",
+  "cryUrl": "/cries/996.ogg"
 }

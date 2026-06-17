@@ -52,5 +52,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Donkey Pokémon",
+  "cryUrl": "/cries/749.ogg"
 }

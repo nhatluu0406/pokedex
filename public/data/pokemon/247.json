@@ -56,5 +56,9 @@
       30,
       55
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hard Shell Pokémon",
+  "cryUrl": "/cries/247.ogg"
 }

@@ -57,5 +57,9 @@
       10,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Larva Pokémon",
+  "cryUrl": "/cries/824.ogg"
 }

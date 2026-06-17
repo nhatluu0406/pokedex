@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Plasma Pokémon",
+  "cryUrl": "/cries/479.ogg"
 }

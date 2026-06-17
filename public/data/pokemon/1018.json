@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Alloy Pokémon",
+  "cryUrl": "/cries/1018.ogg"
 }

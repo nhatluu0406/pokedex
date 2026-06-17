@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/994.ogg"
 }

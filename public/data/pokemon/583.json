@@ -57,5 +57,9 @@
       35,
       47
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Icy Snow Pokémon",
+  "cryUrl": "/cries/583.ogg"
 }

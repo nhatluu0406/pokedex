@@ -57,5 +57,9 @@
       30,
       55
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rock Skin Pokémon",
+  "cryUrl": "/cries/246.ogg"
 }

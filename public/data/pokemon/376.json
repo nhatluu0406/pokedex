@@ -57,5 +57,9 @@
       20,
       45
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Iron Leg Pokémon",
+  "cryUrl": "/cries/376.ogg"
 }

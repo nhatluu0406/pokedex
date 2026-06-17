@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It’s also generating electricity.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Two-Sided Pokémon",
+  "cryUrl": "/cries/877.ogg"
 }

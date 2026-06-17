@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Snow Hat Pokémon",
+  "cryUrl": "/cries/361.ogg"
 }

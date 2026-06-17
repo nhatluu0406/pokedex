@@ -50,5 +50,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Coffin Pokémon",
+  "cryUrl": "/cries/563.ogg"
 }

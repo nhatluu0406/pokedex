@@ -53,5 +53,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Storm Petrel Pokémon",
+  "cryUrl": "/cries/940.ogg"
 }

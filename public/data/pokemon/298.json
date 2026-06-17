@@ -58,5 +58,9 @@
       null,
       18
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Polka Dot Pokémon",
+  "cryUrl": "/cries/298.ogg"
 }

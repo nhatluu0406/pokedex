@@ -57,5 +57,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Virtual Pokémon",
+  "cryUrl": "/cries/233.ogg"
 }

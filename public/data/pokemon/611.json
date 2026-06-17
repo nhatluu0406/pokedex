@@ -57,5 +57,9 @@
       38,
       48
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Axe Jaw Pokémon",
+  "cryUrl": "/cries/611.ogg"
 }

@@ -57,5 +57,9 @@
       15,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flash Pokémon",
+  "cryUrl": "/cries/403.ogg"
 }

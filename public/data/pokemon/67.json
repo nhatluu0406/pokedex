@@ -57,5 +57,9 @@
       28,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Superpower Pokémon",
+  "cryUrl": "/cries/67.ogg"
 }

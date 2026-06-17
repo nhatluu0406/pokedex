@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Magician Pokémon",
+  "cryUrl": "/cries/908.ogg"
 }

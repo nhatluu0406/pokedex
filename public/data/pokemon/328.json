@@ -57,5 +57,9 @@
       35,
       45
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ant Pit Pokémon",
+  "cryUrl": "/cries/328.ogg"
 }

@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "REGISTEEL has a body that is harder than any kind of metal. Its body is apparently hollow. No one has any idea what this POKéMON eats.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Iron Pokémon",
+  "cryUrl": "/cries/379.ogg"
 }

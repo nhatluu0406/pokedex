@@ -57,5 +57,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Poison Moth Pokémon",
+  "cryUrl": "/cries/269.ogg"
 }

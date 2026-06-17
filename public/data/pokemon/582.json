@@ -57,5 +57,9 @@
       35,
       47
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fresh Snow Pokémon",
+  "cryUrl": "/cries/582.ogg"
 }

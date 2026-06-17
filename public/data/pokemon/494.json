@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Victory Pokémon",
+  "cryUrl": "/cries/494.ogg"
 }

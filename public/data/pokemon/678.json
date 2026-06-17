@@ -52,5 +52,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Constraint Pokémon",
+  "cryUrl": "/cries/678.ogg"
 }

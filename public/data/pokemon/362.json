@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Face Pokémon",
+  "cryUrl": "/cries/362.ogg"
 }

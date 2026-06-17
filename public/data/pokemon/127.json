@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Stag Beetle Pokémon",
+  "cryUrl": "/cries/127.ogg"
 }

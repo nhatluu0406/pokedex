@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Snapping Pokémon",
+  "cryUrl": "/cries/833.ogg"
 }

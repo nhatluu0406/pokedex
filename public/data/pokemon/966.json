@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Multi-Cyl Pokémon",
+  "cryUrl": "/cries/966.ogg"
 }

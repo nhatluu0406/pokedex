@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Ruinous Pokémon",
+  "cryUrl": "/cries/1003.ogg"
 }

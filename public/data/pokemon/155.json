@@ -56,5 +56,9 @@
       14,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fire Mouse Pokémon",
+  "cryUrl": "/cries/155.ogg"
 }

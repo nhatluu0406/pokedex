@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "LUNATONE was discovered at a location where a meteorite fell. As a result, some people theorize that this POKéMON came from space. However, no one has been able to prove this theory so far.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Meteorite Pokémon",
+  "cryUrl": "/cries/337.ogg"
 }

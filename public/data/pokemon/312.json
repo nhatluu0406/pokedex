@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "MINUN is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cheering Pokémon",
+  "cryUrl": "/cries/312.ogg"
 }

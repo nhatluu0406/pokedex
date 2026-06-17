@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Woolly Crab Pokémon",
+  "cryUrl": "/cries/740.ogg"
 }

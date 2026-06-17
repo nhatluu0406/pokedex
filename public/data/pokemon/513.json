@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "High Temp Pokémon",
+  "cryUrl": "/cries/513.ogg"
 }

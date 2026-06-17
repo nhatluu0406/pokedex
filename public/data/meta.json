@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T17:25:54.109Z",
+  "generatedAt": "2026-06-16T17:53:48.387Z",
   "totalPokemon": 1025,
   "sourceVersion": "v2",
-  "notes": "sprites-only run; sprites downloaded; gifs downloaded; no fetch errors"
+  "notes": "index-only rebuild from existing pokemon JSON"
 }

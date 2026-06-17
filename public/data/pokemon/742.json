@@ -53,5 +53,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bee Fly Pokémon",
+  "cryUrl": "/cries/742.ogg"
 }

@@ -51,5 +51,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hippo Pokémon",
+  "cryUrl": "/cries/449.ogg"
 }

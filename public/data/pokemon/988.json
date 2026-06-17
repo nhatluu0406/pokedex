@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/988.ogg"
 }

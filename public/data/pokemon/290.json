@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Trainee Pokémon",
+  "cryUrl": "/cries/290.ogg"
 }

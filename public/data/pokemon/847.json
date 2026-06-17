@@ -51,5 +51,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Skewer Pokémon",
+  "cryUrl": "/cries/847.ogg"
 }

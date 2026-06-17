@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It attracts prey with its sweet- smelling saliva, then chomps down. It takes a whole day to eat prey.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bug Catcher Pokémon",
+  "cryUrl": "/cries/455.ogg"
 }

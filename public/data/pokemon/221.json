@@ -58,5 +58,9 @@
       33,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Swine Pokémon",
+  "cryUrl": "/cries/221.ogg"
 }

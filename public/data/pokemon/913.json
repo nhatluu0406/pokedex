@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Practicing Pokémon",
+  "cryUrl": "/cries/913.ogg"
 }

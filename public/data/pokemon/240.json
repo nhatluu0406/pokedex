@@ -56,5 +56,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Live Coal Pokémon",
+  "cryUrl": "/cries/240.ogg"
 }

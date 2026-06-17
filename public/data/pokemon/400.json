@@ -53,5 +53,9 @@
     "levels": [
       15
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Beaver Pokémon",
+  "cryUrl": "/cries/400.ogg"
 }

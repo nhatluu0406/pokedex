@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Big Horn Pokémon",
+  "cryUrl": "/cries/899.ogg"
 }

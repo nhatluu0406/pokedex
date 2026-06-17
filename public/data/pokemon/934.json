@@ -57,5 +57,9 @@
       24,
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rock Salt Pokémon",
+  "cryUrl": "/cries/934.ogg"
 }

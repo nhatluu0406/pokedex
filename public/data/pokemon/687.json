@@ -53,5 +53,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Overturning Pokémon",
+  "cryUrl": "/cries/687.ogg"
 }

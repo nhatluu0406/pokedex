@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Penguin Pokémon",
+  "cryUrl": "/cries/875.ogg"
 }

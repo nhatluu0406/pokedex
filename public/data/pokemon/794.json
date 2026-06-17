@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Swollen Pokémon",
+  "cryUrl": "/cries/794.ogg"
 }

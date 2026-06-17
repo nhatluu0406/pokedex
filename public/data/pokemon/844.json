@@ -52,5 +52,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sand Snake Pokémon",
+  "cryUrl": "/cries/844.ogg"
 }

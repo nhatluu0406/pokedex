@@ -57,5 +57,9 @@
       40,
       50
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Soft Tissue Pokémon",
+  "cryUrl": "/cries/705.ogg"
 }

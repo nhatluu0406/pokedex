@@ -52,5 +52,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Arm Thrust Pokémon",
+  "cryUrl": "/cries/297.ogg"
 }

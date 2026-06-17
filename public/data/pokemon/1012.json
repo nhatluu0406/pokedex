@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Matcha Pokémon",
+  "cryUrl": "/cries/1012.ogg"
 }

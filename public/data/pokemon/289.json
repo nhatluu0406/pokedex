@@ -55,5 +55,9 @@
       18,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lazy Pokémon",
+  "cryUrl": "/cries/289.ogg"
 }

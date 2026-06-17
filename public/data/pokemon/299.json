@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Compass Pokémon",
+  "cryUrl": "/cries/299.ogg"
 }

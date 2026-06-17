@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Penguin Pokémon",
+  "cryUrl": "/cries/394.ogg"
 }

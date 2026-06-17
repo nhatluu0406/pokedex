@@ -53,5 +53,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Shellfish Pokémon",
+  "cryUrl": "/cries/140.ogg"
 }

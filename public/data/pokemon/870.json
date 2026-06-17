@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Five of them are troopers, and one is the brass. The brass’s orders are absolute.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Formation Pokémon",
+  "cryUrl": "/cries/870.ogg"
 }

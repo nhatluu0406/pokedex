@@ -52,5 +52,9 @@
     "levels": [
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sludge Pokémon",
+  "cryUrl": "/cries/88.ogg"
 }

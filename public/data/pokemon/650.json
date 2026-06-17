@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spiny Nut Pokémon",
+  "cryUrl": "/cries/650.ogg"
 }

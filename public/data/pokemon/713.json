@@ -52,5 +52,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Iceberg Pokémon",
+  "cryUrl": "/cries/713.ogg"
 }

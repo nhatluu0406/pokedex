@@ -57,5 +57,9 @@
       17,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scorching Pokémon",
+  "cryUrl": "/cries/663.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Imitation Pokémon",
+  "cryUrl": "/cries/185.ogg"
 }

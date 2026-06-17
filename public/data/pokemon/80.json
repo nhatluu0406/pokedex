@@ -53,5 +53,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hermit Crab Pokémon",
+  "cryUrl": "/cries/80.ogg"
 }

@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Karate Pokémon",
+  "cryUrl": "/cries/539.ogg"
 }

@@ -51,5 +51,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Grudge Pokémon",
+  "cryUrl": "/cries/867.ogg"
 }

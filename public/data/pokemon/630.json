@@ -53,5 +53,9 @@
     "levels": [
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bone Vulture Pokémon",
+  "cryUrl": "/cries/630.ogg"
 }

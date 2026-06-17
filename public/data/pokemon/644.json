@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Deep Black Pokémon",
+  "cryUrl": "/cries/644.ogg"
 }

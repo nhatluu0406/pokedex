@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "When this legendary Pokémon’s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Destruction Pokémon",
+  "cryUrl": "/cries/717.ogg"
 }

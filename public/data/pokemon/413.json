@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bagworm Pokémon",
+  "cryUrl": "/cries/413.ogg"
 }

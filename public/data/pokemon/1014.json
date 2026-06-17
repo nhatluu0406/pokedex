@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Retainer Pokémon",
+  "cryUrl": "/cries/1014.ogg"
 }

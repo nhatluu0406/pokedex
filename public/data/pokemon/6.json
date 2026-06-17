@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flame Pokémon",
+  "cryUrl": "/cries/6.ogg"
 }

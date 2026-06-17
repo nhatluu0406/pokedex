@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mouse Pokémon",
+  "cryUrl": "/cries/19.ogg"
 }

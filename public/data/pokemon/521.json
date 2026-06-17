@@ -58,5 +58,9 @@
       21,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Proud Pokémon",
+  "cryUrl": "/cries/521.ogg"
 }

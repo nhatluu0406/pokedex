@@ -58,5 +58,9 @@
       20,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Nurturing Pokémon",
+  "cryUrl": "/cries/542.ogg"
 }

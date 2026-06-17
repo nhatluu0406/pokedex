@@ -4,9 +4,17 @@ import { useCallback, useEffect, useState } from "react";
 import { fetchPokemonDetail } from "@/lib/data";
 import type { PokemonDetail } from "@/lib/types";
 
-export function usePokemonDetail(id: number | null) {
-  const [data, setData] = useState<PokemonDetail | null>(null);
-  const [loading, setLoading] = useState(false);
+export function usePokemonDetail(
+  id: number | null,
+  options?: { initialData?: PokemonDetail | null },
+) {
+  const initialData = options?.initialData;
+  const [data, setData] = useState<PokemonDetail | null>(() =>
+    id !== null && initialData?.id === id ? initialData : null,
+  );
+  const [loading, setLoading] = useState(
+    () => id !== null && !(initialData?.id === id),
+  );
   const [error, setError] = useState<string | null>(null);
   const [retryKey, setRetryKey] = useState(0);
 
@@ -18,6 +26,13 @@ export function usePokemonDetail(id: number | null) {
     if (id === null) {
       // eslint-disable-next-line react-hooks/set-state-in-effect -- reset when detail closes
       setData(null);
+      setLoading(false);
+      setError(null);
+      return;
+    }
+
+    if (retryKey === 0 && initialData?.id === id) {
+      setData(initialData);
       setLoading(false);
       setError(null);
       return;
@@ -44,7 +59,7 @@ export function usePokemonDetail(id: number | null) {
       });
 
     return () => abortController.abort();
-  }, [id, retryKey]);
+  }, [id, retryKey, initialData]);
 
   return {
     data: id === null ? null : data,

@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Order Pokémon",
+  "cryUrl": "/cries/718.ogg"
 }

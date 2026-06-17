@@ -56,5 +56,9 @@
       50,
       64
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hostile Pokémon",
+  "cryUrl": "/cries/634.ogg"
 }

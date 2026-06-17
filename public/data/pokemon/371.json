@@ -56,5 +56,9 @@
       30,
       50
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rock Head Pokémon",
+  "cryUrl": "/cries/371.ogg"
 }

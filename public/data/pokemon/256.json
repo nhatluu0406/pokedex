@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Young Fowl Pokémon",
+  "cryUrl": "/cries/256.ogg"
 }

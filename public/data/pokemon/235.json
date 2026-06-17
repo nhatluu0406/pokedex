@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Painter Pokémon",
+  "cryUrl": "/cries/235.ogg"
 }

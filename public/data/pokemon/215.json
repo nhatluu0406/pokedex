@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sharp Claw Pokémon",
+  "cryUrl": "/cries/215.ogg"
 }

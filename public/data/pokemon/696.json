@@ -52,5 +52,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Royal Heir Pokémon",
+  "cryUrl": "/cries/696.ogg"
 }

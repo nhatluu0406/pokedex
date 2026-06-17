@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fixation Pokémon",
+  "cryUrl": "/cries/574.ogg"
 }

@@ -56,5 +56,9 @@
       50,
       64
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Irate Pokémon",
+  "cryUrl": "/cries/633.ogg"
 }

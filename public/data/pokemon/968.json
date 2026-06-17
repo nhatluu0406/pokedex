@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Earthworm Pokémon",
+  "cryUrl": "/cries/968.ogg"
 }

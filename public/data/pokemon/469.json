@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ogre Darner Pokémon",
+  "cryUrl": "/cries/469.ogg"
 }

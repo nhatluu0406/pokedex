@@ -53,5 +53,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Shedding Pokémon",
+  "cryUrl": "/cries/559.ogg"
 }

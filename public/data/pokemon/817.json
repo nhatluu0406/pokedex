@@ -56,5 +56,9 @@
       16,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Water Lizard Pokémon",
+  "cryUrl": "/cries/817.ogg"
 }

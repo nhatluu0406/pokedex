@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It changes body color to blend in with its surroundings. It also changes color if it is happy or sad.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Color Swap Pokémon",
+  "cryUrl": "/cries/352.ogg"
 }

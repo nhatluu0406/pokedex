@@ -57,5 +57,9 @@
       20,
       45
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Iron Ball Pokémon",
+  "cryUrl": "/cries/374.ogg"
 }

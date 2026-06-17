@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thorn Monkey Pokémon",
+  "cryUrl": "/cries/512.ogg"
 }

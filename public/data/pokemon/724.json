@@ -57,5 +57,9 @@
       17,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Arrow Quill Pokémon",
+  "cryUrl": "/cries/724.ogg"
 }

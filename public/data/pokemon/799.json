@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Junkivore Pokémon",
+  "cryUrl": "/cries/799.ogg"
 }

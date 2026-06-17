@@ -56,5 +56,9 @@
       14,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Chimp Pokémon",
+  "cryUrl": "/cries/390.ogg"
 }

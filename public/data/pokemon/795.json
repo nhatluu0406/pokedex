@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "One of the dangerous Ultra Beasts, it has been spotted running across the land at terrific speeds.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lissome Pokémon",
+  "cryUrl": "/cries/795.ogg"
 }

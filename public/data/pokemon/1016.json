@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Retainer Pokémon",
+  "cryUrl": "/cries/1016.ogg"
 }

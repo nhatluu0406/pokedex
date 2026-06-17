@@ -56,5 +56,9 @@
       9,
       12
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scatterdust Pokémon",
+  "cryUrl": "/cries/665.ogg"
 }

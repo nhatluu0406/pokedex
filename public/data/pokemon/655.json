@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fox Pokémon",
+  "cryUrl": "/cries/655.ogg"
 }

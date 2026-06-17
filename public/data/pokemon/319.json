@@ -52,5 +52,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Brutal Pokémon",
+  "cryUrl": "/cries/319.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       23
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fairy Pokémon",
+  "cryUrl": "/cries/210.ogg"
 }

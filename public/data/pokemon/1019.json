@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Apple Hydra Pokémon",
+  "cryUrl": "/cries/1019.ogg"
 }

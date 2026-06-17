@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Armor Bird Pokémon",
+  "cryUrl": "/cries/227.ogg"
 }

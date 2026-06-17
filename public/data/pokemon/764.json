@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Posy Picker Pokémon",
+  "cryUrl": "/cries/764.ogg"
 }

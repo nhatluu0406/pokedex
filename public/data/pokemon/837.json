@@ -57,5 +57,9 @@
       18,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Coal Pokémon",
+  "cryUrl": "/cries/837.ogg"
 }

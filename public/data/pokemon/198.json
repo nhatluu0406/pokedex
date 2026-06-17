@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Darkness Pokémon",
+  "cryUrl": "/cries/198.ogg"
 }

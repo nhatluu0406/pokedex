@@ -57,5 +57,9 @@
       24,
       48
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cave Pokémon",
+  "cryUrl": "/cries/444.ogg"
 }

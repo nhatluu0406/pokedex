@@ -58,5 +58,9 @@
       20,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blade Pokémon",
+  "cryUrl": "/cries/475.ogg"
 }

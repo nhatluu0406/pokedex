@@ -56,5 +56,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Mouse Pokémon",
+  "cryUrl": "/cries/172.ogg"
 }

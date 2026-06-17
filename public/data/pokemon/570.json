@@ -50,5 +50,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tricky Fox Pokémon",
+  "cryUrl": "/cries/570.ogg"
 }

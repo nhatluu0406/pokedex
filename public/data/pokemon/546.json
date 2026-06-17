@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cotton Puff Pokémon",
+  "cryUrl": "/cries/546.ogg"
 }

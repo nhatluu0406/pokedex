@@ -51,5 +51,9 @@
     "levels": [
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Copperderm Pokémon",
+  "cryUrl": "/cries/879.ogg"
 }

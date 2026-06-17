@@ -53,5 +53,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Frigatebird Pokémon",
+  "cryUrl": "/cries/941.ogg"
 }

@@ -57,5 +57,9 @@
       18,
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Bird Pokémon",
+  "cryUrl": "/cries/821.ogg"
 }

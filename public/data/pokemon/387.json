@@ -56,5 +56,9 @@
       18,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Leaf Pokémon",
+  "cryUrl": "/cries/387.ogg"
 }

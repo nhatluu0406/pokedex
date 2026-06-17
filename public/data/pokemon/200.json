@@ -50,5 +50,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Screech Pokémon",
+  "cryUrl": "/cries/200.ogg"
 }

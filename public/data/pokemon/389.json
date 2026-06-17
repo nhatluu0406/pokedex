@@ -57,5 +57,9 @@
       18,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Continent Pokémon",
+  "cryUrl": "/cries/389.ogg"
 }

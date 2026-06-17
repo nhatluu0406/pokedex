@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fossil Pokémon",
+  "cryUrl": "/cries/881.ogg"
 }

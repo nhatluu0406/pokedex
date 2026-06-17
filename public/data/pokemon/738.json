@@ -56,5 +56,9 @@
       20,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Stag Beetle Pokémon",
+  "cryUrl": "/cries/738.ogg"
 }

@@ -56,5 +56,9 @@
       16,
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Herb Pokémon",
+  "cryUrl": "/cries/154.ogg"
 }

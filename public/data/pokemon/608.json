@@ -58,5 +58,9 @@
       41,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lamp Pokémon",
+  "cryUrl": "/cries/608.ogg"
 }

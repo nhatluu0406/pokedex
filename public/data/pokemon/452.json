@@ -53,5 +53,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ogre Scorpion Pokémon",
+  "cryUrl": "/cries/452.ogg"
 }

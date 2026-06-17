@@ -57,5 +57,9 @@
       15,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Gleam Eyes Pokémon",
+  "cryUrl": "/cries/405.ogg"
 }

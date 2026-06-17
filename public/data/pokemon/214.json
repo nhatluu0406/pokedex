@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "It is usually docile, but if it is disturbed while sipping honey, it chases off the intruder with its horn.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Single Horn Pokémon",
+  "cryUrl": "/cries/214.ogg"
 }

@@ -53,5 +53,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Bird Pokémon",
+  "cryUrl": "/cries/177.ogg"
 }

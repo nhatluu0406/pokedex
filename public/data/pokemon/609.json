@@ -58,5 +58,9 @@
       41,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Luring Pokémon",
+  "cryUrl": "/cries/609.ogg"
 }

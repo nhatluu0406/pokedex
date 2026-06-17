@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fossil Pokémon",
+  "cryUrl": "/cries/882.ogg"
 }

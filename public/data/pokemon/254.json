@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Forest Pokémon",
+  "cryUrl": "/cries/254.ogg"
 }

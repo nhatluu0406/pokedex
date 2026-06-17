@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Candy Apple Pokémon",
+  "cryUrl": "/cries/1011.ogg"
 }

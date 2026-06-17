@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flowering Pokémon",
+  "cryUrl": "/cries/549.ogg"
 }

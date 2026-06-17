@@ -58,5 +58,9 @@
       14,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wicked Pokémon",
+  "cryUrl": "/cries/275.ogg"
 }

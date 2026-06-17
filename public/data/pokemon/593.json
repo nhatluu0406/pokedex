@@ -53,5 +53,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Floating Pokémon",
+  "cryUrl": "/cries/593.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Marionette Pokémon",
+  "cryUrl": "/cries/354.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tundra Pokémon",
+  "cryUrl": "/cries/699.ogg"
 }

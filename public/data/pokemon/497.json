@@ -56,5 +56,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Regal Pokémon",
+  "cryUrl": "/cries/497.ogg"
 }

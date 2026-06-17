@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fire Blades Pokémon",
+  "cryUrl": "/cries/937.ogg"
 }

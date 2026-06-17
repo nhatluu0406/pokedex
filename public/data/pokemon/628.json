@@ -53,5 +53,9 @@
     "levels": [
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Valiant Pokémon",
+  "cryUrl": "/cries/628.ogg"
 }

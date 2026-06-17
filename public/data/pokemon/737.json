@@ -56,5 +56,9 @@
       20,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Battery Pokémon",
+  "cryUrl": "/cries/737.ogg"
 }

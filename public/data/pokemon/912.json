@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Duckling Pokémon",
+  "cryUrl": "/cries/912.ogg"
 }

@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Gratitude Pokémon",
+  "cryUrl": "/cries/492.ogg"
 }

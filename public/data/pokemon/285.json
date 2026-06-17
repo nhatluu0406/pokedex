@@ -52,5 +52,9 @@
     "levels": [
       23
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mushroom Pokémon",
+  "cryUrl": "/cries/285.ogg"
 }

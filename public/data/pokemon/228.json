@@ -53,5 +53,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Dark Pokémon",
+  "cryUrl": "/cries/228.ogg"
 }

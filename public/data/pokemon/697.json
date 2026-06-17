@@ -52,5 +52,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Despot Pokémon",
+  "cryUrl": "/cries/697.ogg"
 }

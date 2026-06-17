@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tender Pokémon",
+  "cryUrl": "/cries/350.ogg"
 }

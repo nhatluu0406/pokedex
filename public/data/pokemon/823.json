@@ -58,5 +58,9 @@
       18,
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Raven Pokémon",
+  "cryUrl": "/cries/823.ogg"
 }

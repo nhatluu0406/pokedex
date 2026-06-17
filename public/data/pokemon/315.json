@@ -58,5 +58,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Thorn Pokémon",
+  "cryUrl": "/cries/315.ogg"
 }

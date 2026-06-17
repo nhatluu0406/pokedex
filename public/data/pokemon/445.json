@@ -57,5 +57,9 @@
       24,
       48
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Mach Pokémon",
+  "cryUrl": "/cries/445.ogg"
 }

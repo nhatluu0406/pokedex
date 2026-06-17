@@ -50,5 +50,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Water Gun Pokémon",
+  "cryUrl": "/cries/692.ogg"
 }

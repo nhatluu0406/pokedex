@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Willpower Pokémon",
+  "cryUrl": "/cries/482.ogg"
 }

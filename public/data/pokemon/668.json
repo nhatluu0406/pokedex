@@ -53,5 +53,9 @@
     "levels": [
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Royal Pokémon",
+  "cryUrl": "/cries/668.ogg"
 }

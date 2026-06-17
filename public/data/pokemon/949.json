@@ -51,5 +51,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Woodear Pokémon",
+  "cryUrl": "/cries/949.ogg"
 }

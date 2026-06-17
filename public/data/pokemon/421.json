@@ -50,5 +50,9 @@
     "levels": [
       25
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blossom Pokémon",
+  "cryUrl": "/cries/421.ogg"
 }

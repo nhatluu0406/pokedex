@@ -52,5 +52,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hypnosis Pokémon",
+  "cryUrl": "/cries/97.ogg"
 }

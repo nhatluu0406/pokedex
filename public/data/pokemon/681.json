@@ -56,5 +56,9 @@
       35,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Royal Sword Pokémon",
+  "cryUrl": "/cries/681.ogg"
 }

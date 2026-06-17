@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Swallow Pokémon",
+  "cryUrl": "/cries/277.ogg"
 }

@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Legends claim this POKéMON flies the world's skies con­ tinuously on its magnificent seven- colored wings.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Rainbow Pokémon",
+  "cryUrl": "/cries/250.ogg"
 }

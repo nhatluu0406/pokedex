@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Paradox Pokémon",
+  "cryUrl": "/cries/1020.ogg"
 }

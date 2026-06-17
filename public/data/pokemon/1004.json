@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Ruinous Pokémon",
+  "cryUrl": "/cries/1004.ogg"
 }

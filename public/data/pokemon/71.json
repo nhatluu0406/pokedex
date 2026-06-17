@@ -57,5 +57,9 @@
       21,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Flycatcher Pokémon",
+  "cryUrl": "/cries/71.ogg"
 }

@@ -57,5 +57,9 @@
       32,
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Calm Pokémon",
+  "cryUrl": "/cries/856.ogg"
 }

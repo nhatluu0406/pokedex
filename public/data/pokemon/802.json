@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Gloomdweller Pokémon",
+  "cryUrl": "/cries/802.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       27
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Electrified Pokémon",
+  "cryUrl": "/cries/522.ogg"
 }

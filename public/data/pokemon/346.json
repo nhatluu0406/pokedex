@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Barnacle Pokémon",
+  "cryUrl": "/cries/346.ogg"
 }

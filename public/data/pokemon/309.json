@@ -52,5 +52,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Lightning Pokémon",
+  "cryUrl": "/cries/309.ogg"
 }

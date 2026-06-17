@@ -57,5 +57,9 @@
       25,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Muscular Pokémon",
+  "cryUrl": "/cries/532.ogg"
 }

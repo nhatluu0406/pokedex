@@ -55,5 +55,9 @@
       18,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wild Monkey Pokémon",
+  "cryUrl": "/cries/288.ogg"
 }

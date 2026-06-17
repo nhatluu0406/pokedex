@@ -56,5 +56,9 @@
       15,
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Light Pokémon",
+  "cryUrl": "/cries/181.ogg"
 }

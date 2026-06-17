@@ -52,5 +52,9 @@
     "levels": [
       22
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Eyeball Pokémon",
+  "cryUrl": "/cries/284.ogg"
 }

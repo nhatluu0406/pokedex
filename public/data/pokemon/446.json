@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Big Eater Pokémon",
+  "cryUrl": "/cries/446.ogg"
 }

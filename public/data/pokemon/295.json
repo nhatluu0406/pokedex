@@ -56,5 +56,9 @@
       20,
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Loud Noise Pokémon",
+  "cryUrl": "/cries/295.ogg"
 }

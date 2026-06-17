@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "LUVDISC live in shallow seas in the tropics. This heart-shaped POKéMON earned its name by swimming after loving couples it spotted in the ocean’s waves.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Rendezvous Pokémon",
+  "cryUrl": "/cries/370.ogg"
 }

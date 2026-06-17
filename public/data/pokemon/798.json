@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Drawn Sword Pokémon",
+  "cryUrl": "/cries/798.ogg"
 }

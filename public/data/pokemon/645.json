@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Abundance Pokémon",
+  "cryUrl": "/cries/645.ogg"
 }

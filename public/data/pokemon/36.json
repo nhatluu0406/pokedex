@@ -57,5 +57,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fairy Pokémon",
+  "cryUrl": "/cries/36.ogg"
 }

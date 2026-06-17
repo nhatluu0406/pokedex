@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Drowsing Pokémon",
+  "cryUrl": "/cries/775.ogg"
 }

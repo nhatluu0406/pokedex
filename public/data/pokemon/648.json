@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Melody Pokémon",
+  "cryUrl": "/cries/648.ogg"
 }

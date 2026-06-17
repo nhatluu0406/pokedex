@@ -30,6 +30,17 @@ export function useInfinitePokemonList(
     setVisibleCount((prev) => Math.min(prev + pageSize, sourceIds.length));
   }, [pageSize, sourceIds.length]);
 
+  const ensureIdVisible = useCallback(
+    (id: number) => {
+      const index = sourceIds.indexOf(id);
+      if (index === -1) return false;
+      const neededCount = index + 1;
+      setVisibleCount((prev) => Math.max(prev, neededCount));
+      return true;
+    },
+    [sourceIds],
+  );
+
   useEffect(() => {
     // Reset visible range when the filtered ID list changes (search).
     // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional pagination reset
@@ -56,8 +67,8 @@ export function useInfinitePokemonList(
   return {
     visibleIds,
     typesCache,
-    loadingIds: new Set<number>(),
     sentinelRef,
     hasMore,
+    ensureIdVisible,
   };
 }

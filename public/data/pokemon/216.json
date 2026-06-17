@@ -57,5 +57,9 @@
       30,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Little Bear Pokémon",
+  "cryUrl": "/cries/216.ogg"
 }

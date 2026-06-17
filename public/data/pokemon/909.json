@@ -56,5 +56,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fire Croc Pokémon",
+  "cryUrl": "/cries/909.ogg"
 }

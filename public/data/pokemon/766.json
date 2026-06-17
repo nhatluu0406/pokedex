@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Teamwork Pokémon",
+  "cryUrl": "/cries/766.ogg"
 }

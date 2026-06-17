@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bash Buffalo Pokémon",
+  "cryUrl": "/cries/626.ogg"
 }

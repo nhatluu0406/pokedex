@@ -52,5 +52,9 @@
     "levels": [
       21
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Tiny Bee Pokémon",
+  "cryUrl": "/cries/415.ogg"
 }

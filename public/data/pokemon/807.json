@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Thunderclap Pokémon",
+  "cryUrl": "/cries/807.ogg"
 }

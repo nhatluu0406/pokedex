@@ -53,5 +53,9 @@
     "levels": [
       37
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Toxic Mouth Pokémon",
+  "cryUrl": "/cries/453.ogg"
 }

@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POKéMON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Darkness Pokémon",
+  "cryUrl": "/cries/302.ogg"
 }

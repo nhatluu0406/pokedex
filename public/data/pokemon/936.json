@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fire Warrior Pokémon",
+  "cryUrl": "/cries/936.ogg"
 }

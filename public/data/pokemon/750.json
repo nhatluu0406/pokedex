@@ -52,5 +52,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Draft Horse Pokémon",
+  "cryUrl": "/cries/750.ogg"
 }

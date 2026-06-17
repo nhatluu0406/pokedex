@@ -53,5 +53,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Collective Pokémon",
+  "cryUrl": "/cries/689.ogg"
 }

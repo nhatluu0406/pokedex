@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bivalve Pokémon",
+  "cryUrl": "/cries/91.ogg"
 }

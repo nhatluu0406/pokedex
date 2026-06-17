@@ -56,5 +56,9 @@
       16,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Beat Pokémon",
+  "cryUrl": "/cries/811.ogg"
 }

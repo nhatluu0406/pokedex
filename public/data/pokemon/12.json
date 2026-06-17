@@ -57,5 +57,9 @@
       7,
       10
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Butterfly Pokémon",
+  "cryUrl": "/cries/12.ogg"
 }

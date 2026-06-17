@@ -57,5 +57,9 @@
       20,
       45
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Iron Claw Pokémon",
+  "cryUrl": "/cries/375.ogg"
 }

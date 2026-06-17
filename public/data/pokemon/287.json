@@ -55,5 +55,9 @@
       18,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Slacker Pokémon",
+  "cryUrl": "/cries/287.ogg"
 }

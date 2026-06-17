@@ -52,5 +52,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Trash Heap Pokémon",
+  "cryUrl": "/cries/569.ogg"
 }

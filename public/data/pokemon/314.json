@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Firefly Pokémon",
+  "cryUrl": "/cries/314.ogg"
 }

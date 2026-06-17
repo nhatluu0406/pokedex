@@ -58,5 +58,9 @@
       18,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hands-On Pokémon",
+  "cryUrl": "/cries/923.ogg"
 }

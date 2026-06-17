@@ -51,5 +51,9 @@
     "levels": [
       30
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ghost Dog Pokémon",
+  "cryUrl": "/cries/971.ogg"
 }

@@ -52,5 +52,9 @@
     "levels": [
       18
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fox Pokémon",
+  "cryUrl": "/cries/828.ogg"
 }

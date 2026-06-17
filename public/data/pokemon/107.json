@@ -52,5 +52,9 @@
     "levels": [
       20
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Punching Pokémon",
+  "cryUrl": "/cries/107.ogg"
 }

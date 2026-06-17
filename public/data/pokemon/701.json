@@ -39,5 +39,9 @@
     }
   ],
   "flavorText": "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Wrestling Pokémon",
+  "cryUrl": "/cries/701.ogg"
 }

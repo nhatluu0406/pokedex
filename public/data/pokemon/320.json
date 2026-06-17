@@ -52,5 +52,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ball Whale Pokémon",
+  "cryUrl": "/cries/320.ogg"
 }

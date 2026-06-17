@@ -56,5 +56,9 @@
       37,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Requiem Pokémon",
+  "cryUrl": "/cries/355.ogg"
 }

@@ -58,5 +58,9 @@
       42,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Drill Pokémon",
+  "cryUrl": "/cries/112.ogg"
 }

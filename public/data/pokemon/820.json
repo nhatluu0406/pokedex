@@ -51,5 +51,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Greedy Pokémon",
+  "cryUrl": "/cries/820.ogg"
 }

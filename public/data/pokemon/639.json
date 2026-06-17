@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Cavern Pokémon",
+  "cryUrl": "/cries/639.ogg"
 }

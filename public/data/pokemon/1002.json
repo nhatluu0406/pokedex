@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Ruinous Pokémon",
+  "cryUrl": "/cries/1002.ogg"
 }

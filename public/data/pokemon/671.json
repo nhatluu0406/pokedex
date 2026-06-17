@@ -56,5 +56,9 @@
       19,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Garden Pokémon",
+  "cryUrl": "/cries/671.ogg"
 }

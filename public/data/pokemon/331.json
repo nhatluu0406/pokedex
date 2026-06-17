@@ -51,5 +51,9 @@
     "levels": [
       32
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Cactus Pokémon",
+  "cryUrl": "/cries/331.ogg"
 }

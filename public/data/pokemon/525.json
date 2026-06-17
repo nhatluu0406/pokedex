@@ -57,5 +57,9 @@
       25,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ore Pokémon",
+  "cryUrl": "/cries/525.ogg"
 }

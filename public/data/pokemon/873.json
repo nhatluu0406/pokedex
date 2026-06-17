@@ -52,5 +52,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Frost Moth Pokémon",
+  "cryUrl": "/cries/873.ogg"
 }

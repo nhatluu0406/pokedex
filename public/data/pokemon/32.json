@@ -57,5 +57,9 @@
       16,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Poison Pin Pokémon",
+  "cryUrl": "/cries/32.ogg"
 }

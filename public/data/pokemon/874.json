@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "It stands in grasslands, watching the sun’s descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Big Rock Pokémon",
+  "cryUrl": "/cries/874.ogg"
 }

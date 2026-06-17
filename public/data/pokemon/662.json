@@ -57,5 +57,9 @@
       17,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Ember Pokémon",
+  "cryUrl": "/cries/662.ogg"
 }

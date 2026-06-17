@@ -51,5 +51,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fresh Snow Pokémon",
+  "cryUrl": "/cries/471.ogg"
 }

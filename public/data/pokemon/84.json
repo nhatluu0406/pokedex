@@ -53,5 +53,9 @@
     "levels": [
       31
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Twin Bird Pokémon",
+  "cryUrl": "/cries/84.ogg"
 }

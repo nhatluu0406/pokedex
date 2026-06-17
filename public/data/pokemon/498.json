@@ -56,5 +56,9 @@
       17,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fire Pig Pokémon",
+  "cryUrl": "/cries/498.ogg"
 }

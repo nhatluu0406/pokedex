@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Grassland Pokémon",
+  "cryUrl": "/cries/640.ogg"
 }

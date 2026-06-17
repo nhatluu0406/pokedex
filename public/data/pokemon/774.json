@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Meteor Pokémon",
+  "cryUrl": "/cries/774.ogg"
 }

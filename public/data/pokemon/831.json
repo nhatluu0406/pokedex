@@ -52,5 +52,9 @@
     "levels": [
       24
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sheep Pokémon",
+  "cryUrl": "/cries/831.ogg"
 }

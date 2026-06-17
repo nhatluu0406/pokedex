@@ -53,5 +53,9 @@
     "levels": [
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Eaglet Pokémon",
+  "cryUrl": "/cries/627.ogg"
 }

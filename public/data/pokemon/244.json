@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Volcanoes erupt when it barks. Un­ able to restrain its extreme power, it races headlong around the land.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Volcano Pokémon",
+  "cryUrl": "/cries/244.ogg"
 }

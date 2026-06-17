@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Life Pokémon",
+  "cryUrl": "/cries/716.ogg"
 }

@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Spiny Armor Pokémon",
+  "cryUrl": "/cries/652.ogg"
 }

@@ -57,5 +57,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Star Shape Pokémon",
+  "cryUrl": "/cries/173.ogg"
 }

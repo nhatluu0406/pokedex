@@ -56,5 +56,9 @@
       17,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Pop Star Pokémon",
+  "cryUrl": "/cries/729.ogg"
 }

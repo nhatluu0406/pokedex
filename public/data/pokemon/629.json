@@ -53,5 +53,9 @@
     "levels": [
       54
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Diapered Pokémon",
+  "cryUrl": "/cries/629.ogg"
 }

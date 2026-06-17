@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "This POKéMON wan­ ders across time. Grass and trees flourish in the forests in which it has appeared.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": true,
+  "genera": "Time Travel Pokémon",
+  "cryUrl": "/cries/251.ogg"
 }

@@ -57,5 +57,9 @@
       14,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Playful Pokémon",
+  "cryUrl": "/cries/391.ogg"
 }

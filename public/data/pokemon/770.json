@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sand Castle Pokémon",
+  "cryUrl": "/cries/770.ogg"
 }

@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Crystallizing Pokémon",
+  "cryUrl": "/cries/615.ogg"
 }

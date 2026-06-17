@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Fang Scorpion Pokémon",
+  "cryUrl": "/cries/472.ogg"
 }

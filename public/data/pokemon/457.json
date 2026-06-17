@@ -52,5 +52,9 @@
     "levels": [
       31
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Neon Pokémon",
+  "cryUrl": "/cries/457.ogg"
 }

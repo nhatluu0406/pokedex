@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "CASTFORM’s appearance changes with the weather. This POKéMON gained the ability to use the vast power of nature to protect its tiny body.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Weather Pokémon",
+  "cryUrl": "/cries/351.ogg"
 }

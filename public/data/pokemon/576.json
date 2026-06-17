@@ -57,5 +57,9 @@
       32,
       41
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Astral Body Pokémon",
+  "cryUrl": "/cries/576.ogg"
 }

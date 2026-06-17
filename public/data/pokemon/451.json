@@ -53,5 +53,9 @@
     "levels": [
       40
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Scorpion Pokémon",
+  "cryUrl": "/cries/451.ogg"
 }

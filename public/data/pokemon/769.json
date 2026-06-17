@@ -52,5 +52,9 @@
     "levels": [
       42
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sand Heap Pokémon",
+  "cryUrl": "/cries/769.ogg"
 }

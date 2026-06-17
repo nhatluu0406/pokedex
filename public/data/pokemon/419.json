@@ -51,5 +51,9 @@
     "levels": [
       26
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Sea Weasel Pokémon",
+  "cryUrl": "/cries/419.ogg"
 }

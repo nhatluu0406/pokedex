@@ -53,5 +53,9 @@
     "levels": [
       27
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Light Pokémon",
+  "cryUrl": "/cries/171.ogg"
 }

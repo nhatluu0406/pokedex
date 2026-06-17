@@ -37,5 +37,9 @@
     }
   ],
   "flavorText": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Transform Pokémon",
+  "cryUrl": "/cries/132.ogg"
 }

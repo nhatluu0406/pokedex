@@ -58,5 +58,9 @@
       null,
       18
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Aqua Rabbit Pokémon",
+  "cryUrl": "/cries/184.ogg"
 }

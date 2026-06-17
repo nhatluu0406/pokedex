@@ -57,5 +57,9 @@
       17,
       34
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Blade Quill Pokémon",
+  "cryUrl": "/cries/723.ogg"
 }

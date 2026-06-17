@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "There is an enduring legend that states this Pokémon towed continents with ropes.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Colossal Pokémon",
+  "cryUrl": "/cries/486.ogg"
 }

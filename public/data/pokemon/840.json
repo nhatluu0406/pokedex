@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Apple Core Pokémon",
+  "cryUrl": "/cries/840.ogg"
 }

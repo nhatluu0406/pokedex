@@ -57,5 +57,9 @@
       16,
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Dancer Pokémon",
+  "cryUrl": "/cries/914.ogg"
 }

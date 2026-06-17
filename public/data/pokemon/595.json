@@ -53,5 +53,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Attaching Pokémon",
+  "cryUrl": "/cries/595.ogg"
 }

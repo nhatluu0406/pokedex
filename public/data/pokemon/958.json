@@ -58,5 +58,9 @@
       24,
       38
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hammer Pokémon",
+  "cryUrl": "/cries/958.ogg"
 }

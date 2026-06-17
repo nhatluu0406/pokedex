@@ -53,5 +53,9 @@
     "levels": [
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Kite Pokémon",
+  "cryUrl": "/cries/458.ogg"
 }

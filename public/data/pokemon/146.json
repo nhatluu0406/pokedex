@@ -38,5 +38,9 @@
     }
   ],
   "flavorText": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Flame Pokémon",
+  "cryUrl": "/cries/146.ogg"
 }

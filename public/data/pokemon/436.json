@@ -53,5 +53,9 @@
     "levels": [
       33
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Bronze Pokémon",
+  "cryUrl": "/cries/436.ogg"
 }

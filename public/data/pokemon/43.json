@@ -57,5 +57,9 @@
       21,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Weed Pokémon",
+  "cryUrl": "/cries/43.ogg"
 }

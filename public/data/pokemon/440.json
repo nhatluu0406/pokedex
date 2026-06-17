@@ -57,5 +57,9 @@
       null,
       null
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Playhouse Pokémon",
+  "cryUrl": "/cries/440.ogg"
 }

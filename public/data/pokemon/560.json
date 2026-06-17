@@ -53,5 +53,9 @@
     "levels": [
       39
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Hoodlum Pokémon",
+  "cryUrl": "/cries/560.ogg"
 }

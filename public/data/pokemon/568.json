@@ -52,5 +52,9 @@
     "levels": [
       36
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Trash Bag Pokémon",
+  "cryUrl": "/cries/568.ogg"
 }

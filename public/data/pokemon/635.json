@@ -56,5 +56,9 @@
       50,
       64
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Brutal Pokémon",
+  "cryUrl": "/cries/635.ogg"
 }

@@ -36,5 +36,9 @@
     }
   ],
   "flavorText": "This Pokémon is a cluster of electrical energy. It’s said that removing the rings on Regieleki’s body will unleash the Pokémon’s latent power.",
-  "evolution": null
+  "evolution": null,
+  "isLegendary": true,
+  "isMythical": false,
+  "genera": "Electron Pokémon",
+  "cryUrl": "/cries/894.ogg"
 }

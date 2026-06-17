@@ -56,5 +56,9 @@
       16,
       35
     ]
-  }
+  },
+  "isLegendary": false,
+  "isMythical": false,
+  "genera": "Striker Pokémon",
+  "cryUrl": "/cries/815.ogg"
 }
